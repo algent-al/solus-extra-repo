@@ -1,1 +1,414 @@
-<PISI/>
+<PISI>
+    <Package>
+        <Name>qogir-gtk-theme-ubuntu</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>2019.10.25</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>10064875</InstalledSize>
+        <PackageSize>2836826</PackageSize>
+        <PackageHash>96c85b39c45921ba3b2b350d77fee152325ffd79</PackageHash>
+        <PackageURI>qogir-gtk-theme-ubuntu-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>qogir-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>lsd</Name>
+        <Summary xml:lang="en">The next generation ls command</Summary>
+        <Description xml:lang="en">The next generation ls command with a lot of pretty colors and icons.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>Apache-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency>font-awesome-4</Dependency>
+            <Dependency>font-awesome-ttf</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>0.16.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1046824</InstalledSize>
+        <PackageSize>362902</PackageSize>
+        <PackageHash>d1222a20d190b3e482d848decdd4d0158a939826</PackageHash>
+        <PackageURI>lsd-0.16.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lsd</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>qogir-gtk-theme-manjaro-win</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>2019.10.25</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>10157539</InstalledSize>
+        <PackageSize>2832283</PackageSize>
+        <PackageHash>940beba217604d76157f9a9f55bf78fbe9c8cceb</PackageHash>
+        <PackageURI>qogir-gtk-theme-manjaro-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>qogir-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>qogir-gtk-theme-win</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>2019.10.25</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>10156199</InstalledSize>
+        <PackageSize>2831725</PackageSize>
+        <PackageHash>ccd706e989219ef709839970fbd054ea90345f3c</PackageHash>
+        <PackageURI>qogir-gtk-theme-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>qogir-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>timeshift</Name>
+        <Summary xml:lang="en">System restore tool for Linux.</Summary>
+        <Description xml:lang="en">System restore tool for Linux. Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. Snapshots can be restored while system is running or from Live CD/USB.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libgee</Dependency>
+            <Dependency releaseFrom="16">libjson-glib</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="29">libvte</Dependency>
+            <Dependency>crond</Dependency>
+            <Dependency>rsync</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>19.08.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2988981</InstalledSize>
+        <PackageSize>694571</PackageSize>
+        <PackageHash>88b69a56cea6ea2c854703c000e672b27819e567</PackageHash>
+        <PackageURI>timeshift-19.08.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>timeshift</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>mojave-gtk-theme-alt</Name>
+        <Summary xml:lang="en">Mojave is a macos Mojave like theme for GTK 3, GTK 2 and Gnome-Shell</Summary>
+        <Description xml:lang="en">Mojave is a Mac OSX like theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie and Mate.</Description>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>20191212</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>7155356</InstalledSize>
+        <PackageSize>2962572</PackageSize>
+        <PackageHash>ff26cb1947ffd8420b8f44ee4f68958eff8f9a60</PackageHash>
+        <PackageURI>mojave-gtk-theme-alt-20191212-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>mojave-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>numlockx</Name>
+        <Summary xml:lang="en">Turns on the numlock key in X11</Summary>
+        <Description xml:lang="en">Turns on the numlock key in X11</Description>
+        <PartOf>xorg.apps</PartOf>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>1.2</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>14224</InstalledSize>
+        <PackageSize>4386</PackageSize>
+        <PackageHash>048f0650eaf103622fd9f78d3bfc03482e6e2b4a</PackageHash>
+        <PackageURI>numlockx-1.2-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>numlockx</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>qogir-gtk-theme</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>gtk-engines</Dependency>
+            <Dependency>gtk2-engine-murrine</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>2019.10.25</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>10063552</InstalledSize>
+        <PackageSize>2837094</PackageSize>
+        <PackageHash>462ede2c1eb6d7457f13c5cdca87b33f055c8dd1</PackageHash>
+        <PackageURI>qogir-gtk-theme-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>qogir-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>qogir-gtk-theme-ubuntu-win</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>2019.10.25</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>10157522</InstalledSize>
+        <PackageSize>2831739</PackageSize>
+        <PackageHash>562c66c852be5b49d3c4f6ce645a61e4b3cde10c</PackageHash>
+        <PackageURI>qogir-gtk-theme-ubuntu-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>qogir-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>mojave-gtk-theme</Name>
+        <Summary xml:lang="en">Mojave is a macos Mojave like theme for GTK 3, GTK 2 and Gnome-Shell</Summary>
+        <Description xml:lang="en">Mojave is a Mac OSX like theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>gtk-engines</Dependency>
+            <Dependency>gtk2-engine-murrine</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>20191212</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>7154884</InstalledSize>
+        <PackageSize>2969382</PackageSize>
+        <PackageHash>8547ec25889cc9f4b7c94f22273358dc3ff949b5</PackageHash>
+        <PackageURI>mojave-gtk-theme-20191212-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>mojave-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>crond</Name>
+        <Summary xml:lang="en">crond (Dillon&apos;s lightweight cron daemon)</Summary>
+        <Description xml:lang="en">crond is a cron daemon written by Matt Dillon and continued by Jim Pryor that attempts to be as minimalist as possible.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>4.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>84515</InstalledSize>
+        <PackageSize>25750</PackageSize>
+        <PackageHash>2bc0946e0289826fe99b72e55938bc034996046e</PackageHash>
+        <PackageURI>crond-4.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>crond</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>qogir-gtk-theme-manjaro</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>2019.10.25</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>10064892</InstalledSize>
+        <PackageSize>2836999</PackageSize>
+        <PackageHash>0295bb30fb27d91dcd3013333d58a84feb69dac0</PackageHash>
+        <PackageURI>qogir-gtk-theme-manjaro-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>qogir-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+</PISI>

@@ -1,0 +1,24 @@
+name       : timeshift
+version    : 19.08.1
+release    : 1
+source     :
+    - https://github.com/teejee2008/timeshift/archive/v19.08.1.tar.gz : ab56331f97c1616b889e69adccedeca06f0150e964eea631b52c9bd399f77604
+license    : GPL-3.0-or-later
+component  : system.utils
+summary    : System restore tool for Linux.
+description: |
+    System restore tool for Linux. Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. Snapshots can be restored while system is running or from Live CD/USB.
+builddeps  :
+    - pkgconfig(gee-0.8)
+    - pkgconfig(json-glib-1.0)
+    - pkgconfig(vte-2.91)
+    - vala
+rundeps    :
+    - crond # which is in fact dcron (deprecated from Official Repo)
+    - rsync
+setup      : |
+    %patch -p0 < $pkgfiles/0001-Fix-vala-new-version-build.patch
+build      : |
+    %make
+install    : |
+    %make_install

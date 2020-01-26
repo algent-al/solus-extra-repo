@@ -1,0 +1,21 @@
+name       : lsd
+version    : 0.16.0
+release    : 1
+source     :
+    - https://github.com/Peltoche/lsd/archive/0.16.0.tar.gz : e2406748d78431a1c03bdd2404a204a006c19905d926e41a36587b93a791e003
+license    : Apache-2.0
+component  : system.utils
+summary    : The next generation ls command
+description: |
+    The next generation ls command with a lot of pretty colors and icons.
+networking : yes
+builddeps  :
+    - cargo
+rundeps    :
+    - font-awesome-4
+    - font-awesome-ttf
+build      : |
+    cargo build %JOBS% --release
+install    : |
+    cargo install %JOBS% lsd --root=$installdir/
+    rm -f $installdir/.crates.toml

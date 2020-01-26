@@ -3,10 +3,11 @@
         <Name>qogir-gtk-theme-ubuntu</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
             <Update release="1">
-                <Date>2020-01-25</Date>
+                <Date>2020-01-26</Date>
                 <Version>2019.10.25</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -18,8 +19,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>10064875</InstalledSize>
-        <PackageSize>2836826</PackageSize>
-        <PackageHash>96c85b39c45921ba3b2b350d77fee152325ffd79</PackageHash>
+        <PackageSize>2836840</PackageSize>
+        <PackageHash>f467fdbc71a2fbabcfd20cce830bc55094e36731</PackageHash>
         <PackageURI>qogir-gtk-theme-ubuntu-2019.10.25-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -72,10 +73,11 @@
         <Name>qogir-gtk-theme-manjaro-win</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
             <Update release="1">
-                <Date>2020-01-25</Date>
+                <Date>2020-01-26</Date>
                 <Version>2019.10.25</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -87,8 +89,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>10157539</InstalledSize>
-        <PackageSize>2832283</PackageSize>
-        <PackageHash>940beba217604d76157f9a9f55bf78fbe9c8cceb</PackageHash>
+        <PackageSize>2832336</PackageSize>
+        <PackageHash>7345d79dcc50efb004a870027c71e1cae12c4ba5</PackageHash>
         <PackageURI>qogir-gtk-theme-manjaro-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -103,10 +105,11 @@
         <Name>qogir-gtk-theme-win</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
             <Update release="1">
-                <Date>2020-01-25</Date>
+                <Date>2020-01-26</Date>
                 <Version>2019.10.25</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -118,8 +121,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>10156199</InstalledSize>
-        <PackageSize>2831725</PackageSize>
-        <PackageHash>ccd706e989219ef709839970fbd054ea90345f3c</PackageHash>
+        <PackageSize>2831782</PackageSize>
+        <PackageHash>217b201c644e41e2adb62cd7909e17ba173d0e0d</PackageHash>
         <PackageURI>qogir-gtk-theme-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -254,7 +257,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-01-25</Date>
+                <Date>2020-01-26</Date>
                 <Version>2019.10.25</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -266,8 +269,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>10063552</InstalledSize>
-        <PackageSize>2837094</PackageSize>
-        <PackageHash>462ede2c1eb6d7457f13c5cdca87b33f055c8dd1</PackageHash>
+        <PackageSize>2837079</PackageSize>
+        <PackageHash>f7d1889ba6033b9ea01bc53a8fc5d5745d61e343</PackageHash>
         <PackageURI>qogir-gtk-theme-2019.10.25-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -320,10 +323,11 @@
         <Name>qogir-gtk-theme-ubuntu-win</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
             <Update release="1">
-                <Date>2020-01-25</Date>
+                <Date>2020-01-26</Date>
                 <Version>2019.10.25</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -335,8 +339,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>10157522</InstalledSize>
-        <PackageSize>2831739</PackageSize>
-        <PackageHash>562c66c852be5b49d3c4f6ce645a61e4b3cde10c</PackageHash>
+        <PackageSize>2831760</PackageSize>
+        <PackageHash>a8c381282972347f603b05fee80c3ba7c098632d</PackageHash>
         <PackageURI>qogir-gtk-theme-ubuntu-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -422,10 +426,11 @@
         <Name>qogir-gtk-theme-manjaro</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
             <Update release="1">
-                <Date>2020-01-25</Date>
+                <Date>2020-01-26</Date>
                 <Version>2019.10.25</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -437,8 +442,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>10064892</InstalledSize>
-        <PackageSize>2836999</PackageSize>
-        <PackageHash>0295bb30fb27d91dcd3013333d58a84feb69dac0</PackageHash>
+        <PackageSize>2837020</PackageSize>
+        <PackageHash>35b2dd15bf9deb77ec43b5850f9eedf8ced99cba</PackageHash>
         <PackageURI>qogir-gtk-theme-manjaro-2019.10.25-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>

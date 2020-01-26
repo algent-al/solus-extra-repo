@@ -279,6 +279,44 @@
         </Source>
     </Package>
     <Package>
+        <Name>wavemon</Name>
+        <Summary xml:lang="en">Ncurses-based monitoring application for wireless network devices</Summary>
+        <Description xml:lang="en">wavemon is a wireless device monitoring application that allows you to watch signal and noise levels, packet statistics, device configuration and network parameters of your wireless network hardware. It should work (though with varying features) with all devices supported by the Linux kernel.</Description>
+        <PartOf>network.util</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="8">libcap2</Dependency>
+            <Dependency releaseFrom="14">ncurses</Dependency>
+            <Dependency releaseFrom="4">libnl</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-26</Date>
+                <Version>0.9.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>88298</InstalledSize>
+        <PackageSize>36525</PackageSize>
+        <PackageHash>a2bb30c53776f948066a6993035240ac3ad44596</PackageHash>
+        <PackageURI>wavemon-0.9.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>wavemon</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>qogir-gtk-theme-ubuntu-win</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>

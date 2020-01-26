@@ -1,0 +1,24 @@
+name       : wavemon
+version    : 0.9.1
+release    : 1
+source     :
+    - https://github.com/uoaerg/wavemon/archive/v0.9.1.tar.gz : 5ebd5b79d3b7c546bc16b95161872c699a75e9acdfc6e3f02ec48dad10802067
+license    : GPL-3.0-or-later
+component  : network.util
+summary    : Ncurses-based monitoring application for wireless network devices
+description: |
+    wavemon is a wireless device monitoring application that allows you to watch signal and noise levels, packet statistics, device configuration and network parameters of your wireless network hardware. It should work (though with varying features) with all devices supported by the Linux kernel.
+builddeps  :
+    - pkgconfig(libcap)
+    - pkgconfig(libnfnetlink)
+    - pkgconfig(libnl-genl-3.0)
+    - pkgconfig(ncursesw)
+setup      : |
+    sed -r 's|(/share)|\1/doc|g' -i Makefile.in
+    sed -r 's|\?=|=|g' -i Makefile.in
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
+    rm -rf $installdir/usr/share/doc

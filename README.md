@@ -11,8 +11,8 @@ This is an extra repository for Solus for private use. These packages are not of
 Open Software Center and wait untill `eopkg-index.xml.xz` is updated.
 Search for the package name and then install click install.
 
-## Remove the Repo
-`sudo eopkg remove-repo Extra`
-
 ## Disable the Repo
 `sudo eopkg disable-repo Extra`
+
+## Remove the Repo
+`sudo eopkg remove-repo Extra`

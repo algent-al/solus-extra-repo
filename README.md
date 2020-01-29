@@ -21,14 +21,16 @@ Search for the package name and then install click install.
 ## PACKAGES INFO
 
 There are some packages that are not yet or refused to be included by Official Solus Repository.
-| No | Package name | Status |
-| --- | --- | --- |
-| 1 | crond | Deprecated |
-| 2 | lsd | Not yet requested |
-| 3 | mojave-gtk-theme | Awaiting for review |
-| 4 | numlockx | Not accepted |
-| 5 | qogir-gtk-theme | Not accepted |
-| 6 | timeshift | Not accepted |
-| 7 | variety-slideshow | Not accepted |
-| 8 | wavemon | Not accepted |
+
+| No | Package name | Status |  
+| --- | --- | --- |  
+| 1 | crond | Deprecated |  
+| 2 | lsd | Not yet requested |  
+| 3 | mojave-gtk-theme | Awaiting for review |  
+| 4 | numlockx | Not accepted |  
+| 5 | qogir-gtk-theme | Not accepted |  
+| 6 | timeshift | Not accepted |  
+| 7 | variety-slideshow | Not accepted |  
+| 8 | wavemon | Not accepted |  
+
 

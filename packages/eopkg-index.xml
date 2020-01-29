@@ -353,6 +353,39 @@
         </Source>
     </Package>
     <Package>
+        <Name>variety-slideshow</Name>
+        <Summary xml:lang="en">A pan-and-zoom image slideshow in Python, using Clutter</Summary>
+        <Description xml:lang="en">A pan-and-zoom image slideshow in Python, using Clutter</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-01-29</Date>
+                <Version>0.1.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>46116</InstalledSize>
+        <PackageSize>16343</PackageSize>
+        <PackageHash>9d327df783305b858b82b7d374ad05ff68d8df18</PackageHash>
+        <PackageURI>variety-slideshow-0.1.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>variety-slideshow</Name>
+            <Homepage>https://peterlevi.com/variety</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>mojave-gtk-theme</Name>
         <Summary xml:lang="en">Mojave is a macos Mojave like theme for GTK 3, GTK 2 and Gnome-Shell</Summary>
         <Description xml:lang="en">Mojave is a Mac OSX like theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie and Mate.</Description>

@@ -183,13 +183,9 @@
         <Description xml:lang="en">Mojave is a Mac OSX like theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie and Mate.</Description>
         <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>gtk-engines</Dependency>
-            <Dependency>gtk2-engine-murrine</Dependency>
-        </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-01-26</Date>
+            <Update release="1">
+                <Date>2020-01-29</Date>
                 <Version>20191212</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -201,9 +197,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>7155356</InstalledSize>
-        <PackageSize>2962628</PackageSize>
-        <PackageHash>47ef9cdac8f8bc1f1f74e518e4e8051d9abb6480</PackageHash>
-        <PackageURI>mojave-gtk-theme-alt-20191212-2-1-x86_64.eopkg</PackageURI>
+        <PackageSize>2962677</PackageSize>
+        <PackageHash>fc03bacce94cece9f301e51b7cef98590e425a7d</PackageHash>
+        <PackageURI>mojave-gtk-theme-alt-20191212-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>mojave-gtk-theme</Name>
@@ -367,8 +363,8 @@
             <Dependency>gtk2-engine-murrine</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-01-26</Date>
+            <Update release="1">
+                <Date>2020-01-29</Date>
                 <Version>20191212</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -380,9 +376,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>7154884</InstalledSize>
-        <PackageSize>2969366</PackageSize>
-        <PackageHash>e5602e7cf429404a03da74c373ddec3b86513182</PackageHash>
-        <PackageURI>mojave-gtk-theme-20191212-2-1-x86_64.eopkg</PackageURI>
+        <PackageSize>2969314</PackageSize>
+        <PackageHash>627f7214f1749d9a74cdca38ae86e1f3ae3d94fe</PackageHash>
+        <PackageURI>mojave-gtk-theme-20191212-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>mojave-gtk-theme</Name>

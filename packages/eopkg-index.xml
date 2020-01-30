@@ -242,6 +242,46 @@
         </Source>
     </Package>
     <Package>
+        <Name>pikepdf</Name>
+        <Summary xml:lang="en">A Python library for reading and writing PDF, powered by qpdf</Summary>
+        <Description xml:lang="en">Pikepdf is a Python library for reading and writing PDF files.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MPL-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="11">qpdf</Dependency>
+            <Dependency releaseFrom="23">python3</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-30</Date>
+                <Version>1.10.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1080301</InstalledSize>
+        <PackageSize>324869</PackageSize>
+        <PackageHash>eb566d96e640c9edc8dcd067a1b043bb002bd5eb</PackageHash>
+        <PackageURI>pikepdf-1.10.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>pikepdf</Name>
+            <Homepage>https://pikepdf.readthedocs.io/</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>numlockx</Name>
         <Summary xml:lang="en">Turns on the numlock key in X11</Summary>
         <Description xml:lang="en">Turns on the numlock key in X11</Description>
@@ -346,6 +386,46 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>wavemon</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>python-pikepdf</Name>
+        <Summary xml:lang="en">A Python library for reading and writing PDF, powered by qpdf</Summary>
+        <Description xml:lang="en">Pikepdf is a Python library for reading and writing PDF files.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MPL-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="11">qpdf</Dependency>
+            <Dependency releaseFrom="23">python3</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-30</Date>
+                <Version>1.10.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1080301</InstalledSize>
+        <PackageSize>324867</PackageSize>
+        <PackageHash>d170bf12b7eaf62c1e77bca31c3aba0468da23ab</PackageHash>
+        <PackageURI>python-pikepdf-1.10.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-pikepdf</Name>
+            <Homepage>https://pikepdf.readthedocs.io/</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

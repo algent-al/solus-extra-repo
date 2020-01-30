@@ -242,46 +242,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>pikepdf</Name>
-        <Summary xml:lang="en">A Python library for reading and writing PDF, powered by qpdf</Summary>
-        <Description xml:lang="en">Pikepdf is a Python library for reading and writing PDF files.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MPL-2.0</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="11">qpdf</Dependency>
-            <Dependency releaseFrom="23">python3</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-30</Date>
-                <Version>1.10.0</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1080301</InstalledSize>
-        <PackageSize>324869</PackageSize>
-        <PackageHash>eb566d96e640c9edc8dcd067a1b043bb002bd5eb</PackageHash>
-        <PackageURI>pikepdf-1.10.0-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>pikepdf</Name>
-            <Homepage>https://pikepdf.readthedocs.io/</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>numlockx</Name>
         <Summary xml:lang="en">Turns on the numlock key in X11</Summary>
         <Description xml:lang="en">Turns on the numlock key in X11</Description>
@@ -386,6 +346,44 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>wavemon</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>pdfarranger</Name>
+        <Summary xml:lang="en">Small application to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface</Summary>
+        <Description xml:lang="en">pdfarranger is a small python-gtk application, which helps the user to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface. It is a frontend for python-pyPdf</Description>
+        <PartOf>office</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>poppler</Dependency>
+            <Dependency>python-pikepdf</Dependency>
+            <Dependency>python3-cairo</Dependency>
+            <Dependency>python3-gobject</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-30</Date>
+                <Version>1.4.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>235006</InstalledSize>
+        <PackageSize>92502</PackageSize>
+        <PackageHash>6006c35fceac07508d8dcc0f039a7651d9688f2c</PackageHash>
+        <PackageURI>pdfarranger-1.4.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>pdfarranger</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

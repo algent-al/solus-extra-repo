@@ -26,14 +26,13 @@ There are some packages that are not yet or refused to be included by Official S
 | --- | --- | --- |  
 | 1 | crond | Deprecated |  
 | 2 | lsd | Not requested yet |  
-| 3 | mojave-gtk-theme | Awaiting for review |  
-| 4 | numlockx | Not accepted |  
-| 5 | pdfarranger | Not accepted |  
-| 6 | python-pikepdf | Not requested yet |  
-| 7 | python-setuptools-scm-git-archive | Not requested yet |  
-| 8 | qogir-gtk-theme | Not accepted |  
-| 9 | timeshift | Not accepted |  
-| 10 | variety-slideshow | Not accepted |  
-| 11 | wavemon | Not accepted |  
+| 3 | numlockx | Not accepted |  
+| 4 | pdfarranger | Not accepted |  
+| 5 | python-pikepdf | Not requested yet |  
+| 6 | python-setuptools-scm-git-archive | Not requested yet |  
+| 7 | qogir-gtk-theme | Not accepted |  
+| 8 | timeshift | Not accepted |  
+| 9 | variety-slideshow | Not accepted |  
+| 10 | wavemon | Not accepted |  
 
 

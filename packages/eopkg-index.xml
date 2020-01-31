@@ -210,38 +210,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>mojave-gtk-theme-alt</Name>
-        <Summary xml:lang="en">Mojave is a macos Mojave like theme for GTK 3, GTK 2 and Gnome-Shell</Summary>
-        <Description xml:lang="en">Mojave is a Mac OSX like theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie and Mate.</Description>
-        <PartOf>desktop.theme</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <History>
-            <Update release="1">
-                <Date>2020-01-29</Date>
-                <Version>20191212</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>7155356</InstalledSize>
-        <PackageSize>2962677</PackageSize>
-        <PackageHash>fc03bacce94cece9f301e51b7cef98590e425a7d</PackageHash>
-        <PackageURI>mojave-gtk-theme-alt-20191212-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>mojave-gtk-theme</Name>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>numlockx</Name>
         <Summary xml:lang="en">Turns on the numlock key in X11</Summary>
         <Description xml:lang="en">Turns on the numlock key in X11</Description>
@@ -489,42 +457,6 @@
         <Source>
             <Name>variety-slideshow</Name>
             <Homepage>https://peterlevi.com/variety</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>mojave-gtk-theme</Name>
-        <Summary xml:lang="en">Mojave is a macos Mojave like theme for GTK 3, GTK 2 and Gnome-Shell</Summary>
-        <Description xml:lang="en">Mojave is a Mac OSX like theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie and Mate.</Description>
-        <PartOf>desktop.theme</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>gtk-engines</Dependency>
-            <Dependency>gtk2-engine-murrine</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-29</Date>
-                <Version>20191212</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>7154884</InstalledSize>
-        <PackageSize>2969314</PackageSize>
-        <PackageHash>627f7214f1749d9a74cdca38ae86e1f3ae3d94fe</PackageHash>
-        <PackageURI>mojave-gtk-theme-20191212-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>mojave-gtk-theme</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

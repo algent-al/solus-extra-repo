@@ -22,9 +22,9 @@ Search for the package name and then install click install.
 
 There are some packages that are not yet or refused to be included by Official Solus Repository.
 
-| Package name | Status |  
+| Package name |  Status |  
 | --- | --- |  
-| bombermaaan | Not in repo yet |
+| bombermaaan | Need Review |
 | crond | Deprecated |  
 | lsd | Not requested yet |  
 | numlockx | Not accepted |  

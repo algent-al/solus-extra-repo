@@ -210,6 +210,45 @@
         </Source>
     </Package>
     <Package>
+        <Name>bombermaaan</Name>
+        <Summary xml:lang="en">Bombermaaan is a clone of the classic Bomberman game.</Summary>
+        <Description xml:lang="en">Bombermaaan is a clone of the classic Bomberman game.</Description>
+        <PartOf>games.arcade</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="7">sdl1</Dependency>
+            <Dependency releaseFrom="3">sdl1-mixer</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-01</Date>
+                <Version>1.9.7.2126</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>14119569</InstalledSize>
+        <PackageSize>3942692</PackageSize>
+        <PackageHash>d99bb101e4d0ac75ac8d1b400a74da06000943d7</PackageHash>
+        <PackageURI>bombermaaan-1.9.7.2126-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>bombermaaan</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>numlockx</Name>
         <Summary xml:lang="en">Turns on the numlock key in X11</Summary>
         <Description xml:lang="en">Turns on the numlock key in X11</Description>

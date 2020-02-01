@@ -22,17 +22,18 @@ Search for the package name and then install click install.
 
 There are some packages that are not yet or refused to be included by Official Solus Repository.
 
-| No | Package name | Status |  
-| --- | --- | --- |  
-| 1 | crond | Deprecated |  
-| 2 | lsd | Not requested yet |  
-| 3 | numlockx | Not accepted |  
-| 4 | pdfarranger | Not accepted |  
-| 5 | python-pikepdf | Not requested yet |  
-| 6 | python-setuptools-scm-git-archive | Not requested yet |  
-| 7 | qogir-gtk-theme | Not accepted |  
-| 8 | timeshift | Not accepted |  
-| 9 | variety-slideshow | Not accepted |  
-| 10 | wavemon | Not accepted |  
+| Package name | Status |  
+| --- | --- |  
+| bombermaaan | Not in repo yet |
+| crond | Deprecated |  
+| lsd | Not requested yet |  
+| numlockx | Not accepted |  
+| pdfarranger | Not accepted |  
+| python-pikepdf | Not requested yet |  
+| python-setuptools-scm-git-archive | Not requested yet |  
+| qogir-gtk-theme | Not accepted |  
+| timeshift | Not accepted |  
+| variety-slideshow | Not accepted |  
+| wavemon | Not accepted |  
 
 

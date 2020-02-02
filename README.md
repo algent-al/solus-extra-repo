@@ -24,7 +24,6 @@ There are some packages that are not yet or refused to be included by Official S
 
 | Package name |  Status |  
 | --- | --- |  
-| bombermaaan | Need Review |
 | crond | Deprecated |  
 | lsd | Not requested yet |  
 | numlockx | Not accepted |  

@@ -210,6 +210,42 @@
         </Source>
     </Package>
     <Package>
+        <Name>gti</Name>
+        <Summary xml:lang="en">Just a silly git launcher, basically</Summary>
+        <Description xml:lang="en">Just a silly git launcher, basically. Inspired by sl.</Description>
+        <PartOf>system.util</PartOf>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-02</Date>
+                <Version>1.6.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>14837</InstalledSize>
+        <PackageSize>5021</PackageSize>
+        <PackageHash>fea3be05b5757bc50b7eed58c1dc04cbab2d77d7</PackageHash>
+        <PackageURI>gti-1.6.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>gti</Name>
+            <Homepage>https://r-wos.org/hacks/gti</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>numlockx</Name>
         <Summary xml:lang="en">Turns on the numlock key in X11</Summary>
         <Description xml:lang="en">Turns on the numlock key in X11</Description>

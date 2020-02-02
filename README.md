@@ -26,7 +26,8 @@ There are some packages that are not yet or refused to be included by Official S
 | --- | --- |  
 | crond | Deprecated |  
 | figlet | Not accepted |  
-| lsd | Not requested yet |  
+| gti | Not requested |  
+| lsd | Not requested |  
 | numlockx | Not accepted |  
 | pdfarranger | Not accepted |  
 | python-pikepdf | Not requested yet |  
@@ -35,5 +36,4 @@ There are some packages that are not yet or refused to be included by Official S
 | timeshift | Not accepted |  
 | variety-slideshow | Not accepted |  
 | wavemon | Not accepted |  
-
 

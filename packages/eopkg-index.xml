@@ -464,6 +464,42 @@
         </Source>
     </Package>
     <Package>
+        <Name>figlet</Name>
+        <Summary xml:lang="en">FIGlet - display large characters made up of ordinary screen characters</Summary>
+        <Description xml:lang="en">FIGlet  prints its input using large characters (called &quot;FIGcharacters&quot;) made up of ordinary screen characters (called &quot;sub-characters&quot;). FIGlet output is generally reminiscent of the sort of &quot;signatures&quot; many people like to  put  at the  end  of  e-mail and UseNet messages. It is also reminiscent of the output of some banner programs, although it is oriented normally, not sideways.</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <License>BSD-3-Clause</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-02</Date>
+                <Version>2.2.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>671232</InstalledSize>
+        <PackageSize>106455</PackageSize>
+        <PackageHash>e54e7dbeeb6951a58284aeaaa5f3cac8c827d7ff</PackageHash>
+        <PackageURI>figlet-2.2.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>figlet</Name>
+            <Homepage>http://www.figlet.org/</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>crond</Name>
         <Summary xml:lang="en">crond (Dillon&apos;s lightweight cron daemon)</Summary>
         <Description xml:lang="en">crond is a cron daemon written by Matt Dillon and continued by Jim Pryor that attempts to be as minimalist as possible.</Description>

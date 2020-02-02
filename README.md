@@ -25,6 +25,7 @@ There are some packages that are not yet or refused to be included by Official S
 | Package name |  Status |  
 | --- | --- |  
 | crond | Deprecated |  
+| figlet | Not accepted |  
 | lsd | Not requested yet |  
 | numlockx | Not accepted |  
 | pdfarranger | Not accepted |  

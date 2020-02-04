@@ -25,6 +25,7 @@ There are some packages that are not yet or refused to be included by Official S
 | Package name |  Status |  
 | --- | --- |  
 | crond | Deprecated |  
+| crow-translate | Testing before including in official Repo |  
 | figlet | Not accepted |  
 | gti | Not requested |  
 | lsd | Not requested |  
@@ -35,5 +36,5 @@ There are some packages that are not yet or refused to be included by Official S
 | qogir-gtk-theme | Not accepted |  
 | timeshift | Not accepted |  
 | variety-slideshow | Not accepted |  
-| wavemon | Not accepted |  
+| wavemon | No maintainer yet |  
 

@@ -76,8 +76,8 @@
         <PartOf>programming.python</PartOf>
         <License>MIT</License>
         <History>
-            <Update release="1">
-                <Date>2020-01-30</Date>
+            <Update release="2">
+                <Date>2020-02-05</Date>
                 <Version>1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -88,10 +88,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3258</InstalledSize>
-        <PackageSize>3101</PackageSize>
-        <PackageHash>7e01ba5a3d89e2486230303f254ac529325d0541</PackageHash>
-        <PackageURI>python-setuptools-scm-git-archive-1.1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>3262</InstalledSize>
+        <PackageSize>3107</PackageSize>
+        <PackageHash>182fc623745277a3e5d97c6b41d30e4324f90b83</PackageHash>
+        <PackageURI>python-setuptools-scm-git-archive-1.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>python-setuptools-scm-git-archive</Name>
@@ -413,8 +413,8 @@
             <Dependency>python3-gobject</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-01-30</Date>
+            <Update release="2">
+                <Date>2020-02-05</Date>
                 <Version>1.4.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -425,10 +425,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>235006</InstalledSize>
-        <PackageSize>92502</PackageSize>
-        <PackageHash>6006c35fceac07508d8dcc0f039a7651d9688f2c</PackageHash>
-        <PackageURI>pdfarranger-1.4.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>234827</InstalledSize>
+        <PackageSize>92610</PackageSize>
+        <PackageHash>d8392019566a5284d4971ec167ec9bfd0599c0ee</PackageHash>
+        <PackageURI>pdfarranger-1.4.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>pdfarranger</Name>
@@ -449,11 +449,11 @@
             <Dependency releaseFrom="56">glibc</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
             <Dependency releaseFrom="11">qpdf</Dependency>
-            <Dependency releaseFrom="23">python3</Dependency>
+            <Dependency releaseFrom="25">python3</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-01-30</Date>
+            <Update release="2">
+                <Date>2020-02-05</Date>
                 <Version>1.10.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -464,10 +464,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1080301</InstalledSize>
-        <PackageSize>324867</PackageSize>
-        <PackageHash>d170bf12b7eaf62c1e77bca31c3aba0468da23ab</PackageHash>
-        <PackageURI>python-pikepdf-1.10.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1088441</InstalledSize>
+        <PackageSize>325284</PackageSize>
+        <PackageHash>8facf249e74a4e490bb54e9b18d45dc318e1f90d</PackageHash>
+        <PackageURI>python-pikepdf-1.10.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>python-pikepdf</Name>
@@ -517,8 +517,8 @@
         <PartOf>multimedia.graphics</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
-            <Update release="1">
-                <Date>2020-01-29</Date>
+            <Update release="2">
+                <Date>2020-02-05</Date>
                 <Version>0.1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -529,10 +529,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>46116</InstalledSize>
-        <PackageSize>16343</PackageSize>
-        <PackageHash>9d327df783305b858b82b7d374ad05ff68d8df18</PackageHash>
-        <PackageURI>variety-slideshow-0.1.1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>46031</InstalledSize>
+        <PackageSize>16396</PackageSize>
+        <PackageHash>470a8965206cf594e8192471e57c0fed8c51d83d</PackageHash>
+        <PackageURI>variety-slideshow-0.1.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>variety-slideshow</Name>

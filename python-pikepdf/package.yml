@@ -1,6 +1,6 @@
 name       : python-pikepdf
 version    : 1.10.0
-release    : 1
+release    : 2
 source     :
     - https://github.com/pikepdf/pikepdf/archive/v1.10.0.tar.gz : c697d4da940044653f28f306b7505d9be03489074e84f19ff0e011a72f07fdc5
 homepage   : https://pikepdf.readthedocs.io/

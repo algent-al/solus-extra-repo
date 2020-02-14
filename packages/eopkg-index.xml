@@ -246,50 +246,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>crow-translate</Name>
-        <Summary xml:lang="en">A simple translator that allows to translate and speak text using Google, Yandex and Bing.</Summary>
-        <Description xml:lang="en">Crow Translate is a simple and lightweight translator programmed in C++ / Qt that allows to translate and speak text using Google, Yandex and Bing translate API.</Description>
-        <PartOf>office</PartOf>
-        <License>BSD-3-Clause</License>
-        <License>GPL-3.0-or-later</License>
-        <License>MIT</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="20">qt5-multimedia</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="47">qt5-base</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="17">qt5-x11extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-02-04</Date>
-                <Version>2.3.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>2855074</InstalledSize>
-        <PackageSize>932053</PackageSize>
-        <PackageHash>286f22dc2cfc1785768d4cb454ae33f410601663</PackageHash>
-        <PackageURI>crow-translate-2.3.1-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>crow-translate</Name>
-            <Homepage>https://crow-translate.github.io/</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>numlockx</Name>
         <Summary xml:lang="en">Turns on the numlock key in X11</Summary>
         <Description xml:lang="en">Turns on the numlock key in X11</Description>

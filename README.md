@@ -39,4 +39,5 @@ There are some packages that are not yet or refused to be included by Official S
 | python-typing-extensions | Accepted but not in Repo |  
 | python-humanfriendly | Not in Repo yet |  
 | python-injector | Not in Repo yet |  
+| python-rx | Not in Repo yet |  
 

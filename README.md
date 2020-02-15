@@ -1,6 +1,6 @@
 ## solus-extra-repo
 This is an extra repository for Solus for private use. These packages are not official and not supported by Solus Core team.
-"This repo is for open source or distributable packages"
+"This repo is for open source or distributable packages".
 
 ## Add the repo
 `sudo eopkg ar Extra https://github.com/algent-al/solus-extra-repo/raw/master/packages/eopkg-index.xml.xz`
@@ -36,4 +36,5 @@ There are some packages that are not yet or refused to be included by Official S
 | timeshift | Not accepted |  
 | variety-slideshow | Not accepted |  
 | wavemon | No maintainer yet |  
+| python-typing-extensions | Accepted but not in Repo |
 

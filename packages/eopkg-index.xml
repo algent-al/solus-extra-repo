@@ -395,6 +395,38 @@
         </Source>
     </Package>
     <Package>
+        <Name>python-typing-extensions</Name>
+        <Summary xml:lang="en">Typing Extensions – Backported and Experimental Type Hints for Python</Summary>
+        <Description xml:lang="en">The &quot;typing&quot; module was added to the standard library in Python 3.5 on a provisional basis and will no longer be provisional in Python 3.7. However, this means users of Python 3.5 - 3.6 who are unable to upgrade will not be able to take advantage of new types added to the &quot;typing&quot; module, such as &quot;typing.Text&quot; or &quot;typing.Coroutine&quot;.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>Python-2.0</License>
+        <History>
+            <Update release="1">
+                <Date>2020-02-06</Date>
+                <Version>3.7.4.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>140195</InstalledSize>
+        <PackageSize>31719</PackageSize>
+        <PackageHash>26afc54b39d14a867ed26259f8809bfa472798c7</PackageHash>
+        <PackageURI>python-typing-extensions-3.7.4.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-typing-extensions</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>python-pikepdf</Name>
         <Summary xml:lang="en">A Python library for reading and writing PDF, powered by qpdf</Summary>
         <Description xml:lang="en">Pikepdf is a Python library for reading and writing PDF files.</Description>

@@ -20,25 +20,5 @@ Search for the package name and then install click install.
 
 ## PACKAGES INFO
 
-There are some packages that are not yet or refused to be included by Official Solus Repository.
-
-| No | Package name |  
-| --- | --- |  
-| 1 | crond |  
-| 2 | figlet |  
-| 3 | gti |  
-| 4 | lsd |  
-| 5 | numlockx |  
-| 6 | pdfarranger |  
-| 7 | python-pikepdf |  
-| 8 | python-setuptools-scm-git-archive |  
-| 9 | qogir-gtk-theme |  
-| 10 | timeshift |  
-| 11 | variety-slideshow |  
-| 12 | wavemon |  
-| 13 | gst |  
-| 14 | python-humanfriendly |  
-| 15 | python-injector |  
-| 16 | python-rx |  
-| 17 | python-typing-extensions |  
+These packages are not yet or refused to be included by Official Solus Repository.
 

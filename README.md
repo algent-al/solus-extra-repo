@@ -36,5 +36,6 @@ There are some packages that are not yet or refused to be included by Official S
 | timeshift | Not accepted |  
 | variety-slideshow | Not accepted |  
 | wavemon | No maintainer yet |  
-| python-typing-extensions | Accepted but not in Repo |
+| python-typing-extensions | Accepted but not in Repo |  
+| python-humanfriendly | Not in Repo yet |  
 

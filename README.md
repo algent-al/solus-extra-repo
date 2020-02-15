@@ -22,22 +22,23 @@ Search for the package name and then install click install.
 
 There are some packages that are not yet or refused to be included by Official Solus Repository.
 
-| Package name |  Status |  
+| No | Package name |  
 | --- | --- |  
-| crond | Deprecated |  
-| figlet | Not accepted |  
-| gti | Not requested |  
-| lsd | Not requested |  
-| numlockx | Not accepted |  
-| pdfarranger | Not accepted |  
-| python-pikepdf | Not requested yet |  
-| python-setuptools-scm-git-archive | Not requested yet |  
-| qogir-gtk-theme | Not accepted |  
-| timeshift | Not accepted |  
-| variety-slideshow | Not accepted |  
-| wavemon | No maintainer yet |  
-| python-typing-extensions | Accepted but not in Repo |  
-| python-humanfriendly | Not in Repo yet |  
-| python-injector | Not in Repo yet |  
-| python-rx | Not in Repo yet |  
+| 1 | crond |  
+| 2 | figlet |  
+| 3 | gti |  
+| 4 | lsd |  
+| 5 | numlockx |  
+| 6 | pdfarranger |  
+| 7 | python-pikepdf |  
+| 8 | python-setuptools-scm-git-archive |  
+| 9 | qogir-gtk-theme |  
+| 10 | timeshift |  
+| 11 | variety-slideshow |  
+| 12 | wavemon |  
+| 13 | gst |  
+| 14 | python-humanfriendly |  
+| 15 | python-injector |  
+| 16 | python-rx |  
+| 17 | python-typing-extensions |  
 

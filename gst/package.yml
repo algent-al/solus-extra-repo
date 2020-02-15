@@ -1,6 +1,6 @@
 name       : gst
 version    : 0.7.1
-release    : 1
+release    : 2
 source     :
     - https://gitlab.com/leinardi/gst/-/archive/0.7.1/gst-0.7.1.tar.gz : 1f97525cdebb6ab9c8e84de26691d8cd8fa1bac733d8e672f71898afade3620b
 license    : GPL-3.0-or-later
@@ -9,11 +9,14 @@ summary    : System utility designed to stress and monitor various hardware comp
 description: |
     GST (GtkStressTesting) is a GTK system utility designed to stress and monitor various hardware components like CPU and RAM.
 builddeps  :
-    - pkgconfig(appstream-glib) # Fedora
     - pkgconfig(gtk+-3.0)
-    - pkgconfig(python3) # Fedora
+rundeps    :
+    - dmidecode
+    - python-humanfriendly
+    - python-injector
+    - python-rx
+    - python-typing-extensions
 setup      : |
-    sed -e '/meson_post_install/d' -i meson.build # Kete nuk e kam provuar akoma
     %meson_configure
 build      : |
     %ninja_build

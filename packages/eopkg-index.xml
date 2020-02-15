@@ -562,9 +562,16 @@
         <Description xml:lang="en">GST (GtkStressTesting) is a GTK system utility designed to stress and monitor various hardware components like CPU and RAM.</Description>
         <PartOf>system.utils</PartOf>
         <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>dmidecode</Dependency>
+            <Dependency>python-humanfriendly</Dependency>
+            <Dependency>python-injector</Dependency>
+            <Dependency>python-rx</Dependency>
+            <Dependency>python-typing-extensions</Dependency>
+        </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-14</Date>
+            <Update release="2">
+                <Date>2020-02-15</Date>
                 <Version>0.7.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -576,9 +583,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>525200</InstalledSize>
-        <PackageSize>158442</PackageSize>
-        <PackageHash>14c0571793a110c127caa7944a3497abe447aaa6</PackageHash>
-        <PackageURI>gst-0.7.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>158526</PackageSize>
+        <PackageHash>b5a9692075a937f2fd66f7eef26f291ed1fff640</PackageHash>
+        <PackageURI>gst-0.7.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>gst</Name>

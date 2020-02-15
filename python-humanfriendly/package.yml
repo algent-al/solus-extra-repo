@@ -1,0 +1,15 @@
+name       : python-humanfriendly
+version    : '6.1'
+release    : 1
+source     :
+    - https://github.com/xolox/python-humanfriendly/archive/6.1.tar.gz : 615d176d4309df899067d072efdd67f8aad98bbf65af5a432315b6e86a74221e
+homepage   : https://humanfriendly.readthedocs.org
+license    : MIT
+component  : programming.python
+summary    : Human friendly input/output for text interfaces using Python
+description: |
+    Human friendly input/output in Python. The functions and classes in the humanfriendly package can be used to make text interfaces more user friendly.
+build      : |
+    %python3_setup
+install    : |
+    %python3_install

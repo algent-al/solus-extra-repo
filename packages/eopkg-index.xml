@@ -1,37 +1,5 @@
 <PISI>
     <Package>
-        <Name>qogir-gtk-theme-ubuntu</Name>
-        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
-        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
-        <PartOf>desktop.theme</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>2019.10.25</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>10064875</InstalledSize>
-        <PackageSize>2836840</PackageSize>
-        <PackageHash>f467fdbc71a2fbabcfd20cce830bc55094e36731</PackageHash>
-        <PackageURI>qogir-gtk-theme-ubuntu-2019.10.25-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>qogir-gtk-theme</Name>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>lsd</Name>
         <Summary xml:lang="en">The next generation ls command</Summary>
         <Description xml:lang="en">The next generation ls command with a lot of pretty colors and icons.</Description>
@@ -96,71 +64,6 @@
         <Source>
             <Name>python-rx</Name>
             <Homepage>https://rxpy.rtfd.io</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>python-humanfriendly</Name>
-        <Summary xml:lang="en">Human friendly input/output for text interfaces using Python</Summary>
-        <Description xml:lang="en">Human friendly input/output in Python. The functions and classes in the humanfriendly package can be used to make text interfaces more user friendly.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MIT</License>
-        <History>
-            <Update release="1">
-                <Date>2020-02-11</Date>
-                <Version>6.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>481651</InstalledSize>
-        <PackageSize>106748</PackageSize>
-        <PackageHash>1ead81e8ba54e7e3559944edc5707e1d2866ee30</PackageHash>
-        <PackageURI>python-humanfriendly-6.1-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-humanfriendly</Name>
-            <Homepage>https://humanfriendly.readthedocs.org</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>qogir-gtk-theme-manjaro-win</Name>
-        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
-        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
-        <PartOf>desktop.theme</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>2019.10.25</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>10157539</InstalledSize>
-        <PackageSize>2832336</PackageSize>
-        <PackageHash>7345d79dcc50efb004a870027c71e1cae12c4ba5</PackageHash>
-        <PackageURI>qogir-gtk-theme-manjaro-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>qogir-gtk-theme</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -244,6 +147,114 @@
         </Source>
     </Package>
     <Package>
+        <Name>python-pikepdf</Name>
+        <Summary xml:lang="en">A Python library for reading and writing PDF, powered by qpdf</Summary>
+        <Description xml:lang="en">Pikepdf is a Python library for reading and writing PDF files.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MPL-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="11">qpdf</Dependency>
+            <Dependency releaseFrom="25">python3</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-02-05</Date>
+                <Version>1.10.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1088441</InstalledSize>
+        <PackageSize>325284</PackageSize>
+        <PackageHash>8facf249e74a4e490bb54e9b18d45dc318e1f90d</PackageHash>
+        <PackageURI>python-pikepdf-1.10.0-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-pikepdf</Name>
+            <Homepage>https://pikepdf.readthedocs.io/</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>figlet</Name>
+        <Summary xml:lang="en">FIGlet - display large characters made up of ordinary screen characters</Summary>
+        <Description xml:lang="en">FIGlet  prints its input using large characters (called &quot;FIGcharacters&quot;) made up of ordinary screen characters (called &quot;sub-characters&quot;). FIGlet output is generally reminiscent of the sort of &quot;signatures&quot; many people like to  put  at the  end  of  e-mail and UseNet messages. It is also reminiscent of the output of some banner programs, although it is oriented normally, not sideways.</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <License>BSD-3-Clause</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-02</Date>
+                <Version>2.2.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>671232</InstalledSize>
+        <PackageSize>106455</PackageSize>
+        <PackageHash>e54e7dbeeb6951a58284aeaaa5f3cac8c827d7ff</PackageHash>
+        <PackageURI>figlet-2.2.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>figlet</Name>
+            <Homepage>http://www.figlet.org/</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>python-setuptools-scm-git-archive</Name>
+        <Summary xml:lang="en">setuptools_scm plugin for git archives</Summary>
+        <Description xml:lang="en">This is a setuptools_scm plugin that adds support for git archives (for example the ones GitHub automatically generates).</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
+        <History>
+            <Update release="2">
+                <Date>2020-02-05</Date>
+                <Version>1.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3262</InstalledSize>
+        <PackageSize>3107</PackageSize>
+        <PackageHash>182fc623745277a3e5d97c6b41d30e4324f90b83</PackageHash>
+        <PackageURI>python-setuptools-scm-git-archive-1.1-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-setuptools-scm-git-archive</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>gti</Name>
         <Summary xml:lang="en">Just a silly git launcher, basically</Summary>
         <Description xml:lang="en">Just a silly git launcher, basically. Inspired by sl.</Description>
@@ -273,115 +284,6 @@
         <Source>
             <Name>gti</Name>
             <Homepage>https://r-wos.org/hacks/gti</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>numlockx</Name>
-        <Summary xml:lang="en">Turns on the numlock key in X11</Summary>
-        <Description xml:lang="en">Turns on the numlock key in X11</Description>
-        <PartOf>xorg.apps</PartOf>
-        <License>MIT</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-25</Date>
-                <Version>1.2</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>14224</InstalledSize>
-        <PackageSize>4386</PackageSize>
-        <PackageHash>048f0650eaf103622fd9f78d3bfc03482e6e2b4a</PackageHash>
-        <PackageURI>numlockx-1.2-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>numlockx</Name>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>python-injector</Name>
-        <Summary xml:lang="en">Python dependency injection framework, inspired by Guice</Summary>
-        <Description xml:lang="en">While dependency injection is easy to do in Python due to its support for keyword arguments, the ease with which objects can be mocked and its dynamic nature, a framework for assisting in this process can remove a lot of boiler-plate from larger applications. That&apos;s where Injector can help. It automatically and transitively provides dependencies for you.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>BSD-3-Clause</License>
-        <RuntimeDependencies>
-            <Dependency>python-typing-extensions</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2020-02-15</Date>
-                <Version>0.18.3</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>108403</InstalledSize>
-        <PackageSize>30561</PackageSize>
-        <PackageHash>988f5baf2dfe7123928585f7133e466109ddddb0</PackageHash>
-        <PackageURI>python-injector-0.18.3-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-injector</Name>
-            <Homepage>https://injector.readthedocs.org</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>qogir-gtk-theme</Name>
-        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
-        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
-        <PartOf>desktop.theme</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>gtk-engines</Dependency>
-            <Dependency>gtk2-engine-murrine</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>2019.10.25</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>10063552</InstalledSize>
-        <PackageSize>2837079</PackageSize>
-        <PackageHash>f7d1889ba6033b9ea01bc53a8fc5d5745d61e343</PackageHash>
-        <PackageURI>qogir-gtk-theme-2019.10.25-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>qogir-gtk-theme</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -427,21 +329,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>pdfarranger</Name>
-        <Summary xml:lang="en">Small application to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface</Summary>
-        <Description xml:lang="en">pdfarranger is a small python-gtk application, which helps the user to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface. It is a frontend for python-pyPdf</Description>
-        <PartOf>office</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>poppler</Dependency>
-            <Dependency>python-pikepdf</Dependency>
-            <Dependency>python3-cairo</Dependency>
-            <Dependency>python3-gobject</Dependency>
-        </RuntimeDependencies>
+        <Name>python-humanfriendly</Name>
+        <Summary xml:lang="en">Human friendly input/output for text interfaces using Python</Summary>
+        <Description xml:lang="en">Human friendly input/output in Python. The functions and classes in the humanfriendly package can be used to make text interfaces more user friendly.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
         <History>
-            <Update release="2">
-                <Date>2020-02-05</Date>
-                <Version>1.4.0</Version>
+            <Update release="1">
+                <Date>2020-02-11</Date>
+                <Version>6.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -451,13 +347,250 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>234827</InstalledSize>
-        <PackageSize>92610</PackageSize>
-        <PackageHash>d8392019566a5284d4971ec167ec9bfd0599c0ee</PackageHash>
-        <PackageURI>pdfarranger-1.4.0-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>481651</InstalledSize>
+        <PackageSize>106748</PackageSize>
+        <PackageHash>1ead81e8ba54e7e3559944edc5707e1d2866ee30</PackageHash>
+        <PackageURI>python-humanfriendly-6.1-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>pdfarranger</Name>
+            <Name>python-humanfriendly</Name>
+            <Homepage>https://humanfriendly.readthedocs.org</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>bandwhich</Name>
+        <Summary xml:lang="en">Terminal bandwidth utilization tool</Summary>
+        <Description xml:lang="en">This is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname</Description>
+        <PartOf>network.util</PartOf>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-21</Date>
+                <Version>0.11.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3227545</InstalledSize>
+        <PackageSize>1004608</PackageSize>
+        <PackageHash>4662ac7ce165249ebf1e5728c50c7b687a96e79d</PackageHash>
+        <PackageURI>bandwhich-0.11.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>bandwhich</Name>
+            <Homepage>https://github.com/imsnif/bandwhich</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>qogir-gtk-theme-manjaro-win</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-01-26</Date>
+                <Version>2019.10.25</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>10157539</InstalledSize>
+        <PackageSize>2832336</PackageSize>
+        <PackageHash>7345d79dcc50efb004a870027c71e1cae12c4ba5</PackageHash>
+        <PackageURI>qogir-gtk-theme-manjaro-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>qogir-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>python-injector</Name>
+        <Summary xml:lang="en">Python dependency injection framework, inspired by Guice</Summary>
+        <Description xml:lang="en">While dependency injection is easy to do in Python due to its support for keyword arguments, the ease with which objects can be mocked and its dynamic nature, a framework for assisting in this process can remove a lot of boiler-plate from larger applications. That&apos;s where Injector can help. It automatically and transitively provides dependencies for you.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>BSD-3-Clause</License>
+        <RuntimeDependencies>
+            <Dependency>python-typing-extensions</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-02-15</Date>
+                <Version>0.18.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>108403</InstalledSize>
+        <PackageSize>30561</PackageSize>
+        <PackageHash>988f5baf2dfe7123928585f7133e466109ddddb0</PackageHash>
+        <PackageURI>python-injector-0.18.3-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-injector</Name>
+            <Homepage>https://injector.readthedocs.org</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>qogir-gtk-theme-ubuntu-win</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-01-26</Date>
+                <Version>2019.10.25</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>10157522</InstalledSize>
+        <PackageSize>2831760</PackageSize>
+        <PackageHash>a8c381282972347f603b05fee80c3ba7c098632d</PackageHash>
+        <PackageURI>qogir-gtk-theme-ubuntu-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>qogir-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>crond</Name>
+        <Summary xml:lang="en">crond (Dillon&apos;s lightweight cron daemon)</Summary>
+        <Description xml:lang="en">crond is a cron daemon written by Matt Dillon and continued by Jim Pryor that attempts to be as minimalist as possible.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>4.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>84515</InstalledSize>
+        <PackageSize>25750</PackageSize>
+        <PackageHash>2bc0946e0289826fe99b72e55938bc034996046e</PackageHash>
+        <PackageURI>crond-4.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>crond</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>qogir-gtk-theme-manjaro</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-01-26</Date>
+                <Version>2019.10.25</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>10064892</InstalledSize>
+        <PackageSize>2837020</PackageSize>
+        <PackageHash>35b2dd15bf9deb77ec43b5850f9eedf8ced99cba</PackageHash>
+        <PackageURI>qogir-gtk-theme-manjaro-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>qogir-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>qogir-gtk-theme-ubuntu</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-01-26</Date>
+                <Version>2019.10.25</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>10064875</InstalledSize>
+        <PackageSize>2836840</PackageSize>
+        <PackageHash>f467fdbc71a2fbabcfd20cce830bc55094e36731</PackageHash>
+        <PackageURI>qogir-gtk-theme-ubuntu-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>qogir-gtk-theme</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -510,22 +643,20 @@
         </Source>
     </Package>
     <Package>
-        <Name>python-pikepdf</Name>
-        <Summary xml:lang="en">A Python library for reading and writing PDF, powered by qpdf</Summary>
-        <Description xml:lang="en">Pikepdf is a Python library for reading and writing PDF files.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MPL-2.0</License>
+        <Name>numlockx</Name>
+        <Summary xml:lang="en">Turns on the numlock key in X11</Summary>
+        <Description xml:lang="en">Turns on the numlock key in X11</Description>
+        <PartOf>xorg.apps</PartOf>
+        <License>MIT</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
             <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="11">qpdf</Dependency>
-            <Dependency releaseFrom="25">python3</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-02-05</Date>
-                <Version>1.10.0</Version>
+            <Update release="1">
+                <Date>2020-01-25</Date>
+                <Version>1.2</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -535,14 +666,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1088441</InstalledSize>
-        <PackageSize>325284</PackageSize>
-        <PackageHash>8facf249e74a4e490bb54e9b18d45dc318e1f90d</PackageHash>
-        <PackageURI>python-pikepdf-1.10.0-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>14224</InstalledSize>
+        <PackageSize>4386</PackageSize>
+        <PackageHash>048f0650eaf103622fd9f78d3bfc03482e6e2b4a</PackageHash>
+        <PackageURI>numlockx-1.2-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>python-pikepdf</Name>
-            <Homepage>https://pikepdf.readthedocs.io/</Homepage>
+            <Name>numlockx</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -550,11 +680,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>qogir-gtk-theme-ubuntu-win</Name>
+        <Name>qogir-gtk-theme</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
         <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>gtk-engines</Dependency>
+            <Dependency>gtk2-engine-murrine</Dependency>
+        </RuntimeDependencies>
         <History>
             <Update release="1">
                 <Date>2020-01-26</Date>
@@ -568,10 +702,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>10157522</InstalledSize>
-        <PackageSize>2831760</PackageSize>
-        <PackageHash>a8c381282972347f603b05fee80c3ba7c098632d</PackageHash>
-        <PackageURI>qogir-gtk-theme-ubuntu-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>10063552</InstalledSize>
+        <PackageSize>2837079</PackageSize>
+        <PackageHash>f7d1889ba6033b9ea01bc53a8fc5d5745d61e343</PackageHash>
+        <PackageURI>qogir-gtk-theme-2019.10.25-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>qogir-gtk-theme</Name>
@@ -582,15 +716,21 @@
         </Source>
     </Package>
     <Package>
-        <Name>python-setuptools-scm-git-archive</Name>
-        <Summary xml:lang="en">setuptools_scm plugin for git archives</Summary>
-        <Description xml:lang="en">This is a setuptools_scm plugin that adds support for git archives (for example the ones GitHub automatically generates).</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MIT</License>
+        <Name>pdfarranger</Name>
+        <Summary xml:lang="en">Small application to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface</Summary>
+        <Description xml:lang="en">pdfarranger is a small python-gtk application, which helps the user to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface. It is a frontend for python-pyPdf</Description>
+        <PartOf>office</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>poppler</Dependency>
+            <Dependency>python-pikepdf</Dependency>
+            <Dependency>python3-cairo</Dependency>
+            <Dependency>python3-gobject</Dependency>
+        </RuntimeDependencies>
         <History>
             <Update release="2">
                 <Date>2020-02-05</Date>
-                <Version>1.1</Version>
+                <Version>1.4.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -600,13 +740,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3262</InstalledSize>
-        <PackageSize>3107</PackageSize>
-        <PackageHash>182fc623745277a3e5d97c6b41d30e4324f90b83</PackageHash>
-        <PackageURI>python-setuptools-scm-git-archive-1.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>234827</InstalledSize>
+        <PackageSize>92610</PackageSize>
+        <PackageHash>d8392019566a5284d4971ec167ec9bfd0599c0ee</PackageHash>
+        <PackageURI>pdfarranger-1.4.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>python-setuptools-scm-git-archive</Name>
+            <Name>pdfarranger</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -640,109 +780,6 @@
         <Source>
             <Name>variety-slideshow</Name>
             <Homepage>https://peterlevi.com/variety</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>qogir-gtk-theme-manjaro</Name>
-        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
-        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
-        <PartOf>desktop.theme</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>2019.10.25</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>10064892</InstalledSize>
-        <PackageSize>2837020</PackageSize>
-        <PackageHash>35b2dd15bf9deb77ec43b5850f9eedf8ced99cba</PackageHash>
-        <PackageURI>qogir-gtk-theme-manjaro-2019.10.25-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>qogir-gtk-theme</Name>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>crond</Name>
-        <Summary xml:lang="en">crond (Dillon&apos;s lightweight cron daemon)</Summary>
-        <Description xml:lang="en">crond is a cron daemon written by Matt Dillon and continued by Jim Pryor that attempts to be as minimalist as possible.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-2.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-25</Date>
-                <Version>4.5</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>84515</InstalledSize>
-        <PackageSize>25750</PackageSize>
-        <PackageHash>2bc0946e0289826fe99b72e55938bc034996046e</PackageHash>
-        <PackageURI>crond-4.5-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>crond</Name>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>figlet</Name>
-        <Summary xml:lang="en">FIGlet - display large characters made up of ordinary screen characters</Summary>
-        <Description xml:lang="en">FIGlet  prints its input using large characters (called &quot;FIGcharacters&quot;) made up of ordinary screen characters (called &quot;sub-characters&quot;). FIGlet output is generally reminiscent of the sort of &quot;signatures&quot; many people like to  put  at the  end  of  e-mail and UseNet messages. It is also reminiscent of the output of some banner programs, although it is oriented normally, not sideways.</Description>
-        <PartOf>multimedia.graphics</PartOf>
-        <License>BSD-3-Clause</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-02-02</Date>
-                <Version>2.2.5</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>671232</InstalledSize>
-        <PackageSize>106455</PackageSize>
-        <PackageHash>e54e7dbeeb6951a58284aeaaa5f3cac8c827d7ff</PackageHash>
-        <PackageURI>figlet-2.2.5-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>figlet</Name>
-            <Homepage>http://www.figlet.org/</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

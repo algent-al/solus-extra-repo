@@ -1,0 +1,37 @@
+name       : odrive
+version    : 0.3.0
+release    : 1
+source     :
+    - https://github.com/liberodark/ODrive/archive/0.3.0.tar.gz : 6b6d10460584598964fd50f7daa41c71c04c2bbe477900e238515321041b6625
+license    : 
+    - GPL-3.0-or-later
+component  : network.download
+summary    : Google Drive GUI for Linux
+description: |
+    This is a GUI client for Google Drive on linux application.
+networking : yes
+builddeps  :
+    - pkgconfig(alsa)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(xscrnsaver)
+    - nodejs
+setup      : |
+    cp -f $pkgfiles/images/* public/images
+build      : |
+    make build
+    npm install
+    npm run pack
+install    : |
+    install -dm00644 $installdir/usr/share
+    install -dm00755 $installdir/usr/bin
+    cp -r dist/linux-unpacked $installdir/usr/share/odrive
+    ln -sv ../share/odrive/odrive $installdir/usr/bin/odrive
+
+    # Install Icons
+    for px in 16 24 48 64 96 128 256 512
+    do
+        install -Dm00644 build/icons/${px}x${px}.png $installdir/usr/share/icons/hicolor/${px}x${px}/apps/odrive.png
+    done
+
+    # Install desktop file
+    install -Dm00644 $pkgfiles/odrive.desktop $installdir/usr/share/applications/odrive.desktop

@@ -399,6 +399,68 @@
         </Source>
     </Package>
     <Package>
+        <Name>odrive</Name>
+        <Summary xml:lang="en">Google Drive GUI for Linux</Summary>
+        <Description xml:lang="en">This is a GUI client for Google Drive on linux application.</Description>
+        <PartOf>network.download</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="89">libgtk-3</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="40">libnss</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="20">alsa-lib</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-22</Date>
+                <Version>0.3.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>220375283</InstalledSize>
+        <PackageSize>57110520</PackageSize>
+        <PackageHash>a58e85580650488c30efa514353c7c9bc40527bd</PackageHash>
+        <PackageURI>odrive-0.3.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>odrive</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>qogir-gtk-theme-manjaro-win</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>

@@ -187,6 +187,45 @@
         </Source>
     </Package>
     <Package>
+        <Name>wmctrl</Name>
+        <Summary xml:lang="en">wmctrl is a UNIX/Linux command line tool to interact with an EWMH/NetWM compatible X Window Manager</Summary>
+        <Description xml:lang="en">The tool provides command line access to almost all the features defined in the EWMH specification. It can be used, for example, to get information about the window manager, to get a detailed list of desktops and managed windows, to switch and resize desktops, to make windows full-screen, always-above or sticky, and to activate, close, move, resize, maximize and minimize them.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="8">libxmu</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-23</Date>
+                <Version>1.07</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>52370</InstalledSize>
+        <PackageSize>17291</PackageSize>
+        <PackageHash>1c9c37ac5b5d37df730d9827da8e60dde0c6c482</PackageHash>
+        <PackageURI>wmctrl-1.07-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>wmctrl</Name>
+            <Homepage>http://tripie.sweb.cz/utils/wmctrl/</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>figlet</Name>
         <Summary xml:lang="en">FIGlet - display large characters made up of ordinary screen characters</Summary>
         <Description xml:lang="en">FIGlet  prints its input using large characters (called &quot;FIGcharacters&quot;) made up of ordinary screen characters (called &quot;sub-characters&quot;). FIGlet output is generally reminiscent of the sort of &quot;signatures&quot; many people like to  put  at the  end  of  e-mail and UseNet messages. It is also reminiscent of the output of some banner programs, although it is oriented normally, not sideways.</Description>

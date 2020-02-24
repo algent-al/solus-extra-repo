@@ -8,16 +8,19 @@ license    : GPL-3.0-or-later
 component  :
     - ^budgie-app-launcher-applet : desktop.budgie
     - ^budgie-dropby-applet : desktop.budgie
+    - ^budgie-showtime-applet : desktop.budgie
     - ^budgie-takeabreak-applet : desktop.budgie
 summary    :
     - Budgie-extras from Ubuntu Budgie
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device
+    - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working
 description:
     - Budgie-extras from Ubuntu Budgie. Here are some applets not yet included in official Solus Repository.
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject, and, in case of a flash drive, to make a local copy of the drive's content. The info shows the free sapace on the volume. The applet shows its icon in the panel if, and as long as, any usb drive is connected.
+    - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet's menu.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.
 patterns   :
     - ^budgie-app-launcher-applet :
@@ -26,6 +29,10 @@ patterns   :
     - ^budgie-dropby-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-dropby
         - /usr/share/pixmaps/budgie-dropby*
+    - ^budgie-showtime-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-showtime
+        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-showtime.gschema.xml
+        - /usr/share/pixmaps/showtimenew-symbolic.svg
     - ^budgie-takeabreak-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-takeabreak
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.takeabreak.gschema.xml
@@ -35,12 +42,14 @@ builddeps  :
     - pkgconfig(gee-0.8)
     - pkgconfig(json-glib-1.0)
     - pkgconfig(libsoup-2.4)
+    - pkgconfig(libwnck-3.0)	# showtime
     - vala
 rundeps    :
     - ^budgie-app-launcher-applet : budgie-extras
     - ^budgie-dropby-applet : 
         - budgie-extras
         - python3-pyudev
+    - ^budgie-showtime-applet : budgie-extras
     - ^budgie-takeabreak-applet :
         - budgie-extras
         - xprintidle
@@ -51,6 +60,7 @@ setup      : |
         -Dbuild-all=false \
         -Dbuild-app-launcher=true \
         -Dbuild-dropby=true \
+        -Dbuild-showtime=true \
         -Dbuild-takeabreak=true
 build      : |
     %ninja_build

@@ -147,6 +147,50 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-showtime-applet</Name>
+        <Summary xml:lang="en">Budgie Showtime is a digital desktop clock, showing time, and optionally, date.</Summary>
+        <Description xml:lang="en">Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet&apos;s menu.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="89">libgtk-3</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="205">budgie-desktop</Dependency>
+            <Dependency releaseFrom="18">libpeas</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="17">libwnck</Dependency>
+            <Dependency>budgie-extras</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-02-24</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>83232</InstalledSize>
+        <PackageSize>25580</PackageSize>
+        <PackageHash>711f485e61015f6497f35219f9b992650cf79eaa</PackageHash>
+        <PackageURI>budgie-showtime-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>python-pikepdf</Name>
         <Summary xml:lang="en">A Python library for reading and writing PDF, powered by qpdf</Summary>
         <Description xml:lang="en">Pikepdf is a Python library for reading and writing PDF files.</Description>

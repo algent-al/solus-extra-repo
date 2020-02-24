@@ -533,7 +533,7 @@
     </Package>
     <Package>
         <Name>budgie-takeabreak-applet</Name>
-        <Summary xml:lang="en">Budgie TakeaBreak is a pomodoro- like applet, to make sure to take regular breaks from working</Summary>
+        <Summary xml:lang="en">Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working</Summary>
         <Description xml:lang="en">Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
@@ -544,104 +544,10 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-01-31</Date>
+                <Date>2020-02-24</Date>
                 <Version>0.10.1</Version>
-                <Comment>Update budgie-extras to 0.10.1 and add budgie-countdown-applet
-
-Summary:
-**Changes:**
-
-- Added budgie-countdown-applet
-- Added missing city to list in budgie-weathershow-applet
-- Translation updates
-
-Resolve T8600
-
-Signed-off-by: Algent Albrahimi &lt;algent@protonmail.com&gt;
-
-Test Plan:
-- Write something in quicknote applet, check the weather in weathershow applet and jump to different folders with kangaroo.
-- Try all options of countdown applet, ringing a bell, flashing the icon, displaying window message and running a command.
-
-Reviewers: #triage_team, JoshStrobl
-
-Reviewed By: #triage_team, JoshStrobl
-
-Subscribers: JoshStrobl
-
-Maniphest Tasks: T8600
-
-Differential Revision: https://dev.getsol.us/D8136</Comment>
+                <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-            <Update release="3">
-                <Date>2019-10-17</Date>
-                <Version>0.9.1</Version>
-                <Comment>Rebuild budgie-extras against new vala
-
-Summary: Rebuild against new vala
-
-Test Plan: Checking weather, Writing some notes and opening files and folders with kangaroo.
-
-Reviewers: #triage_team, JoshStrobl
-
-Reviewed By: #triage_team, JoshStrobl
-
-Subscribers: JoshStrobl
-
-Differential Revision: https://dev.getsol.us/D7244</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-            <Update release="2">
-                <Date>2019-08-29</Date>
-                <Version>0.9.1</Version>
-                <Comment>Resolve T8287.
-
-Summary: Resolve T8287. Removing budgie-brightness-controller-applet.
-
-Test Plan: The other three applets working fine.
-
-Reviewers: #triage_team, JoshStrobl
-
-Reviewed By: #triage_team, JoshStrobl
-
-Subscribers: JoshStrobl
-
-Maniphest Tasks: T8287
-
-Differential Revision: https://dev.getsol.us/D7043</Comment>
-                <Name>algent</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-            <Update release="1">
-                <Date>2019-08-22</Date>
-                <Version>0.9.1</Version>
-                <Comment>Initial commit of budgie-extras
-
-Summary:
-Inclusion of budgie-extras in the repository.
-This package contains the following Budgie plugins:
-    - Brightness Controller
-    - Kangaroo
-    - Quicknote
-    - WeatherShow
-
-Resolves T7857
-
-Test Plan: Added the 4 plugins to the panel, write a note, check the weather in the panel and on the desktop, browse folders from my home directory, changing brightness.
-
-Reviewers: #triage_team, JoshStrobl
-
-Reviewed By: #triage_team, JoshStrobl
-
-Subscribers: JoshStrobl
-
-Maniphest Tasks: T7857
-
-Differential Revision: https://dev.getsol.us/D7001</Comment>
-                <Name>algent</Name>
                 <Email>algent@protonmail.com</Email>
             </Update>
         </History>
@@ -650,8 +556,8 @@ Differential Revision: https://dev.getsol.us/D7001</Comment>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>25166</InstalledSize>
-        <PackageSize>9378</PackageSize>
-        <PackageHash>1ee9f32cd59e9f2aa30fe6f340ac6d8694c375a0</PackageHash>
+        <PackageSize>8668</PackageSize>
+        <PackageHash>e16bd3afd32d211b1256bab1c6148dbe86156adf</PackageHash>
         <PackageURI>budgie-takeabreak-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -980,6 +886,79 @@ Differential Revision: https://dev.getsol.us/D7001</Comment>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>pdfarranger</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>budgie-dropby-applet</Name>
+        <Summary xml:lang="en">The DropBy applet pops up in the panel on the occasion of connecting a usb device</Summary>
+        <Description xml:lang="en">The DropBy applet pops up in the panel on the occasion of connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject, and, in case of a flash drive, to make a local copy of the drive&apos;s content. The info shows the free sapace on the volume. The applet shows its icon in the panel if, and as long as, any usb drive is connected.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+            <Dependency>python3-pyudev</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-02-24</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>26444</InstalledSize>
+        <PackageSize>9268</PackageSize>
+        <PackageHash>9ec4a9ac95275e1560cf5726766e2b80675f8a6f</PackageHash>
+        <PackageURI>budgie-dropby-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>budgie-app-launcher-applet</Name>
+        <Summary xml:lang="en">App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.</Summary>
+        <Description xml:lang="en">App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-02-24</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>53169</InstalledSize>
+        <PackageSize>12088</PackageSize>
+        <PackageHash>b206f422b39da3b0a55bf82355eba36d9367dc18</PackageHash>
+        <PackageURI>budgie-app-launcher-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

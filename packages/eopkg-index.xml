@@ -532,6 +532,138 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-takeabreak-applet</Name>
+        <Summary xml:lang="en">Budgie TakeaBreak is a pomodoro- like applet, to make sure to take regular breaks from working</Summary>
+        <Description xml:lang="en">Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+            <Dependency>xprintidle</Dependency>
+            <Dependency>wmctrl</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-01-31</Date>
+                <Version>0.10.1</Version>
+                <Comment>Update budgie-extras to 0.10.1 and add budgie-countdown-applet
+
+Summary:
+**Changes:**
+
+- Added budgie-countdown-applet
+- Added missing city to list in budgie-weathershow-applet
+- Translation updates
+
+Resolve T8600
+
+Signed-off-by: Algent Albrahimi &lt;algent@protonmail.com&gt;
+
+Test Plan:
+- Write something in quicknote applet, check the weather in weathershow applet and jump to different folders with kangaroo.
+- Try all options of countdown applet, ringing a bell, flashing the icon, displaying window message and running a command.
+
+Reviewers: #triage_team, JoshStrobl
+
+Reviewed By: #triage_team, JoshStrobl
+
+Subscribers: JoshStrobl
+
+Maniphest Tasks: T8600
+
+Differential Revision: https://dev.getsol.us/D8136</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+            <Update release="3">
+                <Date>2019-10-17</Date>
+                <Version>0.9.1</Version>
+                <Comment>Rebuild budgie-extras against new vala
+
+Summary: Rebuild against new vala
+
+Test Plan: Checking weather, Writing some notes and opening files and folders with kangaroo.
+
+Reviewers: #triage_team, JoshStrobl
+
+Reviewed By: #triage_team, JoshStrobl
+
+Subscribers: JoshStrobl
+
+Differential Revision: https://dev.getsol.us/D7244</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+            <Update release="2">
+                <Date>2019-08-29</Date>
+                <Version>0.9.1</Version>
+                <Comment>Resolve T8287.
+
+Summary: Resolve T8287. Removing budgie-brightness-controller-applet.
+
+Test Plan: The other three applets working fine.
+
+Reviewers: #triage_team, JoshStrobl
+
+Reviewed By: #triage_team, JoshStrobl
+
+Subscribers: JoshStrobl
+
+Maniphest Tasks: T8287
+
+Differential Revision: https://dev.getsol.us/D7043</Comment>
+                <Name>algent</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+            <Update release="1">
+                <Date>2019-08-22</Date>
+                <Version>0.9.1</Version>
+                <Comment>Initial commit of budgie-extras
+
+Summary:
+Inclusion of budgie-extras in the repository.
+This package contains the following Budgie plugins:
+    - Brightness Controller
+    - Kangaroo
+    - Quicknote
+    - WeatherShow
+
+Resolves T7857
+
+Test Plan: Added the 4 plugins to the panel, write a note, check the weather in the panel and on the desktop, browse folders from my home directory, changing brightness.
+
+Reviewers: #triage_team, JoshStrobl
+
+Reviewed By: #triage_team, JoshStrobl
+
+Subscribers: JoshStrobl
+
+Maniphest Tasks: T7857
+
+Differential Revision: https://dev.getsol.us/D7001</Comment>
+                <Name>algent</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>25166</InstalledSize>
+        <PackageSize>9378</PackageSize>
+        <PackageHash>1ee9f32cd59e9f2aa30fe6f340ac6d8694c375a0</PackageHash>
+        <PackageURI>budgie-takeabreak-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>python-injector</Name>
         <Summary xml:lang="en">Python dependency injection framework, inspired by Guice</Summary>
         <Description xml:lang="en">While dependency injection is easy to do in Python due to its support for keyword arguments, the ease with which objects can be mocked and its dynamic nature, a framework for assisting in this process can remove a lot of boiler-plate from larger applications. That&apos;s where Injector can help. It automatically and transitively provides dependencies for you.</Description>

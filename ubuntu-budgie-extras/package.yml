@@ -1,0 +1,43 @@
+name       : ubuntu-budgie-extras
+version    : 0.10.1
+release    : 4
+source     :
+    - https://github.com/UbuntuBudgie/budgie-extras/releases/download/v0.10.1/budgie-extras-0.10.1.tar.xz : ab058fe660c5cea4ecc88c2afa21e86a82352979c3d4040c3733c7311b9ae0aa
+homepage   : https://github.com/UbuntuBudgie/budgie-extras
+license    : GPL-3.0-or-later
+component  :
+    - ^budgie-takeabreak-applet : desktop.budgie
+summary    :
+    - Budgie-extras from Ubuntu Budgie
+    - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro- like applet, to make sure to take regular breaks from working
+description:
+    - Budgie-extras from Ubuntu Budgie. Here are some applets not yet included in official Solus Repository.
+    - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.
+patterns   :
+    - ^budgie-takeabreak-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-takeabreak
+        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.takeabreak.gschema.xml
+        - /usr/share/pixmaps/takeabreak*
+builddeps  :
+    - pkgconfig(budgie-1.0)
+    - pkgconfig(gee-0.8)
+    - pkgconfig(json-glib-1.0)
+    - pkgconfig(libsoup-2.4)
+    - vala
+rundeps    :
+    - ^budgie-takeabreak-applet :
+        - budgie-extras
+        - xprintidle
+        - wmctrl
+setup      : |
+    %patch -p1 < $pkgfiles/0001-enable-all-options-by-default.patch #budgie-takeabreak-applet
+    %meson_configure \
+        -Dbuild-all=false \
+        -Dbuild-takeabreak=true
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install
+
+    #There are not needed since they are already in budgie-extras
+    rm -rf $installdir/usr/share/locale

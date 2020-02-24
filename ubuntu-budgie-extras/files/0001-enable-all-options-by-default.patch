@@ -1,0 +1,35 @@
+From 40582eedd18454bdb865000eecc8e7ff0c4b79af Mon Sep 17 00:00:00 2001
+From: Algent Albrahimi <algent@protonmail.com>
+Date: Mon, 24 Feb 2020 11:21:28 +0100
+Subject: [PATCH] enable all options by default
+
+Signed-off-by: Algent Albrahimi <algent@protonmail.com>
+---
+ .../schema/org.ubuntubudgie.plugins.takeabreak.gschema.xml    | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/budgie-takeabreak/schema/org.ubuntubudgie.plugins.takeabreak.gschema.xml b/budgie-takeabreak/schema/org.ubuntubudgie.plugins.takeabreak.gschema.xml
+index c6ed36e..e48e50d 100644
+--- a/budgie-takeabreak/schema/org.ubuntubudgie.plugins.takeabreak.gschema.xml
++++ b/budgie-takeabreak/schema/org.ubuntubudgie.plugins.takeabreak.gschema.xml
+@@ -20,7 +20,7 @@
+         <key type="b" name="unlockafterbreak">
+             <summary>Automatically unlock after break time</summary>
+             <description>Whether lock screen should automatically unlock after a break</description>
+-            <default>false</default>
++            <default>true</default>
+         </key>
+         <key type="b" name="showmessage">
+             <summary>Show message before break</summary>
+@@ -35,7 +35,7 @@
+         <key type="b" name="smartresume">
+             <summary>Only start if not idle</summary>
+             <description>Start the new working time only if and after the computer is not idle</description>
+-            <default>false</default>
++            <default>true</default>
+         </key>
+     </schema>
+ </schemalist>
+-- 
+2.25.1
+

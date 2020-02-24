@@ -16,7 +16,7 @@
 - [ ] budgie-rotation-lock
 - [x] budgie-showtime
 - [x] budgie-takeabreak
-- [x] budgie-trash
+- [x] budgie-trash (renamed to budgie-another-trash)
 - [x] budgie-weathershow (Official Repo)
 - [ ] budgie-wmover
 - [x] budgie-workspace-stopwatch

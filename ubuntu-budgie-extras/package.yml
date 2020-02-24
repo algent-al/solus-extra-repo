@@ -6,35 +6,38 @@ source     :
 homepage   : https://github.com/UbuntuBudgie/budgie-extras
 license    : GPL-3.0-or-later
 component  :
+    - ^budgie-another-trash-applet : desktop.budgie
     - ^budgie-app-launcher-applet : desktop.budgie
     - ^budgie-dropby-applet : desktop.budgie
     - ^budgie-fuzzyclock-applet : desktop.budgie
     - ^budgie-recentlyused-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
     - ^budgie-takeabreak-applet : desktop.budgie
-    - ^budgie-trash-applet : desktop.budgie
     - ^budgie-workspace-stopwatch-applet : desktop.budgie
 summary    :
     - Budgie-extras from Ubuntu Budgie
+    - ^budgie-another-trash-applett : Trash is a Budgie Desktop applet for productivity.
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working
-    - ^budgie-trash-applet : Trash is a Budgie Desktop applet for productivity.
     - ^budgie-workspace-stopwatch-applet : Workspace Timer Applet is an applet to keep track of usage per workspace
 description:
     - Budgie-extras from Ubuntu Budgie. Here are some applets not yet included in official Solus Repository.
+    - ^budgie-another-trash-applet : Trash is a Budgie Desktop applet for productivity.
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject, and, in case of a flash drive, to make a local copy of the drive's content. The info shows the free sapace on the volume. The applet shows its icon in the panel if, and as long as, any usb drive is connected.
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet's menu.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.
-    - ^budgie-trash-applet : Trash is a Budgie Desktop applet for productivity.
     - ^budgie-workspace-stopwatch-applet : Workspace Timer Applet is an applet to keep track of usage per workspace, e.g. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are rmembered, also after logout/restart, until the RESET button is pressed.
 patterns   :
+    - ^budgie-another-trash-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-trash
+        - /usr/share/pixmaps/budgie-trash*
     - ^budgie-app-launcher-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-app-launcher
         - /usr/share/pixmaps/budgie-app-launcher*
@@ -54,9 +57,6 @@ patterns   :
         - /usr/lib64/budgie-desktop/plugins/budgie-takeabreak
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.takeabreak.gschema.xml
         - /usr/share/pixmaps/takeabreak*
-    - ^budgie-trash-applet :
-        - /usr/lib64/budgie-desktop/plugins/budgie-trash
-        - /usr/share/pixmaps/budgie-trash*
     - ^budgie-workspace-stopwatch-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-workspace-stopwatch
         - /usr/share/pixmaps/budgie-wstopwatch-symbolic.svg
@@ -68,6 +68,7 @@ builddeps  :
     - pkgconfig(libwnck-3.0)
     - vala
 rundeps    :
+    - ^budgie-another-trash-applet : budgie-extras
     - ^budgie-app-launcher-applet : budgie-extras
     - ^budgie-dropby-applet : 
         - budgie-extras
@@ -79,7 +80,6 @@ rundeps    :
         - budgie-extras
         - xprintidle
         - wmctrl
-    - ^budgie-trash-applet : budgie-extras
     - ^budgie-workspace-stopwatch-applet : budgie-extras
 setup      : |
     %patch -p1 < $pkgfiles/0001-enable-all-options-by-default.patch #budgie-takeabreak-applet

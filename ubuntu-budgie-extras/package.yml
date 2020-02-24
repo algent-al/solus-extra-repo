@@ -6,14 +6,20 @@ source     :
 homepage   : https://github.com/UbuntuBudgie/budgie-extras
 license    : GPL-3.0-or-later
 component  :
+    - ^budgie-app-launcher-applet : desktop.budgie
     - ^budgie-takeabreak-applet : desktop.budgie
 summary    :
     - Budgie-extras from Ubuntu Budgie
-    - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro- like applet, to make sure to take regular breaks from working
+    - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
+    - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working
 description:
     - Budgie-extras from Ubuntu Budgie. Here are some applets not yet included in official Solus Repository.
+    - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.
 patterns   :
+    - ^budgie-app-launcher-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-app-launcher
+        - /usr/share/pixmaps/budgie-app-launcher*
     - ^budgie-takeabreak-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-takeabreak
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.takeabreak.gschema.xml
@@ -25,6 +31,7 @@ builddeps  :
     - pkgconfig(libsoup-2.4)
     - vala
 rundeps    :
+    - ^budgie-app-launcher-applet : budgie-extras
     - ^budgie-takeabreak-applet :
         - budgie-extras
         - xprintidle
@@ -33,11 +40,12 @@ setup      : |
     %patch -p1 < $pkgfiles/0001-enable-all-options-by-default.patch #budgie-takeabreak-applet
     %meson_configure \
         -Dbuild-all=false \
+        -Dbuild-app-launcher=true \
         -Dbuild-takeabreak=true
 build      : |
     %ninja_build
 install    : |
     %ninja_install
 
-    #There are not needed since they are already in budgie-extras
+    #These are not needed since they are already in budgie-extras to avoid conflicts.
     rm -rf $installdir/usr/share/locale

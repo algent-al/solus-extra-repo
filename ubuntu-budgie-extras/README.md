@@ -1,0 +1,26 @@
+### Current status of applets
+
+- [x] app-launcher
+- [ ] budgie-brightness-controller
+- [ ] budgie-clockworks
+- [x] budgie-countdown (Official Repo)
+- [x] budgie-dropby
+- [ ] budgie-extras-daemon
+- [ ] budgie-fuzzyclock
+- [ ] budgie-hotcorners
+- [x] budgie-kangaroo (Official Repo)
+- [ ] budgie-keyboard-autoswitch
+- [ ] budgie-quickchar
+- [x] budgie-quicknote (Official Repo)
+- [x] budgie-recentlyused
+- [ ] budgie-rotation-lock
+- [x] budgie-showtime
+- [x] budgie-takeabreak
+- [ ] budgie-trash
+- [x] budgie-weathershow (Official Repo)
+- [ ] budgie-wmover
+- [ ] budgie-workspace-stopwatch
+- [ ] budgie-wpreviews
+- [ ] budgie-wsoverview
+- [ ] budgie-wswitcher
+- [ ] budgie_visualspace

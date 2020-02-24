@@ -482,7 +482,7 @@
     </Package>
     <Package>
         <Name>budgie-another-trash-applet</Name>
-        <Summary xml:lang="en">Budgie-extras from Ubuntu Budgie</Summary>
+        <Summary xml:lang="en">Trash is a Budgie Desktop applet for productivity.</Summary>
         <Description xml:lang="en">Trash is a Budgie Desktop applet for productivity.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
@@ -508,8 +508,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>73485</InstalledSize>
-        <PackageSize>21949</PackageSize>
-        <PackageHash>7427b768480782fb73984e14c9beff6ed98b2cb4</PackageHash>
+        <PackageSize>21943</PackageSize>
+        <PackageHash>770c76e289e0c0edd00315d4da45e1d70902ad56</PackageHash>
         <PackageURI>budgie-another-trash-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>

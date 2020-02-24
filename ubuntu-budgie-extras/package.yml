@@ -16,7 +16,7 @@ component  :
     - ^budgie-workspace-stopwatch-applet : desktop.budgie
 summary    :
     - Budgie-extras from Ubuntu Budgie
-    - ^budgie-another-trash-applett : Trash is a Budgie Desktop applet for productivity.
+    - ^budgie-another-trash-applet : Trash is a Budgie Desktop applet for productivity.
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.

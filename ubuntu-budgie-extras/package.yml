@@ -8,18 +8,21 @@ license    : GPL-3.0-or-later
 component  :
     - ^budgie-app-launcher-applet : desktop.budgie
     - ^budgie-dropby-applet : desktop.budgie
+    - ^budgie-recentlyused-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
     - ^budgie-takeabreak-applet : desktop.budgie
 summary    :
     - Budgie-extras from Ubuntu Budgie
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device
+    - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working
 description:
     - Budgie-extras from Ubuntu Budgie. Here are some applets not yet included in official Solus Repository.
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject, and, in case of a flash drive, to make a local copy of the drive's content. The info shows the free sapace on the volume. The applet shows its icon in the panel if, and as long as, any usb drive is connected.
+    - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet's menu.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.
 patterns   :
@@ -29,6 +32,9 @@ patterns   :
     - ^budgie-dropby-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-dropby
         - /usr/share/pixmaps/budgie-dropby*
+    - ^budgie-recentlyused-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-recentlyused
+        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-recentlyused.gschema.xml
     - ^budgie-showtime-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-showtime
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-showtime.gschema.xml
@@ -49,6 +55,7 @@ rundeps    :
     - ^budgie-dropby-applet : 
         - budgie-extras
         - python3-pyudev
+    - ^budgie-recentlyused-applet : budgie-extras
     - ^budgie-showtime-applet : budgie-extras
     - ^budgie-takeabreak-applet :
         - budgie-extras
@@ -60,6 +67,7 @@ setup      : |
         -Dbuild-all=false \
         -Dbuild-app-launcher=true \
         -Dbuild-dropby=true \
+        -Dbuild-recentlyused=true \
         -Dbuild-showtime=true \
         -Dbuild-takeabreak=true
 build      : |

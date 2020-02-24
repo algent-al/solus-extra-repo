@@ -614,6 +614,48 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-recentlyused-applet</Name>
+        <Summary xml:lang="en">Show (Gtk applications&apos;) recently used items in a menu.</Summary>
+        <Description xml:lang="en">Show (Gtk applications&apos;) recently used items in a menu.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="89">libgtk-3</Dependency>
+            <Dependency releaseFrom="18">libpeas</Dependency>
+            <Dependency releaseFrom="14">libgee</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="205">budgie-desktop</Dependency>
+            <Dependency>budgie-extras</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-02-24</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>36781</InstalledSize>
+        <PackageSize>11709</PackageSize>
+        <PackageHash>02a5352e5accfd68865386c035f5c4f3229fb5ef</PackageHash>
+        <PackageURI>budgie-recentlyused-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>python-injector</Name>
         <Summary xml:lang="en">Python dependency injection framework, inspired by Guice</Summary>
         <Description xml:lang="en">While dependency injection is easy to do in Python due to its support for keyword arguments, the ease with which objects can be mocked and its dynamic nature, a framework for assisting in this process can remove a lot of boiler-plate from larger applications. That&apos;s where Injector can help. It automatically and transitively provides dependencies for you.</Description>

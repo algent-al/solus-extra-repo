@@ -19,7 +19,7 @@
 - [x] budgie-trash
 - [x] budgie-weathershow (Official Repo)
 - [ ] budgie-wmover
-- [ ] budgie-workspace-stopwatch
+- [x] budgie-workspace-stopwatch
 - [ ] budgie-wpreviews
 - [ ] budgie-wsoverview
 - [ ] budgie-wswitcher

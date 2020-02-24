@@ -12,6 +12,7 @@ component  :
     - ^budgie-showtime-applet : desktop.budgie
     - ^budgie-takeabreak-applet : desktop.budgie
     - ^budgie-trash-applet : desktop.budgie
+    - ^budgie-workspace-stopwatch-applet : desktop.budgie
 summary    :
     - Budgie-extras from Ubuntu Budgie
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
@@ -20,6 +21,7 @@ summary    :
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working
     - ^budgie-trash-applet : Trash is a Budgie Desktop applet for productivity.
+    - ^budgie-workspace-stopwatch-applet : Workspace Timer Applet is an applet to keep track of usage per workspace
 description:
     - Budgie-extras from Ubuntu Budgie. Here are some applets not yet included in official Solus Repository.
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
@@ -28,6 +30,7 @@ description:
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet's menu.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.
     - ^budgie-trash-applet : Trash is a Budgie Desktop applet for productivity.
+    - ^budgie-workspace-stopwatch-applet : Workspace Timer Applet is an applet to keep track of usage per workspace, e.g. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are rmembered, also after logout/restart, until the RESET button is pressed.
 patterns   :
     - ^budgie-app-launcher-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-app-launcher
@@ -49,12 +52,15 @@ patterns   :
     - ^budgie-trash-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-trash
         - /usr/share/pixmaps/budgie-trash*
+    - ^budgie-workspace-stopwatch-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-workspace-stopwatch
+        - /usr/share/pixmaps/budgie-wstopwatch-symbolic.svg
 builddeps  :
     - pkgconfig(budgie-1.0)
     - pkgconfig(gee-0.8)
     - pkgconfig(json-glib-1.0)
     - pkgconfig(libsoup-2.4)
-    - pkgconfig(libwnck-3.0)	# showtime
+    - pkgconfig(libwnck-3.0)
     - vala
 rundeps    :
     - ^budgie-app-launcher-applet : budgie-extras
@@ -68,6 +74,7 @@ rundeps    :
         - xprintidle
         - wmctrl
     - ^budgie-trash-applet : budgie-extras
+    - ^budgie-workspace-stopwatch-applet : budgie-extras
 setup      : |
     %patch -p1 < $pkgfiles/0001-enable-all-options-by-default.patch #budgie-takeabreak-applet
     %meson_configure \
@@ -77,7 +84,8 @@ setup      : |
         -Dbuild-recentlyused=true \
         -Dbuild-showtime=true \
         -Dbuild-takeabreak=true \
-        -Dbuild-trash=true
+        -Dbuild-trash=true \
+        -Dbuild-workspacestopwatch=true
 build      : |
     %ninja_build
 install    : |

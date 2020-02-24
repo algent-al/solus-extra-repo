@@ -232,6 +232,42 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-workspace-stopwatch-applet</Name>
+        <Summary xml:lang="en">Workspace Timer Applet is an applet to keep track of usage per workspace</Summary>
+        <Description xml:lang="en">Workspace Timer Applet is an applet to keep track of usage per workspace, e.g. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are rmembered, also after logout/restart, until the RESET button is pressed.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-02-24</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>9682</InstalledSize>
+        <PackageSize>4893</PackageSize>
+        <PackageHash>4d9eec4e364b49930f8a73b83ffb2fe03377da6a</PackageHash>
+        <PackageURI>budgie-workspace-stopwatch-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>python-pikepdf</Name>
         <Summary xml:lang="en">A Python library for reading and writing PDF, powered by qpdf</Summary>
         <Description xml:lang="en">Pikepdf is a Python library for reading and writing PDF files.</Description>

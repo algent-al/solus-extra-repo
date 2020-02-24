@@ -11,6 +11,7 @@ component  :
     - ^budgie-recentlyused-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
     - ^budgie-takeabreak-applet : desktop.budgie
+    - ^budgie-trash-applet : desktop.budgie
 summary    :
     - Budgie-extras from Ubuntu Budgie
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
@@ -18,6 +19,7 @@ summary    :
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working
+    - ^budgie-trash-applet : Trash is a Budgie Desktop applet for productivity.
 description:
     - Budgie-extras from Ubuntu Budgie. Here are some applets not yet included in official Solus Repository.
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
@@ -25,6 +27,7 @@ description:
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet's menu.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.
+    - ^budgie-trash-applet : Trash is a Budgie Desktop applet for productivity.
 patterns   :
     - ^budgie-app-launcher-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-app-launcher
@@ -43,6 +46,9 @@ patterns   :
         - /usr/lib64/budgie-desktop/plugins/budgie-takeabreak
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.takeabreak.gschema.xml
         - /usr/share/pixmaps/takeabreak*
+    - ^budgie-trash-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-trash
+        - /usr/share/pixmaps/budgie-trash*
 builddeps  :
     - pkgconfig(budgie-1.0)
     - pkgconfig(gee-0.8)
@@ -61,6 +67,7 @@ rundeps    :
         - budgie-extras
         - xprintidle
         - wmctrl
+    - ^budgie-trash-applet : budgie-extras
 setup      : |
     %patch -p1 < $pkgfiles/0001-enable-all-options-by-default.patch #budgie-takeabreak-applet
     %meson_configure \
@@ -69,7 +76,8 @@ setup      : |
         -Dbuild-dropby=true \
         -Dbuild-recentlyused=true \
         -Dbuild-showtime=true \
-        -Dbuild-takeabreak=true
+        -Dbuild-takeabreak=true \
+        -Dbuild-trash=true
 build      : |
     %ninja_build
 install    : |

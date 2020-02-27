@@ -13,12 +13,12 @@
 - [ ] budgie-quickchar
 - [x] budgie-quicknote (Official Repo)
 - [x] budgie-recentlyused
-- [ ] budgie-rotation-lock
+- [x] budgie-rotation-lock (Not tested)
 - [x] budgie-showtime
 - [x] budgie-takeabreak
 - [x] budgie-trash (renamed to budgie-another-trash)
 - [x] budgie-weathershow (Official Repo)
-- [ ] budgie-wmover
+- [x] budgie-wmover
 - [x] budgie-workspace-stopwatch
 - [ ] budgie-wpreviews
 - [ ] budgie-wsoverview

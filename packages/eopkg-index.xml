@@ -913,6 +913,44 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-window-mover-applet</Name>
+        <Summary xml:lang="en">Budgie WindoMover is an application (applet) to quickly move windows to any of the other workspaces</Summary>
+        <Description xml:lang="en">Budgie WindoMover is an application (applet) to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard), and the window will move to that workspace.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+            <Dependency>xdotool</Dependency>
+            <Dependency>xprop</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-02-27</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>24547</InstalledSize>
+        <PackageSize>9052</PackageSize>
+        <PackageHash>5c363a36be0392eef9d84a6dfaf077466243e4f4</PackageHash>
+        <PackageURI>budgie-window-mover-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>qogir-gtk-theme-manjaro</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>

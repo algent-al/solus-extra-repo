@@ -14,6 +14,7 @@ component  :
     - ^budgie-rotation-lock-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
     - ^budgie-takeabreak-applet : desktop.budgie
+    - ^budgie-wallpaper-switcher-applet : desktop.budgie
     - ^budgie-window-mover-applet : desktop.budgie
     - ^budgie-workspace-overview-applet : desktop.budgie
     - ^budgie-workspace-stopwatch-applet : desktop.budgie
@@ -27,6 +28,7 @@ summary    :
     - ^budgie-rotation-lock-applet : Is an applet to an easy way to rotation lock or unlock your screen
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working
+    - ^budgie-wallpaper-switcher-applet : Is an application (applet) to show a different wallpaper on each of the workspaces
     - ^budgie-window-mover-applet : Budgie WindoMover is an application (applet) to quickly move windows to any of the other workspaces
     - ^budgie-workspace-overview-applet : An applet to have quick access to all windows across all workspaces
     - ^budgie-workspace-stopwatch-applet : Workspace Timer Applet is an applet to keep track of usage per workspace
@@ -40,6 +42,7 @@ description:
     - ^budgie-rotation-lock-applet : Is an applet to an easy way to rotation lock or unlock your screen.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet's menu.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.
+    - ^budgie-wallpaper-switcher-applet : Is an application (applet) to show a different wallpaper on each of the workspaces. Usage is simple; add the applet to the panel and set wallpapers on each of the workspaces in the way you are used to. The applet will remember what wallpaper was set on each of the workspaces.
     - ^budgie-window-mover-applet : Budgie WindoMover is an application (applet) to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard), and the window will move to that workspace.
     - ^budgie-workspace-overview-applet : An applet to have quick access to all windows across all workspaces
     - ^budgie-workspace-stopwatch-applet : Workspace Timer Applet is an applet to keep track of usage per workspace, e.g. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are rmembered, also after logout/restart, until the RESET button is pressed.
@@ -69,6 +72,9 @@ patterns   :
         - /usr/lib64/budgie-desktop/plugins/budgie-takeabreak
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.takeabreak.gschema.xml
         - /usr/share/pixmaps/takeabreak*
+    - ^budgie-wallpaper-switcher-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-wswitcher
+        - /usr/share/pixmaps/budgie-wsw-symbolic.svg
     - ^budgie-window-mover-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-wmover
         - /usr/share/pixmaps/budgie-wmover-symbolic.svg
@@ -102,6 +108,9 @@ rundeps    :
         - budgie-extras
         - xprintidle
         - wmctrl
+    - ^budgie-wallpaper-switcher-applet :
+        - budgie-extras
+        - wmctrl
     - ^budgie-window-mover-applet :
         - budgie-extras
         - xdotool
@@ -124,6 +133,7 @@ setup      : |
         -Dbuild-trash=true \
         -Dbuild-wmover=true \
         -Dbuild-wsoverview=true \
+        -Dbuild-wswitcher=true \
         -Dbuild-workspacestopwatch=true
 build      : |
     %ninja_build

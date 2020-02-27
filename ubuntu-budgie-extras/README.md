@@ -21,6 +21,6 @@
 - [x] budgie-window-mover
 - [x] budgie-workspace-overview
 - [x] budgie-workspace-stopwatch
+- [x] budgie-workspace-wallpaper
 - [ ] budgie-wpreviews
-- [ ] budgie-wswitcher
 - [ ] budgie_visualspace

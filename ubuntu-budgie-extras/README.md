@@ -1,6 +1,6 @@
 ### Current status of applets
 
-- [x] app-launcher
+- [x] budgie-app-launcher
 - [ ] budgie-brightness-controller
 - [ ] budgie-clockworks
 - [x] budgie-countdown (Official Repo)
@@ -18,9 +18,9 @@
 - [x] budgie-takeabreak
 - [x] budgie-trash (renamed to budgie-another-trash)
 - [x] budgie-weathershow (Official Repo)
-- [x] budgie-wmover
+- [x] budgie-window-mover
+- [x] budgie-workspace-overview
 - [x] budgie-workspace-stopwatch
 - [ ] budgie-wpreviews
-- [ ] budgie-wsoverview
 - [ ] budgie-wswitcher
 - [ ] budgie_visualspace

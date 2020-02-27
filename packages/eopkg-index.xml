@@ -446,6 +446,44 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-workspace-overview-applet</Name>
+        <Summary xml:lang="en">An applet to have quick access to all windows across all workspaces</Summary>
+        <Description xml:lang="en">An applet to have quick access to all windows across all workspaces</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+            <Dependency>xprop</Dependency>
+            <Dependency>wmctrl</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-02-27</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>79045</InstalledSize>
+        <PackageSize>16005</PackageSize>
+        <PackageHash>84eaa36299b93a6b1b121503d7cf05cdf853d107</PackageHash>
+        <PackageURI>budgie-workspace-overview-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>wavemon</Name>
         <Summary xml:lang="en">Ncurses-based monitoring application for wireless network devices</Summary>
         <Description xml:lang="en">wavemon is a wireless device monitoring application that allows you to watch signal and noise levels, packet statistics, device configuration and network parameters of your wireless network hardware. It should work (though with varying features) with all devices supported by the Linux kernel.</Description>
@@ -1178,11 +1216,12 @@
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency>budgie-extras</Dependency>
+            <Dependency>python-psutil</Dependency>
             <Dependency>python3-pyudev</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-24</Date>
+                <Date>2020-02-27</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1194,8 +1233,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>26444</InstalledSize>
-        <PackageSize>9268</PackageSize>
-        <PackageHash>9ec4a9ac95275e1560cf5726766e2b80675f8a6f</PackageHash>
+        <PackageSize>9277</PackageSize>
+        <PackageHash>24b90d08a48fa010a1d18c00a399b4f9b6433bdd</PackageHash>
         <PackageURI>budgie-dropby-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>

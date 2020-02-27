@@ -15,6 +15,7 @@ component  :
     - ^budgie-showtime-applet : desktop.budgie
     - ^budgie-takeabreak-applet : desktop.budgie
     - ^budgie-window-mover-applet : desktop.budgie
+    - ^budgie-workspace-overview-applet : desktop.budgie
     - ^budgie-workspace-stopwatch-applet : desktop.budgie
 summary    :
     - Budgie-extras from Ubuntu Budgie
@@ -27,6 +28,7 @@ summary    :
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working
     - ^budgie-window-mover-applet : Budgie WindoMover is an application (applet) to quickly move windows to any of the other workspaces
+    - ^budgie-workspace-overview-applet : An applet to have quick access to all windows across all workspaces
     - ^budgie-workspace-stopwatch-applet : Workspace Timer Applet is an applet to keep track of usage per workspace
 description:
     - Budgie-extras from Ubuntu Budgie. Here are some applets not yet included in official Solus Repository.
@@ -38,7 +40,8 @@ description:
     - ^budgie-rotation-lock-applet : Is an applet to an easy way to rotation lock or unlock your screen.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet's menu.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.
-    - ^budgie-window-mover-applet : Budgie WindoMover is an application (applet) to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard), and the window will move to that workspace. 
+    - ^budgie-window-mover-applet : Budgie WindoMover is an application (applet) to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard), and the window will move to that workspace.
+    - ^budgie-workspace-overview-applet : An applet to have quick access to all windows across all workspaces
     - ^budgie-workspace-stopwatch-applet : Workspace Timer Applet is an applet to keep track of usage per workspace, e.g. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are rmembered, also after logout/restart, until the RESET button is pressed.
 patterns   :
     - ^budgie-another-trash-applet :
@@ -69,6 +72,11 @@ patterns   :
     - ^budgie-window-mover-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-wmover
         - /usr/share/pixmaps/budgie-wmover-symbolic.svg
+    - ^budgie-workspace-overview-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-wsoverview
+        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-wsoverview.gschema.xml
+        - /usr/share/pixmaps/budgie-wsoverview-symbolic.svg
+        - /usr/share/pixmaps/ws*
     - ^budgie-workspace-stopwatch-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-workspace-stopwatch
         - /usr/share/pixmaps/budgie-wstopwatch-symbolic.svg
@@ -84,6 +92,7 @@ rundeps    :
     - ^budgie-app-launcher-applet : budgie-extras
     - ^budgie-dropby-applet : 
         - budgie-extras
+        - python-psutil
         - python3-pyudev
     - ^budgie-fuzzyclock-applet : budgie-extras
     - ^budgie-recentlyused-applet : budgie-extras
@@ -97,6 +106,10 @@ rundeps    :
         - budgie-extras
         - xdotool
         - xprop
+    - ^budgie-workspace-overview-applet :
+        - budgie-extras
+        - xprop
+        - wmctrl
     - ^budgie-workspace-stopwatch-applet : budgie-extras
 setup      : |
     %meson_configure \
@@ -110,6 +123,7 @@ setup      : |
         -Dbuild-takeabreak=true \
         -Dbuild-trash=true \
         -Dbuild-wmover=true \
+        -Dbuild-wsoverview=true \
         -Dbuild-workspacestopwatch=true
 build      : |
     %ninja_build

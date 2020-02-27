@@ -19,8 +19,8 @@
 - [x] budgie-trash (renamed to budgie-another-trash)
 - [x] budgie-weathershow (Official Repo)
 - [x] budgie-window-mover
+- [x] budgie-wallpaper-switcher
 - [x] budgie-workspace-overview
 - [x] budgie-workspace-stopwatch
-- [x] budgie-workspace-wallpaper
 - [ ] budgie-wpreviews
 - [ ] budgie_visualspace

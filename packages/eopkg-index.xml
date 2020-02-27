@@ -342,6 +342,42 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-rotation-lock-applet</Name>
+        <Summary xml:lang="en">Is an applet to an easy way to rotation lock or unlock your screen</Summary>
+        <Description xml:lang="en">Is an applet to an easy way to rotation lock or unlock your screen.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-02-27</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>6863</InstalledSize>
+        <PackageSize>3920</PackageSize>
+        <PackageHash>a13dac90d25e324477fdc87ed5e092d3cbb292ae</PackageHash>
+        <PackageURI>budgie-rotation-lock-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>python-setuptools-scm-git-archive</Name>
         <Summary xml:lang="en">setuptools_scm plugin for git archives</Summary>
         <Description xml:lang="en">This is a setuptools_scm plugin that adds support for git archives (for example the ones GitHub automatically generates).</Description>

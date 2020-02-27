@@ -11,6 +11,7 @@ component  :
     - ^budgie-dropby-applet : desktop.budgie
     - ^budgie-fuzzyclock-applet : desktop.budgie
     - ^budgie-recentlyused-applet : desktop.budgie
+    - ^budgie-rotation-lock-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
     - ^budgie-takeabreak-applet : desktop.budgie
     - ^budgie-workspace-stopwatch-applet : desktop.budgie
@@ -21,6 +22,7 @@ summary    :
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
+    - ^budgie-rotation-lock-applet : Is an applet to an easy way to rotation lock or unlock your screen
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working
     - ^budgie-workspace-stopwatch-applet : Workspace Timer Applet is an applet to keep track of usage per workspace
@@ -31,6 +33,7 @@ description:
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject, and, in case of a flash drive, to make a local copy of the drive's content. The info shows the free sapace on the volume. The applet shows its icon in the panel if, and as long as, any usb drive is connected.
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
+    - ^budgie-rotation-lock-applet : Is an applet to an easy way to rotation lock or unlock your screen.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet's menu.
     - ^budgie-takeabreak-applet : Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.
     - ^budgie-workspace-stopwatch-applet : Workspace Timer Applet is an applet to keep track of usage per workspace, e.g. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are rmembered, also after logout/restart, until the RESET button is pressed.
@@ -49,6 +52,9 @@ patterns   :
     - ^budgie-recentlyused-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-recentlyused
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-recentlyused.gschema.xml
+    - ^budgie-rotation-lock-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-rotation-lock
+        - /usr/share/pixmaps/budgie-rotation*
     - ^budgie-showtime-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-showtime
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-showtime.gschema.xml
@@ -75,6 +81,7 @@ rundeps    :
         - python3-pyudev
     - ^budgie-fuzzyclock-applet : budgie-extras
     - ^budgie-recentlyused-applet : budgie-extras
+    - ^budgie-rotation-lock-applet : budgie-extras
     - ^budgie-showtime-applet : budgie-extras
     - ^budgie-takeabreak-applet :
         - budgie-extras
@@ -89,6 +96,7 @@ setup      : |
         -Dbuild-dropby=true \
         -Dbuild-fuzzyclock=true \
         -Dbuild-recentlyused=true \
+        -Dbuild-rotation-lock=true \
         -Dbuild-showtime=true \
         -Dbuild-takeabreak=true \
         -Dbuild-trash=true \

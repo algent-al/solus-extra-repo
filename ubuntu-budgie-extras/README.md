@@ -1,7 +1,7 @@
 ### Current status of applets
 
 - [x] budgie-app-launcher
-- [ ] budgie-brightness-controller
+- [x] budgie-brightness-controller (renamed to budgie-brightness-controll)
 - [ ] budgie-clockworks
 - [x] budgie-countdown (Official Repo)
 - [x] budgie-dropby

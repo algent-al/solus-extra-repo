@@ -8,6 +8,7 @@ license    : GPL-3.0-or-later
 component  :
     - ^budgie-another-trash-applet : desktop.budgie
     - ^budgie-app-launcher-applet : desktop.budgie
+    - ^budgie-brightness-controll-applet : desktop.budgie
     - ^budgie-dropby-applet : desktop.budgie
     - ^budgie-fuzzyclock-applet : desktop.budgie
     - ^budgie-recentlyused-applet : desktop.budgie
@@ -22,6 +23,7 @@ summary    :
     - Budgie-extras from Ubuntu Budgie
     - ^budgie-another-trash-applet : Trash is a Budgie Desktop applet for productivity.
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
+    - ^budgie-brightness-controll-applet : Brightness Controller is a Budgie Desktop applet for productivity.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
@@ -36,6 +38,7 @@ description:
     - Budgie-extras from Ubuntu Budgie. Here are some applets not yet included in official Solus Repository.
     - ^budgie-another-trash-applet : Trash is a Budgie Desktop applet for productivity.
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
+    - ^budgie-brightness-controll-applet : Brightness Controller is a Budgie Desktop applet for productivity.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject, and, in case of a flash drive, to make a local copy of the drive's content. The info shows the free sapace on the volume. The applet shows its icon in the panel if, and as long as, any usb drive is connected.
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
@@ -53,6 +56,9 @@ patterns   :
     - ^budgie-app-launcher-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-app-launcher
         - /usr/share/pixmaps/budgie-app-launcher*
+    - ^budgie-brightness-controll-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-brightness-controller
+        - /usr/share/pixmaps/budgie-brightness-controller-1-symbolic.svg
     - ^budgie-dropby-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-dropby
         - /usr/share/pixmaps/budgie-dropby*
@@ -89,6 +95,7 @@ patterns   :
 builddeps  :
     - pkgconfig(budgie-1.0)
     - pkgconfig(gee-0.8)
+    - pkgconfig(gnome-settings-daemon)
     - pkgconfig(json-glib-1.0)
     - pkgconfig(libsoup-2.4)
     - pkgconfig(libwnck-3.0)
@@ -96,6 +103,7 @@ builddeps  :
 rundeps    :
     - ^budgie-another-trash-applet : budgie-extras
     - ^budgie-app-launcher-applet : budgie-extras
+    - ^budgie-brightness-controll-applet : budgie-extras
     - ^budgie-dropby-applet : 
         - budgie-extras
         - python-psutil
@@ -124,6 +132,7 @@ setup      : |
     %meson_configure \
         -Dbuild-all=false \
         -Dbuild-app-launcher=true \
+        -Dbuild-brightness-controller=true \
         -Dbuild-dropby=true \
         -Dbuild-fuzzyclock=true \
         -Dbuild-recentlyused=true \

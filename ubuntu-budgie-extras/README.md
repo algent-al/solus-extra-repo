@@ -9,7 +9,7 @@
 - [x] budgie-fuzzyclock
 - [ ] budgie-hotcorners
 - [x] budgie-kangaroo (Official Repo)
-- [ ] budgie-keyboard-autoswitch
+- [x] budgie-keyboard-autoswitch
 - [ ] budgie-quickchar
 - [x] budgie-quicknote (Official Repo)
 - [x] budgie-recentlyused
@@ -23,4 +23,3 @@
 - [x] budgie-workspace-overview
 - [x] budgie-workspace-stopwatch
 - [ ] budgie-wpreviews
-- [ ] budgie_visualspace

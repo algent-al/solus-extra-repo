@@ -11,6 +11,7 @@ component  :
     - ^budgie-brightness-controll-applet : desktop.budgie
     - ^budgie-dropby-applet : desktop.budgie
     - ^budgie-fuzzyclock-applet : desktop.budgie
+    - ^budgie-keyboard-autoswitch-applet : desktop.budgie
     - ^budgie-recentlyused-applet : desktop.budgie
     - ^budgie-rotation-lock-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
@@ -26,6 +27,7 @@ summary    :
     - ^budgie-brightness-controll-applet : Brightness Controller is a Budgie Desktop applet for productivity.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
+    - ^budgie-keyboard-autoswitch-applet : Keyboard Auto Switch is an applet to use a different input keyboard layout per application
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
     - ^budgie-rotation-lock-applet : Is an applet to an easy way to rotation lock or unlock your screen
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date.
@@ -41,6 +43,7 @@ description:
     - ^budgie-brightness-controll-applet : Brightness Controller is a Budgie Desktop applet for productivity.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject, and, in case of a flash drive, to make a local copy of the drive's content. The info shows the free sapace on the volume. The applet shows its icon in the panel if, and as long as, any usb drive is connected.
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
+    - ^budgie-keyboard-autoswitch-applet : Keyboard Auto Switch is an applet to use a different input keyboard layout per application. Simply set a default layout to be used in general. Subsequently, simply set a different layout, with the application's window in front, and an exception for that specific application is remembered. Exceptions can be removed at any time, either from the applet's menu or by setting the application's layout, again, with its window in front.
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
     - ^budgie-rotation-lock-applet : Is an applet to an easy way to rotation lock or unlock your screen.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet's menu.
@@ -64,6 +67,9 @@ patterns   :
         - /usr/share/pixmaps/budgie-dropby*
     - ^budgie-fuzzyclock-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-fuzzyclock
+    - ^budgie-keyboard-autoswitch-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-keyboard-autoswitch
+        - /usr/share/pixmaps/budgie-keyboard-autoswitch-symbolic.svg
     - ^budgie-recentlyused-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-recentlyused
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-recentlyused.gschema.xml
@@ -109,6 +115,10 @@ rundeps    :
         - python-psutil
         - python3-pyudev
     - ^budgie-fuzzyclock-applet : budgie-extras
+    - ^budgie-keyboard-autoswitch-applet :
+        - budgie-extras
+        - xdotool
+        - xprop
     - ^budgie-recentlyused-applet : budgie-extras
     - ^budgie-rotation-lock-applet : budgie-extras
     - ^budgie-showtime-applet : budgie-extras
@@ -135,6 +145,7 @@ setup      : |
         -Dbuild-brightness-controller=true \
         -Dbuild-dropby=true \
         -Dbuild-fuzzyclock=true \
+        -Dbuild-keyboard-autoswitch=true \
         -Dbuild-recentlyused=true \
         -Dbuild-rotation-lock=true \
         -Dbuild-showtime=true \

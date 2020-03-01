@@ -639,13 +639,13 @@
         <PartOf>network.util</PartOf>
         <License>MIT</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-21</Date>
-                <Version>0.11.0</Version>
+            <Update release="2">
+                <Date>2020-03-01</Date>
+                <Version>0.12.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -655,10 +655,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3227545</InstalledSize>
-        <PackageSize>1004608</PackageSize>
-        <PackageHash>4662ac7ce165249ebf1e5728c50c7b687a96e79d</PackageHash>
-        <PackageURI>bandwhich-0.11.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>3219353</InstalledSize>
+        <PackageSize>1004704</PackageSize>
+        <PackageHash>7dc6921431f465be4c1ad8c487c2af47052845ae</PackageHash>
+        <PackageURI>bandwhich-0.12.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>bandwhich</Name>

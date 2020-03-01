@@ -5,7 +5,7 @@
 - [ ] budgie-clockworks
 - [x] budgie-countdown (Official Repo)
 - [x] budgie-dropby
-- [ ] budgie-extras-daemon
+- [x] budgie-extras-daemon
 - [x] budgie-fuzzyclock
 - [ ] budgie-hotcorners
 - [x] budgie-kangaroo (Official Repo)

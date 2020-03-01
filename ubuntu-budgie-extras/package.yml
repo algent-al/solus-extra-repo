@@ -10,6 +10,7 @@ component  :
     - ^budgie-app-launcher-applet : desktop.budgie
     - ^budgie-brightness-controll-applet : desktop.budgie
     - ^budgie-dropby-applet : desktop.budgie
+    - ^budgie-extras-daemon : desktop.budgie
     - ^budgie-fuzzyclock-applet : desktop.budgie
     - ^budgie-keyboard-autoswitch-applet : desktop.budgie
     - ^budgie-recentlyused-applet : desktop.budgie
@@ -26,6 +27,7 @@ summary    :
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
     - ^budgie-brightness-controll-applet : Brightness Controller is a Budgie Desktop applet for productivity.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device
+    - ^budgie-extras-daemon : This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
     - ^budgie-keyboard-autoswitch-applet : Keyboard Auto Switch is an applet to use a different input keyboard layout per application
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
@@ -42,6 +44,7 @@ description:
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
     - ^budgie-brightness-controll-applet : Brightness Controller is a Budgie Desktop applet for productivity.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject, and, in case of a flash drive, to make a local copy of the drive's content. The info shows the free sapace on the volume. The applet shows its icon in the panel if, and as long as, any usb drive is connected.
+    - ^budgie-extras-daemon : This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins.
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
     - ^budgie-keyboard-autoswitch-applet : Keyboard Auto Switch is an applet to use a different input keyboard layout per application. Simply set a default layout to be used in general. Subsequently, simply set a different layout, with the application's window in front, and an exception for that specific application is remembered. Exceptions can be removed at any time, either from the applet's menu or by setting the application's layout, again, with its window in front.
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
@@ -65,6 +68,11 @@ patterns   :
     - ^budgie-dropby-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-dropby
         - /usr/share/pixmaps/budgie-dropby*
+    - ^budgie-extras-daemon :
+        - /etc/xdg/autostart/budgie-extras-daemon.desktop
+        - /usr/bin/budgie-extras-daemon
+        - /usr/share/budgie-extras-daemon/example.bde
+        - /usr/share/man/man1/budgie-extras-daemon.1
     - ^budgie-fuzzyclock-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-fuzzyclock
     - ^budgie-keyboard-autoswitch-applet :
@@ -103,6 +111,7 @@ builddeps  :
     - pkgconfig(gee-0.8)
     - pkgconfig(gnome-settings-daemon)
     - pkgconfig(json-glib-1.0)
+    - pkgconfig(keybinder-3.0)
     - pkgconfig(libsoup-2.4)
     - pkgconfig(libwnck-3.0)
     - vala
@@ -114,6 +123,7 @@ rundeps    :
         - budgie-extras
         - python-psutil
         - python3-pyudev
+    - ^budgie-extras-daemon : budgie-extras
     - ^budgie-fuzzyclock-applet : budgie-extras
     - ^budgie-keyboard-autoswitch-applet :
         - budgie-extras
@@ -143,6 +153,7 @@ setup      : |
         -Dbuild-all=false \
         -Dbuild-app-launcher=true \
         -Dbuild-brightness-controller=true \
+        -Dbuild-extrasdaemon=true \
         -Dbuild-dropby=true \
         -Dbuild-fuzzyclock=true \
         -Dbuild-keyboard-autoswitch=true \

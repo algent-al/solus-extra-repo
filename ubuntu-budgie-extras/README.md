@@ -10,7 +10,7 @@
 - [ ] budgie-hotcorners
 - [x] budgie-kangaroo (Official Repo)
 - [x] budgie-keyboard-autoswitch
-- [ ] budgie-quickchar
+- [x] budgie-quickchar
 - [x] budgie-quicknote (Official Repo)
 - [x] budgie-recentlyused
 - [x] budgie-rotation-lock (Not tested)

@@ -13,6 +13,7 @@ component  :
     - ^budgie-extras-daemon : desktop.budgie
     - ^budgie-fuzzyclock-applet : desktop.budgie
     - ^budgie-keyboard-autoswitch-applet : desktop.budgie
+    - ^budgie-quickchar-applet : desktop.budgie
     - ^budgie-recentlyused-applet : desktop.budgie
     - ^budgie-rotation-lock-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
@@ -30,6 +31,7 @@ summary    :
     - ^budgie-extras-daemon : This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
     - ^budgie-keyboard-autoswitch-applet : Keyboard Auto Switch is an applet to use a different input keyboard layout per application
+    - ^budgie-quickchar-applet : Quickly find and choose the equivalent locale character for an ascii character
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
     - ^budgie-rotation-lock-applet : Is an applet to an easy way to rotation lock or unlock your screen
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date.
@@ -47,6 +49,7 @@ description:
     - ^budgie-extras-daemon : This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins.
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
     - ^budgie-keyboard-autoswitch-applet : Keyboard Auto Switch is an applet to use a different input keyboard layout per application. Simply set a default layout to be used in general. Subsequently, simply set a different layout, with the application's window in front, and an exception for that specific application is remembered. Exceptions can be removed at any time, either from the applet's menu or by setting the application's layout, again, with its window in front.
+    - ^budgie-quickchar-applet : Quickly find and choose the equivalent locale character for an ascii character.
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
     - ^budgie-rotation-lock-applet : Is an applet to an easy way to rotation lock or unlock your screen.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet's menu.
@@ -78,6 +81,15 @@ patterns   :
     - ^budgie-keyboard-autoswitch-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-keyboard-autoswitch
         - /usr/share/pixmaps/budgie-keyboard-autoswitch-symbolic.svg
+    - ^budgie-quickchar-applet :
+        - /etc/xdg/autostart/quickchar-autostart.desktop
+        - /usr/bin/quickchar
+        - /usr/lib64/quickchar
+        - /usr/share/applications/quickchar.desktop
+        - /usr/share/budgie-extras-daemon/quickchar.bde
+        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.quickchar.gschema.xml
+        - /usr/share/man/man1/quickchar.1
+        - /usr/share/quickchar/chardata
     - ^budgie-recentlyused-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-recentlyused
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-recentlyused.gschema.xml
@@ -129,6 +141,11 @@ rundeps    :
         - budgie-extras
         - xdotool
         - xprop
+    - ^budgie-quickchar-applet :
+        - budgie-extras
+        - budgie-extras-daemon
+        - python-xlib
+        - wmctrl
     - ^budgie-recentlyused-applet : budgie-extras
     - ^budgie-rotation-lock-applet : budgie-extras
     - ^budgie-showtime-applet : budgie-extras
@@ -157,6 +174,7 @@ setup      : |
         -Dbuild-dropby=true \
         -Dbuild-fuzzyclock=true \
         -Dbuild-keyboard-autoswitch=true \
+        -Dbuild-quickchar=true \
         -Dbuild-recentlyused=true \
         -Dbuild-rotation-lock=true \
         -Dbuild-showtime=true \

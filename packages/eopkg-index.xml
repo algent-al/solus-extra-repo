@@ -633,6 +633,45 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-quickchar-applet</Name>
+        <Summary xml:lang="en">Quickly find and choose the equivalent locale character for an ascii character</Summary>
+        <Description xml:lang="en">Quickly find and choose the equivalent locale character for an ascii character.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+            <Dependency releaseFrom="4">budgie-extras-daemon</Dependency>
+            <Dependency>python-xlib</Dependency>
+            <Dependency>wmctrl</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-03-01</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>19687</InstalledSize>
+        <PackageSize>8322</PackageSize>
+        <PackageHash>892b70f604e7c4b9e9a1984a8cc51a89a954184d</PackageHash>
+        <PackageURI>budgie-quickchar-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>bandwhich</Name>
         <Summary xml:lang="en">Terminal bandwidth utilization tool</Summary>
         <Description xml:lang="en">This is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname</Description>

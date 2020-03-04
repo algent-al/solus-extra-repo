@@ -1404,6 +1404,42 @@
         </Source>
     </Package>
     <Package>
+        <Name>python-cssselect2</Name>
+        <Summary xml:lang="en">CSS selectors for Python ElementTree</Summary>
+        <Description xml:lang="en">cssselect2 is a straightforward implementation of CSS3 Selectors for markup documents (HTML, XML, etc.) that can be read by ElementTree-like parsers (including cElementTree, lxml, html5lib, etc.)</Description>
+        <PartOf>programming.python</PartOf>
+        <License>BSD-3-Clause</License>
+        <RuntimeDependencies>
+            <Dependency>python-tinycss2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-04</Date>
+                <Version>0.2.2</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>185518</InstalledSize>
+        <PackageSize>41769</PackageSize>
+        <PackageHash>f0fe4edc93cfa8428b1ef8e4ed6107321037448f</PackageHash>
+        <PackageURI>python-cssselect2-0.2.2-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-cssselect2</Name>
+            <Homepage>https://pypi.org/project/cssselect2/</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>qogir-gtk-theme</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
@@ -1540,6 +1576,42 @@
         <Source>
             <Name>variety-slideshow</Name>
             <Homepage>https://peterlevi.com/variety</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>python-tinycss2</Name>
+        <Summary xml:lang="en">Low-level CSS parser for Python</Summary>
+        <Description xml:lang="en">tinycss2 is a low-level CSS parser and generator: it can parse strings, return Python objects representing tokens and blocks, and generate CSS strings corresponding to these objects.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>BSD-3-Clause</License>
+        <RuntimeDependencies>
+            <Dependency>python-webencodings</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-04</Date>
+                <Version>1.0.2</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>448263</InstalledSize>
+        <PackageSize>70844</PackageSize>
+        <PackageHash>1b22653b14eeae3bfec1ab32fb6d205f71aa24dc</PackageHash>
+        <PackageURI>python-tinycss2-1.0.2-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-tinycss2</Name>
+            <Homepage>https://tinycss2.readthedocs.io/</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

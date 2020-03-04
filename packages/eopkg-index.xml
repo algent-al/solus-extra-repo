@@ -1035,6 +1035,44 @@
         </Source>
     </Package>
     <Package>
+        <Name>python-cairocffi</Name>
+        <Summary xml:lang="en">CFFI-based cairo bindings for Python</Summary>
+        <Description xml:lang="en">cairocffi is a CFFI-based drop-in replacement for Pycairo, a set of Python bindings and object-oriented API for cairo. Cairo is a 2D vector graphics library with support for multiple backends including image buffers, PNG, PostScript, PDF, and SVG file output.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>BSD-3-Clause</License>
+        <RuntimeDependencies>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>libcairo</Dependency>
+            <Dependency>python-cffi</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-04</Date>
+                <Version>1.1.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>764605</InstalledSize>
+        <PackageSize>123744</PackageSize>
+        <PackageHash>113cb42bfb2d131af8b6aecff80a8e534db098fc</PackageHash>
+        <PackageURI>python-cairocffi-1.1.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-cairocffi</Name>
+            <Homepage>https://cairocffi.readthedocs.io/en/stable/</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>budgie-fuzzyclock-applet</Name>
         <Summary xml:lang="en">Shows the time in a Fuzzy Way.</Summary>
         <Description xml:lang="en">Shows the time in a Fuzzy Way.</Description>

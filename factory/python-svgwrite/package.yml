@@ -1,0 +1,17 @@
+name       : python-svgwrite
+version    : 1.3.1
+release    : 1
+source     :
+    - https://github.com/mozman/svgwrite/archive/v1.3.1.tar.gz : c934712d9470fb28214e03cb5c67615d283f9559cc5200343457861e53b34085
+homepage   : https://github.com/mozman/svgwrite
+license    : MIT
+component  : programming.python
+summary    : Python Package to write SVG files
+description: |
+    As the name svgwrite implies, svgwrite creates new SVG drawings, it does not read existing drawings and also does not import existing drawings, but you can always include other SVG drawings by the <image> entity.
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+#check      : |
+#    %python3_test   # Doesn't find pyparsing. Removed builddeps and rundeps for now.

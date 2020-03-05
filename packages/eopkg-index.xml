@@ -1158,6 +1158,42 @@
         </Source>
     </Package>
     <Package>
+        <Name>python-svgwrite</Name>
+        <Summary xml:lang="en">Python Package to write SVG files</Summary>
+        <Description xml:lang="en">As the name svgwrite implies, svgwrite creates new SVG drawings, it does not read existing drawings and also does not import existing drawings, but you can always include other SVG drawings by the &lt;image&gt; entity.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency>pyparsing</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-05</Date>
+                <Version>1.3.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>460322</InstalledSize>
+        <PackageSize>96639</PackageSize>
+        <PackageHash>f1e21d063593156cd53ef07c11d9485b9c1faa69</PackageHash>
+        <PackageURI>python-svgwrite-1.3.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-svgwrite</Name>
+            <Homepage>https://github.com/mozman/svgwrite</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>qogir-gtk-theme-ubuntu-win</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>

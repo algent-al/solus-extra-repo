@@ -304,6 +304,39 @@
         </Source>
     </Package>
     <Package>
+        <Name>pytest-asyncio</Name>
+        <Summary xml:lang="en">Pytest support for asyncio.</Summary>
+        <Description xml:lang="en">pytest-asyncio is an Apache2 licensed library, written in Python, for testing asyncio code with pytest. asyncio code is usually written in the form of coroutines, which makes it slightly more difficult to test using normal testing tools. pytest-asyncio provides useful fixtures and markers to make testing easier.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>Apache-2.0</License>
+        <History>
+            <Update release="1">
+                <Date>2020-03-05</Date>
+                <Version>0.10.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>27204</InstalledSize>
+        <PackageSize>10663</PackageSize>
+        <PackageHash>da485040b5658b0941749fef807b45213553a0cc</PackageHash>
+        <PackageURI>pytest-asyncio-0.10.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>pytest-asyncio</Name>
+            <Homepage>https://github.com/pytest-dev/pytest-asyncio</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>wmctrl</Name>
         <Summary xml:lang="en">wmctrl is a UNIX/Linux command line tool to interact with an EWMH/NetWM compatible X Window Manager</Summary>
         <Description xml:lang="en">The tool provides command line access to almost all the features defined in the EWMH specification. It can be used, for example, to get information about the window manager, to get a detailed list of desktops and managed windows, to switch and resize desktops, to make windows full-screen, always-above or sticky, and to activate, close, move, resize, maximize and minimize them.</Description>
@@ -420,9 +453,12 @@
         <Description xml:lang="en">This is a setuptools_scm plugin that adds support for git archives (for example the ones GitHub automatically generates).</Description>
         <PartOf>programming.python</PartOf>
         <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency>python-setuptools-scm</Dependency>
+        </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-02-05</Date>
+            <Update release="3">
+                <Date>2020-03-05</Date>
                 <Version>1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -434,12 +470,13 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>3262</InstalledSize>
-        <PackageSize>3107</PackageSize>
-        <PackageHash>182fc623745277a3e5d97c6b41d30e4324f90b83</PackageHash>
-        <PackageURI>python-setuptools-scm-git-archive-1.1-2-1-x86_64.eopkg</PackageURI>
+        <PackageSize>3170</PackageSize>
+        <PackageHash>95998e0cdc89f6e738a8bb60f6c50df441a40e7d</PackageHash>
+        <PackageURI>python-setuptools-scm-git-archive-1.1-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>python-setuptools-scm-git-archive</Name>
+            <Homepage>https://github.com/pypa/setuptools_scm/</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

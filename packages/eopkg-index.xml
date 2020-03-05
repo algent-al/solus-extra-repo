@@ -44,8 +44,8 @@
         <PartOf>programming.python</PartOf>
         <License>MIT</License>
         <History>
-            <Update release="2">
-                <Date>2020-03-01</Date>
+            <Update release="3">
+                <Date>2020-03-05</Date>
                 <Version>3.1.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -57,9 +57,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>1257315</InstalledSize>
-        <PackageSize>223833</PackageSize>
-        <PackageHash>14dd042fbe821de32f9bd4edc1eabd578b65fc0f</PackageHash>
-        <PackageURI>python-rx-3.1.0-2-1-x86_64.eopkg</PackageURI>
+        <PackageSize>223881</PackageSize>
+        <PackageHash>8399cf180475ee1c7243cecab9e56057bc222b22</PackageHash>
+        <PackageURI>python-rx-3.1.0-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>python-rx</Name>

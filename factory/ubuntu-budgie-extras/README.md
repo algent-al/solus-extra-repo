@@ -6,7 +6,7 @@
 - [x] budgie-countdown (Official Repo)
 - [x] budgie-dropby
 - [x] budgie-fuzzyclock
-- [ ] budgie-hotcorners
+- [x] budgie-hotcorners
 - [x] budgie-kangaroo (Official Repo)
 - [x] budgie-keyboard-autoswitch
 - [x] budgie-quicknote (Official Repo)

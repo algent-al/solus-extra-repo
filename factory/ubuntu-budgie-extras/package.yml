@@ -13,6 +13,7 @@ component  :
     - ^budgie-dropby-applet : desktop.budgie
     - ^budgie-extras-daemon : desktop.budgie
     - ^budgie-fuzzyclock-applet : desktop.budgie
+    - ^budgie-hotcorners-applet : desktop.budgie
     - ^budgie-keyboard-autoswitch-applet : desktop.budgie
     - ^budgie-quickchar : desktop.budgie
     - ^budgie-recentlyused-applet : desktop.budgie
@@ -33,6 +34,7 @@ summary    :
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device
     - ^budgie-extras-daemon : This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way
+    - ^budgie-hotcorners-applet : Hotcorners offers the option to set corner actions, both from preset and custom commands
     - ^budgie-keyboard-autoswitch-applet : Keyboard Auto Switch is an applet to use a different input keyboard layout per application
     - ^budgie-quickchar : Quickly find and choose the equivalent locale character for an ascii character
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu
@@ -53,6 +55,7 @@ description:
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject, and, in case of a flash drive, to make a local copy of the drive's content. The info shows the free sapace on the volume. The applet shows its icon in the panel if, and as long as, any usb drive is connected.
     - ^budgie-extras-daemon : This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins.
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
+    - ^budgie-hotcorners-applet : Hotcorners offers the option to set corner actions, both from preset and custom commands. Pressure can be set from Budgie Settings. This is the new Vala-based hotcorners applet.
     - ^budgie-keyboard-autoswitch-applet : Keyboard Auto Switch is an applet to use a different input keyboard layout per application. Simply set a default layout to be used in general. Subsequently, simply set a different layout, with the application's window in front, and an exception for that specific application is remembered. Exceptions can be removed at any time, either from the applet's menu or by setting the application's layout, again, with its window in front.
     - ^budgie-quickchar : Quickly find and choose the equivalent locale character for an ascii character.
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
@@ -88,6 +91,10 @@ patterns   :
         - /usr/share/man/man1/budgie-extras-daemon.1
     - ^budgie-fuzzyclock-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-fuzzyclock
+    - ^budgie-hotcorners-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-hotcorners
+        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-hotcorners.gschema.xml
+        - /usr/share/pixmaps/budgie-hotcorners-symbolic.svg
     - ^budgie-keyboard-autoswitch-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-keyboard-autoswitch
         - /usr/share/pixmaps/budgie-keyboard-autoswitch-symbolic.svg
@@ -156,12 +163,14 @@ rundeps    :
         - python3-pyudev
     - ^budgie-extras-daemon : budgie-extras
     - ^budgie-fuzzyclock-applet : budgie-extras
+    - ^budgie-hotcorners-applet :
+        - budgie-window-previews
+        - xdotool
     - ^budgie-keyboard-autoswitch-applet :
         - budgie-extras
         - xdotool
         - xprop
     - ^budgie-quickchar :
-        - budgie-extras
         - budgie-extras-daemon
         - python-xlib
         - wmctrl
@@ -179,9 +188,7 @@ rundeps    :
         - budgie-extras
         - xdotool
         - xprop
-    - ^budgie-window-previews : 
-        - budgie-extras
-        - budgie-extras-daemon
+    - ^budgie-window-previews : budgie-extras-daemon
     - ^budgie-workspace-overview-applet :
         - budgie-extras
         - xprop
@@ -196,6 +203,7 @@ setup      : |
         -Dbuild-extrasdaemon=true \
         -Dbuild-dropby=true \
         -Dbuild-fuzzyclock=true \
+        -Dbuild-hotcorners=true \
         -Dbuild-keyboard-autoswitch=true \
         -Dbuild-quickchar=true \
         -Dbuild-recentlyused=true \

@@ -20,9 +20,9 @@
 - [x] budgie-wallpaper-switcher
 - [x] budgie-workspace-overview
 - [x] budgie-workspace-stopwatch
-- [ ] budgie-wpreviews
+
 
 ### These are miniapps not applets
 - [x] budgie-extras-daemon
 - [x] budgie-quickchar
-
+- [x] budgie-window-previews (Need more testing)

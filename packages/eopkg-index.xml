@@ -700,9 +700,9 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>44401</InstalledSize>
-        <PackageSize>13483</PackageSize>
-        <PackageHash>fdcebb69cd93a01dfd553eb03ca5a06a41ca1d7d</PackageHash>
+        <InstalledSize>46160</InstalledSize>
+        <PackageSize>14050</PackageSize>
+        <PackageHash>493cbbc792b0c5a0c004148d2ceb57837fc68a1a</PackageHash>
         <PackageURI>budgie-extras-daemon-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1105,6 +1105,49 @@
         <PackageSize>8941</PackageSize>
         <PackageHash>d4980c353995b399c92bf1a0e939984b9e504309</PackageHash>
         <PackageURI>budgie-clockworks-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>budgie-window-previews</Name>
+        <Summary xml:lang="en">Set previews to show windows from all workspaces or only current</Summary>
+        <Description xml:lang="en">Set previews to show windows from all workspaces or only current.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="89">libgtk-3</Dependency>
+            <Dependency releaseFrom="17">libwnck</Dependency>
+            <Dependency>budgie-extras</Dependency>
+            <Dependency releaseFrom="4">budgie-extras-daemon</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-03-05</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>100507</InstalledSize>
+        <PackageSize>25925</PackageSize>
+        <PackageHash>fccd364ef013d1b7281be5822b19d2587fd16791</PackageHash>
+        <PackageURI>budgie-window-previews-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>

@@ -638,45 +638,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-quickchar-applet</Name>
-        <Summary xml:lang="en">Quickly find and choose the equivalent locale character for an ascii character</Summary>
-        <Description xml:lang="en">Quickly find and choose the equivalent locale character for an ascii character.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-            <Dependency releaseFrom="4">budgie-extras-daemon</Dependency>
-            <Dependency>python-xlib</Dependency>
-            <Dependency>wmctrl</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="4">
-                <Date>2020-03-01</Date>
-                <Version>0.10.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>19687</InstalledSize>
-        <PackageSize>8322</PackageSize>
-        <PackageHash>892b70f604e7c4b9e9a1984a8cc51a89a954184d</PackageHash>
-        <PackageURI>budgie-quickchar-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>bandwhich</Name>
         <Summary xml:lang="en">Terminal bandwidth utilization tool</Summary>
         <Description xml:lang="en">This is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname</Description>
@@ -728,7 +689,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-03-01</Date>
+                <Date>2020-03-05</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -739,9 +700,9 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>44302</InstalledSize>
-        <PackageSize>13369</PackageSize>
-        <PackageHash>5ee815df7cb2ea49e66e3e13cd0adf175994d7f7</PackageHash>
+        <InstalledSize>44401</InstalledSize>
+        <PackageSize>13483</PackageSize>
+        <PackageHash>fdcebb69cd93a01dfd553eb03ca5a06a41ca1d7d</PackageHash>
         <PackageURI>budgie-extras-daemon-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1117,6 +1078,44 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-clockworks-applet</Name>
+        <Summary xml:lang="en">A multi- clock applet to show the time across multiple timezones</Summary>
+        <Description xml:lang="en">A multi- clock applet to show the time across multiple timezones. Clocks can be created and deleted in a single click, and easily be (re-) named. Timezones can be looked up from the applet&apos;s popup menu.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+            <Dependency>python-cairosvg</Dependency>
+            <Dependency>python-svgwrite</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-03-05</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>25641</InstalledSize>
+        <PackageSize>8941</PackageSize>
+        <PackageHash>d4980c353995b399c92bf1a0e939984b9e504309</PackageHash>
+        <PackageURI>budgie-clockworks-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>budgie-brightness-controll-applet</Name>
         <Summary xml:lang="en">Brightness Controller is a Budgie Desktop applet for productivity.</Summary>
         <Description xml:lang="en">Brightness Controller is a Budgie Desktop applet for productivity.</Description>
@@ -1438,6 +1437,45 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>numlockx</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>budgie-quickchar</Name>
+        <Summary xml:lang="en">Quickly find and choose the equivalent locale character for an ascii character</Summary>
+        <Description xml:lang="en">Quickly find and choose the equivalent locale character for an ascii character.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+            <Dependency releaseFrom="4">budgie-extras-daemon</Dependency>
+            <Dependency>python-xlib</Dependency>
+            <Dependency>wmctrl</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-03-05</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>19588</InstalledSize>
+        <PackageSize>8197</PackageSize>
+        <PackageHash>7b65f69e5608058aeecf9c74a58719df624ef128</PackageHash>
+        <PackageURI>budgie-quickchar-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

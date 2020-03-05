@@ -9,6 +9,7 @@ component  :
     - ^budgie-another-trash-applet : desktop.budgie
     - ^budgie-app-launcher-applet : desktop.budgie
     - ^budgie-brightness-controll-applet : desktop.budgie
+    - ^budgie-clockworks-applet : desktop.budgie
     - ^budgie-dropby-applet : desktop.budgie
     - ^budgie-extras-daemon : desktop.budgie
     - ^budgie-fuzzyclock-applet : desktop.budgie
@@ -27,6 +28,7 @@ summary    :
     - ^budgie-another-trash-applet : Trash is a Budgie Desktop applet for productivity
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps
     - ^budgie-brightness-controll-applet : Brightness Controller is a Budgie Desktop applet for productivity
+    - ^budgie-clockworks-applet : A multi- clock applet to show the time across multiple timezones
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device
     - ^budgie-extras-daemon : This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way
@@ -45,6 +47,7 @@ description:
     - ^budgie-another-trash-applet : Trash is a Budgie Desktop applet for productivity.
     - ^budgie-app-launcher-applet : App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.
     - ^budgie-brightness-controll-applet : Brightness Controller is a Budgie Desktop applet for productivity.
+    - ^budgie-clockworks-applet : A multi- clock applet to show the time across multiple timezones. Clocks can be created and deleted in a single click, and easily be (re-) named. Timezones can be looked up from the applet's popup menu.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel on the occasion of connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject, and, in case of a flash drive, to make a local copy of the drive's content. The info shows the free sapace on the volume. The applet shows its icon in the panel if, and as long as, any usb drive is connected.
     - ^budgie-extras-daemon : This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins.
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
@@ -68,6 +71,10 @@ patterns   :
     - ^budgie-brightness-controll-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-brightness-controller
         - /usr/share/pixmaps/budgie-brightness-controller-1-symbolic.svg
+    - ^budgie-clockworks-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-clockworks
+        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-clockworks.gschema.xml
+        - /usr/share/pixmaps/budgie-clockworks-symbolic.svg
     - ^budgie-dropby-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-dropby
         - /usr/share/pixmaps/budgie-dropby*
@@ -130,6 +137,10 @@ rundeps    :
     - ^budgie-another-trash-applet : budgie-extras
     - ^budgie-app-launcher-applet : budgie-extras
     - ^budgie-brightness-controll-applet : budgie-extras
+    - ^budgie-clockworks-applet :
+        - budgie-extras
+        - python-cairosvg
+        - python-svgwrite
     - ^budgie-dropby-applet : 
         - budgie-extras
         - python-psutil
@@ -169,6 +180,7 @@ setup      : |
         -Dbuild-all=false \
         -Dbuild-app-launcher=true \
         -Dbuild-brightness-controller=true \
+        -Dbuild-clockworks=true \
         -Dbuild-extrasdaemon=true \
         -Dbuild-dropby=true \
         -Dbuild-fuzzyclock=true \

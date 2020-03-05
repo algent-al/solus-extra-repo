@@ -2,7 +2,7 @@
 
 - [x] budgie-app-launcher
 - [x] budgie-brightness-controller (renamed to budgie-brightness-controll)
-- [ ] budgie-clockworks
+- [x] budgie-clockworks
 - [x] budgie-countdown (Official Repo)
 - [x] budgie-dropby
 - [x] budgie-fuzzyclock

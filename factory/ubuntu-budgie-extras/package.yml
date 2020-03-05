@@ -13,7 +13,7 @@ component  :
     - ^budgie-extras-daemon : desktop.budgie
     - ^budgie-fuzzyclock-applet : desktop.budgie
     - ^budgie-keyboard-autoswitch-applet : desktop.budgie
-    - ^budgie-quickchar-applet : desktop.budgie
+    - ^budgie-quickchar : desktop.budgie
     - ^budgie-recentlyused-applet : desktop.budgie
     - ^budgie-rotation-lock-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
@@ -31,7 +31,7 @@ summary    :
     - ^budgie-extras-daemon : This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way
     - ^budgie-keyboard-autoswitch-applet : Keyboard Auto Switch is an applet to use a different input keyboard layout per application
-    - ^budgie-quickchar-applet : Quickly find and choose the equivalent locale character for an ascii character
+    - ^budgie-quickchar : Quickly find and choose the equivalent locale character for an ascii character
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu
     - ^budgie-rotation-lock-applet : Is an applet to an easy way to rotation lock or unlock your screen
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date
@@ -49,7 +49,7 @@ description:
     - ^budgie-extras-daemon : This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins.
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way.
     - ^budgie-keyboard-autoswitch-applet : Keyboard Auto Switch is an applet to use a different input keyboard layout per application. Simply set a default layout to be used in general. Subsequently, simply set a different layout, with the application's window in front, and an exception for that specific application is remembered. Exceptions can be removed at any time, either from the applet's menu or by setting the application's layout, again, with its window in front.
-    - ^budgie-quickchar-applet : Quickly find and choose the equivalent locale character for an ascii character.
+    - ^budgie-quickchar : Quickly find and choose the equivalent locale character for an ascii character.
     - ^budgie-recentlyused-applet : Show (Gtk applications') recently used items in a menu.
     - ^budgie-rotation-lock-applet : Is an applet to an easy way to rotation lock or unlock your screen.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet's menu.
@@ -74,19 +74,18 @@ patterns   :
     - ^budgie-extras-daemon :
         - /etc/xdg/autostart/budgie-extras-daemon.desktop
         - /usr/bin/budgie-extras-daemon
-        - /usr/share/budgie-extras-daemon/example.bde
+        - /usr/share/budgie-extras-daemon
         - /usr/share/man/man1/budgie-extras-daemon.1
     - ^budgie-fuzzyclock-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-fuzzyclock
     - ^budgie-keyboard-autoswitch-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-keyboard-autoswitch
         - /usr/share/pixmaps/budgie-keyboard-autoswitch-symbolic.svg
-    - ^budgie-quickchar-applet :
+    - ^budgie-quickchar :
         - /etc/xdg/autostart/quickchar-autostart.desktop
         - /usr/bin/quickchar
         - /usr/lib64/quickchar
         - /usr/share/applications/quickchar.desktop
-        - /usr/share/budgie-extras-daemon/quickchar.bde
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.quickchar.gschema.xml
         - /usr/share/man/man1/quickchar.1
         - /usr/share/quickchar/chardata
@@ -141,7 +140,7 @@ rundeps    :
         - budgie-extras
         - xdotool
         - xprop
-    - ^budgie-quickchar-applet :
+    - ^budgie-quickchar :
         - budgie-extras
         - budgie-extras-daemon
         - python-xlib

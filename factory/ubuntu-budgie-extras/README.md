@@ -5,12 +5,10 @@
 - [ ] budgie-clockworks
 - [x] budgie-countdown (Official Repo)
 - [x] budgie-dropby
-- [x] budgie-extras-daemon
 - [x] budgie-fuzzyclock
 - [ ] budgie-hotcorners
 - [x] budgie-kangaroo (Official Repo)
 - [x] budgie-keyboard-autoswitch
-- [x] budgie-quickchar
 - [x] budgie-quicknote (Official Repo)
 - [x] budgie-recentlyused
 - [x] budgie-rotation-lock (Not tested)
@@ -23,3 +21,8 @@
 - [x] budgie-workspace-overview
 - [x] budgie-workspace-stopwatch
 - [ ] budgie-wpreviews
+
+### These are miniapps not applets
+- [x] budgie-extras-daemon
+- [x] budgie-quickchar
+

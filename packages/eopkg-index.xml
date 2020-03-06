@@ -311,9 +311,9 @@
             <Dependency releaseFrom="25">python3</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
+            <Update release="4">
                 <Date>2020-03-06</Date>
-                <Version>1.12.2</Version>
+                <Version>1.10.2</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -324,9 +324,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>1088477</InstalledSize>
-        <PackageSize>324457</PackageSize>
-        <PackageHash>b5c05f6fcfe269f2abe67ba66ed123c8cbdb381c</PackageHash>
-        <PackageURI>python-pikepdf-1.12.2-3-1-x86_64.eopkg</PackageURI>
+        <PackageSize>324456</PackageSize>
+        <PackageHash>9d579feb7fb6687fa4a31e2a27922d421dc44c22</PackageHash>
+        <PackageURI>python-pikepdf-1.10.2-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>python-pikepdf</Name>

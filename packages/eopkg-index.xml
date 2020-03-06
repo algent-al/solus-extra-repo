@@ -43,9 +43,6 @@
         <Description xml:lang="en">A library for composing asynchronous and event-based programs using observable collections and query operator functions in Python</Description>
         <PartOf>programming.python</PartOf>
         <License>MIT</License>
-        <RuntimeDependencies>
-            <Dependency>pytest-asyncio</Dependency>
-        </RuntimeDependencies>
         <History>
             <Update release="3">
                 <Date>2020-03-06</Date>
@@ -60,8 +57,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>1257315</InstalledSize>
-        <PackageSize>223869</PackageSize>
-        <PackageHash>a16e873983ffac45a462bc428c83da38571456ca</PackageHash>
+        <PackageSize>223865</PackageSize>
+        <PackageHash>2a15347fe5e3dec742ac72269f463952a0a8c3e0</PackageHash>
         <PackageURI>python-rx-3.1.0-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>

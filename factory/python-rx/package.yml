@@ -13,8 +13,6 @@ builddeps  :
     - pytest-asyncio	# Check but not yet in Repo
     - pytest-runner
     - python-coverage
-rundeps    :
-     - pytest-asyncio
 build      : |
     %python3_setup
 install    : |

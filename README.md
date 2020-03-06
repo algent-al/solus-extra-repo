@@ -39,7 +39,7 @@ Search for the package name and then install click install.
 | python-cssselect2 | ![](https://repology.org/badge/latest-versions/python:cssselect2.svg?header=) | 0.2.2 |
 | python-humanfriendly | ![](https://repology.org/badge/latest-versions/python:humanfriendly.svg?header=) | 6.1 |
 | python-injector | ![](https://repology.org/badge/latest-versions/python:injector.svg?header=) | 0.18.3 |
-| python-pikepdf | ![](https://repology.org/badge/latest-versions/python:pikepdf.svg?header=) | 1.10.0 |
+| python-pikepdf | ![](https://repology.org/badge/latest-versions/python:pikepdf.svg?header=) | 1.10.2 |
 | python-rx | ![](https://repology.org/badge/latest-versions/python:rx.svg?header=) | 3.1.0 |
 | python-setuptools-scm-git-archive | ![](https://repology.org/badge/latest-versions/python:setuptools-scm-git-archive.svg?header=) | 1.1 |
 | python-svgwrite | ![](https://repology.org/badge/latest-versions/python:svgwrite.svg?header=) | 1.3.1 |

@@ -1,6 +1,6 @@
 name       : python-pikepdf
 version    : 1.10.2
-release    : 4
+release    : 5
 source     :
     - https://github.com/pikepdf/pikepdf/archive/v1.10.2.tar.gz : 1efd38d6471d03eb40444e9f30e280073bfa71c34257fdc47f96473cd21970d2
 homepage   : https://pikepdf.readthedocs.io/
@@ -15,6 +15,8 @@ builddeps  :
     - pybind11
     - python-setuptools
     - python-setuptools-scm-git-archive
+rundeps    :
+    - python-lxml
 build      : |
     %python3_setup
 install    : |

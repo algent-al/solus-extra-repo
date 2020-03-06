@@ -1,6 +1,6 @@
 ### solus-extra-repo
 This is an extra repository for Solus for private use. These packages are not official and not supported by Solus Core team.
-"This repo is for open source or distributable packages".
+This repo is for open source or distributable packages.
 
 ### Add the repo
 `sudo eopkg ar Extra https://github.com/algent-al/solus-extra-repo/raw/master/packages/eopkg-index.xml.xz`

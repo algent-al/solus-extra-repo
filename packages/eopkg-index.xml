@@ -43,9 +43,12 @@
         <Description xml:lang="en">A library for composing asynchronous and event-based programs using observable collections and query operator functions in Python</Description>
         <PartOf>programming.python</PartOf>
         <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency>pytest-asyncio</Dependency>
+        </RuntimeDependencies>
         <History>
             <Update release="3">
-                <Date>2020-03-05</Date>
+                <Date>2020-03-06</Date>
                 <Version>3.1.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -57,8 +60,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>1257315</InstalledSize>
-        <PackageSize>223881</PackageSize>
-        <PackageHash>8399cf180475ee1c7243cecab9e56057bc222b22</PackageHash>
+        <PackageSize>223869</PackageSize>
+        <PackageHash>a16e873983ffac45a462bc428c83da38571456ca</PackageHash>
         <PackageURI>python-rx-3.1.0-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -484,6 +487,49 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-hotcorners-applet</Name>
+        <Summary xml:lang="en">Hotcorners offers the option to set corner actions, both from preset and custom commands</Summary>
+        <Description xml:lang="en">Hotcorners offers the option to set corner actions, both from preset and custom commands. Pressure can be set from Budgie Settings. This is the new Vala-based hotcorners applet.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="89">libgtk-3</Dependency>
+            <Dependency releaseFrom="18">libpeas</Dependency>
+            <Dependency releaseFrom="16">libjson-glib</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="205">budgie-desktop</Dependency>
+            <Dependency releaseFrom="4">budgie-window-previews</Dependency>
+            <Dependency>xdotool</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-03-05</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>55660</InstalledSize>
+        <PackageSize>17802</PackageSize>
+        <PackageHash>bb31822e5f69c46b7d506a21be01116a2cfc250e</PackageHash>
+        <PackageURI>budgie-hotcorners-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>gti</Name>
         <Summary xml:lang="en">Just a silly git launcher, basically</Summary>
         <Description xml:lang="en">Just a silly git launcher, basically. Inspired by sl.</Description>
@@ -738,8 +784,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>46160</InstalledSize>
-        <PackageSize>14050</PackageSize>
-        <PackageHash>493cbbc792b0c5a0c004148d2ceb57837fc68a1a</PackageHash>
+        <PackageSize>14058</PackageSize>
+        <PackageHash>4e185222c1549e8f599ed83bc1a32e8584f0d7e8</PackageHash>
         <PackageURI>budgie-extras-daemon-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1165,7 +1211,6 @@
             <Dependency releaseFrom="61">glibc</Dependency>
             <Dependency releaseFrom="89">libgtk-3</Dependency>
             <Dependency releaseFrom="17">libwnck</Dependency>
-            <Dependency>budgie-extras</Dependency>
             <Dependency releaseFrom="4">budgie-extras-daemon</Dependency>
         </RuntimeDependencies>
         <History>
@@ -1182,8 +1227,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>100507</InstalledSize>
-        <PackageSize>25925</PackageSize>
-        <PackageHash>fccd364ef013d1b7281be5822b19d2587fd16791</PackageHash>
+        <PackageSize>25911</PackageSize>
+        <PackageHash>71eac037821e45d7a6595ed6dcb2b0bcffae7e93</PackageHash>
         <PackageURI>budgie-window-previews-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>

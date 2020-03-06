@@ -140,7 +140,7 @@
         <Summary xml:lang="en">System restore tool for Linux.</Summary>
         <Description xml:lang="en">System restore tool for Linux. Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. Snapshots can be restored while system is running or from Live CD/USB.</Description>
         <PartOf>system.utils</PartOf>
-        <License>GPL-3.0-or-later</License>
+        <License>LGPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="89">libgtk-3</Dependency>
             <Dependency releaseFrom="42">libcairo</Dependency>
@@ -154,7 +154,7 @@
             <Dependency>rsync</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
+            <Update release="3">
                 <Date>2020-03-06</Date>
                 <Version>20.03</Version>
                 <Comment>Packaging update</Comment>
@@ -167,9 +167,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>3169504</InstalledSize>
-        <PackageSize>720376</PackageSize>
-        <PackageHash>2e70926064dde31ad721ff9fbea056c7f52c4705</PackageHash>
-        <PackageURI>timeshift-20.03-2-1-x86_64.eopkg</PackageURI>
+        <PackageSize>720414</PackageSize>
+        <PackageHash>2ff8b166ddcebbcf6060cdafddd1ec3d9a8d6746</PackageHash>
+        <PackageURI>timeshift-20.03-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>timeshift</Name>

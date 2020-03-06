@@ -22,7 +22,7 @@
 - [x] budgie-workspace-stopwatch
 
 
-### These are miniapps not applets
+### These are standalone apps
 - [x] budgie-extras-daemon
+- [x] budgie-previews (Need more testing)
 - [x] budgie-quickchar
-- [x] budgie-window-previews (Need more testing)

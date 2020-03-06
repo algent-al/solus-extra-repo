@@ -71,19 +71,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-wallpaper-switcher-applet</Name>
-        <Summary xml:lang="en">Is an application (applet) to show a different wallpaper on each of the workspaces</Summary>
-        <Description xml:lang="en">Is an application (applet) to show a different wallpaper on each of the workspaces. Usage is simple; add the applet to the panel and set wallpapers on each of the workspaces in the way you are used to. The applet will remember what wallpaper was set on each of the workspaces.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-            <Dependency>wmctrl</Dependency>
-        </RuntimeDependencies>
+        <Name>python-humanfriendly</Name>
+        <Summary xml:lang="en">Human friendly input/output for text interfaces using Python</Summary>
+        <Description xml:lang="en">Human friendly input/output in Python. The functions and classes in the humanfriendly package can be used to make text interfaces more user friendly.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
         <History>
-            <Update release="4">
-                <Date>2020-02-27</Date>
-                <Version>0.10.1</Version>
+            <Update release="1">
+                <Date>2020-02-11</Date>
+                <Version>6.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -93,14 +89,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>17360</InstalledSize>
-        <PackageSize>6200</PackageSize>
-        <PackageHash>252b69d2f8a8c919e0b106f1f6e309ef3ed4b0fe</PackageHash>
-        <PackageURI>budgie-wallpaper-switcher-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>481651</InstalledSize>
+        <PackageSize>106748</PackageSize>
+        <PackageHash>1ead81e8ba54e7e3559944edc5707e1d2866ee30</PackageHash>
+        <PackageURI>python-humanfriendly-6.1-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Name>python-humanfriendly</Name>
+            <Homepage>https://humanfriendly.readthedocs.org</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -185,14 +181,14 @@
     </Package>
     <Package>
         <Name>budgie-showtime-applet</Name>
-        <Summary xml:lang="en">Budgie Showtime is a digital desktop clock, showing time, and optionally, date.</Summary>
-        <Description xml:lang="en">Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Textcolor of both can be set separately from the applet&apos;s menu.</Description>
+        <Summary xml:lang="en">Applet displaying date and time on the Budgie Desktop</Summary>
+        <Description xml:lang="en">Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Text color of both can be set separately from the applet&apos;s menu.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="89">libgtk-3</Dependency>
             <Dependency releaseFrom="42">libcairo</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
             <Dependency releaseFrom="205">budgie-desktop</Dependency>
             <Dependency releaseFrom="18">libpeas</Dependency>
             <Dependency releaseFrom="32">pango</Dependency>
@@ -202,7 +198,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-24</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -214,8 +210,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>83232</InstalledSize>
-        <PackageSize>25580</PackageSize>
-        <PackageHash>711f485e61015f6497f35219f9b992650cf79eaa</PackageHash>
+        <PackageSize>25602</PackageSize>
+        <PackageHash>f3d1d4f01f87220c081d93d40b5315075ea56c6d</PackageHash>
         <PackageURI>budgie-showtime-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -229,8 +225,8 @@
     </Package>
     <Package>
         <Name>budgie-workspace-stopwatch-applet</Name>
-        <Summary xml:lang="en">Workspace Timer Applet is an applet to keep track of usage per workspace</Summary>
-        <Description xml:lang="en">Workspace Timer Applet is an applet to keep track of usage per workspace, e.g. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are rmembered, also after logout/restart, until the RESET button is pressed.</Description>
+        <Summary xml:lang="en">Workspace usage tracker for the budgie desktop</Summary>
+        <Description xml:lang="en">Workspace Stopwatch Applet keeps track of usage per workspace, i.e. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are remembered.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
@@ -238,7 +234,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-24</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -250,9 +246,46 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>9682</InstalledSize>
-        <PackageSize>4893</PackageSize>
-        <PackageHash>4d9eec4e364b49930f8a73b83ffb2fe03377da6a</PackageHash>
+        <PackageSize>4860</PackageSize>
+        <PackageHash>e7bb368a7a7564f1ec7a255d065da4705f0f10a4</PackageHash>
         <PackageURI>budgie-workspace-stopwatch-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>budgie-workspace-wallpaper-applet</Name>
+        <Summary xml:lang="en">Applet providing per workspace wallpaper</Summary>
+        <Description xml:lang="en">The workspace wallpaper applet shows a different wallpaper on each of the workspaces. Usage is simple; add the applet to the panel and set wallpapers on each of the workspaces in the way you are used to. The applet will remember what wallpaper was set on each of the workspaces.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+            <Dependency>wmctrl</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-03-06</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>17360</InstalledSize>
+        <PackageSize>6199</PackageSize>
+        <PackageHash>28872c63ca5b642be983518f36e94bdadd35a1e5</PackageHash>
+        <PackageURI>budgie-workspace-wallpaper-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -413,8 +446,8 @@
     </Package>
     <Package>
         <Name>budgie-rotation-lock-applet</Name>
-        <Summary xml:lang="en">Is an applet to an easy way to rotation lock or unlock your screen</Summary>
-        <Description xml:lang="en">Is an applet to an easy way to rotation lock or unlock your screen.</Description>
+        <Summary xml:lang="en">Applet to lock or unlock the screen rotation</Summary>
+        <Description xml:lang="en">The Rotation Lock applet provides the user an easy way to lock or unlock the screen rotation.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
@@ -422,7 +455,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-27</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -434,8 +467,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>6863</InstalledSize>
-        <PackageSize>3920</PackageSize>
-        <PackageHash>a13dac90d25e324477fdc87ed5e092d3cbb292ae</PackageHash>
+        <PackageSize>3939</PackageSize>
+        <PackageHash>4f7c65faa5c436a3588390f92a515ed1431507d9</PackageHash>
         <PackageURI>budgie-rotation-lock-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -485,8 +518,8 @@
     </Package>
     <Package>
         <Name>budgie-hotcorners-applet</Name>
-        <Summary xml:lang="en">Hotcorners offers the option to set corner actions, both from preset and custom commands</Summary>
-        <Description xml:lang="en">Hotcorners offers the option to set corner actions, both from preset and custom commands. Pressure can be set from Budgie Settings. This is the new Vala-based hotcorners applet.</Description>
+        <Summary xml:lang="en">Applet providing hotcorners capabilities for the Budgie Desktop</Summary>
+        <Description xml:lang="en">The hotcorners applet allow user defined commands to be executed when the mouse cursor is pushed into a corner of the main desktop.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
@@ -496,12 +529,13 @@
             <Dependency releaseFrom="61">glibc</Dependency>
             <Dependency releaseFrom="59">glib2</Dependency>
             <Dependency releaseFrom="205">budgie-desktop</Dependency>
-            <Dependency releaseFrom="4">budgie-window-previews</Dependency>
+            <Dependency>budgie-window-previews</Dependency>
+            <Dependency>dconf</Dependency>
             <Dependency>xdotool</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-03-05</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -513,8 +547,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>55660</InstalledSize>
-        <PackageSize>17802</PackageSize>
-        <PackageHash>bb31822e5f69c46b7d506a21be01116a2cfc250e</PackageHash>
+        <PackageSize>17813</PackageSize>
+        <PackageHash>881024d9a950171cab97270bae280596d3e44c9c</PackageHash>
         <PackageURI>budgie-hotcorners-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -564,18 +598,19 @@
     </Package>
     <Package>
         <Name>budgie-workspace-overview-applet</Name>
-        <Summary xml:lang="en">An applet to have quick access to all windows across all workspaces</Summary>
-        <Description xml:lang="en">An applet to have quick access to all windows across all workspaces</Description>
+        <Summary xml:lang="en">Applet providing quick access to workspaces for the Budgie Desktop</Summary>
+        <Description xml:lang="en">The workspace overview applet allows a user to quickly navigate workspaces using the applet&apos;s menu. Optionally, navigation to any window in any workspace is possible.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency>budgie-extras</Dependency>
+            <Dependency>python-psutil</Dependency>
             <Dependency>xprop</Dependency>
             <Dependency>wmctrl</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-27</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -587,8 +622,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>79045</InstalledSize>
-        <PackageSize>16005</PackageSize>
-        <PackageHash>84eaa36299b93a6b1b121503d7cf05cdf853d107</PackageHash>
+        <PackageSize>16102</PackageSize>
+        <PackageHash>7509f63824695474f74f02a1d3b9e5762e2c761f</PackageHash>
         <PackageURI>budgie-workspace-overview-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -678,13 +713,13 @@
     </Package>
     <Package>
         <Name>budgie-another-trash-applet</Name>
-        <Summary xml:lang="en">Trash is a Budgie Desktop applet for productivity.</Summary>
-        <Description xml:lang="en">Trash is a Budgie Desktop applet for productivity.</Description>
+        <Summary xml:lang="en">Applet allows access to trash capabilities for the Budgie Desktop</Summary>
+        <Description xml:lang="en">The trash applet allows the user access the desktop trash capabilities from the panel including the ability to delete and restore files stored in the trash folder.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
             <Dependency releaseFrom="89">libgtk-3</Dependency>
             <Dependency releaseFrom="205">budgie-desktop</Dependency>
             <Dependency releaseFrom="18">libpeas</Dependency>
@@ -692,7 +727,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-24</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -704,8 +739,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>73485</InstalledSize>
-        <PackageSize>21943</PackageSize>
-        <PackageHash>770c76e289e0c0edd00315d4da45e1d70902ad56</PackageHash>
+        <PackageSize>22027</PackageSize>
+        <PackageHash>65945459356997f0a597c5343b91026ee45c5bbe</PackageHash>
         <PackageURI>budgie-another-trash-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -756,8 +791,8 @@
     </Package>
     <Package>
         <Name>budgie-extras-daemon</Name>
-        <Summary xml:lang="en">This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins</Summary>
-        <Description xml:lang="en">This on logon process manages keyboard shortcuts delivered via .bde files for various extras-plugins.</Description>
+        <Summary xml:lang="en">Extras daemon for budgie-extras capabilities</Summary>
+        <Description xml:lang="en">Budgie-Extras-Daemon provides both global keybinding and D-Bus functionality for various extras applets and applications.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
@@ -769,7 +804,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-03-05</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -781,8 +816,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>46160</InstalledSize>
-        <PackageSize>14058</PackageSize>
-        <PackageHash>4e185222c1549e8f599ed83bc1a32e8584f0d7e8</PackageHash>
+        <PackageSize>14070</PackageSize>
+        <PackageHash>a8241567307de52bf1cab85c917ae98abbae5e9d</PackageHash>
         <PackageURI>budgie-extras-daemon-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -858,18 +893,19 @@
     </Package>
     <Package>
         <Name>budgie-keyboard-autoswitch-applet</Name>
-        <Summary xml:lang="en">Keyboard Auto Switch is an applet to use a different input keyboard layout per application</Summary>
-        <Description xml:lang="en">Keyboard Auto Switch is an applet to use a different input keyboard layout per application. Simply set a default layout to be used in general. Subsequently, simply set a different layout, with the application&apos;s window in front, and an exception for that specific application is remembered. Exceptions can be removed at any time, either from the applet&apos;s menu or by setting the application&apos;s layout, again, with its window in front.</Description>
+        <Summary xml:lang="en">Applet adding the ability to set a different keyboard layout per application</Summary>
+        <Description xml:lang="en">The Keyboard Auto Switcher applet provides the user the ability to set a different keyboard layout per application. Exceptions to the default layout can be set by simply choosing a different layout using the Keyboard Layout applet.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency>budgie-extras</Dependency>
+            <Dependency>python-psutil</Dependency>
             <Dependency>xdotool</Dependency>
             <Dependency>xprop</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-29</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -881,8 +917,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>17546</InstalledSize>
-        <PackageSize>7169</PackageSize>
-        <PackageHash>0896f146baf5415a90d8de16558cbeaac0bd87e8</PackageHash>
+        <PackageSize>7092</PackageSize>
+        <PackageHash>643706b5cb4a8fa828f91a6d35eef08a2ceaee95</PackageHash>
         <PackageURI>budgie-keyboard-autoswitch-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -928,8 +964,8 @@
     </Package>
     <Package>
         <Name>budgie-takeabreak-applet</Name>
-        <Summary xml:lang="en">Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working</Summary>
-        <Description xml:lang="en">Budgie TakeaBreak is a pomodoro like applet, to make sure to take regular breaks from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.</Description>
+        <Summary xml:lang="en">Applet to prompt when to take-a-break for a set period of time</Summary>
+        <Description xml:lang="en">The take-a-break applet monitors how long a desktop is being used and at a configurable time period suggests when to take a break from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
@@ -939,7 +975,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-24</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -950,9 +986,9 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>25166</InstalledSize>
-        <PackageSize>8668</PackageSize>
-        <PackageHash>e16bd3afd32d211b1256bab1c6148dbe86156adf</PackageHash>
+        <InstalledSize>25168</InstalledSize>
+        <PackageSize>8714</PackageSize>
+        <PackageHash>29158eb706882fe383b050242e7e09e1c56b942a</PackageHash>
         <PackageURI>budgie-takeabreak-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -966,22 +1002,22 @@
     </Package>
     <Package>
         <Name>budgie-recentlyused-applet</Name>
-        <Summary xml:lang="en">Show (Gtk applications&apos;) recently used items in a menu.</Summary>
-        <Description xml:lang="en">Show (Gtk applications&apos;) recently used items in a menu.</Description>
+        <Summary xml:lang="en">Applet displays files recently accessed for the Budgie Desktop</Summary>
+        <Description xml:lang="en">The recentlyused applet displays the users files that have been opened or created within a configurable period of time.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="89">libgtk-3</Dependency>
             <Dependency releaseFrom="18">libpeas</Dependency>
             <Dependency releaseFrom="14">libgee</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
             <Dependency releaseFrom="59">glib2</Dependency>
             <Dependency releaseFrom="205">budgie-desktop</Dependency>
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-24</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -993,8 +1029,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>36781</InstalledSize>
-        <PackageSize>11709</PackageSize>
-        <PackageHash>02a5352e5accfd68865386c035f5c4f3229fb5ef</PackageHash>
+        <PackageSize>11767</PackageSize>
+        <PackageHash>9ee57cd293a285631365649167cc13b529cb5bb2</PackageHash>
         <PackageURI>budgie-recentlyused-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1082,13 +1118,13 @@
     </Package>
     <Package>
         <Name>budgie-fuzzyclock-applet</Name>
-        <Summary xml:lang="en">Shows the time in a Fuzzy Way.</Summary>
-        <Description xml:lang="en">Shows the time in a Fuzzy Way.</Description>
+        <Summary xml:lang="en">Shows the time in a Fuzzy Way</Summary>
+        <Description xml:lang="en">Displays the time in a &apos;spoken&apos; format such as five past six.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
             <Dependency releaseFrom="89">libgtk-3</Dependency>
             <Dependency releaseFrom="205">budgie-desktop</Dependency>
             <Dependency releaseFrom="18">libpeas</Dependency>
@@ -1096,7 +1132,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-24</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1108,8 +1144,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>39366</InstalledSize>
-        <PackageSize>13913</PackageSize>
-        <PackageHash>28e5c5be829b47703ae2b76769edf1fba1286780</PackageHash>
+        <PackageSize>13956</PackageSize>
+        <PackageHash>6dee2cb263ee9a14c63523728db9bdf61a75cae0</PackageHash>
         <PackageURI>budgie-fuzzyclock-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1159,18 +1195,19 @@
     </Package>
     <Package>
         <Name>budgie-clockworks-applet</Name>
-        <Summary xml:lang="en">A multi- clock applet to show the time across multiple timezones</Summary>
-        <Description xml:lang="en">A multi- clock applet to show the time across multiple timezones. Clocks can be created and deleted in a single click, and easily be (re-) named. Timezones can be looked up from the applet&apos;s popup menu.</Description>
+        <Summary xml:lang="en">Applet to display clock across multiple time zones</Summary>
+        <Description xml:lang="en">A multi clock applet to show the time across multiple timezones. Clocks can be created and deleted in a single click, and easily be (re-) named. Timezones can be looked up from the applet&apos;s popup menu.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency>budgie-extras</Dependency>
             <Dependency>python-cairosvg</Dependency>
+            <Dependency>python-pillow</Dependency>
             <Dependency>python-svgwrite</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-03-05</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1182,8 +1219,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>25641</InstalledSize>
-        <PackageSize>8941</PackageSize>
-        <PackageHash>d4980c353995b399c92bf1a0e939984b9e504309</PackageHash>
+        <PackageSize>8960</PackageSize>
+        <PackageHash>7e931fa30d6be54374e5dfe154318a45e2e800dd</PackageHash>
         <PackageURI>budgie-clockworks-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1196,51 +1233,9 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-window-previews</Name>
-        <Summary xml:lang="en">Set previews to show windows from all workspaces or only current</Summary>
-        <Description xml:lang="en">Set previews to show windows from all workspaces or only current.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
-            <Dependency releaseFrom="61">glibc</Dependency>
-            <Dependency releaseFrom="89">libgtk-3</Dependency>
-            <Dependency releaseFrom="17">libwnck</Dependency>
-            <Dependency releaseFrom="4">budgie-extras-daemon</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="4">
-                <Date>2020-03-05</Date>
-                <Version>0.10.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>100507</InstalledSize>
-        <PackageSize>25911</PackageSize>
-        <PackageHash>71eac037821e45d7a6595ed6dcb2b0bcffae7e93</PackageHash>
-        <PackageURI>budgie-window-previews-0.10.1-4-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>budgie-brightness-controll-applet</Name>
-        <Summary xml:lang="en">Brightness Controller is a Budgie Desktop applet for productivity.</Summary>
-        <Description xml:lang="en">Brightness Controller is a Budgie Desktop applet for productivity.</Description>
+        <Summary xml:lang="en">Applet to control the brightness of the screen</Summary>
+        <Description xml:lang="en">The brightness controller applet allows controlling of the screen levels via xrandr (fallback) or via gnome-settings-daemon (if available)</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
@@ -1253,7 +1248,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-29</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1265,8 +1260,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>97318</InstalledSize>
-        <PackageSize>27091</PackageSize>
-        <PackageHash>523b23c2b99f6b5f90aa0c1c650d827ab1fa7f10</PackageHash>
+        <PackageSize>27149</PackageSize>
+        <PackageHash>1754dc6239152b1676f6d3da25e1e6154f5e8b5a</PackageHash>
         <PackageURI>budgie-brightness-controll-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1347,6 +1342,49 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-previews</Name>
+        <Summary xml:lang="en">Provides window previews capabilities for the Budgie Desktop</Summary>
+        <Description xml:lang="en">Set previews to show an overview of windows in an expose like way.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="89">libgtk-3</Dependency>
+            <Dependency releaseFrom="17">libwnck</Dependency>
+            <Dependency releaseFrom="4">budgie-extras-daemon</Dependency>
+            <Dependency>xprintidle</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="4">
+                <Date>2020-03-06</Date>
+                <Version>0.10.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>100507</InstalledSize>
+        <PackageSize>25949</PackageSize>
+        <PackageHash>cc6317043d8576edca2b34939be35f854776be0d</PackageHash>
+        <PackageURI>budgie-previews-0.10.1-4-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>crond</Name>
         <Summary xml:lang="en">crond (Dillon&apos;s lightweight cron daemon)</Summary>
         <Description xml:lang="en">crond is a cron daemon written by Matt Dillon and continued by Jim Pryor that attempts to be as minimalist as possible.</Description>
@@ -1383,18 +1421,20 @@
     </Package>
     <Package>
         <Name>budgie-window-mover-applet</Name>
-        <Summary xml:lang="en">Budgie WindoMover is an application (applet) to quickly move windows to any of the other workspaces</Summary>
-        <Description xml:lang="en">Budgie WindoMover is an application (applet) to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard), and the window will move to that workspace.</Description>
+        <Summary xml:lang="en">Applet allows moving windows between workspaces for the Budgie Desktop</Summary>
+        <Description xml:lang="en">The Window Mover applet allows the user to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard) and the window will move to that workspace.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency>budgie-extras</Dependency>
+            <Dependency>python-psutil</Dependency>
             <Dependency>xdotool</Dependency>
             <Dependency>xprop</Dependency>
+            <Dependency>wmctrl</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-27</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1406,8 +1446,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>24547</InstalledSize>
-        <PackageSize>9052</PackageSize>
-        <PackageHash>5c363a36be0392eef9d84a6dfaf077466243e4f4</PackageHash>
+        <PackageSize>9091</PackageSize>
+        <PackageHash>eec6d6368df56e33300e1c96afb6c7efbc8f267d</PackageHash>
         <PackageURI>budgie-window-mover-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1567,19 +1607,19 @@
     </Package>
     <Package>
         <Name>budgie-quickchar</Name>
-        <Summary xml:lang="en">Quickly find and choose the equivalent locale character for an ascii character</Summary>
+        <Summary xml:lang="en">GUI to find and choose locale characters</Summary>
         <Description xml:lang="en">Quickly find and choose the equivalent locale character for an ascii character.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
             <Dependency releaseFrom="4">budgie-extras-daemon</Dependency>
+            <Dependency>python-paperclip</Dependency>
             <Dependency>python-xlib</Dependency>
             <Dependency>wmctrl</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-03-05</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1591,8 +1631,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>19588</InstalledSize>
-        <PackageSize>8197</PackageSize>
-        <PackageHash>7b65f69e5608058aeecf9c74a58719df624ef128</PackageHash>
+        <PackageSize>8219</PackageSize>
+        <PackageHash>3491c7d83615dacb9e83e51f63565b63026856ae</PackageHash>
         <PackageURI>budgie-quickchar-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1717,18 +1757,19 @@
     </Package>
     <Package>
         <Name>budgie-dropby-applet</Name>
-        <Summary xml:lang="en">The DropBy applet pops up in the panel on the occasion of connecting a usb device</Summary>
-        <Description xml:lang="en">The DropBy applet pops up in the panel on the occasion of connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject, and, in case of a flash drive, to make a local copy of the drive&apos;s content. The info shows the free sapace on the volume. The applet shows its icon in the panel if, and as long as, any usb drive is connected.</Description>
+        <Summary xml:lang="en">Applet to popup when a USB device is connected</Summary>
+        <Description xml:lang="en">The DropBy applet pops up in the panel when connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject and in case of a flash drive, to make a local copy of the drive&apos;s content. The info shows the free space on the volume.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency>budgie-extras</Dependency>
             <Dependency>python-psutil</Dependency>
             <Dependency>python3-pyudev</Dependency>
+            <Dependency>wmctrl</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-27</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1740,8 +1781,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>26444</InstalledSize>
-        <PackageSize>9277</PackageSize>
-        <PackageHash>24b90d08a48fa010a1d18c00a399b4f9b6433bdd</PackageHash>
+        <PackageSize>9264</PackageSize>
+        <PackageHash>1a70a76008faefadd809012c85ba0c199d73eadd</PackageHash>
         <PackageURI>budgie-dropby-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1754,42 +1795,9 @@
         </Source>
     </Package>
     <Package>
-        <Name>python-humanfriendly</Name>
-        <Summary xml:lang="en">Human friendly input/output for text interfaces using Python</Summary>
-        <Description xml:lang="en">Human friendly input/output in Python. The functions and classes in the humanfriendly package can be used to make text interfaces more user friendly.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MIT</License>
-        <History>
-            <Update release="1">
-                <Date>2020-02-11</Date>
-                <Version>6.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>481651</InstalledSize>
-        <PackageSize>106748</PackageSize>
-        <PackageHash>1ead81e8ba54e7e3559944edc5707e1d2866ee30</PackageHash>
-        <PackageURI>python-humanfriendly-6.1-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-humanfriendly</Name>
-            <Homepage>https://humanfriendly.readthedocs.org</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>budgie-app-launcher-applet</Name>
-        <Summary xml:lang="en">App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.</Summary>
-        <Description xml:lang="en">App Launcher is a Budgie Desktop applet for productivity. This applet lists your favourite apps.</Description>
+        <Summary xml:lang="en">Applet to provide an alternative means to launch applications</Summary>
+        <Description xml:lang="en">The app-launcher applet allows the ability to add favorite apps to the panel as well as finding and launching applications.  The list of applications listed can be easily configured to be visible or hidden.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
@@ -1797,7 +1805,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-02-24</Date>
+                <Date>2020-03-06</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1809,8 +1817,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>53169</InstalledSize>
-        <PackageSize>12088</PackageSize>
-        <PackageHash>b206f422b39da3b0a55bf82355eba36d9367dc18</PackageHash>
+        <PackageSize>12171</PackageSize>
+        <PackageHash>e9beeff716e8b8796c3549859e2e001a64d3509f</PackageHash>
         <PackageURI>budgie-app-launcher-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>

@@ -747,6 +747,39 @@
         </Source>
     </Package>
     <Package>
+        <Name>python-coloredlogs</Name>
+        <Summary xml:lang="en">Colored terminal output for Python’s logging module</Summary>
+        <Description xml:lang="en">The coloredlogs package enables colored terminal output for Python’s logging module. The ColoredFormatter class inherits from logging.Formatter and uses ANSI escape sequences to render your logging messages in color. It uses only standard colors so it should work on any UNIX terminal.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
+        <History>
+            <Update release="1">
+                <Date>2020-03-07</Date>
+                <Version>14.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>243986</InstalledSize>
+        <PackageSize>57602</PackageSize>
+        <PackageHash>23a5a005b89e082303771777d0cc020b5c5a885f</PackageHash>
+        <PackageURI>python-coloredlogs-14.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-coloredlogs</Name>
+            <Homepage>https://coloredlogs.readthedocs.io/en/latest/</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>budgie-another-trash-applet</Name>
         <Summary xml:lang="en">Applet allows access to trash capabilities for the Budgie Desktop</Summary>
         <Description xml:lang="en">The trash applet allows the user access the desktop trash capabilities from the panel including the ability to delete and restore files stored in the trash folder.</Description>

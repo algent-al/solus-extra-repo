@@ -37,6 +37,7 @@ Search for the package name and then install click install.
 | python-cairocffi | ![](https://repology.org/badge/latest-versions/python:cairocffi.svg?header=) | 1.1.0 |
 | python-cairosvg | ![](https://repology.org/badge/latest-versions/python:cairosvg.svg?header=) | 2.4.2 |
 | python-capturer | ![](https://repology.org/badge/latest-versions/python:capturer.svg?header=) | 3.0 |
+| python-coloredlogs | ![](https://repology.org/badge/latest-versions/python:coloredlogs.svg?header=) | 14.0 |
 | python-cssselect2 | ![](https://repology.org/badge/latest-versions/python:cssselect2.svg?header=) | 0.2.2 |
 | python-humanfriendly | ![](https://repology.org/badge/latest-versions/python:humanfriendly.svg?header=) | 6.1 |
 | python-injector | ![](https://repology.org/badge/latest-versions/python:injector.svg?header=) | 0.18.3 |

@@ -71,39 +71,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>python-humanfriendly</Name>
-        <Summary xml:lang="en">Human friendly input/output for text interfaces using Python</Summary>
-        <Description xml:lang="en">Human friendly input/output in Python. The functions and classes in the humanfriendly package can be used to make text interfaces more user friendly.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MIT</License>
-        <History>
-            <Update release="1">
-                <Date>2020-02-11</Date>
-                <Version>6.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>481651</InstalledSize>
-        <PackageSize>106748</PackageSize>
-        <PackageHash>1ead81e8ba54e7e3559944edc5707e1d2866ee30</PackageHash>
-        <PackageURI>python-humanfriendly-6.1-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-humanfriendly</Name>
-            <Homepage>https://humanfriendly.readthedocs.org</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>qogir-gtk-theme-win</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
@@ -709,21 +676,18 @@
         </Source>
     </Package>
     <Package>
-        <Name>pdfarranger</Name>
-        <Summary xml:lang="en">Small application to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface</Summary>
-        <Description xml:lang="en">pdfarranger is a small python-gtk application, which helps the user to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface. It is a frontend for python-pyPdf</Description>
-        <PartOf>office</PartOf>
-        <License>GPL-3.0-or-later</License>
+        <Name>python-humanfriendly</Name>
+        <Summary xml:lang="en">Human friendly input/output for text interfaces using Python</Summary>
+        <Description xml:lang="en">Human friendly input/output in Python. The functions and classes in the humanfriendly package can be used to make text interfaces more user friendly.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
         <RuntimeDependencies>
-            <Dependency>poppler</Dependency>
-            <Dependency>python-pikepdf</Dependency>
-            <Dependency>python3-cairo</Dependency>
-            <Dependency>python3-gobject</Dependency>
+            <Dependency>python-docutils</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="2">
-                <Date>2020-02-05</Date>
-                <Version>1.4.0</Version>
+                <Date>2020-03-07</Date>
+                <Version>8.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -733,13 +697,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>234827</InstalledSize>
-        <PackageSize>92610</PackageSize>
-        <PackageHash>d8392019566a5284d4971ec167ec9bfd0599c0ee</PackageHash>
-        <PackageURI>pdfarranger-1.4.0-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>521698</InstalledSize>
+        <PackageSize>116158</PackageSize>
+        <PackageHash>f94b90a295d0e9488d03f5704db705d10d04ba2d</PackageHash>
+        <PackageURI>python-humanfriendly-8.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>pdfarranger</Name>
+            <Name>python-humanfriendly</Name>
+            <Homepage>https://humanfriendly.readthedocs.org</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1778,6 +1743,44 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>qogir-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>pdfarranger</Name>
+        <Summary xml:lang="en">Small application to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface</Summary>
+        <Description xml:lang="en">pdfarranger is a small python-gtk application, which helps the user to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface. It is a frontend for python-pyPdf</Description>
+        <PartOf>office</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>poppler</Dependency>
+            <Dependency>python-pikepdf</Dependency>
+            <Dependency>python3-cairo</Dependency>
+            <Dependency>python3-gobject</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-02-05</Date>
+                <Version>1.4.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>234827</InstalledSize>
+        <PackageSize>92610</PackageSize>
+        <PackageHash>d8392019566a5284d4971ec167ec9bfd0599c0ee</PackageHash>
+        <PackageURI>pdfarranger-1.4.0-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>pdfarranger</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

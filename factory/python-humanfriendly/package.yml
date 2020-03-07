@@ -1,15 +1,24 @@
 name       : python-humanfriendly
-version    : '6.1'
-release    : 1
+version    : '8.1'
+release    : 2
 source     :
-    - https://github.com/xolox/python-humanfriendly/archive/6.1.tar.gz : 615d176d4309df899067d072efdd67f8aad98bbf65af5a432315b6e86a74221e
+    - https://files.pythonhosted.org/packages/2e/d1/e0d8db85b71fc6e7d5be7d78bb5db64c63790aec45acef6578190d66c666/humanfriendly-8.1.tar.gz : 25c2108a45cfd1e8fbe9cdb30b825d34ef5d5675c8e11e4775c9aedbfb0bdee2
 homepage   : https://humanfriendly.readthedocs.org
 license    : MIT
 component  : programming.python
 summary    : Human friendly input/output for text interfaces using Python
 description: |
     Human friendly input/output in Python. The functions and classes in the humanfriendly package can be used to make text interfaces more user friendly.
+builddeps  :
+    - python-capturer    # Check not yet in Repo
+    - python-coloredlogs # Check not yet in Repo
+    - python-docutils    # Check
+    - python-mock        # Check
+rundeps    :
+    - python-docutils
 build      : |
     %python3_setup
 install    : |
     %python3_install
+check      : |
+    %python3_test

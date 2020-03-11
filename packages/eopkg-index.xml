@@ -527,17 +527,17 @@
         <RuntimeDependencies>
             <Dependency releaseFrom="89">libgtk-3</Dependency>
             <Dependency releaseFrom="18">libpeas</Dependency>
-            <Dependency releaseFrom="16">libjson-glib</Dependency>
+            <Dependency releaseFrom="17">libjson-glib</Dependency>
             <Dependency releaseFrom="61">glibc</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="205">budgie-desktop</Dependency>
-            <Dependency>budgie-window-previews</Dependency>
+            <Dependency releaseFrom="60">glib2</Dependency>
+            <Dependency releaseFrom="206">budgie-desktop</Dependency>
+            <Dependency releaseFrom="4">budgie-previews</Dependency>
             <Dependency>dconf</Dependency>
             <Dependency>xdotool</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-03-06</Date>
+                <Date>2020-03-11</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -549,8 +549,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>55660</InstalledSize>
-        <PackageSize>17813</PackageSize>
-        <PackageHash>881024d9a950171cab97270bae280596d3e44c9c</PackageHash>
+        <PackageSize>17800</PackageSize>
+        <PackageHash>cf7b21b7a2d56c970f97a07b2754d7d58ebebf5f</PackageHash>
         <PackageURI>budgie-hotcorners-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -612,7 +612,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-03-06</Date>
+                <Date>2020-03-11</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -624,8 +624,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>79045</InstalledSize>
-        <PackageSize>16102</PackageSize>
-        <PackageHash>7509f63824695474f74f02a1d3b9e5762e2c761f</PackageHash>
+        <PackageSize>16100</PackageSize>
+        <PackageHash>6f5c947d18c56d53fdcea49a8a6491b63b136a0a</PackageHash>
         <PackageURI>budgie-workspace-overview-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1003,12 +1003,13 @@
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency>budgie-extras</Dependency>
+            <Dependency>python-psutil</Dependency>
             <Dependency>xprintidle</Dependency>
             <Dependency>wmctrl</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-03-06</Date>
+                <Date>2020-03-11</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1020,8 +1021,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>25168</InstalledSize>
-        <PackageSize>8714</PackageSize>
-        <PackageHash>29158eb706882fe383b050242e7e09e1c56b942a</PackageHash>
+        <PackageSize>8725</PackageSize>
+        <PackageHash>d03182c9f34c389d2ba220024287f5060ecc0d1a</PackageHash>
         <PackageURI>budgie-takeabreak-applet-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1646,13 +1647,13 @@
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="4">budgie-extras-daemon</Dependency>
-            <Dependency>python-paperclip</Dependency>
+            <Dependency>python-pyperclip</Dependency>
             <Dependency>python-xlib</Dependency>
             <Dependency>wmctrl</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="4">
-                <Date>2020-03-06</Date>
+                <Date>2020-03-11</Date>
                 <Version>0.10.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1665,7 +1666,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>19588</InstalledSize>
         <PackageSize>8219</PackageSize>
-        <PackageHash>3491c7d83615dacb9e83e51f63565b63026856ae</PackageHash>
+        <PackageHash>b57c948ffe024bd3fcd393abeb642c85845cdc06</PackageHash>
         <PackageURI>budgie-quickchar-0.10.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>

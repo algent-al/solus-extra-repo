@@ -166,7 +166,7 @@ rundeps    :
     - ^budgie-extras-daemon : budgie-extras
     - ^budgie-fuzzyclock-applet : budgie-extras
     - ^budgie-hotcorners-applet :
-        - budgie-window-previews
+        - budgie-previews
         - dconf
         - xdotool
     - ^budgie-keyboard-autoswitch-applet :
@@ -179,7 +179,7 @@ rundeps    :
         - xprintidle
     - ^budgie-quickchar :
         - budgie-extras-daemon
-        - python-paperclip
+        - python-pyperclip
         - python-xlib
         - wmctrl
     - ^budgie-recentlyused-applet : budgie-extras
@@ -187,6 +187,7 @@ rundeps    :
     - ^budgie-showtime-applet : budgie-extras
     - ^budgie-takeabreak-applet :
         - budgie-extras
+        - python-psutil
         - xprintidle
         - wmctrl
     - ^budgie-window-mover-applet :

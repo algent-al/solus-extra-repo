@@ -27,10 +27,10 @@ Search for the package name and then install click install.
 | crond | ![](https://repology.org/badge/latest-versions/dcron.svg?header=) | 4.5 |
 | figlet | ![](https://repology.org/badge/latest-versions/figlet.svg?header=) | 2.2.5 |
 | gst | ![](https://repology.org/badge/latest-versions/gst.svg?header=) | 0.7.1 |
-| gti | ![](https://repology.org/badge/latest-versions/gti.svg?header=) | 1.6.1 |
+| gti | ![](https://repology.org/badge/latest-versions/gti.svg?header=) | 1.7.0 |
 | lsd | ![](https://repology.org/badge/latest-versions/lsd.svg?header=) | 0.16.0 |
 | numlockx | ![](https://repology.org/badge/latest-versions/numlockx.svg?header=) | 1.2 |
-| odrive | ![](https://repology.org/badge/latest-versions/odrive.svg?header=) | 0.3.0 |
+| odrive | ![](https://repology.org/badge/latest-versions/odrive-google-drive-client.svg?header=) | 0.3.0 |
 | pdfarranger | ![](https://repology.org/badge/latest-versions/pdfarranger.svg?header=) | 1.4.0 |
 | pytest-asyncio | ![](https://repology.org/badge/latest-versions/python:pytest-asyncio.svg?header=) | 0.10.0 |
 | pytest-isort | ![](https://repology.org/badge/latest-versions/python:pytest-isort.svg?header=) | 0.3.1 |
@@ -46,7 +46,7 @@ Search for the package name and then install click install.
 | python-setuptools-scm-git-archive | ![](https://repology.org/badge/latest-versions/python:setuptools-scm-git-archive.svg?header=) | 1.1 |
 | python-svgwrite | ![](https://repology.org/badge/latest-versions/python:svgwrite.svg?header=) | 1.3.1 |
 | python-tinycss2 | ![](https://repology.org/badge/latest-versions/python:tinycss2.svg?header=) | 1.0.2 |
-| qogir-gtk-theme | ![](https://repology.org/badge/latest-versions/qogir-gtk-theme.svg?header=) | 2019.10.25 |
+| qogir-gtk-theme | ![](https://repology.org/badge/latest-versions/qogir-theme.svg?header=) | 2019.10.25 |
 | timeshift | ![](https://repology.org/badge/latest-versions/timeshift.svg?header=) | 20.03 |
 | variety-slideshow | ![](https://repology.org/badge/latest-versions/variety-slideshow.svg?header=) | 0.1 |
 | wavemon | ![](https://repology.org/badge/latest-versions/wavemon.svg?header=) | 0.9.1 |

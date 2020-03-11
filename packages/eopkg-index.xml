@@ -569,12 +569,12 @@
         <PartOf>system.util</PartOf>
         <License>MIT</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-02</Date>
-                <Version>1.6.1</Version>
+            <Update release="2">
+                <Date>2020-03-11</Date>
+                <Version>1.7.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -585,9 +585,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>14837</InstalledSize>
-        <PackageSize>5021</PackageSize>
-        <PackageHash>fea3be05b5757bc50b7eed58c1dc04cbab2d77d7</PackageHash>
-        <PackageURI>gti-1.6.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>5351</PackageSize>
+        <PackageHash>df4987f9489e8f8c1e91c7d6e125070ca5164bf2</PackageHash>
+        <PackageURI>gti-1.7.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>gti</Name>

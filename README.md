@@ -31,7 +31,7 @@ Search for the package name and then install click install.
 | lsd | ![](https://repology.org/badge/latest-versions/lsd.svg?header=) | 0.16.0 |
 | numlockx | ![](https://repology.org/badge/latest-versions/numlockx.svg?header=) | 1.2 |
 | odrive | ![](https://repology.org/badge/latest-versions/odrive-google-drive-client.svg?header=) | 0.3.0 |
-| pdfarranger | ![](https://repology.org/badge/latest-versions/pdfarranger.svg?header=) | 1.4.0 |
+| pdfarranger | ![](https://repology.org/badge/latest-versions/pdfarranger.svg?header=) | 1.4.1 |
 | pytest-asyncio | ![](https://repology.org/badge/latest-versions/python:pytest-asyncio.svg?header=) | 0.10.0 |
 | pytest-isort | ![](https://repology.org/badge/latest-versions/python:pytest-isort.svg?header=) | 0.3.1 |
 | python-cairocffi | ![](https://repology.org/badge/latest-versions/python:cairocffi.svg?header=) | 1.1.0 |

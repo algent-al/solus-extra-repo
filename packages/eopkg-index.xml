@@ -312,9 +312,9 @@
             <Dependency>python-lxml</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-03-06</Date>
-                <Version>1.10.2</Version>
+            <Update release="6">
+                <Date>2020-03-20</Date>
+                <Version>1.10.3</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -324,10 +324,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1088477</InstalledSize>
-        <PackageSize>324472</PackageSize>
-        <PackageHash>40fb50f7d383cf06b06cda2ffb4f5ad02f0accb4</PackageHash>
-        <PackageURI>python-pikepdf-1.10.2-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1088866</InstalledSize>
+        <PackageSize>324705</PackageSize>
+        <PackageHash>72ef19a14b2fc58c96f2c038e2ed63b22979b384</PackageHash>
+        <PackageURI>python-pikepdf-1.10.3-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>python-pikepdf</Name>

@@ -1,8 +1,8 @@
 name       : pdfarranger
-version    : 1.4.1
-release    : 3
+version    : 1.4.2
+release    : 4
 source     :
-    - https://github.com/jeromerobert/pdfarranger/archive/1.4.1.tar.gz : 4dbacc410410aa910cc544a014c99a2d1cee361db693de2e7ad2b0d5c2c0a41c
+    - https://github.com/jeromerobert/pdfarranger/archive/1.4.2.tar.gz : 7fcf7bb3cc4a093a17013bac3c3857e9dcfd46aa3814d17287b58bac9ae90772
 homepage   : https://github.com/jeromerobert/pdfarranger
 license    : GPL-3.0-or-later
 component  : office

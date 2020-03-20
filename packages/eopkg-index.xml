@@ -1763,9 +1763,9 @@
             <Dependency>python3-gobject</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-03-12</Date>
-                <Version>1.4.1</Version>
+            <Update release="4">
+                <Date>2020-03-20</Date>
+                <Version>1.4.2</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1775,10 +1775,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>239207</InstalledSize>
-        <PackageSize>93946</PackageSize>
-        <PackageHash>89e40a749758c7e72f55ae213554cd260b6f1739</PackageHash>
-        <PackageURI>pdfarranger-1.4.1-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>240518</InstalledSize>
+        <PackageSize>94331</PackageSize>
+        <PackageHash>960ddcdb6fddd5ebce8c96c44e616dd04e6ffca3</PackageHash>
+        <PackageURI>pdfarranger-1.4.2-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>pdfarranger</Name>

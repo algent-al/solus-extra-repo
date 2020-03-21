@@ -1868,6 +1868,38 @@
         </Source>
     </Package>
     <Package>
+        <Name>mcmojave-cursors</Name>
+        <Summary xml:lang="en">McMojave cursors for linux desktops</Summary>
+        <Description xml:lang="en">This is an x-cursor theme inspired by macOS and based on capitaine-cursors.</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-3.0-only</License>
+        <History>
+            <Update release="1">
+                <Date>2020-03-21</Date>
+                <Version>20200207</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3303518</InstalledSize>
+        <PackageSize>301545</PackageSize>
+        <PackageHash>38ddb459714792ac18021817ca057fc484a8d6f9</PackageHash>
+        <PackageURI>mcmojave-cursors-20200207-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>mcmojave-cursors</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>budgie-app-launcher-applet</Name>
         <Summary xml:lang="en">Applet to provide an alternative means to launch applications</Summary>
         <Description xml:lang="en">The app-launcher applet allows the ability to add favorite apps to the panel as well as finding and launching applications.  The list of applications listed can be easily configured to be visible or hidden.</Description>

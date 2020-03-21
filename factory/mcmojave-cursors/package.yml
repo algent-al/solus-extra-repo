@@ -1,0 +1,13 @@
+name       : mcmojave-cursors
+version    : '20200207'
+release    : 1
+source     :
+    - git|https://github.com/vinceliuice/McMojave-cursors : 728e3a969cb2b5f9eabf90581a48f6d3cab1f1b2
+license    : GPL-3.0-only
+component  : desktop.theme
+summary    : McMojave cursors for linux desktops
+description: |
+    This is an x-cursor theme inspired by macOS and based on capitaine-cursors.
+install    : |
+    install -dm00644 $installdir/usr/share/icons
+    cp -r dist $installdir/usr/share/icons/McMojave-cursors

@@ -1872,9 +1872,9 @@
         <Summary xml:lang="en">McMojave cursors for linux desktops</Summary>
         <Description xml:lang="en">This is an x-cursor theme inspired by macOS and based on capitaine-cursors.</Description>
         <PartOf>desktop.theme</PartOf>
-        <License>GPL-3.0-only</License>
+        <License>GPL-3.0-or-later</License>
         <History>
-            <Update release="1">
+            <Update release="2">
                 <Date>2020-03-21</Date>
                 <Version>20200207</Version>
                 <Comment>Packaging update</Comment>
@@ -1887,9 +1887,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>3303518</InstalledSize>
-        <PackageSize>301545</PackageSize>
-        <PackageHash>38ddb459714792ac18021817ca057fc484a8d6f9</PackageHash>
-        <PackageURI>mcmojave-cursors-20200207-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>301543</PackageSize>
+        <PackageHash>1c571a165ae5add41e87f4b4f98390c0261a9fda</PackageHash>
+        <PackageURI>mcmojave-cursors-20200207-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>mcmojave-cursors</Name>

@@ -1,0 +1,15 @@
+name       : font-caskaydia-cove-nerd-ttf
+version    : 2.1.0
+release    : 1
+source     :
+    - https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip : 92b50960305c580fc90bb3bd5456e26edc9b321907dfa2578066a9b38e2a94e0
+homepage   : https://www.nerdfonts.com/
+license    : MIT
+component  : desktop.font
+summary    : Patched version of Cascadia Code
+description: |
+    Patched version of Cascadia Code
+install    : |
+    install -dm00644 $installdir/usr/share/fonts/truetype/caskaydia-cove-nerd
+    install -Dm00644 "Caskaydia Cove Nerd Font Complete.ttf" -t $installdir/usr/share/fonts/truetype/caskaydia-cove-nerd/
+    install -Dm00644 "Caskaydia Cove Nerd Font Complete Mono.ttf" -t $installdir/usr/share/fonts/truetype/caskaydia-cove-nerd/

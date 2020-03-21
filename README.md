@@ -26,6 +26,7 @@ Search for the package name and then install click install.
 | budgie-extras | ![](https://repology.org/badge/latest-versions/budgie-extras.svg?header=) | 0.10.1 |
 | crond | ![](https://repology.org/badge/latest-versions/dcron.svg?header=) | 4.5 |
 | figlet | ![](https://repology.org/badge/latest-versions/figlet.svg?header=) | 2.2.5 |
+| font-caskaydia-cove-nerd-ttf | ![](https://repology.org/badge/latest-versions/font-caskaydia-cove-nerd-ttf.svg?header=) | 2.1.0 |
 | gst | ![](https://repology.org/badge/latest-versions/gst.svg?header=) | 0.7.1 |
 | gti | ![](https://repology.org/badge/latest-versions/gti.svg?header=) | 1.7.0 |
 | lsd | ![](https://repology.org/badge/latest-versions/lsd.svg?header=) | 0.16.0 |

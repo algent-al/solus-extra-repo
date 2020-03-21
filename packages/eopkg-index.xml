@@ -225,6 +225,39 @@
         </Source>
     </Package>
     <Package>
+        <Name>font-caskaydia-cove-nerd-ttf</Name>
+        <Summary xml:lang="en">Patched version of Cascadia Code</Summary>
+        <Description xml:lang="en">Patched version of Cascadia Code</Description>
+        <PartOf>desktop.font</PartOf>
+        <License>MIT</License>
+        <History>
+            <Update release="1">
+                <Date>2020-03-21</Date>
+                <Version>2.1.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1795132</InstalledSize>
+        <PackageSize>855983</PackageSize>
+        <PackageHash>54c97c6b3378970df8417e5209230c72b54cd93d</PackageHash>
+        <PackageURI>font-caskaydia-cove-nerd-ttf-2.1.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>font-caskaydia-cove-nerd-ttf</Name>
+            <Homepage>https://www.nerdfonts.com/</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>budgie-workspace-stopwatch-applet</Name>
         <Summary xml:lang="en">Workspace usage tracker for the budgie desktop</Summary>
         <Description xml:lang="en">Workspace Stopwatch Applet keeps track of usage per workspace, i.e. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are remembered.</Description>

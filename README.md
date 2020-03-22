@@ -18,7 +18,7 @@ Search for the package name and then click install.
 ### Remove the Repo
 `sudo eopkg remove-repo Extra`
 
-### Packages info. Thanks to Repology
+### Packages info. Thanks to [Repology](https://repology.org) is been possible to track upstream versions. 
 
 | Package | Upstream Version | Repo Version |
 | --- | --- | --- |
@@ -26,7 +26,7 @@ Search for the package name and then click install.
 | budgie-extras | ![](https://repology.org/badge/latest-versions/budgie-extras.svg?header=) | 0.10.1 |
 | crond | ![](https://repology.org/badge/latest-versions/dcron.svg?header=) | 4.5 |
 | figlet | ![](https://repology.org/badge/latest-versions/figlet.svg?header=) | 2.2.5 |
-| font-caskaydia-cove-nerd-ttf | ![](https://repology.org/badge/latest-versions/font-caskaydia-cove-nerd-ttf.svg?header=) | 2.1.0 |
+| font-caskaydia-cove-nerd-ttf | ![](https://repology.org/badge/latest-versions/fonts:nerd-fonts.svg?header=) | 2.1.0 |
 | gst | ![](https://repology.org/badge/latest-versions/gst.svg?header=) | 0.7.1 |
 | gti | ![](https://repology.org/badge/latest-versions/gti.svg?header=) | 1.7.0 |
 | lsd | ![](https://repology.org/badge/latest-versions/lsd.svg?header=) | 0.16.0 |
@@ -49,8 +49,12 @@ Search for the package name and then click install.
 | python-svgwrite | ![](https://repology.org/badge/latest-versions/python:svgwrite.svg?header=) | 1.3.1 |
 | python-tinycss2 | ![](https://repology.org/badge/latest-versions/python:tinycss2.svg?header=) | 1.0.2 |
 | qogir-gtk-theme | ![](https://repology.org/badge/latest-versions/qogir-theme.svg?header=) | 2019.10.25 |
+| slaze-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-slaze.svg?header=) | 2019.08.24 |
+| stylish-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-stylish.svg?header=) | 2019.08.24 |
+| tela-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-tela.svg?header=) | 2019.08.24 |
 | timeshift | ![](https://repology.org/badge/latest-versions/timeshift.svg?header=) | 20.03 |
 | variety-slideshow | ![](https://repology.org/badge/latest-versions/variety-slideshow.svg?header=) | 0.1 |
+| vimix-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-vimix.svg?header=) | 2019.08.24 |
 | wavemon | ![](https://repology.org/badge/latest-versions/wavemon.svg?header=) | 0.9.1 |
 | wmctrl | ![](https://repology.org/badge/latest-versions/wmctrl.svg?header=) | 1.07 |
 

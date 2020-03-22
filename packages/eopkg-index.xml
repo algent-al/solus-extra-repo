@@ -1721,9 +1721,9 @@
             <Dependency>python-tinycss2</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-03-04</Date>
-                <Version>0.2.2</Version>
+            <Update release="2">
+                <Date>2020-03-22</Date>
+                <Version>0.3.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1733,10 +1733,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>185518</InstalledSize>
-        <PackageSize>41769</PackageSize>
-        <PackageHash>f0fe4edc93cfa8428b1ef8e4ed6107321037448f</PackageHash>
-        <PackageURI>python-cssselect2-0.2.2-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>184838</InstalledSize>
+        <PackageSize>41647</PackageSize>
+        <PackageHash>c3950f26da59caf99a6f4e4edce05bc6f90d3805</PackageHash>
+        <PackageURI>python-cssselect2-0.3.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>python-cssselect2</Name>

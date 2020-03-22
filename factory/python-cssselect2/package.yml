@@ -1,8 +1,8 @@
 name       : python-cssselect2
-version    : 0.2.2
-release    : 1
+version    : 0.3.0
+release    : 2
 source     :
-    - https://files.pythonhosted.org/packages/03/7e/fda589175ac092bff38c17b0a0833b59300839a3f31c004a5ca0315b687f/cssselect2-0.2.2.tar.gz : 70485a680cd72b023f0ce5ae4dcd392e2b10f7280e20afdb1735334bd6af7e6a
+    - https://files.pythonhosted.org/packages/03/37/0e28364d4c2bce998171199ab59650b3174c077ef2c8b6d4ff57aa47676a/cssselect2-0.3.0.tar.gz : 5c2716f06b5de93f701d5755a9666f2ee22cbcd8b4da8adddfc30095ffea3abc
 homepage   : https://pypi.org/project/cssselect2/
 license    : BSD-3-Clause
 component  : programming.python

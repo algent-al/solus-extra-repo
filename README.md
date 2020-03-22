@@ -10,7 +10,7 @@ The main purpose of this repo is to test applications before including them in O
 
 ### Installing the packages
 Open Software Center and wait untill `eopkg-index.xml.xz` is updated.
-Search for the package name and then install click install.
+Search for the package name and then click install.
 
 ### Disable the Repo
 `sudo eopkg disable-repo Extra`
@@ -40,7 +40,7 @@ Search for the package name and then install click install.
 | python-cairosvg | ![](https://repology.org/badge/latest-versions/python:cairosvg.svg?header=) | 2.4.2 |
 | python-capturer | ![](https://repology.org/badge/latest-versions/python:capturer.svg?header=) | 3.0 |
 | python-coloredlogs | ![](https://repology.org/badge/latest-versions/python:coloredlogs.svg?header=) | 14.0 |
-| python-cssselect2 | ![](https://repology.org/badge/latest-versions/python:cssselect2.svg?header=) | 0.2.2 |
+| python-cssselect2 | ![](https://repology.org/badge/latest-versions/python:cssselect2.svg?header=) | 0.3.0 |
 | python-humanfriendly | ![](https://repology.org/badge/latest-versions/python:humanfriendly.svg?header=) | 8.1 |
 | python-injector | ![](https://repology.org/badge/latest-versions/python:injector.svg?header=) | 0.18.3 |
 | python-pikepdf | ![](https://repology.org/badge/latest-versions/python:pikepdf.svg?header=) | 1.10.3 |

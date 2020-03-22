@@ -58,3 +58,36 @@ Search for the package name and then click install.
 | wavemon | ![](https://repology.org/badge/latest-versions/wavemon.svg?header=) | 0.9.1 |
 | wmctrl | ![](https://repology.org/badge/latest-versions/wmctrl.svg?header=) | 1.07 |
 
+### Budgie-extras
+
+Applets from [budgie-extras](https://github.com/UbuntuBudgie/budgie-extras) are splited in separate packages.
+Latest version of budgie-extras is 0.10.1. Series 0.9x.0 are pre-release.
+
+### Current status of applets
+
+- [x] budgie-app-launcher
+- [x] budgie-brightness-controller (renamed to budgie-brightness-controll)
+- [x] budgie-clockworks
+- [x] budgie-countdown (Official Repo)
+- [x] budgie-dropby
+- [x] budgie-fuzzyclock
+- [x] budgie-hotcorners
+- [x] budgie-kangaroo (Official Repo)
+- [x] budgie-keyboard-autoswitch
+- [x] budgie-quicknote (Official Repo)
+- [x] budgie-recentlyused
+- [x] budgie-rotation-lock (Not tested)
+- [x] budgie-showtime
+- [x] budgie-takeabreak
+- [x] budgie-trash (renamed to budgie-another-trash)
+- [x] budgie-weathershow (Official Repo)
+- [x] budgie-window-mover
+- [x] budgie-wallpaper-switcher
+- [x] budgie-workspace-overview
+- [x] budgie-workspace-stopwatch
+
+### These are standalone apps
+- [x] budgie-extras-daemon
+- [x] budgie-previews (Need more testing)
+- [x] budgie-quickchar
+

@@ -23,6 +23,7 @@ Search for the package name and then click install.
 | Package | Upstream Version | Repo Version |
 | --- | --- | --- |
 | bandwich | ![](https://repology.org/badge/latest-versions/bandwhich.svg?header=) | 0.12.0 |
+| bibata-cursors | ![](https://repology.org/badge/latest-versions/bibata-cursors.svg?header=) | 0.4.2 |
 | budgie-extras | ![](https://repology.org/badge/latest-versions/budgie-extras.svg?header=) | 0.10.1 |
 | crond | ![](https://repology.org/badge/latest-versions/dcron.svg?header=) | 4.5 |
 | figlet | ![](https://repology.org/badge/latest-versions/figlet.svg?header=) | 2.2.5 |
@@ -60,8 +61,8 @@ Search for the package name and then click install.
 
 ### Budgie-extras
 
-Applets from [budgie-extras](https://github.com/UbuntuBudgie/budgie-extras) are splited in separate packages.
-Latest version of budgie-extras is 0.10.1. Series 0.9x.0 are pre-release.
+Applets from [budgie-extras](https://github.com/UbuntuBudgie/budgie-extras) are splited in separate packages.  
+Latest stable version of budgie-extras is 0.10.1. Series 0.9x.0 are pre-release.
 
 ### Current status of applets
 

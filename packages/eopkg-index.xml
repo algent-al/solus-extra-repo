@@ -2045,6 +2045,39 @@
         </Source>
     </Package>
     <Package>
+        <Name>bibata-cursors</Name>
+        <Summary xml:lang="en">Material Based Cursor</Summary>
+        <Description xml:lang="en">Bibata is OpenSource, Compact and Material Designed Cursor set. This project masterelop for improve Cursor Experience. This cursor theme pack include four variants: Bibata-Amber, Bibata Classic, Bibata Ice and Bibata Oil.</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-03-23</Date>
+                <Version>0.4.2</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>378765770</InstalledSize>
+        <PackageSize>19499067</PackageSize>
+        <PackageHash>a6a8963dc3944bc1a550c9aa86e47908dae9bb2f</PackageHash>
+        <PackageURI>bibata-cursors-0.4.2-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>bibata-cursors</Name>
+            <Homepage>https://github.com/KaizIqbal/Bibata_Cursor</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>mcmojave-cursors</Name>
         <Summary xml:lang="en">McMojave cursors for linux desktops</Summary>
         <Description xml:lang="en">This is an x-cursor theme inspired by macOS and based on capitaine-cursors.</Description>

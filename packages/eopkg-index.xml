@@ -208,6 +208,43 @@
         </Source>
     </Package>
     <Package>
+        <Name>layan-gtk-theme</Name>
+        <Summary xml:lang="en">Layan is a flat Material Design theme</Summary>
+        <Description xml:lang="en">Layan is a flat Material Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie, etc.</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>gtk-engines</Dependency>
+            <Dependency>gtk2-engine-murrine</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-24</Date>
+                <Version>20200319</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>8185175</InstalledSize>
+        <PackageSize>813809</PackageSize>
+        <PackageHash>2b37c5a395f63b697fc2387526209f8d9913a817</PackageHash>
+        <PackageURI>layan-gtk-theme-20200319-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>layan-gtk-theme</Name>
+            <Homepage>https://github.com/vinceliuice/Layan-gtk-theme</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>budgie-showtime-applet</Name>
         <Summary xml:lang="en">Applet displaying date and time on the Budgie Desktop</Summary>
         <Description xml:lang="en">Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Text color of both can be set separately from the applet&apos;s menu.</Description>

@@ -93,3 +93,11 @@ Latest stable version of budgie-extras is 0.10.1. Series 0.9x.0 are pre-release.
 - [x] budgie-previews (Need more testing)
 - [x] budgie-quickchar
 
+### New in budgie-extras 0.95.0 pre-release
+- [ ] budgie-applications-menu
+- [ ] budgie-network-manager
+- [ ] budgie-visualspace
+- [ ] budgie-wallstreet
+- [ ] budgie-window-shuffler
+
+

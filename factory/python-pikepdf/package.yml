@@ -1,8 +1,8 @@
 name       : python-pikepdf
-version    : 1.10.3
-release    : 6
+version    : 1.10.4
+release    : 7
 source     :
-    - https://github.com/pikepdf/pikepdf/archive/v1.10.3.tar.gz : 972a5a08db97f920cb8ba2a1cfafd08d31a01bd248d3d9e308687c5fe16ebbe2
+    - https://github.com/pikepdf/pikepdf/archive/v1.10.4.tar.gz : 7fe647aecd4495bad5099a66fd5c983befc1a2a14812a1014294559634f512ef
 homepage   : https://pikepdf.readthedocs.io/
 license    : MPL-2.0
 component  : programming.python

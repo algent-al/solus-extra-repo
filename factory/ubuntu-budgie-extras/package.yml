@@ -1,8 +1,8 @@
 name       : ubuntu-budgie-extras
-version    : 0.10.1
-release    : 4
+version    : 1.0.0
+release    : 5
 source     :
-    - https://github.com/UbuntuBudgie/budgie-extras/releases/download/v0.10.1/budgie-extras-0.10.1.tar.xz : ab058fe660c5cea4ecc88c2afa21e86a82352979c3d4040c3733c7311b9ae0aa
+    - https://github.com/UbuntuBudgie/budgie-extras/releases/download/v1.0.0/budgie-extras-1.0.0.tar.xz : bf12e448e2b7479e27f4f476ac69b3264ec5f8dcfc54d59b6e175769c190a2bc
 homepage   : https://github.com/UbuntuBudgie/budgie-extras
 license    : GPL-3.0-or-later
 component  :
@@ -11,7 +11,6 @@ component  :
     - ^budgie-brightness-controll-applet : desktop.budgie
     - ^budgie-clockworks-applet : desktop.budgie
     - ^budgie-dropby-applet : desktop.budgie
-    - ^budgie-extras-daemon : desktop.budgie
     - ^budgie-fuzzyclock-applet : desktop.budgie
     - ^budgie-hotcorners-applet : desktop.budgie
     - ^budgie-keyboard-autoswitch-applet : desktop.budgie
@@ -20,7 +19,6 @@ component  :
     - ^budgie-recentlyused-applet : desktop.budgie
     - ^budgie-rotation-lock-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
-    - ^budgie-takeabreak-applet : desktop.budgie
     - ^budgie-window-mover-applet : desktop.budgie
     - ^budgie-workspace-overview-applet : desktop.budgie
     - ^budgie-workspace-stopwatch-applet : desktop.budgie
@@ -32,7 +30,6 @@ summary    :
     - ^budgie-brightness-controll-applet : Applet to control the brightness of the screen
     - ^budgie-clockworks-applet : Applet to display clock across multiple time zones
     - ^budgie-dropby-applet : Applet to popup when a USB device is connected
-    - ^budgie-extras-daemon : Extras daemon for budgie-extras capabilities
     - ^budgie-fuzzyclock-applet : Shows the time in a Fuzzy Way
     - ^budgie-hotcorners-applet : Applet providing hotcorners capabilities for the Budgie Desktop
     - ^budgie-keyboard-autoswitch-applet : Applet adding the ability to set a different keyboard layout per application
@@ -41,7 +38,6 @@ summary    :
     - ^budgie-recentlyused-applet : Applet displays files recently accessed for the Budgie Desktop
     - ^budgie-rotation-lock-applet : Applet to lock or unlock the screen rotation
     - ^budgie-showtime-applet : Applet displaying date and time on the Budgie Desktop
-    - ^budgie-takeabreak-applet : Applet to prompt when to take-a-break for a set period of time
     - ^budgie-window-mover-applet : Applet allows moving windows between workspaces for the Budgie Desktop
     - ^budgie-workspace-overview-applet : Applet providing quick access to workspaces for the Budgie Desktop
     - ^budgie-workspace-stopwatch-applet : Workspace usage tracker for the budgie desktop
@@ -53,7 +49,6 @@ description:
     - ^budgie-brightness-controll-applet : The brightness controller applet allows controlling of the screen levels via xrandr (fallback) or via gnome-settings-daemon (if available)
     - ^budgie-clockworks-applet : A multi clock applet to show the time across multiple timezones. Clocks can be created and deleted in a single click, and easily be (re-) named. Timezones can be looked up from the applet's popup menu.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel when connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject and in case of a flash drive, to make a local copy of the drive's content. The info shows the free space on the volume.
-    - ^budgie-extras-daemon : Budgie-Extras-Daemon provides both global keybinding and D-Bus functionality for various extras applets and applications.
     - ^budgie-fuzzyclock-applet : Displays the time in a 'spoken' format such as five past six.
     - ^budgie-hotcorners-applet : The hotcorners applet allow user defined commands to be executed when the mouse cursor is pushed into a corner of the main desktop.
     - ^budgie-keyboard-autoswitch-applet : The Keyboard Auto Switcher applet provides the user the ability to set a different keyboard layout per application. Exceptions to the default layout can be set by simply choosing a different layout using the Keyboard Layout applet.
@@ -62,7 +57,6 @@ description:
     - ^budgie-recentlyused-applet : The recentlyused applet displays the users files that have been opened or created within a configurable period of time.
     - ^budgie-rotation-lock-applet : The Rotation Lock applet provides the user an easy way to lock or unlock the screen rotation.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Text color of both can be set separately from the applet's menu.
-    - ^budgie-takeabreak-applet : The take-a-break applet monitors how long a desktop is being used and at a configurable time period suggests when to take a break from working. Options from Budgie Settings include turning the screen upside down, dim the screen, lock screen or show a countdown message on break time. The applet can be accessed quickly from the panel to temporarily switch it off.
     - ^budgie-window-mover-applet : The Window Mover applet allows the user to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard) and the window will move to that workspace.
     - ^budgie-workspace-overview-applet : The workspace overview applet allows a user to quickly navigate workspaces using the applet's menu. Optionally, navigation to any window in any workspace is possible.
     - ^budgie-workspace-stopwatch-applet : Workspace Stopwatch Applet keeps track of usage per workspace, i.e. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are remembered.
@@ -84,11 +78,6 @@ patterns   :
     - ^budgie-dropby-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-dropby
         - /usr/share/pixmaps/budgie-dropby*
-    - ^budgie-extras-daemon :
-        - /etc/xdg/autostart/budgie-extras-daemon.desktop
-        - /usr/bin/budgie-extras-daemon
-        - /usr/share/budgie-extras-daemon
-        - /usr/share/man/man1/budgie-extras-daemon.1
     - ^budgie-fuzzyclock-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-fuzzyclock
     - ^budgie-hotcorners-applet :
@@ -99,16 +88,19 @@ patterns   :
         - /usr/lib64/budgie-desktop/plugins/budgie-keyboard-autoswitch
         - /usr/share/pixmaps/budgie-keyboard-autoswitch-symbolic.svg
     - ^budgie-previews :
-        - /etc/xdg/autostart/previews*
         - /usr/lib64/budgie-previews
         - /usr/share/applications/previewscontrols.desktop
-        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-wpreviews.gschema.xml
+        - /usr/share/xdg/autostart/previews*
+        - /usr/share/budgie-extras-daemon/preview*
+        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.budgie-wpreviews.gschema.xml
+        - /usr/share/pixmaps/budgie_wpreviews*
         - /usr/share/pixmaps/budgiewprviews.svg
     - ^budgie-quickchar :
-        - /etc/xdg/autostart/quickchar-autostart.desktop
         - /usr/bin/quickchar
         - /usr/lib64/quickchar
         - /usr/share/applications/quickchar.desktop
+        - /usr/share/xdg/autostart/quickchar-autostart.desktop
+        - /usr/share/budgie-extras-daemon/quickchar.bde
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.quickchar.gschema.xml
         - /usr/share/man/man1/quickchar.1
         - /usr/share/quickchar/chardata
@@ -122,10 +114,6 @@ patterns   :
         - /usr/lib64/budgie-desktop/plugins/budgie-showtime
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-showtime.gschema.xml
         - /usr/share/pixmaps/showtimenew-symbolic.svg
-    - ^budgie-takeabreak-applet :
-        - /usr/lib64/budgie-desktop/plugins/budgie-takeabreak
-        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.takeabreak.gschema.xml
-        - /usr/share/pixmaps/takeabreak*
     - ^budgie-window-mover-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-wmover
         - /usr/share/pixmaps/budgie-wmover-symbolic.svg
@@ -158,12 +146,11 @@ rundeps    :
         - python-cairosvg
         - python-pillow
         - python-svgwrite
-    - ^budgie-dropby-applet : 
+    - ^budgie-dropby-applet :
         - budgie-extras
         - python-psutil
         - python3-pyudev
         - wmctrl
-    - ^budgie-extras-daemon : budgie-extras
     - ^budgie-fuzzyclock-applet : budgie-extras
     - ^budgie-hotcorners-applet :
         - budgie-previews
@@ -174,7 +161,7 @@ rundeps    :
         - python-psutil
         - xdotool
         - xprop
-    - ^budgie-previews : 
+    - ^budgie-previews :
         - budgie-extras-daemon
         - xprintidle
     - ^budgie-quickchar :
@@ -185,11 +172,6 @@ rundeps    :
     - ^budgie-recentlyused-applet : budgie-extras
     - ^budgie-rotation-lock-applet : budgie-extras
     - ^budgie-showtime-applet : budgie-extras
-    - ^budgie-takeabreak-applet :
-        - budgie-extras
-        - python-psutil
-        - xprintidle
-        - wmctrl
     - ^budgie-window-mover-applet :
         - budgie-extras
         - python-psutil
@@ -206,12 +188,12 @@ rundeps    :
         - budgie-extras
         - wmctrl
 setup      : |
+    %apply_patches
     %meson_configure \
         -Dbuild-all=false \
         -Dbuild-app-launcher=true \
         -Dbuild-brightness-controller=true \
         -Dbuild-clockworks=true \
-        -Dbuild-extrasdaemon=true \
         -Dbuild-dropby=true \
         -Dbuild-fuzzyclock=true \
         -Dbuild-hotcorners=true \
@@ -220,7 +202,6 @@ setup      : |
         -Dbuild-recentlyused=true \
         -Dbuild-rotation-lock=true \
         -Dbuild-showtime=true \
-        -Dbuild-takeabreak=true \
         -Dbuild-trash=true \
         -Dbuild-wmover=true \
         -Dbuild-workspacestopwatch=true \

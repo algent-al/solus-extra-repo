@@ -1,6 +1,7 @@
 ### Current status of applets
 
 - [x] budgie-app-launcher
+- [ ] budgie-applications-menu
 - [x] budgie-brightness-controller (renamed to budgie-brightness-controll)
 - [x] budgie-clockworks
 - [x] budgie-countdown (Official Repo)
@@ -9,12 +10,14 @@
 - [x] budgie-hotcorners
 - [x] budgie-kangaroo (Official Repo)
 - [x] budgie-keyboard-autoswitch
+- [ ] budgie-network-manager
 - [x] budgie-quicknote (Official Repo)
 - [x] budgie-recentlyused
 - [x] budgie-rotation-lock (Not tested)
 - [x] budgie-showtime
-- [x] budgie-takeabreak
+- [x] budgie-takeabreak (Official Repo)
 - [x] budgie-trash (renamed to budgie-another-trash)
+- [ ] budgie-visualspace
 - [x] budgie-weathershow (Official Repo)
 - [x] budgie-window-mover
 - [x] budgie-wallpaper-switcher
@@ -26,3 +29,5 @@
 - [x] budgie-extras-daemon
 - [x] budgie-previews (Need more testing)
 - [x] budgie-quickchar
+- [ ] budgie-wallstreet
+- [x] budgie-windows-shuffler (Official Repo)

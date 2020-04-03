@@ -1,0 +1,25 @@
+From 51eb8b0d1dcb2b5dfa99dfd40a2a8fda6d2c3a1b Mon Sep 17 00:00:00 2001
+From: Algent Albrahimi <algent@protonmail.com>
+Date: Fri, 3 Apr 2020 15:37:43 +0200
+Subject: [PATCH] fix budgie-wpreviews install dir path
+
+---
+ budgie-wpreviews/data/meson.build | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/budgie-wpreviews/data/meson.build b/budgie-wpreviews/data/meson.build
+index c2ac8f8..36e7ac7 100644
+--- a/budgie-wpreviews/data/meson.build
++++ b/budgie-wpreviews/data/meson.build
+@@ -49,7 +49,7 @@ mytarget4a = custom_target('preview_currentforward_grave',
+   install_dir : BDE_LOC
+ )
+ 
+-AUTOSTART_LOC=join_paths(sysconfdir, 'xdg', 'autostart')
++AUTOSTART_LOC=join_paths(datadir, 'xdg', 'autostart')
+ 
+ mytarget5 = custom_target('preview_creator',
+   output : 'previews-creator-autostart.desktop',
+-- 
+2.26.0
+

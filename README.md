@@ -24,7 +24,7 @@ Search for the package name and then click install.
 | --- | --- | --- |
 | bandwich | ![](https://repology.org/badge/latest-versions/bandwhich.svg?header=) | 0.12.0 |
 | bibata-cursors | ![](https://repology.org/badge/latest-versions/bibata-cursors.svg?header=) | 0.4.2 |
-| budgie-extras | ![](https://repology.org/badge/latest-versions/budgie-extras.svg?header=) | 0.10.1 |
+| budgie-extras | ![](https://repology.org/badge/latest-versions/budgie-extras.svg?header=) | 1.0.0 |
 | crond | ![](https://repology.org/badge/latest-versions/dcron.svg?header=) | 4.5 |
 | figlet | ![](https://repology.org/badge/latest-versions/figlet.svg?header=) | 2.2.5 |
 | font-caskaydia-cove-nerd-ttf | ![](https://repology.org/badge/latest-versions/fonts:nerd-fonts.svg?header=) | 2.1.0 |
@@ -63,11 +63,12 @@ Search for the package name and then click install.
 ### Budgie-extras
 
 Applets from [budgie-extras](https://github.com/UbuntuBudgie/budgie-extras) are splited in separate packages.  
-Latest stable version of budgie-extras is 0.10.1. Series 0.9x.0 are pre-release.
+Latest stable version of budgie-extras is 1.0.0.
 
 ### Current status of applets
 
 - [x] budgie-app-launcher
+- [ ] budgie-applications-menu
 - [x] budgie-brightness-controller (renamed to budgie-brightness-controll)
 - [x] budgie-clockworks
 - [x] budgie-countdown (Official Repo)
@@ -76,28 +77,25 @@ Latest stable version of budgie-extras is 0.10.1. Series 0.9x.0 are pre-release.
 - [x] budgie-hotcorners
 - [x] budgie-kangaroo (Official Repo)
 - [x] budgie-keyboard-autoswitch
+- [ ] budgie-network-manager
 - [x] budgie-quicknote (Official Repo)
 - [x] budgie-recentlyused
 - [x] budgie-rotation-lock (Not tested)
 - [x] budgie-showtime
-- [x] budgie-takeabreak
+- [x] budgie-takeabreak (Official Repo)
 - [x] budgie-trash (renamed to budgie-another-trash)
+- [ ] budgie-visualspace
 - [x] budgie-weathershow (Official Repo)
 - [x] budgie-window-mover
 - [x] budgie-wallpaper-switcher
 - [x] budgie-workspace-overview
 - [x] budgie-workspace-stopwatch
 
+
 ### These are standalone apps
-- [x] budgie-extras-daemon
+- [x] budgie-extras-daemon (Official Repo)
 - [x] budgie-previews (Need more testing)
 - [x] budgie-quickchar
-
-### New in budgie-extras 0.95.0 pre-release
-- [ ] budgie-applications-menu
-- [ ] budgie-network-manager
-- [ ] budgie-visualspace
 - [ ] budgie-wallstreet
-- [ ] budgie-window-shuffler
-
+- [x] budgie-windows-shuffler (Official Repo)
 

@@ -22,7 +22,7 @@ Search for the package name and then click install.
 
 | Package | Upstream Version | Repo Version |
 | --- | --- | --- |
-| bandwich | ![](https://repology.org/badge/latest-versions/bandwhich.svg?header=) | 0.12.0 |
+| bandwich | ![](https://repology.org/badge/latest-versions/bandwhich.svg?header=) | 0.13.0 |
 | bibata-cursors | ![](https://repology.org/badge/latest-versions/bibata-cursors.svg?header=) | 0.4.2 |
 | budgie-extras | ![](https://repology.org/badge/latest-versions/budgie-extras.svg?header=) | 1.0.0 |
 | crond | ![](https://repology.org/badge/latest-versions/dcron.svg?header=) | 4.5 |

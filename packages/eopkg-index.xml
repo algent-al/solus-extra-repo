@@ -1159,8 +1159,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>53237</InstalledSize>
-        <PackageSize>15864</PackageSize>
-        <PackageHash>a93b508ee567e7979f3c8acddb7f7cb950d97747</PackageHash>
+        <PackageSize>15831</PackageSize>
+        <PackageHash>1bfcba18a3574166c687196c81c6634304928f8a</PackageHash>
         <PackageURI>budgie-visualspace-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>

@@ -1444,6 +1444,39 @@
         </Source>
     </Package>
     <Package>
+        <Name>pocillo-gtk-theme</Name>
+        <Summary xml:lang="en">Material Design GTK Theme</Summary>
+        <Description xml:lang="en">GTK based theme for the Budgie Desktop that has Material Design elements and styled using the Arc colour palette</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>CC-BY-SA-4.0</License>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-04-06</Date>
+                <Version>0.6</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>5684009</InstalledSize>
+        <PackageSize>896074</PackageSize>
+        <PackageHash>baa6aa32c89b093bf58915aee2fd3a33a4690eb1</PackageHash>
+        <PackageURI>pocillo-gtk-theme-0.6-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>pocillo-gtk-theme</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>budgie-brightness-controll-applet</Name>
         <Summary xml:lang="en">Applet to control the brightness of the screen</Summary>
         <Description xml:lang="en">The brightness controller applet allows controlling of the screen levels via xrandr (fallback) or via gnome-settings-daemon (if available)</Description>

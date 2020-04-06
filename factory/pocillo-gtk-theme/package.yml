@@ -3,6 +3,7 @@ version    : '0.6'
 release    : 1
 source     :
     - https://github.com/UbuntuBudgie/pocillo-gtk-theme/archive/v0.6.tar.gz : eb91742cd4240e2e2ba48abfdb8022bc3886c2f72b480a6111487cee771f0da9
+homepage   : https://github.com/UbuntuBudgie/pocillo-gtk-theme
 license    :
     - CC-BY-SA-4.0
     - GPL-2.0-or-later
@@ -14,6 +15,9 @@ builddeps  :
     - inkscape
     - optipng
     - sassc
+rundeps    : 
+    - gtk-engines
+    - gtk2-engine-murrine
 build      : |
     %make
 install    : |

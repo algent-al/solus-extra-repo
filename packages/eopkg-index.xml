@@ -1450,6 +1450,10 @@
         <PartOf>desktop.theme</PartOf>
         <License>CC-BY-SA-4.0</License>
         <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>gtk-engines</Dependency>
+            <Dependency>gtk2-engine-murrine</Dependency>
+        </RuntimeDependencies>
         <History>
             <Update release="1">
                 <Date>2020-04-06</Date>
@@ -1464,12 +1468,13 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>5684009</InstalledSize>
-        <PackageSize>896074</PackageSize>
-        <PackageHash>baa6aa32c89b093bf58915aee2fd3a33a4690eb1</PackageHash>
+        <PackageSize>896165</PackageSize>
+        <PackageHash>b7b00ffab94992830b1de9b2b54ca5224dcc07ef</PackageHash>
         <PackageURI>pocillo-gtk-theme-0.6-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>pocillo-gtk-theme</Name>
+            <Homepage>https://github.com/UbuntuBudgie/pocillo-gtk-theme</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

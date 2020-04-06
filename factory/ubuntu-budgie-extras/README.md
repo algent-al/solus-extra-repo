@@ -13,11 +13,11 @@
 - [ ] budgie-network-manager
 - [x] budgie-quicknote (Official Repo)
 - [x] budgie-recentlyused
-- [x] budgie-rotation-lock (Not tested)
+- [x] budgie-rotation-lock
 - [x] budgie-showtime
 - [x] budgie-takeabreak (Official Repo)
 - [x] budgie-trash (renamed to budgie-another-trash)
-- [ ] budgie-visualspace
+- [x] budgie-visualspace
 - [x] budgie-weathershow (Official Repo)
 - [x] budgie-window-mover
 - [x] budgie-wallpaper-switcher
@@ -27,7 +27,7 @@
 
 ### These are standalone apps
 - [x] budgie-extras-daemon
-- [x] budgie-previews (Need more testing)
+- [x] budgie-previews
 - [x] budgie-quickchar
 - [ ] budgie-wallstreet
 - [x] budgie-windows-shuffler (Official Repo)

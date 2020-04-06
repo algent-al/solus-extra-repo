@@ -1131,6 +1131,48 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-visualspace-applet</Name>
+        <Summary xml:lang="en">Show and manage windows in workspaces for the Budgie Desktop</Summary>
+        <Description xml:lang="en">The visualspace applet shows as a stylish compact workspace on the budgie panel. Choosing windows in the applet popup moves to the workspace where the window is located and gives it focus. The number of Workspace can also be changed though the applet popup.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency releaseFrom="19">libpeas</Dependency>
+            <Dependency releaseFrom="19">libwnck</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="208">budgie-desktop</Dependency>
+            <Dependency>budgie-extras</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="5">
+                <Date>2020-04-06</Date>
+                <Version>1.0.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>53237</InstalledSize>
+        <PackageSize>15864</PackageSize>
+        <PackageHash>a93b508ee567e7979f3c8acddb7f7cb950d97747</PackageHash>
+        <PackageURI>budgie-visualspace-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>budgie-recentlyused-applet</Name>
         <Summary xml:lang="en">Applet displays files recently accessed for the Budgie Desktop</Summary>
         <Description xml:lang="en">The recentlyused applet displays the users files that have been opened or created within a configurable period of time.</Description>

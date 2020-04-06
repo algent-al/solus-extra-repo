@@ -19,6 +19,7 @@ component  :
     - ^budgie-recentlyused-applet : desktop.budgie
     - ^budgie-rotation-lock-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
+    - ^budgie-visualspace-applet : desktop.budgie
     - ^budgie-window-mover-applet : desktop.budgie
     - ^budgie-workspace-overview-applet : desktop.budgie
     - ^budgie-workspace-stopwatch-applet : desktop.budgie
@@ -38,6 +39,7 @@ summary    :
     - ^budgie-recentlyused-applet : Applet displays files recently accessed for the Budgie Desktop
     - ^budgie-rotation-lock-applet : Applet to lock or unlock the screen rotation
     - ^budgie-showtime-applet : Applet displaying date and time on the Budgie Desktop
+    - ^budgie-visualspace-applet : Show and manage windows in workspaces for the Budgie Desktop
     - ^budgie-window-mover-applet : Applet allows moving windows between workspaces for the Budgie Desktop
     - ^budgie-workspace-overview-applet : Applet providing quick access to workspaces for the Budgie Desktop
     - ^budgie-workspace-stopwatch-applet : Workspace usage tracker for the budgie desktop
@@ -57,6 +59,7 @@ description:
     - ^budgie-recentlyused-applet : The recentlyused applet displays the users files that have been opened or created within a configurable period of time.
     - ^budgie-rotation-lock-applet : The Rotation Lock applet provides the user an easy way to lock or unlock the screen rotation.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Text color of both can be set separately from the applet's menu.
+    - ^budgie-visualspace-applet : The visualspace applet shows as a stylish compact workspace on the budgie panel. Choosing windows in the applet popup moves to the workspace where the window is located and gives it focus. The number of Workspace can also be changed though the applet popup.
     - ^budgie-window-mover-applet : The Window Mover applet allows the user to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard) and the window will move to that workspace.
     - ^budgie-workspace-overview-applet : The workspace overview applet allows a user to quickly navigate workspaces using the applet's menu. Optionally, navigation to any window in any workspace is possible.
     - ^budgie-workspace-stopwatch-applet : Workspace Stopwatch Applet keeps track of usage per workspace, i.e. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are remembered.
@@ -114,6 +117,11 @@ patterns   :
         - /usr/lib64/budgie-desktop/plugins/budgie-showtime
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-showtime.gschema.xml
         - /usr/share/pixmaps/showtimenew-symbolic.svg
+    - ^budgie-visualspace-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-visualspace
+        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-visualspace.gschema.xml
+        - /usr/share/pixmaps/visualspace-symbolic.svg
+        - /usr/share/xdg/autostart/visualspace-autostart.desktop
     - ^budgie-window-mover-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-wmover
         - /usr/share/pixmaps/budgie-wmover-symbolic.svg
@@ -172,6 +180,7 @@ rundeps    :
     - ^budgie-recentlyused-applet : budgie-extras
     - ^budgie-rotation-lock-applet : budgie-extras
     - ^budgie-showtime-applet : budgie-extras
+    - ^budgie-visualspace-applet : budgie-extras
     - ^budgie-window-mover-applet :
         - budgie-extras
         - python-psutil
@@ -203,6 +212,7 @@ setup      : |
         -Dbuild-rotation-lock=true \
         -Dbuild-showtime=true \
         -Dbuild-trash=true \
+        -Dbuild-visualspace=true \
         -Dbuild-wmover=true \
         -Dbuild-workspacestopwatch=true \
         -Dbuild-wpreviews=true \

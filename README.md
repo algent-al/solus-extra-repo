@@ -69,7 +69,7 @@ Latest stable version of budgie-extras is 1.0.0.
 ### Current status of applets
 
 - [x] budgie-app-launcher
-- [ ] budgie-applications-menu
+- [x] budgie-applications-menu
 - [x] budgie-brightness-controller (renamed to budgie-brightness-controll)
 - [x] budgie-clockworks
 - [x] budgie-countdown (Official Repo)

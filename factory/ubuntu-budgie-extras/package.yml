@@ -8,6 +8,7 @@ license    : GPL-3.0-or-later
 component  :
     - ^budgie-another-trash-applet : desktop.budgie
     - ^budgie-app-launcher-applet : desktop.budgie
+    - ^budgie-applications-menu-applet : desktop.budgie
     - ^budgie-brightness-controll-applet : desktop.budgie
     - ^budgie-clockworks-applet : desktop.budgie
     - ^budgie-dropby-applet : desktop.budgie
@@ -28,6 +29,7 @@ summary    :
     - Shared component of budgie-extras applets
     - ^budgie-another-trash-applet : Applet allows access to trash capabilities for the Budgie Desktop
     - ^budgie-app-launcher-applet : Applet to provide an alternative means to launch applications
+    - ^budgie-applications-menu-applet : Stylish Applications Menu for Budgie-Desktop
     - ^budgie-brightness-controll-applet : Applet to control the brightness of the screen
     - ^budgie-clockworks-applet : Applet to display clock across multiple time zones
     - ^budgie-dropby-applet : Applet to popup when a USB device is connected
@@ -48,6 +50,7 @@ description:
     - Budgie-extras from Ubuntu Budgie. Here are some applets not yet included in official Solus Repository.
     - ^budgie-another-trash-applet : The trash applet allows the user access the desktop trash capabilities from the panel including the ability to delete and restore files stored in the trash folder.
     - ^budgie-app-launcher-applet : The app-launcher applet allows the ability to add favorite apps to the panel as well as finding and launching applications.  The list of applications listed can be easily configured to be visible or hidden.
+    - ^budgie-applications-menu-applet : The application-menu is a stylish panel applet that displays applications in different views - grid and list. Weblinks typed into the search bar can be opened in your default browser. Applications that have additional desktop options show via a right-click menu. Applications with associated actions show those actions are additional searchable entries.
     - ^budgie-brightness-controll-applet : The brightness controller applet allows controlling of the screen levels via xrandr (fallback) or via gnome-settings-daemon (if available)
     - ^budgie-clockworks-applet : A multi clock applet to show the time across multiple timezones. Clocks can be created and deleted in a single click, and easily be (re-) named. Timezones can be looked up from the applet's popup menu.
     - ^budgie-dropby-applet : The DropBy applet pops up in the panel when connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject and in case of a flash drive, to make a local copy of the drive's content. The info shows the free space on the volume.
@@ -71,6 +74,9 @@ patterns   :
     - ^budgie-app-launcher-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-app-launcher
         - /usr/share/pixmaps/budgie-app-launcher*
+    - ^budgie-applications-menu-applet :
+        - /usr/lib64/budgie-desktop/plugins/applications-menu
+        - /usr/share/glib-2.0/schemas/io.elementary.desktop.wingpanel.applications-menu.gschema.xml
     - ^budgie-brightness-controll-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-brightness-controller
         - /usr/share/pixmaps/budgie-brightness-controller-1-symbolic.svg
@@ -137,17 +143,21 @@ patterns   :
         - /usr/lib64/budgie-desktop/plugins/budgie-wswitcher
         - /usr/share/pixmaps/budgie-wsw-symbolic.svg
 builddeps  :
+    - pkgconfig(appstream)
     - pkgconfig(budgie-1.0)
-    - pkgconfig(gee-0.8)
     - pkgconfig(gnome-settings-daemon)
+    - pkgconfig(granite)
     - pkgconfig(json-glib-1.0)
     - pkgconfig(keybinder-3.0)
+    - pkgconfig(libgnome-menu-3.0)
     - pkgconfig(libsoup-2.4)
     - pkgconfig(libwnck-3.0)
+    - pkgconfig(zeitgeist-2.0)
     - vala
 rundeps    :
     - ^budgie-another-trash-applet : budgie-extras
     - ^budgie-app-launcher-applet : budgie-extras
+    - ^budgie-applications-menu-applet : budgie-extras
     - ^budgie-brightness-controll-applet : budgie-extras
     - ^budgie-clockworks-applet :
         - budgie-extras
@@ -201,6 +211,7 @@ setup      : |
     %meson_configure \
         -Dbuild-all=false \
         -Dbuild-app-launcher=true \
+        -Dbuild-applications-menu=true \
         -Dbuild-brightness-controller=true \
         -Dbuild-clockworks=true \
         -Dbuild-dropby=true \

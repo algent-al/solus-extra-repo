@@ -1,7 +1,7 @@
 ### Current status of applets
 
 - [x] budgie-app-launcher
-- [ ] budgie-applications-menu
+- [x] budgie-applications-menu
 - [x] budgie-brightness-controller (renamed to budgie-brightness-controll)
 - [x] budgie-clockworks
 - [x] budgie-countdown (Official Repo)
@@ -26,7 +26,7 @@
 
 
 ### These are standalone apps
-- [x] budgie-extras-daemon
+- [x] budgie-extras-daemon (Official Repo)
 - [x] budgie-previews
 - [x] budgie-quickchar
 - [ ] budgie-wallstreet

@@ -612,43 +612,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>layan-gtk-theme</Name>
-        <Summary xml:lang="en">Layan is a flat Material Design theme</Summary>
-        <Description xml:lang="en">Layan is a flat Material Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie, etc.</Description>
-        <PartOf>desktop.theme</PartOf>
-        <License>GPL-2.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>gtk-engines</Dependency>
-            <Dependency>gtk2-engine-murrine</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-03-24</Date>
-                <Version>20200319</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>8185175</InstalledSize>
-        <PackageSize>813809</PackageSize>
-        <PackageHash>2b37c5a395f63b697fc2387526209f8d9913a817</PackageHash>
-        <PackageURI>layan-gtk-theme-20200319-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>layan-gtk-theme</Name>
-            <Homepage>https://github.com/vinceliuice/Layan-gtk-theme</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>budgie-hotcorners-applet</Name>
         <Summary xml:lang="en">Applet providing hotcorners capabilities for the Budgie Desktop</Summary>
         <Description xml:lang="en">The hotcorners applet allow user defined commands to be executed when the mouse cursor is pushed into a corner of the main desktop.</Description>
@@ -768,22 +731,19 @@
         </Source>
     </Package>
     <Package>
-        <Name>python-wordcount</Name>
-        <Summary xml:lang="en">A little word cloud generator in Python</Summary>
-        <Description xml:lang="en">A little word cloud generator in Python</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MIT</License>
+        <Name>layan-gtk-theme</Name>
+        <Summary xml:lang="en">Layan is a flat Material Design theme</Summary>
+        <Description xml:lang="en">Layan is a flat Material Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie, etc.</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-2.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="25">python3</Dependency>
-            <Dependency>python-pillow</Dependency>
-            <Dependency>matplotlib</Dependency>
-            <Dependency>numpy</Dependency>
+            <Dependency>gtk-engines</Dependency>
+            <Dependency>gtk2-engine-murrine</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-04-09</Date>
-                <Version>1.5.0</Version>
+                <Date>2020-03-24</Date>
+                <Version>20200319</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -793,14 +753,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>401636</InstalledSize>
-        <PackageSize>170515</PackageSize>
-        <PackageHash>59317c41345428c8abb3bb97fdd102c9472de118</PackageHash>
-        <PackageURI>python-wordcount-1.5.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>8185175</InstalledSize>
+        <PackageSize>813809</PackageSize>
+        <PackageHash>2b37c5a395f63b697fc2387526209f8d9913a817</PackageHash>
+        <PackageURI>layan-gtk-theme-20200319-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>python-wordcount</Name>
-            <Homepage>https://amueller.github.io/word_cloud</Homepage>
+            <Name>layan-gtk-theme</Name>
+            <Homepage>https://github.com/vinceliuice/Layan-gtk-theme</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1438,6 +1398,46 @@
         <Source>
             <Name>ubuntu-budgie-extras</Name>
             <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>python-wordcloud</Name>
+        <Summary xml:lang="en">A little word cloud generator in Python</Summary>
+        <Description xml:lang="en">A little word cloud generator in Python</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="25">python3</Dependency>
+            <Dependency>python-pillow</Dependency>
+            <Dependency>matplotlib</Dependency>
+            <Dependency>numpy</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-09</Date>
+                <Version>1.6.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>403461</InstalledSize>
+        <PackageSize>170970</PackageSize>
+        <PackageHash>760488cecdd3cfcb1acfa992ee98f65386713a34</PackageHash>
+        <PackageURI>python-wordcloud-1.6.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-wordcloud</Name>
+            <Homepage>https://amueller.github.io/word_cloud</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

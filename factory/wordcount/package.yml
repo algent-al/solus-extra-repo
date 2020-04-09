@@ -1,0 +1,26 @@
+name       : python-wordcount
+version    : 1.6.0
+release    : 1
+source     :
+    - https://github.com/amueller/word_cloud/archive/1.6.0.tar.gz : feb0cdf5010b0006d4d8189247c5574efc7087c053c54c547e5a25fe8919e04e
+homepage   : https://amueller.github.io/word_cloud
+license    : MIT
+component  : programming.python
+summary    : A little word cloud generator in Python
+description: |
+    A little word cloud generator in Python
+builddeps  :
+    - pkgconfig(python3)
+    - matplotlib         # Check
+    - numpy              # Check
+    - python-pillow      # Check
+rundeps    :
+    - python-pillow
+    - matplotlib
+    - numpy
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test

@@ -504,42 +504,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>figlet</Name>
-        <Summary xml:lang="en">FIGlet - display large characters made up of ordinary screen characters</Summary>
-        <Description xml:lang="en">FIGlet  prints its input using large characters (called &quot;FIGcharacters&quot;) made up of ordinary screen characters (called &quot;sub-characters&quot;). FIGlet output is generally reminiscent of the sort of &quot;signatures&quot; many people like to  put  at the  end  of  e-mail and UseNet messages. It is also reminiscent of the output of some banner programs, although it is oriented normally, not sideways.</Description>
-        <PartOf>multimedia.graphics</PartOf>
-        <License>BSD-3-Clause</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-02-02</Date>
-                <Version>2.2.5</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>671232</InstalledSize>
-        <PackageSize>106455</PackageSize>
-        <PackageHash>e54e7dbeeb6951a58284aeaaa5f3cac8c827d7ff</PackageHash>
-        <PackageURI>figlet-2.2.5-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>figlet</Name>
-            <Homepage>http://www.figlet.org/</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>budgie-rotation-lock-applet</Name>
         <Summary xml:lang="en">Applet to lock or unlock the screen rotation</Summary>
         <Description xml:lang="en">The Rotation Lock applet provides the user an easy way to lock or unlock the screen rotation.</Description>
@@ -1887,43 +1851,6 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>gst</Name>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>numlockx</Name>
-        <Summary xml:lang="en">Turns on the numlock key in X11</Summary>
-        <Description xml:lang="en">Turns on the numlock key in X11</Description>
-        <PartOf>xorg.apps</PartOf>
-        <License>MIT</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-25</Date>
-                <Version>1.2</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>14224</InstalledSize>
-        <PackageSize>4386</PackageSize>
-        <PackageHash>048f0650eaf103622fd9f78d3bfc03482e6e2b4a</PackageHash>
-        <PackageURI>numlockx-1.2-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>numlockx</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

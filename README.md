@@ -30,7 +30,7 @@ Search for the package name and then click install.
 | gst | ![](https://repology.org/badge/latest-versions/gst.svg?header=) | 0.7.1 |
 | gti | ![](https://repology.org/badge/latest-versions/gti.svg?header=) | 1.7.0 |
 | layan-gtk-theme | ![](https://repology.org/badge/latest-versions/layan-gtk-theme.svg?header=) | 20200319 |
-| lsd | ![](https://repology.org/badge/latest-versions/lsd.svg?header=) | 0.16.0 |
+| lsd | ![](https://repology.org/badge/latest-versions/lsd.svg?header=) | 0.17.0 |
 | mcmojave-cursors | ![](https://repology.org/badge/latest-versions/mcmojave-cursors.svg?header=) | 20200207 |
 | odrive | ![](https://repology.org/badge/latest-versions/odrive-google-drive-client.svg?header=) | 0.3.0 |
 | pdfarranger | ![](https://repology.org/badge/latest-versions/pdfarranger.svg?header=) | 1.4.2 |

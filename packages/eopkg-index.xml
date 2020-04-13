@@ -6,15 +6,15 @@
         <PartOf>system.utils</PartOf>
         <License>Apache-2.0</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
             <Dependency>font-awesome-4</Dependency>
             <Dependency>font-awesome-ttf</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-01-25</Date>
-                <Version>0.16.0</Version>
+                <Date>2020-04-09</Date>
+                <Version>0.17.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -24,13 +24,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1046824</InstalledSize>
-        <PackageSize>362902</PackageSize>
-        <PackageHash>d1222a20d190b3e482d848decdd4d0158a939826</PackageHash>
-        <PackageURI>lsd-0.16.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>2382176</InstalledSize>
+        <PackageSize>700568</PackageSize>
+        <PackageHash>a318aa3e692a81fcb738bd0656ef4c22d83c269d</PackageHash>
+        <PackageURI>lsd-0.17.0-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>lsd</Name>
+            <Homepage>https://github.com/Peltoche/lsd</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

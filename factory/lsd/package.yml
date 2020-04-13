@@ -1,8 +1,9 @@
 name       : lsd
-version    : 0.16.0
+version    : 0.17.0
 release    : 1
 source     :
-    - https://github.com/Peltoche/lsd/archive/0.16.0.tar.gz : e2406748d78431a1c03bdd2404a204a006c19905d926e41a36587b93a791e003
+    - https://github.com/Peltoche/lsd/archive/0.17.0.tar.gz : 65b03ae322c4d3ed47f502866b4da2b2c7029b6cb5dc989e98664d564a57de1d
+homepage   : https://github.com/Peltoche/lsd
 license    : Apache-2.0
 component  : system.utils
 summary    : The next generation ls command
@@ -17,5 +18,5 @@ rundeps    :
 build      : |
     cargo build %JOBS% --release
 install    : |
-    cargo install %JOBS% lsd --root=$installdir/
-    rm -f $installdir/.crates.toml
+    cargo install %JOBS% lsd --root=$installdir/usr
+    rm -f $installdir/usr/.crates*

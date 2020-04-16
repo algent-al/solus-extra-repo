@@ -280,7 +280,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>83232</InstalledSize>
         <PackageSize>25309</PackageSize>
-        <PackageHash>00b11569a9534e2b743ab10237cb253bbdab2915</PackageHash>
+        <PackageHash>19ad9ad8306c5947f2b857a4c1d51da0f92cb848</PackageHash>
         <PackageURI>budgie-showtime-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -500,7 +500,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>58313</InstalledSize>
         <PackageSize>14344</PackageSize>
-        <PackageHash>0e7b27ae55da56da73ef93b24aa482fde9d77582</PackageHash>
+        <PackageHash>77ade89244d8d3b194ea7dfae493f7e371f15dda</PackageHash>
         <PackageURI>budgie-wallstreet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -653,8 +653,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>56041</InstalledSize>
-        <PackageSize>18536</PackageSize>
-        <PackageHash>f438dc05a824e61682895dfac648e45001d67b9f</PackageHash>
+        <PackageSize>18544</PackageSize>
+        <PackageHash>2a7ea1619b7a41ad5d21eb3960ec941dc65c1cb8</PackageHash>
         <PackageURI>budgie-hotcorners-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -914,7 +914,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>73566</InstalledSize>
         <PackageSize>22060</PackageSize>
-        <PackageHash>412194f527b3ac4c99d763b14230fea71b22ceb9</PackageHash>
+        <PackageHash>abb4b74c2c1b5f7f45edb6de5ef17270d79791f0</PackageHash>
         <PackageURI>budgie-another-trash-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1030,7 +1030,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>97584</InstalledSize>
         <PackageSize>27187</PackageSize>
-        <PackageHash>da27ebb12fdfb187a98d70a04bb5584a5de56454</PackageHash>
+        <PackageHash>6e3883b3ae275234a11b2de2189f6c14fae981ad</PackageHash>
         <PackageURI>budgie-brightness-control-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1204,8 +1204,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>53237</InstalledSize>
-        <PackageSize>15831</PackageSize>
-        <PackageHash>a14ed146cbf86b0e588bb3c0e107bd3b88e62430</PackageHash>
+        <PackageSize>15827</PackageSize>
+        <PackageHash>4eaec907ec1344b8782938bf223129285061f86a</PackageHash>
         <PackageURI>budgie-visualspace-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1247,7 +1247,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>36837</InstalledSize>
         <PackageSize>12060</PackageSize>
-        <PackageHash>68d2c2f4e7e2307bd6bb4db5230e049e5a2f5dfc</PackageHash>
+        <PackageHash>d3981652b2bbe84f56856b93cff252b3375146af</PackageHash>
         <PackageURI>budgie-recentlyused-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1362,7 +1362,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>43741</InstalledSize>
         <PackageSize>14245</PackageSize>
-        <PackageHash>44383b1b06963cd94a6cec07a512f30b70778e8c</PackageHash>
+        <PackageHash>fb88009ada53d9132c7a9d4229ffef0cbd060cdf</PackageHash>
         <PackageURI>budgie-fuzzyclock-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1541,7 +1541,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-04-06</Date>
+                <Date>2020-04-16</Date>
                 <Version>0.6</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1553,8 +1553,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>5684009</InstalledSize>
-        <PackageSize>896165</PackageSize>
-        <PackageHash>b7b00ffab94992830b1de9b2b54ca5224dcc07ef</PackageHash>
+        <PackageSize>896213</PackageSize>
+        <PackageHash>aea59aee7814ce58f3f2e69bdb02d6e4a447915e</PackageHash>
         <PackageURI>pocillo-gtk-theme-0.6-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1598,7 +1598,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>145952</InstalledSize>
         <PackageSize>44256</PackageSize>
-        <PackageHash>5106fef5420045ff49263403f83863241f225be1</PackageHash>
+        <PackageHash>46042479f1a1e07334149caac13eca3ef9ef03d5</PackageHash>
         <PackageURI>budgie-network-manager-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1709,8 +1709,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>110887</InstalledSize>
-        <PackageSize>28243</PackageSize>
-        <PackageHash>1ecb2bf4ba76848cf3bb53f07942585e3567df35</PackageHash>
+        <PackageSize>28247</PackageSize>
+        <PackageHash>dbe020dc3bcbc3fb34ac0a7adb29f2fefae6c09d</PackageHash>
         <PackageURI>budgie-previews-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1785,7 +1785,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>24940</InstalledSize>
         <PackageSize>9149</PackageSize>
-        <PackageHash>899f7305d6556fd00063893d7779746a1a52ffbf</PackageHash>
+        <PackageHash>c21ee728c0ced47cbcd1d33944c7cd82b4908a79</PackageHash>
         <PackageURI>budgie-window-mover-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1969,7 +1969,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>19696</InstalledSize>
         <PackageSize>8317</PackageSize>
-        <PackageHash>179c941bd4ac33690abb56ddefab1f76006a7875</PackageHash>
+        <PackageHash>303e4ada4f398082b52cf2e8180c49c09dd0ff01</PackageHash>
         <PackageURI>budgie-quickchar-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -2155,7 +2155,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>27654</InstalledSize>
         <PackageSize>9499</PackageSize>
-        <PackageHash>b6ad1eef694d929bf96a8d3ba7414e364620efa0</PackageHash>
+        <PackageHash>73794e292089b2f9d36b914648f53e8b0c242500</PackageHash>
         <PackageURI>budgie-dropby-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -2355,6 +2355,7 @@
             <Dependency releaseFrom="17">libjson-glib</Dependency>
             <Dependency releaseFrom="17">granite</Dependency>
             <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="17">plank</Dependency>
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
@@ -2370,9 +2371,9 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>474917</InstalledSize>
-        <PackageSize>143167</PackageSize>
-        <PackageHash>435e0360ed481ebe0c5ade9b5697be9accc7c82a</PackageHash>
+        <InstalledSize>487205</InstalledSize>
+        <PackageSize>145622</PackageSize>
+        <PackageHash>6abe9aed74e5015c549053157ecf324be8855b9e</PackageHash>
         <PackageURI>budgie-applications-menu-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>

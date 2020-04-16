@@ -1,16 +1,3 @@
-diff --git a/budgie-wallstreet/data/meson.build b/budgie-wallstreet/data/meson.build
-index 213823a..405c66a 100644
---- a/budgie-wallstreet/data/meson.build
-+++ b/budgie-wallstreet/data/meson.build
-@@ -9,7 +9,7 @@ mytargeta = custom_target('wallstreetautostart',
-   input : 'wallstreet-autostart.desktop.in',
-   command : [substprog, '@INPUT@', LIB_INSTALL_DIR, '@OUTPUT@', podir],
-   install : true,
--  install_dir : join_paths(sysconfdir, 'xdg', 'autostart')
-+  install_dir : join_paths(datadir, 'xdg', 'autostart')
- )
- 
- mytargetw = custom_target('wallstreetcontrols',
 diff --git a/budgie-wallstreet/src/wallstreet_control/wallstreet_control.vala b/budgie-wallstreet/src/wallstreet_control/wallstreet_control.vala
 index a1a4a91..ae99398 100644
 --- a/budgie-wallstreet/src/wallstreet_control/wallstreet_control.vala

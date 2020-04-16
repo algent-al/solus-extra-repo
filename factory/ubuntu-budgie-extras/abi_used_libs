@@ -16,6 +16,7 @@ libnm.so.0
 libnma.so.0
 libpango-1.0.so.0
 libpeas-1.0.so.0
+libplank.so.1
 libpthread.so.0
 libwnck-3.so.0
 libzeitgeist-2.0.so.0

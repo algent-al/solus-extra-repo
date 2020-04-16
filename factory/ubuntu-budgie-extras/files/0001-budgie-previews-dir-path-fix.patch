@@ -1,16 +1,3 @@
-diff --git a/budgie-wpreviews/data/meson.build b/budgie-wpreviews/data/meson.build
-index c2ac8f8..36e7ac7 100644
---- a/budgie-wpreviews/data/meson.build
-+++ b/budgie-wpreviews/data/meson.build
-@@ -49,7 +49,7 @@ mytarget4a = custom_target('preview_currentforward_grave',
-   install_dir : BDE_LOC
- )
- 
--AUTOSTART_LOC=join_paths(sysconfdir, 'xdg', 'autostart')
-+AUTOSTART_LOC=join_paths(datadir, 'xdg', 'autostart')
- 
- mytarget5 = custom_target('preview_creator',
-   output : 'previews-creator-autostart.desktop',
 diff --git a/budgie-wpreviews/src/previews_controls.vala b/budgie-wpreviews/src/previews_controls.vala
 index 9f8daf5..e8a15a0 100644
 --- a/budgie-wpreviews/src/previews_controls.vala

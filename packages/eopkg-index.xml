@@ -498,9 +498,9 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>58313</InstalledSize>
-        <PackageSize>14344</PackageSize>
-        <PackageHash>77ade89244d8d3b194ea7dfae493f7e371f15dda</PackageHash>
+        <InstalledSize>58292</InstalledSize>
+        <PackageSize>14339</PackageSize>
+        <PackageHash>d582af70985462ba964a400c9ae3670fa6c1b786</PackageHash>
         <PackageURI>budgie-wallstreet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>

@@ -1,0 +1,68 @@
+From b41c4af92ce7dee4ba3fd6ec08eb97543a5162ad Mon Sep 17 00:00:00 2001
+From: Algent Albrahimi <algent@protonmail.com>
+Date: Thu, 16 Apr 2020 10:24:50 +0200
+Subject: [PATCH] budgie-brightness-controller-dir-path-fix
+
+---
+ budgie-brightness-controller/src/helpers/LightHelper.vala | 8 ++++----
+ budgie-brightness-controller/src/widgets/Popover.vala     | 4 ++--
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/budgie-brightness-controller/src/helpers/LightHelper.vala b/budgie-brightness-controller/src/helpers/LightHelper.vala
+index 9885400..9eb5c02 100644
+--- a/budgie-brightness-controller/src/helpers/LightHelper.vala
++++ b/budgie-brightness-controller/src/helpers/LightHelper.vala
+@@ -67,7 +67,7 @@ public class LightHelper
+         }
+ 
+         // Load Lights Frome Device
+-        var lightsString = subprocessHelper.RunAndGetResult({"/usr/bin/ls", "/sys/class/backlight"});
++        var lightsString = subprocessHelper.RunAndGetResult({"/bin/ls", "/sys/class/backlight"});
+ 
+         lightsString = lightsString._strip();
+         if (lightsString == "")
+@@ -131,12 +131,12 @@ public class LightHelper
+ 
+     private double GetMaxBrightness(string name)
+     {
+-        return subprocessHelper.RunAndGetResult({"/usr/bin/cat", @"/sys/class/backlight/$name/max_brightness"}).to_double();
++        return subprocessHelper.RunAndGetResult({"/bin/cat", @"/sys/class/backlight/$name/max_brightness"}).to_double();
+     }
+ 
+     public double GetBrightness(string name)
+     {
+-        return subprocessHelper.RunAndGetResult({"/usr/bin/cat", @"/sys/class/backlight/$name/brightness"}).to_double();
++        return subprocessHelper.RunAndGetResult({"/bin/cat", @"/sys/class/backlight/$name/brightness"}).to_double();
+     }
+ 
+     public void SetBrightness(string name, double brightness)
+@@ -178,4 +178,4 @@ public class LightHelper
+         configHelper.Write(data);
+     }
+ }
+-}
+\ No newline at end of file
++}
+diff --git a/budgie-brightness-controller/src/widgets/Popover.vala b/budgie-brightness-controller/src/widgets/Popover.vala
+index d8aa5eb..226a73f 100644
+--- a/budgie-brightness-controller/src/widgets/Popover.vala
++++ b/budgie-brightness-controller/src/widgets/Popover.vala
+@@ -206,7 +206,7 @@ public class Popover : Budgie.Popover
+             if(lightHelper.haveGnomeSettingsDaemon332)
+             {
+                 yield subprocessLauncher.spawnv(
+-                    {"/usr/bin/cat", @"/sys/class/backlight/$name/brightness"}
++                    {"/bin/cat", @"/sys/class/backlight/$name/brightness"}
+                 ).communicate_utf8_async(null, null, out output, null);
+             }
+             else if(lightHelper.haveGnomeSettingsDaemonOlderThan332)
+@@ -250,4 +250,4 @@ public class Popover : Budgie.Popover
+     }
+     //[END On]
+ }
+-}
+\ No newline at end of file
++}
+-- 
+2.26.1
+

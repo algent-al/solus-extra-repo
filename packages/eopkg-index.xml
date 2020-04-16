@@ -108,15 +108,21 @@
         </Source>
     </Package>
     <Package>
-        <Name>qogir-gtk-theme-win</Name>
-        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
-        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
-        <PartOf>desktop.theme</PartOf>
+        <Name>budgie-workspace-overview-applet</Name>
+        <Summary xml:lang="en">Applet providing quick access to workspaces for the Budgie Desktop</Summary>
+        <Description xml:lang="en">The workspace overview applet allows a user to quickly navigate workspaces using the applet&apos;s menu. Optionally, navigation to any window in any workspace is possible.</Description>
+        <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>budgie-extras</Dependency>
+            <Dependency>python-psutil</Dependency>
+            <Dependency>xprop</Dependency>
+            <Dependency>wmctrl</Dependency>
+        </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>2019.10.25</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -126,13 +132,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>10156199</InstalledSize>
-        <PackageSize>2831782</PackageSize>
-        <PackageHash>217b201c644e41e2adb62cd7909e17ba173d0e0d</PackageHash>
-        <PackageURI>qogir-gtk-theme-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>79045</InstalledSize>
+        <PackageSize>16099</PackageSize>
+        <PackageHash>7c678808dfca59f00fc252852e223dc94f65f1da</PackageHash>
+        <PackageURI>budgie-workspace-overview-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>qogir-gtk-theme</Name>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -259,9 +266,9 @@
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -272,9 +279,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>83232</InstalledSize>
-        <PackageSize>25315</PackageSize>
-        <PackageHash>29efec8c432c5a54480343bfa89af10f62a2d1f1</PackageHash>
-        <PackageURI>budgie-showtime-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageSize>25309</PackageSize>
+        <PackageHash>00b11569a9534e2b743ab10237cb253bbdab2915</PackageHash>
+        <PackageURI>budgie-showtime-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -328,9 +335,9 @@
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -341,9 +348,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>9664</InstalledSize>
-        <PackageSize>4843</PackageSize>
-        <PackageHash>edb0cbee4e7a7ef2fc771a8bc6064e01b75c9fb9</PackageHash>
-        <PackageURI>budgie-workspace-stopwatch-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageSize>4844</PackageSize>
+        <PackageHash>3709b5f42378c17ae550bfe4c3537fa2dd932f97</PackageHash>
+        <PackageURI>budgie-workspace-stopwatch-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -362,12 +369,13 @@
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency>budgie-extras</Dependency>
+            <Dependency>python-psutil</Dependency>
             <Dependency>wmctrl</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -378,9 +386,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>17360</InstalledSize>
-        <PackageSize>6198</PackageSize>
-        <PackageHash>83655e0ae62f842d5ccdd39d41d35cfc7f768d47</PackageHash>
-        <PackageURI>budgie-workspace-wallpaper-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageSize>6209</PackageSize>
+        <PackageHash>17f669208a6ababbfb11a11670e194351a055dc7</PackageHash>
+        <PackageURI>budgie-workspace-wallpaper-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -466,6 +474,45 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-wallstreet</Name>
+        <Summary xml:lang="en">Change wallpaper from a folder on a schedule</Summary>
+        <Description xml:lang="en">Wallstreet allows for a directory of pictures to be shown on a schedule.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency>budgie-extras-daemon</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>58313</InstalledSize>
+        <PackageSize>14344</PackageSize>
+        <PackageHash>0e7b27ae55da56da73ef93b24aa482fde9d77582</PackageHash>
+        <PackageURI>budgie-wallstreet-1.0.1-6-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>wmctrl</Name>
         <Summary xml:lang="en">wmctrl is a UNIX/Linux command line tool to interact with an EWMH/NetWM compatible X Window Manager</Summary>
         <Description xml:lang="en">The tool provides command line access to almost all the features defined in the EWMH specification. It can be used, for example, to get information about the window manager, to get a detailed list of desktops and managed windows, to switch and resize desktops, to make windows full-screen, always-above or sticky, and to activate, close, move, resize, maximize and minimize them.</Description>
@@ -514,9 +561,9 @@
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -527,9 +574,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>6863</InstalledSize>
-        <PackageSize>3936</PackageSize>
-        <PackageHash>e6528ae2cfc9a8c749abe9ba325b313900b191e0</PackageHash>
-        <PackageURI>budgie-rotation-lock-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageSize>3940</PackageSize>
+        <PackageHash>61bf5e8762b3c2d05d60c8487bb3218e701eca4b</PackageHash>
+        <PackageURI>budgie-rotation-lock-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -589,14 +636,13 @@
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="61">glib2</Dependency>
             <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency releaseFrom="5">budgie-previews</Dependency>
-            <Dependency>dconf</Dependency>
+            <Dependency releaseFrom="6">budgie-previews</Dependency>
             <Dependency>xdotool</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -607,13 +653,50 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>56041</InstalledSize>
-        <PackageSize>18542</PackageSize>
-        <PackageHash>e431be04fd15c3533957d50a03f90ede352a77b0</PackageHash>
-        <PackageURI>budgie-hotcorners-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageSize>18536</PackageSize>
+        <PackageHash>f438dc05a824e61682895dfac648e45001d67b9f</PackageHash>
+        <PackageURI>budgie-hotcorners-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
             <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>layan-gtk-theme</Name>
+        <Summary xml:lang="en">Layan is a flat Material Design theme</Summary>
+        <Description xml:lang="en">Layan is a flat Material Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie, etc.</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>gtk-engines</Dependency>
+            <Dependency>gtk2-engine-murrine</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-24</Date>
+                <Version>20200319</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>8185175</InstalledSize>
+        <PackageSize>813809</PackageSize>
+        <PackageHash>2b37c5a395f63b697fc2387526209f8d9913a817</PackageHash>
+        <PackageURI>layan-gtk-theme-20200319-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>layan-gtk-theme</Name>
+            <Homepage>https://github.com/vinceliuice/Layan-gtk-theme</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -657,58 +740,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-workspace-overview-applet</Name>
-        <Summary xml:lang="en">Applet providing quick access to workspaces for the Budgie Desktop</Summary>
-        <Description xml:lang="en">The workspace overview applet allows a user to quickly navigate workspaces using the applet&apos;s menu. Optionally, navigation to any window in any workspace is possible.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-            <Dependency>python-psutil</Dependency>
-            <Dependency>xprop</Dependency>
-            <Dependency>wmctrl</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>79045</InstalledSize>
-        <PackageSize>16107</PackageSize>
-        <PackageHash>77061ec05fdee78981b0961094deaf98be3e5687</PackageHash>
-        <PackageURI>budgie-workspace-overview-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>layan-gtk-theme</Name>
-        <Summary xml:lang="en">Layan is a flat Material Design theme</Summary>
-        <Description xml:lang="en">Layan is a flat Material Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie, etc.</Description>
+        <Name>qogir-gtk-theme-win</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
         <PartOf>desktop.theme</PartOf>
-        <License>GPL-2.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>gtk-engines</Dependency>
-            <Dependency>gtk2-engine-murrine</Dependency>
-        </RuntimeDependencies>
+        <License>GPL-3.0-or-later</License>
         <History>
             <Update release="1">
-                <Date>2020-03-24</Date>
-                <Version>20200319</Version>
+                <Date>2020-01-26</Date>
+                <Version>2019.10.25</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -718,14 +758,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>8185175</InstalledSize>
-        <PackageSize>813809</PackageSize>
-        <PackageHash>2b37c5a395f63b697fc2387526209f8d9913a817</PackageHash>
-        <PackageURI>layan-gtk-theme-20200319-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>10156199</InstalledSize>
+        <PackageSize>2831782</PackageSize>
+        <PackageHash>217b201c644e41e2adb62cd7909e17ba173d0e0d</PackageHash>
+        <PackageURI>qogir-gtk-theme-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>layan-gtk-theme</Name>
-            <Homepage>https://github.com/vinceliuice/Layan-gtk-theme</Homepage>
+            <Name>qogir-gtk-theme</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -861,9 +900,9 @@
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -874,9 +913,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>73566</InstalledSize>
-        <PackageSize>22049</PackageSize>
-        <PackageHash>a0293881d92f9b429a1dc6e2577fac3f9bf2e496</PackageHash>
-        <PackageURI>budgie-another-trash-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageSize>22060</PackageSize>
+        <PackageHash>412194f527b3ac4c99d763b14230fea71b22ceb9</PackageHash>
+        <PackageURI>budgie-another-trash-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -963,6 +1002,47 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-brightness-control-applet</Name>
+        <Summary xml:lang="en">Applet to control the brightness of the screen</Summary>
+        <Description xml:lang="en">The brightness controller applet allows controlling of the screen levels via xrandr (fallback) or via gnome-settings-daemon (if available)</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency releaseFrom="208">budgie-desktop</Dependency>
+            <Dependency releaseFrom="19">libpeas</Dependency>
+            <Dependency>budgie-extras</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>97584</InstalledSize>
+        <PackageSize>27187</PackageSize>
+        <PackageHash>da27ebb12fdfb187a98d70a04bb5584a5de56454</PackageHash>
+        <PackageURI>budgie-brightness-control-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>odrive</Name>
         <Summary xml:lang="en">Google Drive GUI for Linux</Summary>
         <Description xml:lang="en">This is a GUI client for Google Drive on linux application.</Description>
@@ -1037,9 +1117,9 @@
             <Dependency>xprop</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1051,8 +1131,8 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>17564</InstalledSize>
         <PackageSize>7084</PackageSize>
-        <PackageHash>e681b414a3a39ce5b27cda46f966e001007eee22</PackageHash>
-        <PackageURI>budgie-keyboard-autoswitch-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageHash>c9384dfc1d1704dbe49ac34b0e926de10038ecad</PackageHash>
+        <PackageURI>budgie-keyboard-autoswitch-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -1111,9 +1191,9 @@
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-06</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1125,8 +1205,8 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>53237</InstalledSize>
         <PackageSize>15831</PackageSize>
-        <PackageHash>1bfcba18a3574166c687196c81c6634304928f8a</PackageHash>
-        <PackageURI>budgie-visualspace-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageHash>a14ed146cbf86b0e588bb3c0e107bd3b88e62430</PackageHash>
+        <PackageURI>budgie-visualspace-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -1153,9 +1233,9 @@
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1167,8 +1247,8 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>36837</InstalledSize>
         <PackageSize>12060</PackageSize>
-        <PackageHash>41b95def9885674d4799c9bb28e9fc8782cb1dbd</PackageHash>
-        <PackageURI>budgie-recentlyused-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageHash>68d2c2f4e7e2307bd6bb4db5230e049e5a2f5dfc</PackageHash>
+        <PackageURI>budgie-recentlyused-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -1268,9 +1348,9 @@
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1281,9 +1361,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>43741</InstalledSize>
-        <PackageSize>14241</PackageSize>
-        <PackageHash>cfd5b08bc624d72d474e844c632eaaaee07a2b1d</PackageHash>
-        <PackageURI>budgie-fuzzyclock-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageSize>14245</PackageSize>
+        <PackageHash>44383b1b06963cd94a6cec07a512f30b70778e8c</PackageHash>
+        <PackageURI>budgie-fuzzyclock-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -1343,9 +1423,9 @@
             <Dependency>python-svgwrite</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1357,8 +1437,8 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>25596</InstalledSize>
         <PackageSize>8955</PackageSize>
-        <PackageHash>e8582e7929192625b0bcd113bab45010e0319ea9</PackageHash>
-        <PackageURI>budgie-clockworks-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageHash>f6063d98bb75153e9b5a0e435e2e56e4394d928e</PackageHash>
+        <PackageURI>budgie-clockworks-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -1487,23 +1567,26 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-brightness-controll-applet</Name>
-        <Summary xml:lang="en">Applet to control the brightness of the screen</Summary>
-        <Description xml:lang="en">The brightness controller applet allows controlling of the screen levels via xrandr (fallback) or via gnome-settings-daemon (if available)</Description>
+        <Name>budgie-network-manager-applet</Name>
+        <Summary xml:lang="en">Network Manager Applet for the budgie-desktop</Summary>
+        <Description xml:lang="en">This package installs an Network connectivity applet for the budgie-desktop.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="1">libnma</Dependency>
             <Dependency releaseFrom="208">budgie-desktop</Dependency>
+            <Dependency releaseFrom="55">network-manager</Dependency>
             <Dependency releaseFrom="19">libpeas</Dependency>
+            <Dependency releaseFrom="15">libgee</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1513,10 +1596,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>97584</InstalledSize>
-        <PackageSize>27191</PackageSize>
-        <PackageHash>e3e6c7ca7485919c3cd7822ff6d7b6cc4a4e0cc6</PackageHash>
-        <PackageURI>budgie-brightness-controll-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>145952</InstalledSize>
+        <PackageSize>44256</PackageSize>
+        <PackageHash>5106fef5420045ff49263403f83863241f225be1</PackageHash>
+        <PackageURI>budgie-network-manager-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -1609,12 +1692,13 @@
             <Dependency releaseFrom="91">libgtk-3</Dependency>
             <Dependency releaseFrom="19">libwnck</Dependency>
             <Dependency>budgie-extras-daemon</Dependency>
+            <Dependency>xinput</Dependency>
             <Dependency>xprintidle</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1624,10 +1708,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>102681</InstalledSize>
-        <PackageSize>27491</PackageSize>
-        <PackageHash>0794a4b5db03a4302189a752cb004e86532ad051</PackageHash>
-        <PackageURI>budgie-previews-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>110887</InstalledSize>
+        <PackageSize>28243</PackageSize>
+        <PackageHash>1ecb2bf4ba76848cf3bb53f07942585e3567df35</PackageHash>
+        <PackageURI>budgie-previews-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -1687,9 +1771,9 @@
             <Dependency>wmctrl</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1699,10 +1783,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>24948</InstalledSize>
-        <PackageSize>9138</PackageSize>
-        <PackageHash>a38f10854ac1b3421a1c63813b85d2a30dcced9a</PackageHash>
-        <PackageURI>budgie-window-mover-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>24940</InstalledSize>
+        <PackageSize>9149</PackageSize>
+        <PackageHash>899f7305d6556fd00063893d7779746a1a52ffbf</PackageHash>
+        <PackageURI>budgie-window-mover-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -1859,18 +1943,21 @@
         </Source>
     </Package>
     <Package>
-        <Name>tela-grub-theme</Name>
-        <Summary xml:lang="en">Tela grub theme</Summary>
-        <Description xml:lang="en">This is Tela grub2 theme. Use grub-customizer to use or change the theme.</Description>
-        <PartOf>system.utils</PartOf>
+        <Name>budgie-quickchar</Name>
+        <Summary xml:lang="en">GUI to find and choose locale characters</Summary>
+        <Description xml:lang="en">Quickly find and choose the equivalent locale character for an ascii character.</Description>
+        <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency>grub-customizer</Dependency>
+            <Dependency>budgie-extras-daemon</Dependency>
+            <Dependency>python-pyperclip</Dependency>
+            <Dependency>python-xlib</Dependency>
+            <Dependency>wmctrl</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-03-22</Date>
-                <Version>2019.08.24</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1880,14 +1967,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>2595653</InstalledSize>
-        <PackageSize>909267</PackageSize>
-        <PackageHash>8b312636dd3141132840f638b6d470266597ed9b</PackageHash>
-        <PackageURI>tela-grub-theme-2019.08.24-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>19696</InstalledSize>
+        <PackageSize>8317</PackageSize>
+        <PackageHash>179c941bd4ac33690abb56ddefab1f76006a7875</PackageHash>
+        <PackageURI>budgie-quickchar-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>grub2-themes</Name>
-            <Homepage>https://github.com/vinceliuice/grub2-themes</Homepage>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1967,21 +2054,18 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-quickchar</Name>
-        <Summary xml:lang="en">GUI to find and choose locale characters</Summary>
-        <Description xml:lang="en">Quickly find and choose the equivalent locale character for an ascii character.</Description>
-        <PartOf>desktop.budgie</PartOf>
+        <Name>tela-grub-theme</Name>
+        <Summary xml:lang="en">Tela grub theme</Summary>
+        <Description xml:lang="en">This is Tela grub2 theme. Use grub-customizer to use or change the theme.</Description>
+        <PartOf>system.utils</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency>budgie-extras-daemon</Dependency>
-            <Dependency>python-pyperclip</Dependency>
-            <Dependency>python-xlib</Dependency>
-            <Dependency>wmctrl</Dependency>
+            <Dependency>grub-customizer</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="1">
+                <Date>2020-03-22</Date>
+                <Version>2019.08.24</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1991,14 +2075,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>19696</InstalledSize>
-        <PackageSize>8317</PackageSize>
-        <PackageHash>e447b2244c4ac4700d1fcc6c41a7d158a8eb3957</PackageHash>
-        <PackageURI>budgie-quickchar-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>2595653</InstalledSize>
+        <PackageSize>909267</PackageSize>
+        <PackageHash>8b312636dd3141132840f638b6d470266597ed9b</PackageHash>
+        <PackageURI>tela-grub-theme-2019.08.24-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Name>grub2-themes</Name>
+            <Homepage>https://github.com/vinceliuice/grub2-themes</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -2057,9 +2141,9 @@
             <Dependency>wmctrl</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -2069,10 +2153,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>27666</InstalledSize>
-        <PackageSize>9484</PackageSize>
-        <PackageHash>e1fd775d6d9e04eb4941b00ff6aafcbdbe761a56</PackageHash>
-        <PackageURI>budgie-dropby-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>27654</InstalledSize>
+        <PackageSize>9499</PackageSize>
+        <PackageHash>b6ad1eef694d929bf96a8d3ba7414e364620efa0</PackageHash>
+        <PackageURI>budgie-dropby-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -2158,9 +2242,9 @@
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-03</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -2171,9 +2255,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>53169</InstalledSize>
-        <PackageSize>12179</PackageSize>
-        <PackageHash>b07017ad46c4229bddeb5cc945a885cfb50f2d9e</PackageHash>
-        <PackageURI>budgie-app-launcher-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageSize>12175</PackageSize>
+        <PackageHash>89a90429f3b9ea9894fb96666c5fb19f00837341</PackageHash>
+        <PackageURI>budgie-app-launcher-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -2274,9 +2358,9 @@
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-08</Date>
-                <Version>1.0.0</Version>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -2287,9 +2371,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>474917</InstalledSize>
-        <PackageSize>143168</PackageSize>
-        <PackageHash>fccc16b1a10f8b0a132876002b8b77ae2d4b498f</PackageHash>
-        <PackageURI>budgie-applications-menu-applet-1.0.0-5-1-x86_64.eopkg</PackageURI>
+        <PackageSize>143167</PackageSize>
+        <PackageHash>435e0360ed481ebe0c5ade9b5697be9accc7c82a</PackageHash>
+        <PackageURI>budgie-applications-menu-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>

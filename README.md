@@ -24,7 +24,7 @@ Search for the package name and then click install.
 | --- | --- | --- |
 | bandwich | ![](https://repology.org/badge/latest-versions/bandwhich.svg?header=) | 0.13.0 |
 | bibata-cursors | ![](https://repology.org/badge/latest-versions/bibata-cursors.svg?header=) | 0.4.2 |
-| budgie-extras | ![](https://repology.org/badge/latest-versions/budgie-extras.svg?header=) | 1.0.0 |
+| budgie-extras | ![](https://repology.org/badge/latest-versions/budgie-extras.svg?header=) | 1.0.1 |
 | crond | ![](https://repology.org/badge/latest-versions/dcron.svg?header=) | 4.5 |
 | font-caskaydia-cove-nerd-ttf | ![](https://repology.org/badge/latest-versions/fonts:nerd-fonts.svg?header=) | 2.1.0 |
 | gst | ![](https://repology.org/badge/latest-versions/gst.svg?header=) | 0.7.1 |
@@ -77,7 +77,7 @@ Latest stable version of budgie-extras is 1.0.0.
 - [x] budgie-hotcorners
 - [x] budgie-kangaroo (Official Repo)
 - [x] budgie-keyboard-autoswitch
-- [ ] budgie-network-manager
+- [x] budgie-network-manager
 - [x] budgie-quicknote (Official Repo)
 - [x] budgie-recentlyused
 - [x] budgie-rotation-lock
@@ -96,6 +96,6 @@ Latest stable version of budgie-extras is 1.0.0.
 - [x] budgie-extras-daemon (Official Repo)
 - [x] budgie-previews
 - [x] budgie-quickchar
-- [ ] budgie-wallstreet
+- [x] budgie-wallstreet
 - [x] budgie-windows-shuffler (Official Repo)
 

@@ -1,0 +1,19 @@
+diff --git a/budgie-takeabreak/budgie_takeabreak.py b/budgie-takeabreak/budgie_takeabreak.py
+index e518582..f37a4b5 100644
+--- a/budgie-takeabreak/budgie_takeabreak.py
++++ b/budgie-takeabreak/budgie_takeabreak.py
+@@ -233,9 +233,9 @@ class BudgieTakeaBreakApplet(Budgie.Applet):
+         try:
+             # I know, old school, but it works well
+             pid = subprocess.check_output([
+-                "/usr/bin/pgrep", "-f", "-u", user, app,
++                "/bin/pgrep", "-f", "-u", user, app,
+             ]).decode("utf-8").strip()
+-            subprocess.Popen(["/usr/bin/kill", pid])
++            subprocess.Popen(["/bin/kill", pid])
+         except subprocess.CalledProcessError:
+             pass
+         if state:
+-- 
+2.26.0
+

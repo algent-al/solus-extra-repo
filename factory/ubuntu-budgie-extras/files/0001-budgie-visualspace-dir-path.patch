@@ -1,12 +1,3 @@
-From d10e92f69cf7ae1a9f3507958b54253f67fd8f0a Mon Sep 17 00:00:00 2001
-From: Algent Albrahimi <algent@protonmail.com>
-Date: Mon, 6 Apr 2020 13:36:17 +0200
-Subject: [PATCH] fix budgie-visualspace install dir path
-
----
- budgie-visualspace/data/meson.build | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
 diff --git a/budgie-visualspace/data/meson.build b/budgie-visualspace/data/meson.build
 index bc3734a..8e316be 100644
 --- a/budgie-visualspace/data/meson.build

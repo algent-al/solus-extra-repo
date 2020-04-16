@@ -1,12 +1,3 @@
-From 88e59d31df8185d76f4492ba42456ec7c79b7f01 Mon Sep 17 00:00:00 2001
-From: Algent Albrahimi <algent@protonmail.com>
-Date: Fri, 3 Apr 2020 15:32:06 +0200
-Subject: [PATCH] fix budgie quickchar install dir path
-
----
- budgie-quickchar/quickchar/data/meson.build | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
 diff --git a/budgie-quickchar/quickchar/data/meson.build b/budgie-quickchar/quickchar/data/meson.build
 index 76cada6..452a552 100644
 --- a/budgie-quickchar/quickchar/data/meson.build

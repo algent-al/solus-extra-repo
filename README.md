@@ -25,7 +25,6 @@ Search for the package name and then click install.
 | bandwich | ![](https://repology.org/badge/latest-versions/bandwhich.svg?header=) | 0.13.0 |
 | bibata-cursors | ![](https://repology.org/badge/latest-versions/bibata-cursors.svg?header=) | 0.4.2 |
 | budgie-extras | ![](https://repology.org/badge/latest-versions/budgie-extras.svg?header=) | 1.0.1 |
-| crond | ![](https://repology.org/badge/latest-versions/dcron.svg?header=) | 4.5 |
 | font-caskaydia-cove-nerd-ttf | ![](https://repology.org/badge/latest-versions/fonts:nerd-fonts.svg?header=) | 2.1.0 |
 | gst | ![](https://repology.org/badge/latest-versions/gst.svg?header=) | 0.7.1 |
 | gti | ![](https://repology.org/badge/latest-versions/gti.svg?header=) | 1.7.0 |
@@ -33,7 +32,6 @@ Search for the package name and then click install.
 | lsd | ![](https://repology.org/badge/latest-versions/lsd.svg?header=) | 0.17.0 |
 | mcmojave-cursors | ![](https://repology.org/badge/latest-versions/mcmojave-cursors.svg?header=) | 20200207 |
 | odrive | ![](https://repology.org/badge/latest-versions/odrive-google-drive-client.svg?header=) | 0.3.0 |
-| pdfarranger | ![](https://repology.org/badge/latest-versions/pdfarranger.svg?header=) | 1.4.2 |
 | pocillo-gtk-theme | ![](https://repology.org/badge/latest-versions/pocillo-gtk-theme.svg?header=) | 0.6 |
 | pytest-asyncio | ![](https://repology.org/badge/latest-versions/python:pytest-asyncio.svg?header=) | 0.10.0 |
 | pytest-isort | ![](https://repology.org/badge/latest-versions/python:pytest-isort.svg?header=) | 0.3.1 |
@@ -44,9 +42,7 @@ Search for the package name and then click install.
 | python-cssselect2 | ![](https://repology.org/badge/latest-versions/python:cssselect2.svg?header=) | 0.3.0 |
 | python-humanfriendly | ![](https://repology.org/badge/latest-versions/python:humanfriendly.svg?header=) | 8.1 |
 | python-injector | ![](https://repology.org/badge/latest-versions/python:injector.svg?header=) | 0.18.3 |
-| python-pikepdf | ![](https://repology.org/badge/latest-versions/python:pikepdf.svg?header=) | 1.11.0 |
 | python-rx | ![](https://repology.org/badge/latest-versions/python:rx.svg?header=) | 3.1.0 |
-| python-setuptools-scm-git-archive | ![](https://repology.org/badge/latest-versions/python:setuptools-scm-git-archive.svg?header=) | 1.1 |
 | python-svgwrite | ![](https://repology.org/badge/latest-versions/python:svgwrite.svg?header=) | 1.3.1 |
 | python-tinycss2 | ![](https://repology.org/badge/latest-versions/python:tinycss2.svg?header=) | 1.0.2 |
 | python-wordcloud | ![](https://repology.org/badge/latest-versions/python:wordcloud.svg?header=) | 1.6.0 |
@@ -54,7 +50,6 @@ Search for the package name and then click install.
 | slaze-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-slaze.svg?header=) | 2019.08.24 |
 | stylish-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-stylish.svg?header=) | 2019.08.24 |
 | tela-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-tela.svg?header=) | 2019.08.24 |
-| timeshift | ![](https://repology.org/badge/latest-versions/timeshift.svg?header=) | 20.03 |
 | variety-slideshow | ![](https://repology.org/badge/latest-versions/variety-slideshow.svg?header=) | 0.1 |
 | vimix-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-vimix.svg?header=) | 2019.08.24 |
 | wavemon | ![](https://repology.org/badge/latest-versions/wavemon.svg?header=) | 0.9.1 |

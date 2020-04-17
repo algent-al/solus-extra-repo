@@ -400,47 +400,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>python-pikepdf</Name>
-        <Summary xml:lang="en">A Python library for reading and writing PDF, powered by qpdf</Summary>
-        <Description xml:lang="en">Pikepdf is a Python library for reading and writing PDF files.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MPL-2.0</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="11">qpdf</Dependency>
-            <Dependency releaseFrom="25">python3</Dependency>
-            <Dependency>python-lxml</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="8">
-                <Date>2020-04-13</Date>
-                <Version>1.11.0</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1089830</InstalledSize>
-        <PackageSize>324392</PackageSize>
-        <PackageHash>8c6ab8e51bbe50a3bfcde1ddb80b1e9460d9cd31</PackageHash>
-        <PackageURI>python-pikepdf-1.11.0-8-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-pikepdf</Name>
-            <Homepage>https://pikepdf.readthedocs.io/</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>pytest-asyncio</Name>
         <Summary xml:lang="en">Pytest support for asyncio.</Summary>
         <Description xml:lang="en">pytest-asyncio is an Apache2 licensed library, written in Python, for testing asyncio code with pytest. asyncio code is usually written in the form of coroutines, which makes it slightly more difficult to test using normal testing tools. pytest-asyncio provides useful fixtures and markers to make testing easier.</Description>
@@ -581,42 +540,6 @@
         <Source>
             <Name>ubuntu-budgie-extras</Name>
             <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>python-setuptools-scm-git-archive</Name>
-        <Summary xml:lang="en">setuptools_scm plugin for git archives</Summary>
-        <Description xml:lang="en">This is a setuptools_scm plugin that adds support for git archives (for example the ones GitHub automatically generates).</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MIT</License>
-        <RuntimeDependencies>
-            <Dependency>python-setuptools-scm</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="3">
-                <Date>2020-03-05</Date>
-                <Version>1.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>3262</InstalledSize>
-        <PackageSize>3170</PackageSize>
-        <PackageHash>95998e0cdc89f6e738a8bb60f6c50df441a40e7d</PackageHash>
-        <PackageURI>python-setuptools-scm-git-archive-1.1-3-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-setuptools-scm-git-archive</Name>
-            <Homepage>https://github.com/pypa/setuptools_scm/</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -772,27 +695,21 @@
         </Source>
     </Package>
     <Package>
-        <Name>timeshift</Name>
-        <Summary xml:lang="en">System restore tool for Linux.</Summary>
-        <Description xml:lang="en">System restore tool for Linux. Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. Snapshots can be restored while system is running or from Live CD/USB.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>LGPL-3.0-or-later</License>
+        <Name>wavemon</Name>
+        <Summary xml:lang="en">Ncurses-based monitoring application for wireless network devices</Summary>
+        <Description xml:lang="en">wavemon is a wireless device monitoring application that allows you to watch signal and noise levels, packet statistics, device configuration and network parameters of your wireless network hardware. It should work (though with varying features) with all devices supported by the Linux kernel.</Description>
+        <PartOf>network.util</PartOf>
+        <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="89">libgtk-3</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
-            <Dependency releaseFrom="61">glibc</Dependency>
-            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="14">libgee</Dependency>
-            <Dependency releaseFrom="16">libjson-glib</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="29">libvte</Dependency>
-            <Dependency>crond</Dependency>
-            <Dependency>rsync</Dependency>
+            <Dependency releaseFrom="8">libcap2</Dependency>
+            <Dependency releaseFrom="14">ncurses</Dependency>
+            <Dependency releaseFrom="4">libnl</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-03-06</Date>
-                <Version>20.03</Version>
+            <Update release="1">
+                <Date>2020-01-26</Date>
+                <Version>0.9.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -802,14 +719,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3169504</InstalledSize>
-        <PackageSize>720414</PackageSize>
-        <PackageHash>2ff8b166ddcebbcf6060cdafddd1ec3d9a8d6746</PackageHash>
-        <PackageURI>timeshift-20.03-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>88298</InstalledSize>
+        <PackageSize>36525</PackageSize>
+        <PackageHash>a2bb30c53776f948066a6993035240ac3ad44596</PackageHash>
+        <PackageURI>wavemon-0.9.1-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>timeshift</Name>
-            <Homepage>https://github.com/teejee2008/timeshift</Homepage>
+            <Name>wavemon</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -957,44 +873,6 @@
         <Source>
             <Name>bandwhich</Name>
             <Homepage>https://github.com/imsnif/bandwhich</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>wavemon</Name>
-        <Summary xml:lang="en">Ncurses-based monitoring application for wireless network devices</Summary>
-        <Description xml:lang="en">wavemon is a wireless device monitoring application that allows you to watch signal and noise levels, packet statistics, device configuration and network parameters of your wireless network hardware. It should work (though with varying features) with all devices supported by the Linux kernel.</Description>
-        <PartOf>network.util</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="8">libcap2</Dependency>
-            <Dependency releaseFrom="14">ncurses</Dependency>
-            <Dependency releaseFrom="4">libnl</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>0.9.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>88298</InstalledSize>
-        <PackageSize>36525</PackageSize>
-        <PackageHash>a2bb30c53776f948066a6993035240ac3ad44596</PackageHash>
-        <PackageURI>wavemon-0.9.1-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>wavemon</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1490,45 +1368,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>pdfarranger</Name>
-        <Summary xml:lang="en">Small application to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface</Summary>
-        <Description xml:lang="en">pdfarranger is a small python-gtk application, which helps the user to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface. It is a frontend for python-pyPdf</Description>
-        <PartOf>office</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>poppler</Dependency>
-            <Dependency>python-pikepdf</Dependency>
-            <Dependency>python3-cairo</Dependency>
-            <Dependency>python3-gobject</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="4">
-                <Date>2020-03-20</Date>
-                <Version>1.4.2</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>240518</InstalledSize>
-        <PackageSize>94331</PackageSize>
-        <PackageHash>960ddcdb6fddd5ebce8c96c44e616dd04e6ffca3</PackageHash>
-        <PackageURI>pdfarranger-1.4.2-4-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>pdfarranger</Name>
-            <Homepage>https://github.com/jeromerobert/pdfarranger</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>pocillo-gtk-theme</Name>
         <Summary xml:lang="en">Material Design GTK Theme</Summary>
         <Description xml:lang="en">GTK based theme for the Budgie Desktop that has Material Design elements and styled using the Arc colour palette</Description>
@@ -1716,41 +1555,6 @@
         <Source>
             <Name>ubuntu-budgie-extras</Name>
             <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>crond</Name>
-        <Summary xml:lang="en">crond (Dillon&apos;s lightweight cron daemon)</Summary>
-        <Description xml:lang="en">crond is a cron daemon written by Matt Dillon and continued by Jim Pryor that attempts to be as minimalist as possible.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-2.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-25</Date>
-                <Version>4.5</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>84515</InstalledSize>
-        <PackageSize>25750</PackageSize>
-        <PackageHash>2bc0946e0289826fe99b72e55938bc034996046e</PackageHash>
-        <PackageURI>crond-4.5-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>crond</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

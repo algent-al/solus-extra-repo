@@ -1,8 +1,8 @@
 name       : python-humanfriendly
-version    : '8.1'
-release    : 2
+version    : '8.2'
+release    : 3
 source     :
-    - https://files.pythonhosted.org/packages/2e/d1/e0d8db85b71fc6e7d5be7d78bb5db64c63790aec45acef6578190d66c666/humanfriendly-8.1.tar.gz : 25c2108a45cfd1e8fbe9cdb30b825d34ef5d5675c8e11e4775c9aedbfb0bdee2
+    - https://github.com/xolox/python-humanfriendly/archive/8.2.tar.gz : 0dd214b258ad4be58c8c8302e328c3149ee4af46a4db5dd91dbeaba2c006e0d3
 homepage   : https://humanfriendly.readthedocs.org
 license    : MIT
 component  : programming.python

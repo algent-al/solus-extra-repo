@@ -41,7 +41,7 @@ Search for the package name and then click install.
 | python-capturer | ![](https://repology.org/badge/latest-versions/python:capturer.svg?header=) | 3.0 |
 | python-coloredlogs | ![](https://repology.org/badge/latest-versions/python:coloredlogs.svg?header=) | 14.0 |
 | python-cssselect2 | ![](https://repology.org/badge/latest-versions/python:cssselect2.svg?header=) | 0.3.0 |
-| python-humanfriendly | ![](https://repology.org/badge/latest-versions/python:humanfriendly.svg?header=) | 8.1 |
+| python-humanfriendly | ![](https://repology.org/badge/latest-versions/python:humanfriendly.svg?header=) | 8.2 |
 | python-injector | ![](https://repology.org/badge/latest-versions/python:injector.svg?header=) | 0.18.3 |
 | python-rx | ![](https://repology.org/badge/latest-versions/python:rx.svg?header=) | 3.1.0 |
 | python-svgwrite | ![](https://repology.org/badge/latest-versions/python:svgwrite.svg?header=) | 1.3.1 |

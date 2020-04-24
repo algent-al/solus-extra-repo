@@ -1,8 +1,8 @@
 name       : gst
-version    : 0.7.1
-release    : 1
+version    : 0.7.2
+release    : 2
 source     :
-    - https://gitlab.com/leinardi/gst/-/archive/0.7.1/gst-0.7.1.tar.gz : 1f97525cdebb6ab9c8e84de26691d8cd8fa1bac733d8e672f71898afade3620b
+    - https://gitlab.com/leinardi/gst/-/archive/0.7.2/gst-0.7.2.tar.gz : d137c3bad133348f57409f8d241eb568e8c204aa8e39b9ac7544ec9619122046
 license    : GPL-3.0-or-later
 component  : system.utils
 summary    : System utility designed to stress and monitor various hardware components
@@ -13,7 +13,7 @@ builddeps  :
     - pkgconfig(gtk+-3.0)
 rundeps    :
     - dmidecode
-    - lm_sensors 
+    - lm_sensors
     - python-humanfriendly
     - python-injector
     - python-peewee

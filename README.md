@@ -27,7 +27,7 @@ Search for the package name and then click install.
 | budgie-extras | ![](https://repology.org/badge/latest-versions/budgie-extras.svg?header=) | 1.0.1 |
 | conky-manager2 | ![](https://repology.org/badge/latest-versions/conky-manager.svg?header=) | 2.7 |
 | font-caskaydia-cove-nerd-ttf | ![](https://repology.org/badge/latest-versions/fonts:nerd-fonts.svg?header=) | 2.1.0 |
-| gst | ![](https://repology.org/badge/latest-versions/gst.svg?header=) | 0.7.1 |
+| gst | ![](https://repology.org/badge/latest-versions/gst.svg?header=) | 0.7.2 |
 | gti | ![](https://repology.org/badge/latest-versions/gti.svg?header=) | 1.7.0 |
 | layan-gtk-theme | ![](https://repology.org/badge/latest-versions/layan-gtk-theme.svg?header=) | 20200319 |
 | lsd | ![](https://repology.org/badge/latest-versions/lsd.svg?header=) | 0.17.0 |
@@ -86,7 +86,6 @@ Latest stable version of budgie-extras is 1.0.0.
 - [x] budgie-wallpaper-switcher
 - [x] budgie-workspace-overview
 - [x] budgie-workspace-stopwatch
-
 
 ### These are standalone apps
 - [x] budgie-extras-daemon (Official Repo)

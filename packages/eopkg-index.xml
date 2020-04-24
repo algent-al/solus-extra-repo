@@ -1721,9 +1721,9 @@
             <Dependency>stress-ng</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-15</Date>
-                <Version>0.7.1</Version>
+            <Update release="2">
+                <Date>2020-04-24</Date>
+                <Version>0.7.2</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1733,10 +1733,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>525200</InstalledSize>
-        <PackageSize>158556</PackageSize>
-        <PackageHash>34f2fc2b4ce784387fbf50b22f7d8f76f05837c6</PackageHash>
-        <PackageURI>gst-0.7.1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>525485</InstalledSize>
+        <PackageSize>158659</PackageSize>
+        <PackageHash>813426bfe5e9291940d92a225af9b941abc379a5</PackageHash>
+        <PackageURI>gst-0.7.2-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>gst</Name>

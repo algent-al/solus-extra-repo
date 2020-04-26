@@ -843,6 +843,38 @@
         </Source>
     </Package>
     <Package>
+        <Name>eopkg-audit</Name>
+        <Summary xml:lang="en">Audits system files against the eopkg database</Summary>
+        <Description xml:lang="en">eopkg-audit is a command-line utility which audits system files against the eopkg database to find discrepancies such as added or deleted files. The existing eopkg check utility can detected deleted or modified files, but does not search system directories to find files that were manually added outside of eopkg.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
+        <History>
+            <Update release="1">
+                <Date>2020-04-26</Date>
+                <Version>1.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>6792</InstalledSize>
+        <PackageSize>3561</PackageSize>
+        <PackageHash>8f248eb00895930e21472837c6d4fe12586c7efa</PackageHash>
+        <PackageURI>eopkg-audit-1.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>eopkg-audit</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>bandwhich</Name>
         <Summary xml:lang="en">Terminal bandwidth utilization tool</Summary>
         <Description xml:lang="en">This is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname</Description>

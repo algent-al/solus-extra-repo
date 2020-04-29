@@ -183,6 +183,42 @@
         </Source>
     </Package>
     <Package>
+        <Name>python-svgwrite</Name>
+        <Summary xml:lang="en">Python Package to write SVG files</Summary>
+        <Description xml:lang="en">As the name svgwrite implies, svgwrite creates new SVG drawings, it does not read existing drawings and also does not import existing drawings, but you can always include other SVG drawings by the &lt;image&gt; entity.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency>pyparsing</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-05</Date>
+                <Version>1.3.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>460322</InstalledSize>
+        <PackageSize>96639</PackageSize>
+        <PackageHash>f1e21d063593156cd53ef07c11d9485b9c1faa69</PackageHash>
+        <PackageURI>python-svgwrite-1.3.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-svgwrite</Name>
+            <Homepage>https://github.com/mozman/svgwrite</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>python-capturer</Name>
         <Summary xml:lang="en">Easily capture stdout/stderr of the current process and subprocesses</Summary>
         <Description xml:lang="en">The capturer package makes it easy to capture the stdout and stderr streams of the current process and subprocesses. Output can be relayed to the terminal in real time but is also available to the Python program for additional processing.</Description>
@@ -875,19 +911,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>bandwhich</Name>
-        <Summary xml:lang="en">Terminal bandwidth utilization tool</Summary>
-        <Description xml:lang="en">This is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname</Description>
-        <PartOf>network.util</PartOf>
-        <License>MIT</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-        </RuntimeDependencies>
+        <Name>bashtop</Name>
+        <Summary xml:lang="en">Linux resource monitor</Summary>
+        <Description xml:lang="en">Linux resource monitor written in bash</Description>
+        <PartOf>system.utils</PartOf>
+        <License>Apache-2.0</License>
         <History>
-            <Update release="3">
-                <Date>2020-04-05</Date>
-                <Version>0.13.0</Version>
+            <Update release="1">
+                <Date>2020-04-29</Date>
+                <Version>0.8.16</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -897,14 +929,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3215265</InstalledSize>
-        <PackageSize>997264</PackageSize>
-        <PackageHash>8d04d3ea4b468b725fac18ccc9b80ab62f94b1de</PackageHash>
-        <PackageURI>bandwhich-0.13.0-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>141276</InstalledSize>
+        <PackageSize>37279</PackageSize>
+        <PackageHash>9acfd19a3fa59c8346983d32d70ce96dbcb904b8</PackageHash>
+        <PackageURI>bashtop-0.8.16-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>bandwhich</Name>
-            <Homepage>https://github.com/imsnif/bandwhich</Homepage>
+            <Name>bashtop</Name>
+            <Homepage>https://github.com/aristocratos/bashtop</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1482,18 +1514,19 @@
         </Source>
     </Package>
     <Package>
-        <Name>python-svgwrite</Name>
-        <Summary xml:lang="en">Python Package to write SVG files</Summary>
-        <Description xml:lang="en">As the name svgwrite implies, svgwrite creates new SVG drawings, it does not read existing drawings and also does not import existing drawings, but you can always include other SVG drawings by the &lt;image&gt; entity.</Description>
-        <PartOf>programming.python</PartOf>
+        <Name>bandwhich</Name>
+        <Summary xml:lang="en">Terminal bandwidth utilization tool</Summary>
+        <Description xml:lang="en">This is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname</Description>
+        <PartOf>network.util</PartOf>
         <License>MIT</License>
         <RuntimeDependencies>
-            <Dependency>pyparsing</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-03-05</Date>
-                <Version>1.3.1</Version>
+            <Update release="3">
+                <Date>2020-04-05</Date>
+                <Version>0.13.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1503,14 +1536,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>460322</InstalledSize>
-        <PackageSize>96639</PackageSize>
-        <PackageHash>f1e21d063593156cd53ef07c11d9485b9c1faa69</PackageHash>
-        <PackageURI>python-svgwrite-1.3.1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>3215265</InstalledSize>
+        <PackageSize>997264</PackageSize>
+        <PackageHash>8d04d3ea4b468b725fac18ccc9b80ab62f94b1de</PackageHash>
+        <PackageURI>bandwhich-0.13.0-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>python-svgwrite</Name>
-            <Homepage>https://github.com/mozman/svgwrite</Homepage>
+            <Name>bandwhich</Name>
+            <Homepage>https://github.com/imsnif/bandwhich</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

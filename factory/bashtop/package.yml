@@ -1,0 +1,13 @@
+name       : bashtop
+version    : 0.8.16
+release    : 1
+source     :
+    - https://github.com/aristocratos/bashtop/archive/v0.8.16.tar.gz : 6249e5c678fdb0a2a87d6fa13b9fe1f6bd56f7dbcaba0066d2a5275a7f9a9355
+homepage   : https://github.com/aristocratos/bashtop
+license    : Apache-2.0
+component  : system.utils
+summary    : Linux resource monitor
+description: |
+    Linux resource monitor written in bash
+install    : |
+    install -Dm00755 bashtop -t $installdir/usr/bin

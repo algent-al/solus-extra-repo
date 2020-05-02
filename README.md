@@ -46,7 +46,7 @@ Search for the package name and then click install.
 | python-humanfriendly | ![](https://repology.org/badge/latest-versions/python:humanfriendly.svg?header=) | 8.2 |
 | python-injector | ![](https://repology.org/badge/latest-versions/python:injector.svg?header=) | 0.18.3 |
 | python-rx | ![](https://repology.org/badge/latest-versions/python:rx.svg?header=) | 3.1.0 |
-| python-svgwrite | ![](https://repology.org/badge/latest-versions/python:svgwrite.svg?header=) | 1.3.1 |
+| python-svgwrite | ![](https://repology.org/badge/latest-versions/python:svgwrite.svg?header=) | 1.4 |
 | python-tinycss2 | ![](https://repology.org/badge/latest-versions/python:tinycss2.svg?header=) | 1.0.2 |
 | python-wordcloud | ![](https://repology.org/badge/latest-versions/python:wordcloud.svg?header=) | 1.6.0 |
 | qogir-gtk-theme | ![](https://repology.org/badge/latest-versions/qogir-theme.svg?header=) | 2019.10.25 |

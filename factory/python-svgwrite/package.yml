@@ -1,8 +1,8 @@
 name       : python-svgwrite
-version    : 1.3.1
-release    : 1
+version    : '1.4'
+release    : 2
 source     :
-    - https://github.com/mozman/svgwrite/archive/v1.3.1.tar.gz : c934712d9470fb28214e03cb5c67615d283f9559cc5200343457861e53b34085
+    - https://github.com/mozman/svgwrite/archive/v1.4.tar.gz : fd0f9659351ad93b524420bdf0449670b9f4e97c3763bdc98706c77fb654197d
 homepage   : https://github.com/mozman/svgwrite
 license    : MIT
 component  : programming.python

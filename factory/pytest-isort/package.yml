@@ -1,8 +1,8 @@
 name       : pytest-isort
-version    : 0.3.1
-release    : 1
+version    : 1.0.0
+release    : 2
 source     :
-    - https://github.com/moccu/pytest-isort/archive/0.3.1.tar.gz : a23f3095f20ca5e6eb8884cc984bb78f372ac31998cc8b3b774abc79d1d6b53e
+    - https://github.com/moccu/pytest-isort/archive/1.0.0.tar.gz : 34f851b097c0f1cade63faa948f468de49ebaca9e034d23ca91b33c02571ad3c
 homepage   : https://github.com/moccu/pytest-isort
 license    : BSD-3-Clause
 component  : programming.python

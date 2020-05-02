@@ -37,7 +37,7 @@ Search for the package name and then click install.
 | odrive | ![](https://repology.org/badge/latest-versions/odrive-google-drive-client.svg?header=) | 0.3.0 |
 | pocillo-gtk-theme | ![](https://repology.org/badge/latest-versions/pocillo-gtk-theme.svg?header=) | 0.6 |
 | pytest-asyncio | ![](https://repology.org/badge/latest-versions/python:pytest-asyncio.svg?header=) | 0.10.0 |
-| pytest-isort | ![](https://repology.org/badge/latest-versions/python:pytest-isort.svg?header=) | 0.3.1 |
+| pytest-isort | ![](https://repology.org/badge/latest-versions/python:pytest-isort.svg?header=) | 1.0.0 |
 | python-cairocffi | ![](https://repology.org/badge/latest-versions/python:cairocffi.svg?header=) | 1.1.0 |
 | python-cairosvg | ![](https://repology.org/badge/latest-versions/python:cairosvg.svg?header=) | 2.4.2 |
 | python-capturer | ![](https://repology.org/badge/latest-versions/python:capturer.svg?header=) | 3.0 |

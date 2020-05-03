@@ -1,10 +1,11 @@
 name       : qogir-gtk-theme
-version    : 2019.10.25
-release    : 1
+version    : 2020.02.26
+release    : 2
 source     :
-    - https://github.com/vinceliuice/Qogir-theme/archive/2019-10-25.tar.gz : 07027ad930f4cba10c92ce782fa6b3747afefaafc4bc029692e95ad8f3dcd1ff
+    - https://github.com/vinceliuice/Qogir-theme/archive/2020-02-26.tar.gz : 0cce185bf300ef2265ba435d3e9e255506ea9093a24d0f0ee57097a8b52320fa
+homepage   : https://github.com/vinceliuice/Qogir-theme
 license    : GPL-3.0-or-later
-component  : 
+component  :
     - desktop.theme
     - win : desktop.theme
     - manjaro : desktop.theme

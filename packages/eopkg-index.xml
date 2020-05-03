@@ -659,9 +659,9 @@
         <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>2019.10.25</Version>
+            <Update release="2">
+                <Date>2020-05-03</Date>
+                <Version>2020.02.26</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -671,13 +671,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>10156199</InstalledSize>
-        <PackageSize>2831782</PackageSize>
-        <PackageHash>217b201c644e41e2adb62cd7909e17ba173d0e0d</PackageHash>
-        <PackageURI>qogir-gtk-theme-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>10146956</InstalledSize>
+        <PackageSize>2813213</PackageSize>
+        <PackageHash>d701879e905eb343d4f785ab808b17a9f51ee383</PackageHash>
+        <PackageURI>qogir-gtk-theme-win-2020.02.26-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>qogir-gtk-theme</Name>
+            <Homepage>https://github.com/vinceliuice/Qogir-theme</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1094,9 +1095,9 @@
         <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>2019.10.25</Version>
+            <Update release="2">
+                <Date>2020-05-03</Date>
+                <Version>2020.02.26</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1106,13 +1107,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>10157539</InstalledSize>
-        <PackageSize>2832336</PackageSize>
-        <PackageHash>7345d79dcc50efb004a870027c71e1cae12c4ba5</PackageHash>
-        <PackageURI>qogir-gtk-theme-manjaro-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>10142932</InstalledSize>
+        <PackageSize>2812525</PackageSize>
+        <PackageHash>9b91b121f8f9a9a6daf7fcd9784804f82a0dc0dd</PackageHash>
+        <PackageURI>qogir-gtk-theme-manjaro-win-2020.02.26-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>qogir-gtk-theme</Name>
+            <Homepage>https://github.com/vinceliuice/Qogir-theme</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1555,9 +1557,9 @@
         <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>2019.10.25</Version>
+            <Update release="2">
+                <Date>2020-05-03</Date>
+                <Version>2020.02.26</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1567,13 +1569,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>10157522</InstalledSize>
-        <PackageSize>2831760</PackageSize>
-        <PackageHash>a8c381282972347f603b05fee80c3ba7c098632d</PackageHash>
-        <PackageURI>qogir-gtk-theme-ubuntu-win-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>10142915</InstalledSize>
+        <PackageSize>2812048</PackageSize>
+        <PackageHash>5a60cef19c079ab1469a6e00bdf1a303567969d4</PackageHash>
+        <PackageURI>qogir-gtk-theme-ubuntu-win-2020.02.26-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>qogir-gtk-theme</Name>
+            <Homepage>https://github.com/vinceliuice/Qogir-theme</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1671,9 +1674,9 @@
         <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>2019.10.25</Version>
+            <Update release="2">
+                <Date>2020-05-03</Date>
+                <Version>2020.02.26</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1683,13 +1686,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>10064892</InstalledSize>
-        <PackageSize>2837020</PackageSize>
-        <PackageHash>35b2dd15bf9deb77ec43b5850f9eedf8ced99cba</PackageHash>
-        <PackageURI>qogir-gtk-theme-manjaro-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>10049547</InstalledSize>
+        <PackageSize>2817490</PackageSize>
+        <PackageHash>b5dc6dc7757540c94e2136b29cdfd037c777f541</PackageHash>
+        <PackageURI>qogir-gtk-theme-manjaro-2020.02.26-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>qogir-gtk-theme</Name>
+            <Homepage>https://github.com/vinceliuice/Qogir-theme</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1703,9 +1707,9 @@
         <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>2019.10.25</Version>
+            <Update release="2">
+                <Date>2020-05-03</Date>
+                <Version>2020.02.26</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1715,13 +1719,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>10064875</InstalledSize>
-        <PackageSize>2836840</PackageSize>
-        <PackageHash>f467fdbc71a2fbabcfd20cce830bc55094e36731</PackageHash>
-        <PackageURI>qogir-gtk-theme-ubuntu-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>10049530</InstalledSize>
+        <PackageSize>2817135</PackageSize>
+        <PackageHash>0d932784d930af2a035c9187947787ec84829355</PackageHash>
+        <PackageURI>qogir-gtk-theme-ubuntu-2020.02.26-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>qogir-gtk-theme</Name>
+            <Homepage>https://github.com/vinceliuice/Qogir-theme</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1895,9 +1900,9 @@
             <Dependency>gtk2-engine-murrine</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-01-26</Date>
-                <Version>2019.10.25</Version>
+            <Update release="2">
+                <Date>2020-05-03</Date>
+                <Version>2020.02.26</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1907,13 +1912,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>10063552</InstalledSize>
-        <PackageSize>2837079</PackageSize>
-        <PackageHash>f7d1889ba6033b9ea01bc53a8fc5d5745d61e343</PackageHash>
-        <PackageURI>qogir-gtk-theme-2019.10.25-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>10053571</InstalledSize>
+        <PackageSize>2818728</PackageSize>
+        <PackageHash>9b017cd51f44b9b10cf62345d1a04a0001e700ee</PackageHash>
+        <PackageURI>qogir-gtk-theme-2020.02.26-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>qogir-gtk-theme</Name>
+            <Homepage>https://github.com/vinceliuice/Qogir-theme</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

@@ -56,6 +56,7 @@ Search for the package name and then click install.
 | variety-slideshow | ![](https://repology.org/badge/latest-versions/variety-slideshow.svg?header=) | 0.1 |
 | vimix-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-vimix.svg?header=) | 2019.08.24 |
 | wavemon | ![](https://repology.org/badge/latest-versions/wavemon.svg?header=) | 0.9.1 |
+| we10x-icon-theme | ![](https://repology.org/badge/latest-versions/we10x-icon-theme.svg?header=) | 2020.04.23 |
 | wmctrl | ![](https://repology.org/badge/latest-versions/wmctrl.svg?header=) | 1.07 |
 
 ### Budgie-extras

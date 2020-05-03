@@ -3,6 +3,7 @@ version    : '20200207'
 release    : 2
 source     :
     - git|https://github.com/vinceliuice/McMojave-cursors : 728e3a969cb2b5f9eabf90581a48f6d3cab1f1b2
+homepage   : 267e7296df05868544a651f1ad63148589b529d2
 license    : GPL-3.0-or-later
 component  : desktop.theme
 summary    : McMojave cursors for linux desktops

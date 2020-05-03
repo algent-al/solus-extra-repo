@@ -1628,6 +1628,39 @@
         </Source>
     </Package>
     <Package>
+        <Name>we10x-icon-theme</Name>
+        <Summary xml:lang="en">A colorful design icon theme for all linux desktops</Summary>
+        <Description xml:lang="en">A colorful design icon theme for all linux desktops!</Description>
+        <PartOf>desktop.theme</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2020-05-03</Date>
+                <Version>2020.04.23</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>25423031</InstalledSize>
+        <PackageSize>4783504</PackageSize>
+        <PackageHash>50b477cf92401d9e86539a25f1bb2fb54fe89c86</PackageHash>
+        <PackageURI>we10x-icon-theme-2020.04.23-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>we10x-icon-theme</Name>
+            <Homepage>https://github.com/yeyushengfan258/We10X-icon-theme</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>budgie-window-mover-applet</Name>
         <Summary xml:lang="en">Applet allows moving windows between workspaces for the Budgie Desktop</Summary>
         <Description xml:lang="en">The Window Mover applet allows the user to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard) and the window will move to that workspace.</Description>

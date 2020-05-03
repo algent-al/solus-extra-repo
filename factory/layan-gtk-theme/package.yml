@@ -1,8 +1,8 @@
 name       : layan-gtk-theme
-version    : '20200319'
-release    : 1
+version    : '20200425'
+release    : 2
 source     :
-    - git|https://github.com/vinceliuice/Layan-gtk-theme : a61c2ff421aae80f20d56c84398c0b38dc72b740
+    - git|https://github.com/vinceliuice/Layan-gtk-theme : 267e7296df05868544a651f1ad63148589b529d2
 homepage   : https://github.com/vinceliuice/Layan-gtk-theme
 license    : GPL-2.0-or-later
 component  : desktop.theme

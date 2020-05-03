@@ -590,9 +590,9 @@
             <Dependency>gtk2-engine-murrine</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-03-24</Date>
-                <Version>20200319</Version>
+            <Update release="2">
+                <Date>2020-05-03</Date>
+                <Version>20200425</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -602,10 +602,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>8185175</InstalledSize>
-        <PackageSize>813809</PackageSize>
-        <PackageHash>2b37c5a395f63b697fc2387526209f8d9913a817</PackageHash>
-        <PackageURI>layan-gtk-theme-20200319-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>4509391</InstalledSize>
+        <PackageSize>480339</PackageSize>
+        <PackageHash>286edfa3eed2338a5b13d7a16199bedb5b549e9c</PackageHash>
+        <PackageURI>layan-gtk-theme-20200425-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>layan-gtk-theme</Name>

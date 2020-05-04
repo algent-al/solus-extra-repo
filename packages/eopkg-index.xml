@@ -2329,6 +2329,43 @@
         </Source>
     </Package>
     <Package>
+        <Name>restview</Name>
+        <Summary xml:lang="en">ReStructuredText viewer</Summary>
+        <Description xml:lang="en">A viewer for ReStructuredText documents that renders them on the fly.</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>python-readme-renderer</Dependency>
+            <Dependency>python-docutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-05-04</Date>
+                <Version>2.9.2</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>170518</InstalledSize>
+        <PackageSize>40544</PackageSize>
+        <PackageHash>221e4cdc6c2bd211299eea32f5ef38de2c4d01f8</PackageHash>
+        <PackageURI>restview-2.9.2-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>restview</Name>
+            <Homepage>https://pypi.python.org/pypi/restview</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>conky-manager2</Name>
         <Summary xml:lang="en">Conky Manager 2 - a newer conky config manager</Summary>
         <Description xml:lang="en">This is a fork of the old original Conky Manager by teejee2008(Tony George). This is a graphical front-end for managing Conky config files. It provides options to start/stop, browse and edit Conky themes installed on the system. It also provides support for the newer lua-based conky and configuration files(v1.10)</Description>

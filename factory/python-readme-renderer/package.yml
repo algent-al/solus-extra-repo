@@ -1,0 +1,17 @@
+name       : python-readme-renderer
+version    : 26.0
+release    : 1
+source     :
+    - https://github.com/pypa/readme_renderer/archive/26.0.tar.gz : 868e0f89c7de2c7d6ee5c96ee169dcb489b71ef59fcaa068c9717ac12ba7700a
+license    : Apache-2.0
+component  : programming.python
+summary    : Safely render long_description/README files in Warehouse 
+description: |
+    Readme Renderer is a library that will safely render arbitrary README files into HTML. It is designed to be used in Warehouse to render the long_description for packages. It can handle Markdown, reStructuredText (.rst), and plain text.
+rundeps    :
+    - pygments
+    - python-bleach
+build      : |
+    %python3_setup
+install    : |
+    %python3_install

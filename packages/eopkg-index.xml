@@ -511,6 +511,42 @@
         </Source>
     </Package>
     <Package>
+        <Name>python-readme-renderer</Name>
+        <Summary xml:lang="en">Safely render long_description/README files in Warehouse</Summary>
+        <Description xml:lang="en">Readme Renderer is a library that will safely render arbitrary README files into HTML. It is designed to be used in Warehouse to render the long_description for packages. It can handle Markdown, reStructuredText (.rst), and plain text.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>Apache-2.0</License>
+        <RuntimeDependencies>
+            <Dependency>pygments</Dependency>
+            <Dependency>python-bleach</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-05-04</Date>
+                <Version>26.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>35264</InstalledSize>
+        <PackageSize>13103</PackageSize>
+        <PackageHash>e01d0b578863de07207c69db3897b9a3a6ec69bf</PackageHash>
+        <PackageURI>python-readme-renderer-26.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-readme-renderer</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>budgie-rotation-lock-applet</Name>
         <Summary xml:lang="en">Applet to lock or unlock the screen rotation</Summary>
         <Description xml:lang="en">The Rotation Lock applet provides the user an easy way to lock or unlock the screen rotation.</Description>

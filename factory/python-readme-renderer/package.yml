@@ -3,6 +3,7 @@ version    : 26.0
 release    : 1
 source     :
     - https://github.com/pypa/readme_renderer/archive/26.0.tar.gz : 868e0f89c7de2c7d6ee5c96ee169dcb489b71ef59fcaa068c9717ac12ba7700a
+homepage   : https://github.com/pypa/readme_renderer
 license    : Apache-2.0
 component  : programming.python
 summary    : Safely render long_description/README files in Warehouse 

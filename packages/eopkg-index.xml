@@ -534,12 +534,13 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>35264</InstalledSize>
-        <PackageSize>13103</PackageSize>
-        <PackageHash>e01d0b578863de07207c69db3897b9a3a6ec69bf</PackageHash>
+        <PackageSize>13136</PackageSize>
+        <PackageHash>3fbf2d7adf106e29513dd3c9e8098e3cdd392acb</PackageHash>
         <PackageURI>python-readme-renderer-26.0-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>python-readme-renderer</Name>
+            <Homepage>https://github.com/pypa/readme_renderer</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

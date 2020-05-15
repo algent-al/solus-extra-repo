@@ -637,7 +637,7 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>168965</InstalledSize>
         <PackageSize>42039</PackageSize>
-        <PackageHash>82b87a31d963e64e1d17bd606f9026948ccb0abd</PackageHash>
+        <PackageHash>0fac38159fa71578e59e7931e51c2dc049aca6ce</PackageHash>
         <PackageURI>bashtop-0.8.30-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>

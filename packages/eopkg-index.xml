@@ -183,39 +183,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>python-svgwrite</Name>
-        <Summary xml:lang="en">Python Package to write SVG files</Summary>
-        <Description xml:lang="en">As the name svgwrite implies, svgwrite creates new SVG drawings, it does not read existing drawings and also does not import existing drawings, but you can always include other SVG drawings by the &lt;image&gt; entity.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MIT</License>
-        <History>
-            <Update release="2">
-                <Date>2020-05-02</Date>
-                <Version>1.4</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>457249</InstalledSize>
-        <PackageSize>95751</PackageSize>
-        <PackageHash>325397a8105a55b2295de8f596b2a468a60188d7</PackageHash>
-        <PackageURI>python-svgwrite-1.4-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-svgwrite</Name>
-            <Homepage>https://github.com/mozman/svgwrite</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>python-capturer</Name>
         <Summary xml:lang="en">Easily capture stdout/stderr of the current process and subprocesses</Summary>
         <Description xml:lang="en">The capturer package makes it easy to capture the stdout and stderr streams of the current process and subprocesses. Output can be relayed to the terminal in real time but is also available to the Python program for additional processing.</Description>
@@ -650,25 +617,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-hotcorners-applet</Name>
-        <Summary xml:lang="en">Applet providing hotcorners capabilities for the Budgie Desktop</Summary>
-        <Description xml:lang="en">The hotcorners applet allow user defined commands to be executed when the mouse cursor is pushed into a corner of the main desktop.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency releaseFrom="17">libjson-glib</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency releaseFrom="6">budgie-previews</Dependency>
-            <Dependency>xdotool</Dependency>
-        </RuntimeDependencies>
+        <Name>bashtop</Name>
+        <Summary xml:lang="en">Linux resource monitor</Summary>
+        <Description xml:lang="en">Linux resource monitor written in bash</Description>
+        <PartOf>system.utils</PartOf>
+        <License>Apache-2.0</License>
         <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
+            <Update release="4">
+                <Date>2020-05-15</Date>
+                <Version>0.8.30</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -678,14 +635,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>56041</InstalledSize>
-        <PackageSize>18544</PackageSize>
-        <PackageHash>2a7ea1619b7a41ad5d21eb3960ec941dc65c1cb8</PackageHash>
-        <PackageURI>budgie-hotcorners-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>168965</InstalledSize>
+        <PackageSize>42039</PackageSize>
+        <PackageHash>82b87a31d963e64e1d17bd606f9026948ccb0abd</PackageHash>
+        <PackageURI>bashtop-0.8.30-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Name>bashtop</Name>
+            <Homepage>https://github.com/aristocratos/bashtop</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -873,15 +830,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>bashtop</Name>
-        <Summary xml:lang="en">Linux resource monitor</Summary>
-        <Description xml:lang="en">Linux resource monitor written in bash</Description>
-        <PartOf>system.utils</PartOf>
-        <License>Apache-2.0</License>
+        <Name>python-coloredlogs</Name>
+        <Summary xml:lang="en">Colored terminal output for Python’s logging module</Summary>
+        <Description xml:lang="en">The coloredlogs package enables colored terminal output for Python’s logging module. The ColoredFormatter class inherits from logging.Formatter and uses ANSI escape sequences to render your logging messages in color. It uses only standard colors so it should work on any UNIX terminal.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
         <History>
-            <Update release="3">
-                <Date>2020-05-10</Date>
-                <Version>0.8.28</Version>
+            <Update release="1">
+                <Date>2020-03-07</Date>
+                <Version>14.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -891,14 +848,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>168036</InstalledSize>
-        <PackageSize>41754</PackageSize>
-        <PackageHash>4c392f5c1e2443b4ae3a63de813095ce03619afd</PackageHash>
-        <PackageURI>bashtop-0.8.28-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>243986</InstalledSize>
+        <PackageSize>57602</PackageSize>
+        <PackageHash>23a5a005b89e082303771777d0cc020b5c5a885f</PackageHash>
+        <PackageURI>python-coloredlogs-14.0-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>bashtop</Name>
-            <Homepage>https://github.com/aristocratos/bashtop</Homepage>
+            <Name>python-coloredlogs</Name>
+            <Homepage>https://coloredlogs.readthedocs.io/en/latest/</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -980,15 +937,19 @@
         </Source>
     </Package>
     <Package>
-        <Name>python-coloredlogs</Name>
-        <Summary xml:lang="en">Colored terminal output for Python’s logging module</Summary>
-        <Description xml:lang="en">The coloredlogs package enables colored terminal output for Python’s logging module. The ColoredFormatter class inherits from logging.Formatter and uses ANSI escape sequences to render your logging messages in color. It uses only standard colors so it should work on any UNIX terminal.</Description>
-        <PartOf>programming.python</PartOf>
+        <Name>bandwhich</Name>
+        <Summary xml:lang="en">Terminal bandwidth utilization tool</Summary>
+        <Description xml:lang="en">This is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname</Description>
+        <PartOf>network.util</PartOf>
         <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+        </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-03-07</Date>
-                <Version>14.0</Version>
+            <Update release="4">
+                <Date>2020-05-08</Date>
+                <Version>0.14.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -998,14 +959,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>243986</InstalledSize>
-        <PackageSize>57602</PackageSize>
-        <PackageHash>23a5a005b89e082303771777d0cc020b5c5a885f</PackageHash>
-        <PackageURI>python-coloredlogs-14.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>3211177</InstalledSize>
+        <PackageSize>970135</PackageSize>
+        <PackageHash>31b39853e33c0f5b2f2b99f83496d0150d5a458a</PackageHash>
+        <PackageURI>bandwhich-0.14.0-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>python-coloredlogs</Name>
-            <Homepage>https://coloredlogs.readthedocs.io/en/latest/</Homepage>
+            <Name>bandwhich</Name>
+            <Homepage>https://github.com/imsnif/bandwhich</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1043,6 +1004,49 @@
         <PackageSize>27187</PackageSize>
         <PackageHash>6e3883b3ae275234a11b2de2189f6c14fae981ad</PackageHash>
         <PackageURI>budgie-brightness-control-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>budgie-hotcorners-applet</Name>
+        <Summary xml:lang="en">Applet providing hotcorners capabilities for the Budgie Desktop</Summary>
+        <Description xml:lang="en">The hotcorners applet allow user defined commands to be executed when the mouse cursor is pushed into a corner of the main desktop.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency releaseFrom="19">libpeas</Dependency>
+            <Dependency releaseFrom="17">libjson-glib</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="208">budgie-desktop</Dependency>
+            <Dependency releaseFrom="6">budgie-previews</Dependency>
+            <Dependency>xdotool</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>56041</InstalledSize>
+        <PackageSize>18544</PackageSize>
+        <PackageHash>2a7ea1619b7a41ad5d21eb3960ec941dc65c1cb8</PackageHash>
+        <PackageURI>budgie-hotcorners-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>
@@ -1584,19 +1588,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>bandwhich</Name>
-        <Summary xml:lang="en">Terminal bandwidth utilization tool</Summary>
-        <Description xml:lang="en">This is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname</Description>
-        <PartOf>network.util</PartOf>
+        <Name>python-svgwrite</Name>
+        <Summary xml:lang="en">Python Package to write SVG files</Summary>
+        <Description xml:lang="en">As the name svgwrite implies, svgwrite creates new SVG drawings, it does not read existing drawings and also does not import existing drawings, but you can always include other SVG drawings by the &lt;image&gt; entity.</Description>
+        <PartOf>programming.python</PartOf>
         <License>MIT</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-        </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-05-08</Date>
-                <Version>0.14.0</Version>
+            <Update release="2">
+                <Date>2020-05-02</Date>
+                <Version>1.4</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1606,14 +1606,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3211177</InstalledSize>
-        <PackageSize>970135</PackageSize>
-        <PackageHash>31b39853e33c0f5b2f2b99f83496d0150d5a458a</PackageHash>
-        <PackageURI>bandwhich-0.14.0-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>457249</InstalledSize>
+        <PackageSize>95751</PackageSize>
+        <PackageHash>325397a8105a55b2295de8f596b2a468a60188d7</PackageHash>
+        <PackageURI>python-svgwrite-1.4-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>bandwhich</Name>
-            <Homepage>https://github.com/imsnif/bandwhich</Homepage>
+            <Name>python-svgwrite</Name>
+            <Homepage>https://github.com/mozman/svgwrite</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

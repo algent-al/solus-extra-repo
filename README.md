@@ -31,6 +31,7 @@ Search for the package name and then click install.
 | font-caskaydia-cove-nerd-ttf | ![](https://repology.org/badge/latest-versions/fonts:nerd-fonts.svg?header=) | 2.1.0 |
 | gst | ![](https://repology.org/badge/latest-versions/gst.svg?header=) | 0.7.2 |
 | gti | ![](https://repology.org/badge/latest-versions/gti.svg?header=) | 1.7.0 |
+| hardcode-tray | ![](https://repology.org/badge/latest-versions/hardcode-tray.svg?header=) | 4.3 |
 | layan-gtk-theme | ![](https://repology.org/badge/latest-versions/layan-gtk-theme.svg?header=) | 20200425 |
 | lsd | ![](https://repology.org/badge/latest-versions/lsd.svg?header=) | 0.17.0 |
 | mcmojave-cursors | ![](https://repology.org/badge/latest-versions/mcmojave-cursors.svg?header=) | 20200207 |

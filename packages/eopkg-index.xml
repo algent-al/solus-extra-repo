@@ -1,44 +1,5 @@
 <PISI>
     <Package>
-        <Name>lsd</Name>
-        <Summary xml:lang="en">The next generation ls command</Summary>
-        <Description xml:lang="en">The next generation ls command with a lot of pretty colors and icons.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>Apache-2.0</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency>font-awesome-4</Dependency>
-            <Dependency>font-awesome-ttf</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-04-09</Date>
-                <Version>0.17.0</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>2382176</InstalledSize>
-        <PackageSize>700568</PackageSize>
-        <PackageHash>a318aa3e692a81fcb738bd0656ef4c22d83c269d</PackageHash>
-        <PackageURI>lsd-0.17.0-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>lsd</Name>
-            <Homepage>https://github.com/Peltoche/lsd</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>python-rx</Name>
         <Summary xml:lang="en">Reactive extensions for Python</Summary>
         <Description xml:lang="en">A library for composing asynchronous and event-based programs using observable collections and query operator functions in Python</Description>

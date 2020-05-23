@@ -48,7 +48,7 @@ Search for the package name and then click install.
 | python-readme-renderer | ![](https://repology.org/badge/latest-versions/python:readme-renderer.svg?header=) | 26.0 |
 | python-svgwrite | ![](https://repology.org/badge/latest-versions/python:svgwrite.svg?header=) | 1.4 |
 | python-tinycss2 | ![](https://repology.org/badge/latest-versions/python:tinycss2.svg?header=) | 1.0.2 |
-| python-wordcloud | ![](https://repology.org/badge/latest-versions/python:wordcloud.svg?header=) | 1.6.0 |
+| python-wordcloud | ![](https://repology.org/badge/latest-versions/python:wordcloud.svg?header=) | 1.7.0 |
 | restview | ![](https://repology.org/badge/latest-versions/restview.svg?header=) | 2.9.2 |
 | qogir-gtk-theme | ![](https://repology.org/badge/latest-versions/qogir-theme.svg?header=) | 2020.02.26 |
 | slaze-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-slaze.svg?header=) | 2019.08.24 |

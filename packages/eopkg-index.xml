@@ -210,6 +210,50 @@
         </Source>
     </Package>
     <Package>
+        <Name>budgie-network-manager-applet</Name>
+        <Summary xml:lang="en">Network Manager Applet for the budgie-desktop</Summary>
+        <Description xml:lang="en">This package installs an Network connectivity applet for the budgie-desktop.</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="1">libnma</Dependency>
+            <Dependency releaseFrom="208">budgie-desktop</Dependency>
+            <Dependency releaseFrom="55">network-manager</Dependency>
+            <Dependency releaseFrom="19">libpeas</Dependency>
+            <Dependency releaseFrom="15">libgee</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency>budgie-extras</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="6">
+                <Date>2020-04-16</Date>
+                <Version>1.0.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>145952</InstalledSize>
+        <PackageSize>44256</PackageSize>
+        <PackageHash>46042479f1a1e07334149caac13eca3ef9ef03d5</PackageHash>
+        <PackageURI>budgie-network-manager-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ubuntu-budgie-extras</Name>
+            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>hardcode-tray</Name>
         <Summary xml:lang="en">Fixes Hardcoded tray icons in Linux</Summary>
         <Description xml:lang="en">Fixes Hardcoded tray icons in Linux. The script will automatically detect your default theme, the correct icon size, the hard-coded applications, the correct icons for each indicator and fix them. All that with the possibility to revert to the original icons.</Description>
@@ -1273,6 +1317,46 @@
         </Source>
     </Package>
     <Package>
+        <Name>python-wordcloud</Name>
+        <Summary xml:lang="en">A little word cloud generator in Python</Summary>
+        <Description xml:lang="en">A little word cloud generator in Python</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="26">python3</Dependency>
+            <Dependency>python-pillow</Dependency>
+            <Dependency>matplotlib</Dependency>
+            <Dependency>numpy</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-05-23</Date>
+                <Version>1.7.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>421167</InstalledSize>
+        <PackageSize>175618</PackageSize>
+        <PackageHash>d05e9c3b8b6c04cd6db745c73601da3a2899431b</PackageHash>
+        <PackageURI>python-wordcloud-1.7.0-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>python-wordcloud</Name>
+            <Homepage>https://amueller.github.io/word_cloud</Homepage>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>python-cairocffi</Name>
         <Summary xml:lang="en">CFFI-based cairo bindings for Python</Summary>
         <Description xml:lang="en">cairocffi is a CFFI-based drop-in replacement for Pycairo, a set of Python bindings and object-oriented API for cairo. Cairo is a 2D vector graphics library with support for multiple backends including image buffers, PNG, PostScript, PDF, and SVG file output.</Description>
@@ -1304,47 +1388,6 @@
         <Source>
             <Name>python-cairocffi</Name>
             <Homepage>https://cairocffi.readthedocs.io/en/stable/</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-fuzzyclock-applet</Name>
-        <Summary xml:lang="en">Shows the time in a Fuzzy Way</Summary>
-        <Description xml:lang="en">Displays the time in a &apos;spoken&apos; format such as five past six.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>43741</InstalledSize>
-        <PackageSize>14245</PackageSize>
-        <PackageHash>fb88009ada53d9132c7a9d4229ffef0cbd060cdf</PackageHash>
-        <PackageURI>budgie-fuzzyclock-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1427,60 +1470,17 @@
         </Source>
     </Package>
     <Package>
-        <Name>python-wordcloud</Name>
-        <Summary xml:lang="en">A little word cloud generator in Python</Summary>
-        <Description xml:lang="en">A little word cloud generator in Python</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MIT</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="25">python3</Dependency>
-            <Dependency>python-pillow</Dependency>
-            <Dependency>matplotlib</Dependency>
-            <Dependency>numpy</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-04-09</Date>
-                <Version>1.6.0</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>403461</InstalledSize>
-        <PackageSize>170970</PackageSize>
-        <PackageHash>760488cecdd3cfcb1acfa992ee98f65386713a34</PackageHash>
-        <PackageURI>python-wordcloud-1.6.0-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-wordcloud</Name>
-            <Homepage>https://amueller.github.io/word_cloud</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-network-manager-applet</Name>
-        <Summary xml:lang="en">Network Manager Applet for the budgie-desktop</Summary>
-        <Description xml:lang="en">This package installs an Network connectivity applet for the budgie-desktop.</Description>
+        <Name>budgie-fuzzyclock-applet</Name>
+        <Summary xml:lang="en">Shows the time in a Fuzzy Way</Summary>
+        <Description xml:lang="en">Displays the time in a &apos;spoken&apos; format such as five past six.</Description>
         <PartOf>desktop.budgie</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="1">libnma</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency releaseFrom="55">network-manager</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency releaseFrom="15">libgee</Dependency>
             <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency releaseFrom="208">budgie-desktop</Dependency>
+            <Dependency releaseFrom="19">libpeas</Dependency>
             <Dependency>budgie-extras</Dependency>
         </RuntimeDependencies>
         <History>
@@ -1496,10 +1496,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>145952</InstalledSize>
-        <PackageSize>44256</PackageSize>
-        <PackageHash>46042479f1a1e07334149caac13eca3ef9ef03d5</PackageHash>
-        <PackageURI>budgie-network-manager-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>43741</InstalledSize>
+        <PackageSize>14245</PackageSize>
+        <PackageHash>fb88009ada53d9132c7a9d4229ffef0cbd060cdf</PackageHash>
+        <PackageURI>budgie-fuzzyclock-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ubuntu-budgie-extras</Name>

@@ -651,14 +651,14 @@
         <Name>gti</Name>
         <Summary xml:lang="en">Just a silly git launcher, basically</Summary>
         <Description xml:lang="en">Just a silly git launcher, basically. Inspired by sl.</Description>
-        <PartOf>system.util</PartOf>
+        <PartOf>programming.tools</PartOf>
         <License>MIT</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-03-11</Date>
+            <Update release="3">
+                <Date>2020-05-23</Date>
                 <Version>1.7.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -670,9 +670,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>14837</InstalledSize>
-        <PackageSize>5351</PackageSize>
-        <PackageHash>df4987f9489e8f8c1e91c7d6e125070ca5164bf2</PackageHash>
-        <PackageURI>gti-1.7.0-2-1-x86_64.eopkg</PackageURI>
+        <PackageSize>5372</PackageSize>
+        <PackageHash>8203f0d82692bf9d250e712683876167b8d96845</PackageHash>
+        <PackageURI>gti-1.7.0-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>gti</Name>

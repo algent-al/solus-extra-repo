@@ -2168,39 +2168,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>variety-slideshow</Name>
-        <Summary xml:lang="en">A pan-and-zoom image slideshow in Python, using Clutter</Summary>
-        <Description xml:lang="en">A pan-and-zoom image slideshow in Python, using Clutter</Description>
-        <PartOf>multimedia.graphics</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <History>
-            <Update release="2">
-                <Date>2020-02-05</Date>
-                <Version>0.1.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>46031</InstalledSize>
-        <PackageSize>16396</PackageSize>
-        <PackageHash>470a8965206cf594e8192471e57c0fed8c51d83d</PackageHash>
-        <PackageURI>variety-slideshow-0.1.1-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>variety-slideshow</Name>
-            <Homepage>https://peterlevi.com/variety</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>python-tinycss2</Name>
         <Summary xml:lang="en">Low-level CSS parser for Python</Summary>
         <Description xml:lang="en">tinycss2 is a low-level CSS parser and generator: it can parse strings, return Python objects representing tokens and blocks, and generate CSS strings corresponding to these objects.</Description>
@@ -2315,50 +2282,6 @@
         <Source>
             <Name>restview</Name>
             <Homepage>https://pypi.python.org/pypi/restview</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>conky-manager2</Name>
-        <Summary xml:lang="en">Conky Manager 2 - a newer conky config manager</Summary>
-        <Description xml:lang="en">This is a fork of the old original Conky Manager by teejee2008(Tony George). This is a graphical front-end for managing Conky config files. It provides options to start/stop, browse and edit Conky themes installed on the system. It also provides support for the newer lua-based conky and configuration files(v1.10)</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="15">libgee</Dependency>
-            <Dependency releaseFrom="17">libjson-glib</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency>conky</Dependency>
-            <Dependency>imagemagick</Dependency>
-            <Dependency>p7zip</Dependency>
-            <Dependency>rsync</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-04-19</Date>
-                <Version>2.7</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1037218</InstalledSize>
-        <PackageSize>771833</PackageSize>
-        <PackageHash>063cf20d4200e082b0d7e69872a47de4b1a8fd12</PackageHash>
-        <PackageURI>conky-manager2-2.7-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>conky-manager2</Name>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

@@ -69,21 +69,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-workspace-overview-applet</Name>
-        <Summary xml:lang="en">Applet providing quick access to workspaces for the Budgie Desktop</Summary>
-        <Description xml:lang="en">The workspace overview applet allows a user to quickly navigate workspaces using the applet&apos;s menu. Optionally, navigation to any window in any workspace is possible.</Description>
-        <PartOf>desktop.budgie</PartOf>
+        <Name>qogir-gtk-theme-win</Name>
+        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
+        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
+        <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-            <Dependency>python-psutil</Dependency>
-            <Dependency>xprop</Dependency>
-            <Dependency>wmctrl</Dependency>
-        </RuntimeDependencies>
         <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
+            <Update release="2">
+                <Date>2020-05-03</Date>
+                <Version>2020.02.26</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -93,14 +87,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>79045</InstalledSize>
-        <PackageSize>16099</PackageSize>
-        <PackageHash>7c678808dfca59f00fc252852e223dc94f65f1da</PackageHash>
-        <PackageURI>budgie-workspace-overview-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>10146956</InstalledSize>
+        <PackageSize>2813213</PackageSize>
+        <PackageHash>d701879e905eb343d4f785ab808b17a9f51ee383</PackageHash>
+        <PackageURI>qogir-gtk-theme-win-2020.02.26-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Name>qogir-gtk-theme</Name>
+            <Homepage>https://github.com/vinceliuice/Qogir-theme</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -210,50 +204,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-network-manager-applet</Name>
-        <Summary xml:lang="en">Network Manager Applet for the budgie-desktop</Summary>
-        <Description xml:lang="en">This package installs an Network connectivity applet for the budgie-desktop.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="1">libnma</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency releaseFrom="55">network-manager</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency releaseFrom="15">libgee</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>145952</InstalledSize>
-        <PackageSize>44256</PackageSize>
-        <PackageHash>46042479f1a1e07334149caac13eca3ef9ef03d5</PackageHash>
-        <PackageURI>budgie-network-manager-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>hardcode-tray</Name>
         <Summary xml:lang="en">Fixes Hardcoded tray icons in Linux</Summary>
         <Description xml:lang="en">Fixes Hardcoded tray icons in Linux. The script will automatically detect your default theme, the correct icon size, the hard-coded applications, the correct icons for each indicator and fix them. All that with the possibility to revert to the original icons.</Description>
@@ -280,50 +230,6 @@
         <Source>
             <Name>hardcode-tray</Name>
             <Homepage>https://github.com/bilelmoussaoui/Hardcode-Tray</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-showtime-applet</Name>
-        <Summary xml:lang="en">Applet displaying date and time on the Budgie Desktop</Summary>
-        <Description xml:lang="en">Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Text color of both can be set separately from the applet&apos;s menu.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="44">libcairo</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="19">libwnck</Dependency>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>83232</InstalledSize>
-        <PackageSize>25309</PackageSize>
-        <PackageHash>19ad9ad8306c5947f2b857a4c1d51da0f92cb848</PackageHash>
-        <PackageURI>budgie-showtime-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -364,80 +270,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-workspace-stopwatch-applet</Name>
-        <Summary xml:lang="en">Workspace usage tracker for the budgie desktop</Summary>
-        <Description xml:lang="en">Workspace Stopwatch Applet keeps track of usage per workspace, i.e. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are remembered.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>9664</InstalledSize>
-        <PackageSize>4844</PackageSize>
-        <PackageHash>3709b5f42378c17ae550bfe4c3537fa2dd932f97</PackageHash>
-        <PackageURI>budgie-workspace-stopwatch-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-workspace-wallpaper-applet</Name>
-        <Summary xml:lang="en">Applet providing per workspace wallpaper</Summary>
-        <Description xml:lang="en">The workspace wallpaper applet shows a different wallpaper on each of the workspaces. Usage is simple; add the applet to the panel and set wallpapers on each of the workspaces in the way you are used to. The applet will remember what wallpaper was set on each of the workspaces.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-            <Dependency>python-psutil</Dependency>
-            <Dependency>wmctrl</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>17360</InstalledSize>
-        <PackageSize>6209</PackageSize>
-        <PackageHash>17f669208a6ababbfb11a11670e194351a055dc7</PackageHash>
-        <PackageURI>budgie-workspace-wallpaper-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>pytest-asyncio</Name>
         <Summary xml:lang="en">Pytest support for asyncio.</Summary>
         <Description xml:lang="en">pytest-asyncio is an Apache2 licensed library, written in Python, for testing asyncio code with pytest. asyncio code is usually written in the form of coroutines, which makes it slightly more difficult to test using normal testing tools. pytest-asyncio provides useful fixtures and markers to make testing easier.</Description>
@@ -464,84 +296,6 @@
         <Source>
             <Name>pytest-asyncio</Name>
             <Homepage>https://github.com/pytest-dev/pytest-asyncio</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-wallstreet</Name>
-        <Summary xml:lang="en">Change wallpaper from a folder on a schedule</Summary>
-        <Description xml:lang="en">Wallstreet allows for a directory of pictures to be shown on a schedule.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency>budgie-extras-daemon</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>58292</InstalledSize>
-        <PackageSize>14339</PackageSize>
-        <PackageHash>d582af70985462ba964a400c9ae3670fa6c1b786</PackageHash>
-        <PackageURI>budgie-wallstreet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>wmctrl</Name>
-        <Summary xml:lang="en">wmctrl is a UNIX/Linux command line tool to interact with an EWMH/NetWM compatible X Window Manager</Summary>
-        <Description xml:lang="en">The tool provides command line access to almost all the features defined in the EWMH specification. It can be used, for example, to get information about the window manager, to get a detailed list of desktops and managed windows, to switch and resize desktops, to make windows full-screen, always-above or sticky, and to activate, close, move, resize, maximize and minimize them.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-2.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="8">libxmu</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-02-23</Date>
-                <Version>1.07</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>52370</InstalledSize>
-        <PackageSize>17291</PackageSize>
-        <PackageHash>1c9c37ac5b5d37df730d9827da8e60dde0c6c482</PackageHash>
-        <PackageURI>wmctrl-1.07-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>wmctrl</Name>
-            <Homepage>http://tripie.sweb.cz/utils/wmctrl/</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -586,18 +340,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-rotation-lock-applet</Name>
-        <Summary xml:lang="en">Applet to lock or unlock the screen rotation</Summary>
-        <Description xml:lang="en">The Rotation Lock applet provides the user an easy way to lock or unlock the screen rotation.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
+        <Name>bashtop</Name>
+        <Summary xml:lang="en">Linux resource monitor</Summary>
+        <Description xml:lang="en">Linux resource monitor written in bash</Description>
+        <PartOf>system.utils</PartOf>
+        <License>Apache-2.0</License>
         <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
+            <Update release="5">
+                <Date>2020-05-23</Date>
+                <Version>0.9.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -607,57 +358,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>6863</InstalledSize>
-        <PackageSize>3940</PackageSize>
-        <PackageHash>61bf5e8762b3c2d05d60c8487bb3218e701eca4b</PackageHash>
-        <PackageURI>budgie-rotation-lock-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>186945</InstalledSize>
+        <PackageSize>45903</PackageSize>
+        <PackageHash>d7ca5d78e20019aa70f582aa1c1934b93e5c2433</PackageHash>
+        <PackageURI>bashtop-0.9.1-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-hotcorners-applet</Name>
-        <Summary xml:lang="en">Applet providing hotcorners capabilities for the Budgie Desktop</Summary>
-        <Description xml:lang="en">The hotcorners applet allow user defined commands to be executed when the mouse cursor is pushed into a corner of the main desktop.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency releaseFrom="17">libjson-glib</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency releaseFrom="6">budgie-previews</Dependency>
-            <Dependency>xdotool</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>56041</InstalledSize>
-        <PackageSize>18544</PackageSize>
-        <PackageHash>2a7ea1619b7a41ad5d21eb3960ec941dc65c1cb8</PackageHash>
-        <PackageURI>budgie-hotcorners-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Name>bashtop</Name>
+            <Homepage>https://github.com/aristocratos/bashtop</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -731,72 +439,6 @@
         <Source>
             <Name>gti</Name>
             <Homepage>https://r-wos.org/hacks/gti</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>qogir-gtk-theme-win</Name>
-        <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
-        <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
-        <PartOf>desktop.theme</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <History>
-            <Update release="2">
-                <Date>2020-05-03</Date>
-                <Version>2020.02.26</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>10146956</InstalledSize>
-        <PackageSize>2813213</PackageSize>
-        <PackageHash>d701879e905eb343d4f785ab808b17a9f51ee383</PackageHash>
-        <PackageURI>qogir-gtk-theme-win-2020.02.26-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>qogir-gtk-theme</Name>
-            <Homepage>https://github.com/vinceliuice/Qogir-theme</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>bashtop</Name>
-        <Summary xml:lang="en">Linux resource monitor</Summary>
-        <Description xml:lang="en">Linux resource monitor written in bash</Description>
-        <PartOf>system.utils</PartOf>
-        <License>Apache-2.0</License>
-        <History>
-            <Update release="5">
-                <Date>2020-05-23</Date>
-                <Version>0.9.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>186945</InstalledSize>
-        <PackageSize>45903</PackageSize>
-        <PackageHash>d7ca5d78e20019aa70f582aa1c1934b93e5c2433</PackageHash>
-        <PackageURI>bashtop-0.9.1-5-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>bashtop</Name>
-            <Homepage>https://github.com/aristocratos/bashtop</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -911,80 +553,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-another-trash-applet</Name>
-        <Summary xml:lang="en">Applet allows access to trash capabilities for the Budgie Desktop</Summary>
-        <Description xml:lang="en">The trash applet allows the user access the desktop trash capabilities from the panel including the ability to delete and restore files stored in the trash folder.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>73566</InstalledSize>
-        <PackageSize>22060</PackageSize>
-        <PackageHash>abb4b74c2c1b5f7f45edb6de5ef17270d79791f0</PackageHash>
-        <PackageURI>budgie-another-trash-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>eopkg-audit</Name>
-        <Summary xml:lang="en">Audits system files against the eopkg database</Summary>
-        <Description xml:lang="en">eopkg-audit is a command-line utility which audits system files against the eopkg database to find discrepancies such as added or deleted files. The existing eopkg check utility can detected deleted or modified files, but does not search system directories to find files that were manually added outside of eopkg.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MIT</License>
-        <History>
-            <Update release="2">
-                <Date>2020-05-02</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>6792</InstalledSize>
-        <PackageSize>3599</PackageSize>
-        <PackageHash>5d94b1c116bf205b367c519db46779c12f544c6c</PackageHash>
-        <PackageURI>eopkg-audit-1.0.1-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>eopkg-audit</Name>
-            <Homepage>https://github.com/tomocafe/eopkg-audit</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>bandwhich</Name>
         <Summary xml:lang="en">Terminal bandwidth utilization tool</Summary>
         <Description xml:lang="en">This is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname</Description>
@@ -1015,47 +583,6 @@
         <Source>
             <Name>bandwhich</Name>
             <Homepage>https://github.com/imsnif/bandwhich</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-brightness-control-applet</Name>
-        <Summary xml:lang="en">Applet to control the brightness of the screen</Summary>
-        <Description xml:lang="en">The brightness controller applet allows controlling of the screen levels via xrandr (fallback) or via gnome-settings-daemon (if available)</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>97584</InstalledSize>
-        <PackageSize>27187</PackageSize>
-        <PackageHash>6e3883b3ae275234a11b2de2189f6c14fae981ad</PackageHash>
-        <PackageURI>budgie-brightness-control-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1125,45 +652,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-keyboard-autoswitch-applet</Name>
-        <Summary xml:lang="en">Applet adding the ability to set a different keyboard layout per application</Summary>
-        <Description xml:lang="en">The Keyboard Auto Switcher applet provides the user the ability to set a different keyboard layout per application. Exceptions to the default layout can be set by simply choosing a different layout using the Keyboard Layout applet.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-            <Dependency>python-psutil</Dependency>
-            <Dependency>xdotool</Dependency>
-            <Dependency>xprop</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>17564</InstalledSize>
-        <PackageSize>7084</PackageSize>
-        <PackageHash>c9384dfc1d1704dbe49ac34b0e926de10038ecad</PackageHash>
-        <PackageURI>budgie-keyboard-autoswitch-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>qogir-gtk-theme-manjaro-win</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
@@ -1190,90 +678,6 @@
         <Source>
             <Name>qogir-gtk-theme</Name>
             <Homepage>https://github.com/vinceliuice/Qogir-theme</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-visualspace-applet</Name>
-        <Summary xml:lang="en">Show and manage windows in workspaces for the Budgie Desktop</Summary>
-        <Description xml:lang="en">The visualspace applet shows as a stylish compact workspace on the budgie panel. Choosing windows in the applet popup moves to the workspace where the window is located and gives it focus. The number of Workspace can also be changed though the applet popup.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency releaseFrom="19">libwnck</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>53237</InstalledSize>
-        <PackageSize>15827</PackageSize>
-        <PackageHash>4eaec907ec1344b8782938bf223129285061f86a</PackageHash>
-        <PackageURI>budgie-visualspace-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-recentlyused-applet</Name>
-        <Summary xml:lang="en">Applet displays files recently accessed for the Budgie Desktop</Summary>
-        <Description xml:lang="en">The recentlyused applet displays the users files that have been opened or created within a configurable period of time.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency releaseFrom="15">libgee</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>36837</InstalledSize>
-        <PackageSize>12060</PackageSize>
-        <PackageHash>d3981652b2bbe84f56856b93cff252b3375146af</PackageHash>
-        <PackageURI>budgie-recentlyused-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1357,193 +761,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>python-cairocffi</Name>
-        <Summary xml:lang="en">CFFI-based cairo bindings for Python</Summary>
-        <Description xml:lang="en">cairocffi is a CFFI-based drop-in replacement for Pycairo, a set of Python bindings and object-oriented API for cairo. Cairo is a 2D vector graphics library with support for multiple backends including image buffers, PNG, PostScript, PDF, and SVG file output.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>BSD-3-Clause</License>
-        <RuntimeDependencies>
-            <Dependency>gdk-pixbuf</Dependency>
-            <Dependency>libcairo</Dependency>
-            <Dependency>python-cffi</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-03-04</Date>
-                <Version>1.1.0</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>764605</InstalledSize>
-        <PackageSize>123744</PackageSize>
-        <PackageHash>113cb42bfb2d131af8b6aecff80a8e534db098fc</PackageHash>
-        <PackageURI>python-cairocffi-1.1.0-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-cairocffi</Name>
-            <Homepage>https://cairocffi.readthedocs.io/en/stable/</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>pytest-isort</Name>
-        <Summary xml:lang="en">py.test plugin to check import ordering using isort</Summary>
-        <Description xml:lang="en">py.test plugin to check import ordering using isort</Description>
-        <PartOf>programming.python</PartOf>
-        <License>BSD-3-Clause</License>
-        <RuntimeDependencies>
-            <Dependency>python-isort</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2020-05-02</Date>
-                <Version>1.0.0</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>17077</InstalledSize>
-        <PackageSize>7434</PackageSize>
-        <PackageHash>a23d5590aef542c639fca7db586770c072704fcc</PackageHash>
-        <PackageURI>pytest-isort-1.0.0-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>pytest-isort</Name>
-            <Homepage>https://github.com/moccu/pytest-isort</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-clockworks-applet</Name>
-        <Summary xml:lang="en">Applet to display clock across multiple time zones</Summary>
-        <Description xml:lang="en">A multi clock applet to show the time across multiple timezones. Clocks can be created and deleted in a single click, and easily be (re-) named. Timezones can be looked up from the applet&apos;s popup menu.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-            <Dependency>python-cairosvg</Dependency>
-            <Dependency>python-pillow</Dependency>
-            <Dependency>python-svgwrite</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>25596</InstalledSize>
-        <PackageSize>8955</PackageSize>
-        <PackageHash>f6063d98bb75153e9b5a0e435e2e56e4394d928e</PackageHash>
-        <PackageURI>budgie-clockworks-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-fuzzyclock-applet</Name>
-        <Summary xml:lang="en">Shows the time in a Fuzzy Way</Summary>
-        <Description xml:lang="en">Displays the time in a &apos;spoken&apos; format such as five past six.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>43741</InstalledSize>
-        <PackageSize>14245</PackageSize>
-        <PackageHash>fb88009ada53d9132c7a9d4229ffef0cbd060cdf</PackageHash>
-        <PackageURI>budgie-fuzzyclock-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>python-svgwrite</Name>
-        <Summary xml:lang="en">Python Package to write SVG files</Summary>
-        <Description xml:lang="en">As the name svgwrite implies, svgwrite creates new SVG drawings, it does not read existing drawings and also does not import existing drawings, but you can always include other SVG drawings by the &lt;image&gt; entity.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MIT</License>
-        <History>
-            <Update release="2">
-                <Date>2020-05-02</Date>
-                <Version>1.4</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>457249</InstalledSize>
-        <PackageSize>95751</PackageSize>
-        <PackageHash>325397a8105a55b2295de8f596b2a468a60188d7</PackageHash>
-        <PackageURI>python-svgwrite-1.4-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-svgwrite</Name>
-            <Homepage>https://github.com/mozman/svgwrite</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>qogir-gtk-theme-ubuntu-win</Name>
         <Summary xml:lang="en">Qogir is a flat Design theme for GTK</Summary>
         <Description xml:lang="en">Qogir is a flat Design theme based on Arc gtk theme for Budgie, Gnome and Mate.</Description>
@@ -1577,25 +794,14 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-previews</Name>
-        <Summary xml:lang="en">Provides window previews capabilities for the Budgie Desktop</Summary>
-        <Description xml:lang="en">Set previews to show an overview of windows in an expose like way.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="44">libcairo</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="19">libwnck</Dependency>
-            <Dependency>budgie-extras-daemon</Dependency>
-            <Dependency>xinput</Dependency>
-            <Dependency>xprintidle</Dependency>
-        </RuntimeDependencies>
+        <Name>eopkg-audit</Name>
+        <Summary xml:lang="en">Audits system files against the eopkg database</Summary>
+        <Description xml:lang="en">eopkg-audit is a command-line utility which audits system files against the eopkg database to find discrepancies such as added or deleted files. The existing eopkg check utility can detected deleted or modified files, but does not search system directories to find files that were manually added outside of eopkg.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
         <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
+            <Update release="2">
+                <Date>2020-05-02</Date>
                 <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
@@ -1606,14 +812,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>110887</InstalledSize>
-        <PackageSize>28247</PackageSize>
-        <PackageHash>dbe020dc3bcbc3fb34ac0a7adb29f2fefae6c09d</PackageHash>
-        <PackageURI>budgie-previews-1.0.1-6-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>6792</InstalledSize>
+        <PackageSize>3599</PackageSize>
+        <PackageHash>5d94b1c116bf205b367c519db46779c12f544c6c</PackageHash>
+        <PackageURI>eopkg-audit-1.0.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
+            <Name>eopkg-audit</Name>
+            <Homepage>https://github.com/tomocafe/eopkg-audit</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1647,46 +853,6 @@
         <Source>
             <Name>we10x-icon-theme</Name>
             <Homepage>https://github.com/yeyushengfan258/We10X-icon-theme</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-window-mover-applet</Name>
-        <Summary xml:lang="en">Applet allows moving windows between workspaces for the Budgie Desktop</Summary>
-        <Description xml:lang="en">The Window Mover applet allows the user to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard) and the window will move to that workspace.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-            <Dependency>python-psutil</Dependency>
-            <Dependency>xdotool</Dependency>
-            <Dependency>xprop</Dependency>
-            <Dependency>wmctrl</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>24940</InstalledSize>
-        <PackageSize>9149</PackageSize>
-        <PackageHash>c21ee728c0ced47cbcd1d33944c7cd82b4908a79</PackageHash>
-        <PackageURI>budgie-window-mover-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1841,57 +1007,18 @@
         </Source>
     </Package>
     <Package>
-        <Name>budgie-quickchar</Name>
-        <Summary xml:lang="en">GUI to find and choose locale characters</Summary>
-        <Description xml:lang="en">Quickly find and choose the equivalent locale character for an ascii character.</Description>
-        <PartOf>desktop.budgie</PartOf>
+        <Name>tela-grub-theme</Name>
+        <Summary xml:lang="en">Tela grub theme</Summary>
+        <Description xml:lang="en">This is Tela grub2 theme. Use grub-customizer to use or change the theme.</Description>
+        <PartOf>system.utils</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency>budgie-extras-daemon</Dependency>
-            <Dependency>python-pyperclip</Dependency>
-            <Dependency>python-xlib</Dependency>
-            <Dependency>wmctrl</Dependency>
+            <Dependency>grub-customizer</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>19696</InstalledSize>
-        <PackageSize>8317</PackageSize>
-        <PackageHash>303e4ada4f398082b52cf2e8180c49c09dd0ff01</PackageHash>
-        <PackageURI>budgie-quickchar-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>python-cssselect2</Name>
-        <Summary xml:lang="en">CSS selectors for Python ElementTree</Summary>
-        <Description xml:lang="en">cssselect2 is a straightforward implementation of CSS3 Selectors for markup documents (HTML, XML, etc.) that can be read by ElementTree-like parsers (including cElementTree, lxml, html5lib, etc.)</Description>
-        <PartOf>programming.python</PartOf>
-        <License>BSD-3-Clause</License>
-        <RuntimeDependencies>
-            <Dependency>python-tinycss2</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
+            <Update release="1">
                 <Date>2020-03-22</Date>
-                <Version>0.3.0</Version>
+                <Version>2019.08.24</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1901,14 +1028,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>184838</InstalledSize>
-        <PackageSize>41647</PackageSize>
-        <PackageHash>c3950f26da59caf99a6f4e4edce05bc6f90d3805</PackageHash>
-        <PackageURI>python-cssselect2-0.3.0-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>2595653</InstalledSize>
+        <PackageSize>909267</PackageSize>
+        <PackageHash>8b312636dd3141132840f638b6d470266597ed9b</PackageHash>
+        <PackageURI>tela-grub-theme-2019.08.24-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>python-cssselect2</Name>
-            <Homepage>https://pypi.org/project/cssselect2/</Homepage>
+            <Name>grub2-themes</Name>
+            <Homepage>https://github.com/vinceliuice/grub2-themes</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -1946,120 +1073,6 @@
         <Source>
             <Name>qogir-gtk-theme</Name>
             <Homepage>https://github.com/vinceliuice/Qogir-theme</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>tela-grub-theme</Name>
-        <Summary xml:lang="en">Tela grub theme</Summary>
-        <Description xml:lang="en">This is Tela grub2 theme. Use grub-customizer to use or change the theme.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>grub-customizer</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-03-22</Date>
-                <Version>2019.08.24</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>2595653</InstalledSize>
-        <PackageSize>909267</PackageSize>
-        <PackageHash>8b312636dd3141132840f638b6d470266597ed9b</PackageHash>
-        <PackageURI>tela-grub-theme-2019.08.24-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>grub2-themes</Name>
-            <Homepage>https://github.com/vinceliuice/grub2-themes</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>python-cairosvg</Name>
-        <Summary xml:lang="en">CairoSVG is a SVG converter based on Cairo</Summary>
-        <Description xml:lang="en">CairoSVG is a SVG converter based on Cairo. It can export SVG files to PDF, PostScript and PNG files.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>LGPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>python-cairocffi</Dependency>
-            <Dependency>python-cssselect2</Dependency>
-            <Dependency>python-defusedxml</Dependency>
-            <Dependency>python-pillow</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-03-04</Date>
-                <Version>2.4.2</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>251689</InstalledSize>
-        <PackageSize>71081</PackageSize>
-        <PackageHash>33e481d99919a8dcc0fe86bf3f40b5bf4faf4db0</PackageHash>
-        <PackageURI>python-cairosvg-2.4.2-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-cairosvg</Name>
-            <Homepage>https://cairosvg.org/</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-dropby-applet</Name>
-        <Summary xml:lang="en">Applet to popup when a USB device is connected</Summary>
-        <Description xml:lang="en">The DropBy applet pops up in the panel when connecting a usb device. The applet subsequently offers the option(s) to mount, unmount/eject and in case of a flash drive, to make a local copy of the drive&apos;s content. The info shows the free space on the volume.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-            <Dependency>python-psutil</Dependency>
-            <Dependency>python3-pyudev</Dependency>
-            <Dependency>wmctrl</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>27654</InstalledSize>
-        <PackageSize>9499</PackageSize>
-        <PackageHash>73794e292089b2f9d36b914648f53e8b0c242500</PackageHash>
-        <PackageURI>budgie-dropby-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -2125,126 +1138,6 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>mcmojave-cursors</Name>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-app-launcher-applet</Name>
-        <Summary xml:lang="en">Applet to provide an alternative means to launch applications</Summary>
-        <Description xml:lang="en">The app-launcher applet allows the ability to add favorite apps to the panel as well as finding and launching applications.  The list of applications listed can be easily configured to be visible or hidden.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>53169</InstalledSize>
-        <PackageSize>12175</PackageSize>
-        <PackageHash>89a90429f3b9ea9894fb96666c5fb19f00837341</PackageHash>
-        <PackageURI>budgie-app-launcher-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>python-tinycss2</Name>
-        <Summary xml:lang="en">Low-level CSS parser for Python</Summary>
-        <Description xml:lang="en">tinycss2 is a low-level CSS parser and generator: it can parse strings, return Python objects representing tokens and blocks, and generate CSS strings corresponding to these objects.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>BSD-3-Clause</License>
-        <RuntimeDependencies>
-            <Dependency>python-webencodings</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-03-04</Date>
-                <Version>1.0.2</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>448263</InstalledSize>
-        <PackageSize>70844</PackageSize>
-        <PackageHash>1b22653b14eeae3bfec1ab32fb6d205f71aa24dc</PackageHash>
-        <PackageURI>python-tinycss2-1.0.2-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python-tinycss2</Name>
-            <Homepage>https://tinycss2.readthedocs.io/</Homepage>
-            <Packager>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>budgie-applications-menu-applet</Name>
-        <Summary xml:lang="en">Stylish Applications Menu for Budgie-Desktop</Summary>
-        <Description xml:lang="en">The application-menu is a stylish panel applet that displays applications in different views - grid and list. Weblinks typed into the search bar can be opened in your default browser. Applications that have additional desktop options show via a right-click menu. Applications with associated actions show those actions are additional searchable entries.</Description>
-        <PartOf>desktop.budgie</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="10">zeitgeist</Dependency>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="208">budgie-desktop</Dependency>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="19">libpeas</Dependency>
-            <Dependency releaseFrom="15">libgee</Dependency>
-            <Dependency releaseFrom="10">libgnome-menus</Dependency>
-            <Dependency releaseFrom="17">libjson-glib</Dependency>
-            <Dependency releaseFrom="17">granite</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="17">plank</Dependency>
-            <Dependency>budgie-extras</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="6">
-                <Date>2020-04-16</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Algent Albrahimi</Name>
-                <Email>algent@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>487205</InstalledSize>
-        <PackageSize>145622</PackageSize>
-        <PackageHash>6abe9aed74e5015c549053157ecf324be8855b9e</PackageHash>
-        <PackageURI>budgie-applications-menu-applet-1.0.1-6-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ubuntu-budgie-extras</Name>
-            <Homepage>https://github.com/UbuntuBudgie/budgie-extras</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

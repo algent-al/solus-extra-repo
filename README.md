@@ -25,7 +25,6 @@ Search for the package name and then click install.
 | bandwich | ![](https://repology.org/badge/latest-versions/bandwhich.svg?header=) | 0.14.0 |
 | bashtop | ![](https://repology.org/badge/latest-versions/bashtop.svg?header=) | 0.9.1 |
 | bibata-cursors | ![](https://repology.org/badge/latest-versions/bibata-cursors.svg?header=) | 0.4.2 |
-| budgie-extras | ![](https://repology.org/badge/latest-versions/budgie-extras.svg?header=) | 1.0.1 |
 | conky-manager2 | ![](https://repology.org/badge/latest-versions/conky-manager.svg?header=) | 2.7 |
 | eopkg-audit | ![](https://repology.org/badge/latest-versions/eopkg-audit.svg?header=) | 1.0.1 |
 | font-caskaydia-cove-nerd-ttf | ![](https://repology.org/badge/latest-versions/fonts:nerd-fonts.svg?header=) | 2.1.0 |
@@ -36,65 +35,19 @@ Search for the package name and then click install.
 | mcmojave-cursors | ![](https://repology.org/badge/latest-versions/mcmojave-cursors.svg?header=) | 20200207 |
 | odrive | ![](https://repology.org/badge/latest-versions/odrive-google-drive-client.svg?header=) | 0.3.0 |
 | pytest-asyncio | ![](https://repology.org/badge/latest-versions/python:pytest-asyncio.svg?header=) | 0.10.0 |
-| pytest-isort | ![](https://repology.org/badge/latest-versions/python:pytest-isort.svg?header=) | 1.0.0 |
-| python-cairocffi | ![](https://repology.org/badge/latest-versions/python:cairocffi.svg?header=) | 1.1.0 |
-| python-cairosvg | ![](https://repology.org/badge/latest-versions/python:cairosvg.svg?header=) | 2.4.2 |
 | python-capturer | ![](https://repology.org/badge/latest-versions/python:capturer.svg?header=) | 3.0 |
 | python-coloredlogs | ![](https://repology.org/badge/latest-versions/python:coloredlogs.svg?header=) | 14.0 |
-| python-cssselect2 | ![](https://repology.org/badge/latest-versions/python:cssselect2.svg?header=) | 0.3.0 |
 | python-humanfriendly | ![](https://repology.org/badge/latest-versions/python:humanfriendly.svg?header=) | 8.2 |
 | python-injector | ![](https://repology.org/badge/latest-versions/python:injector.svg?header=) | 0.18.3 |
 | python-rx | ![](https://repology.org/badge/latest-versions/python:rx.svg?header=) | 3.1.0 |
 | python-readme-renderer | ![](https://repology.org/badge/latest-versions/python:readme-renderer.svg?header=) | 26.0 |
-| python-svgwrite | ![](https://repology.org/badge/latest-versions/python:svgwrite.svg?header=) | 1.4 |
-| python-tinycss2 | ![](https://repology.org/badge/latest-versions/python:tinycss2.svg?header=) | 1.0.2 |
 | python-wordcloud | ![](https://repology.org/badge/latest-versions/python:wordcloud.svg?header=) | 1.7.0 |
 | restview | ![](https://repology.org/badge/latest-versions/restview.svg?header=) | 2.9.2 |
 | qogir-gtk-theme | ![](https://repology.org/badge/latest-versions/qogir-theme.svg?header=) | 2020.02.26 |
 | slaze-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-slaze.svg?header=) | 2019.08.24 |
 | stylish-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-stylish.svg?header=) | 2019.08.24 |
 | tela-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-tela.svg?header=) | 2019.08.24 |
-| variety-slideshow | ![](https://repology.org/badge/latest-versions/variety-slideshow.svg?header=) | 0.1 |
 | vimix-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-vimix.svg?header=) | 2019.08.24 |
 | wavemon | ![](https://repology.org/badge/latest-versions/wavemon.svg?header=) | 0.9.1 |
 | we10x-icon-theme | ![](https://repology.org/badge/latest-versions/we10x-icon-theme.svg?header=) | 2020.04.23 |
-| wmctrl | ![](https://repology.org/badge/latest-versions/wmctrl.svg?header=) | 1.07 |
-
-### Budgie-extras
-
-Applets from [budgie-extras](https://github.com/UbuntuBudgie/budgie-extras) are splited in separate packages.  
-Latest stable version of budgie-extras is 1.0.1.
-
-### Current status of applets
-
-- [x] budgie-app-launcher
-- [x] budgie-applications-menu
-- [x] budgie-brightness-controller (renamed to budgie-brightness-controll)
-- [x] budgie-clockworks
-- [x] budgie-countdown (Official Repo)
-- [x] budgie-dropby
-- [x] budgie-fuzzyclock
-- [x] budgie-hotcorners
-- [x] budgie-kangaroo (Official Repo)
-- [x] budgie-keyboard-autoswitch
-- [x] budgie-network-manager
-- [x] budgie-quicknote (Official Repo)
-- [x] budgie-recentlyused
-- [x] budgie-rotation-lock
-- [x] budgie-showtime
-- [x] budgie-takeabreak (Official Repo)
-- [x] budgie-trash (renamed to budgie-another-trash)
-- [x] budgie-visualspace
-- [x] budgie-weathershow (Official Repo)
-- [x] budgie-window-mover
-- [x] budgie-wallpaper-switcher
-- [x] budgie-workspace-overview
-- [x] budgie-workspace-stopwatch
-
-### These are standalone apps
-- [x] budgie-extras-daemon (Official Repo)
-- [x] budgie-previews
-- [x] budgie-quickchar
-- [x] budgie-wallstreet
-- [x] budgie-windows-shuffler (Official Repo)
 

@@ -1145,6 +1145,50 @@
         </Source>
     </Package>
     <Package>
+        <Name>vdhcoapp</Name>
+        <Summary xml:lang="en">Companion application for Video DownloadHelper browser add-on</Summary>
+        <Description xml:lang="en">Companion application for Video DownloadHelper browser add-on. This is a precompiled binary version.</Description>
+        <PartOf>network.download</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="11">libxv</Dependency>
+            <Dependency releaseFrom="20">sdl2</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="25">xz</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-05-27</Date>
+                <Version>1.5.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>98138269</InstalledSize>
+        <PackageSize>28444962</PackageSize>
+        <PackageHash>0d15a8b227dff85f875420eab8f12a83f719d026</PackageHash>
+        <PackageURI>vdhcoapp-1.5.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>vdhcoapp</Name>
+            <Packager>
+                <Name>Algent Albrahimi</Name>
+                <Email>algent@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>restview</Name>
         <Summary xml:lang="en">ReStructuredText viewer</Summary>
         <Description xml:lang="en">A viewer for ReStructuredText documents that renders them on the fly.</Description>

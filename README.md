@@ -32,7 +32,7 @@ Search for the package name and then click install.
 | gti | ![](https://repology.org/badge/latest-versions/gti.svg?header=) | 1.7.0 |
 | hardcode-tray | ![](https://repology.org/badge/latest-versions/hardcode-tray.svg?header=) | 4.3 |
 | layan-gtk-theme | ![](https://repology.org/badge/latest-versions/layan-gtk-theme.svg?header=) | 20200529 |
-| mcmojave-cursors | ![](https://repology.org/badge/latest-versions/mcmojave-cursors.svg?header=) | 20200207 |
+| mcmojave-cursors | ![](https://repology.org/badge/latest-versions/mcmojave-cursors.svg?header=) | 20200512 |
 | odrive | ![](https://repology.org/badge/latest-versions/odrive-google-drive-client.svg?header=) | 0.3.0 |
 | pytest-asyncio | ![](https://repology.org/badge/latest-versions/python:pytest-asyncio.svg?header=) | 0.10.0 |
 | python-capturer | ![](https://repology.org/badge/latest-versions/python:capturer.svg?header=) | 3.0 |

@@ -22,7 +22,7 @@ Search for the package name and then click install.
 
 | Package | Upstream Version | Repo Version |
 | --- | --- | --- |
-| bandwich | ![](https://repology.org/badge/latest-versions/bandwhich.svg?header=) | 0.14.0 |
+| bandwich | ![](https://repology.org/badge/latest-versions/bandwhich.svg?header=) | 0.15.0 |
 | bashtop | ![](https://repology.org/badge/latest-versions/bashtop.svg?header=) | 0.9.1 |
 | bibata-cursors | ![](https://repology.org/badge/latest-versions/bibata-cursors.svg?header=) | 0.4.2 |
 | conky-manager2 | ![](https://repology.org/badge/latest-versions/conky-manager.svg?header=) | 2.7 |

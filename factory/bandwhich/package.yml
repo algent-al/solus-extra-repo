@@ -1,8 +1,8 @@
 name       : bandwhich
-version    : 0.14.0
-release    : 4
+version    : 0.15.0
+release    : 5
 source     :
-    - https://github.com/imsnif/bandwhich/archive/0.14.0.tar.gz : 9b9eec854bc9fe5ee8e563d3f65b0acd2cb0ae1b014e51f77cbabf990aaa1398
+    - https://github.com/imsnif/bandwhich/archive/0.15.0.tar.gz : c4922734bbb3ec17c8a0c9fbff4096ee3e28b4efa7dbca9abbd92e0ad6ff3483
 homepage   : https://github.com/imsnif/bandwhich
 license    : MIT
 component  : network.util

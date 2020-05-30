@@ -563,9 +563,9 @@
             <Dependency releaseFrom="49">libgcc</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-05-08</Date>
-                <Version>0.14.0</Version>
+            <Update release="5">
+                <Date>2020-05-30</Date>
+                <Version>0.15.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -575,10 +575,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3211177</InstalledSize>
-        <PackageSize>970135</PackageSize>
-        <PackageHash>31b39853e33c0f5b2f2b99f83496d0150d5a458a</PackageHash>
-        <PackageURI>bandwhich-0.14.0-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>3235753</InstalledSize>
+        <PackageSize>976947</PackageSize>
+        <PackageHash>d87f2d28ccc66e4cbafeb52734ddedae4fd1397d</PackageHash>
+        <PackageURI>bandwhich-0.15.0-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>bandwhich</Name>

@@ -340,15 +340,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>bashtop</Name>
-        <Summary xml:lang="en">Linux resource monitor</Summary>
-        <Description xml:lang="en">Linux resource monitor written in bash</Description>
-        <PartOf>system.utils</PartOf>
-        <License>Apache-2.0</License>
+        <Name>eopkg-audit</Name>
+        <Summary xml:lang="en">Audits system files against the eopkg database</Summary>
+        <Description xml:lang="en">eopkg-audit is a command-line utility which audits system files against the eopkg database to find discrepancies such as added or deleted files. The existing eopkg check utility can detected deleted or modified files, but does not search system directories to find files that were manually added outside of eopkg.</Description>
+        <PartOf>programming.python</PartOf>
+        <License>MIT</License>
         <History>
-            <Update release="5">
-                <Date>2020-05-23</Date>
-                <Version>0.9.1</Version>
+            <Update release="2">
+                <Date>2020-05-02</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -358,14 +358,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>186945</InstalledSize>
-        <PackageSize>45903</PackageSize>
-        <PackageHash>d7ca5d78e20019aa70f582aa1c1934b93e5c2433</PackageHash>
-        <PackageURI>bashtop-0.9.1-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>6792</InstalledSize>
+        <PackageSize>3599</PackageSize>
+        <PackageHash>5d94b1c116bf205b367c519db46779c12f544c6c</PackageHash>
+        <PackageURI>eopkg-audit-1.0.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>bashtop</Name>
-            <Homepage>https://github.com/aristocratos/bashtop</Homepage>
+            <Name>eopkg-audit</Name>
+            <Homepage>https://github.com/tomocafe/eopkg-audit</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -794,15 +794,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>eopkg-audit</Name>
-        <Summary xml:lang="en">Audits system files against the eopkg database</Summary>
-        <Description xml:lang="en">eopkg-audit is a command-line utility which audits system files against the eopkg database to find discrepancies such as added or deleted files. The existing eopkg check utility can detected deleted or modified files, but does not search system directories to find files that were manually added outside of eopkg.</Description>
-        <PartOf>programming.python</PartOf>
-        <License>MIT</License>
+        <Name>bashtop</Name>
+        <Summary xml:lang="en">Linux resource monitor</Summary>
+        <Description xml:lang="en">Linux resource monitor written in bash</Description>
+        <PartOf>system.utils</PartOf>
+        <License>Apache-2.0</License>
         <History>
-            <Update release="2">
-                <Date>2020-05-02</Date>
-                <Version>1.0.1</Version>
+            <Update release="6">
+                <Date>2020-05-30</Date>
+                <Version>0.9.7</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -812,14 +812,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>6792</InstalledSize>
-        <PackageSize>3599</PackageSize>
-        <PackageHash>5d94b1c116bf205b367c519db46779c12f544c6c</PackageHash>
-        <PackageURI>eopkg-audit-1.0.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>190303</InstalledSize>
+        <PackageSize>46587</PackageSize>
+        <PackageHash>a4f640fab833f0d4ed336c3473fe2600d3411649</PackageHash>
+        <PackageURI>bashtop-0.9.7-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>eopkg-audit</Name>
-            <Homepage>https://github.com/tomocafe/eopkg-audit</Homepage>
+            <Name>bashtop</Name>
+            <Homepage>https://github.com/aristocratos/bashtop</Homepage>
             <Packager>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>

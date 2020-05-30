@@ -1,8 +1,8 @@
 name       : bashtop
-version    : 0.9.1
-release    : 5
+version    : 0.9.7
+release    : 6
 source     :
-    - https://github.com/aristocratos/bashtop/archive/v0.9.1.tar.gz : 6174289a3a96dfee58bc8703a7af6bedab032165a625ecf166557aa4419c7895
+    - https://github.com/aristocratos/bashtop/archive/v0.9.7.tar.gz : 2b3775dc3e9444d32038a16691ebd8994f274dcdd322ffa031f9ac76b07b491f
 homepage   : https://github.com/aristocratos/bashtop
 license    : Apache-2.0
 component  : system.utils

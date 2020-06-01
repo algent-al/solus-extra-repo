@@ -833,9 +833,9 @@
         <PartOf>desktop.theme</PartOf>
         <License>GPL-3.0-or-later</License>
         <History>
-            <Update release="1">
-                <Date>2020-05-03</Date>
-                <Version>2020.04.23</Version>
+            <Update release="2">
+                <Date>2020-06-01</Date>
+                <Version>2020.06.01</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Algent Albrahimi</Name>
                 <Email>algent@protonmail.com</Email>
@@ -845,10 +845,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>25423031</InstalledSize>
-        <PackageSize>4783504</PackageSize>
-        <PackageHash>50b477cf92401d9e86539a25f1bb2fb54fe89c86</PackageHash>
-        <PackageURI>we10x-icon-theme-2020.04.23-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>25694749</InstalledSize>
+        <PackageSize>5011877</PackageSize>
+        <PackageHash>e444f481417bef1b6e228728801bf0193f6a759b</PackageHash>
+        <PackageURI>we10x-icon-theme-2020.06.01-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>we10x-icon-theme</Name>

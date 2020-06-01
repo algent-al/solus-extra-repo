@@ -50,5 +50,5 @@ Search for the package name and then click install.
 | vdhcoapp | ![](https://repology.org/badge/latest-versions/vdhcoapp.svg?header=) | 1.5.0 |
 | vimix-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-vimix.svg?header=) | 2019.08.24 |
 | wavemon | ![](https://repology.org/badge/latest-versions/wavemon.svg?header=) | 0.9.1 |
-| we10x-icon-theme | ![](https://repology.org/badge/latest-versions/we10x-icon-theme.svg?header=) | 2020.04.23 |
+| we10x-icon-theme | ![](https://repology.org/badge/latest-versions/we10x-icon-theme.svg?header=) | 2020.06.01 |
 

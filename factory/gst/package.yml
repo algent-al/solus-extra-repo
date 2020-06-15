@@ -1,6 +1,6 @@
 name       : gst
 version    : 0.7.3
-release    : 3
+release    : 1
 source     :
     - https://gitlab.com/leinardi/gst/-/archive/0.7.3/gst-0.7.3.tar.gz : 695a282929b9bcbf22b90b7dad2844a61f35dd03482cdb795b81ef1cd6c7bd30
 homepage   : https://gitlab.com/leinardi/gst

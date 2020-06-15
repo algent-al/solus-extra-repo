@@ -1,6 +1,6 @@
 name       : eopkg-audit
 version    : 1.0.1
-release    : 2
+release    : 1
 source     :
     - https://github.com/tomocafe/eopkg-audit/archive/v1.0.tar.gz : 0ae240df8041f9d7e3a13d54f35f81b7d4b868dc33df94b292eea161b5158a7e
 homepage   : https://github.com/tomocafe/eopkg-audit

@@ -1,6 +1,6 @@
 name       : layan-gtk-theme
 version    : '20200529'
-release    : 3
+release    : 1
 source     :
     - git|https://github.com/vinceliuice/Layan-gtk-theme : 48330b974ec257052c76cbf33dc5b36b67843ff1
 homepage   : https://github.com/vinceliuice/Layan-gtk-theme

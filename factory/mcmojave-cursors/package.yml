@@ -1,6 +1,6 @@
 name       : mcmojave-cursors
 version    : 20200512
-release    : 3
+release    : 1
 source     :
     - git|https://github.com/vinceliuice/McMojave-cursors : bffc4eb6083661f459984daf4358f723d85a1cb9
 homepage   : https://github.com/vinceliuice/McMojave-cursors

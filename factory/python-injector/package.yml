@@ -1,6 +1,6 @@
 name       : python-injector
 version    : 0.18.3
-release    : 2
+release    : 1
 source     :
     - https://github.com/alecthomas/injector/archive/0.18.3.tar.gz : ccf6e7ebc55fc6594e1721a01e91ff6845ebc96f9b6c9d2857c83b50a7cde357
 homepage   : https://injector.readthedocs.org

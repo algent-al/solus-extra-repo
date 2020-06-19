@@ -1,6 +1,6 @@
 name       : python-humanfriendly
 version    : '8.2'
-release    : 3
+release    : 1
 source     :
     - https://github.com/xolox/python-humanfriendly/archive/8.2.tar.gz : 0dd214b258ad4be58c8c8302e328c3149ee4af46a4db5dd91dbeaba2c006e0d3
 homepage   : https://humanfriendly.readthedocs.org

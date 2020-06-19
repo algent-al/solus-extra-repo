@@ -1,6 +1,6 @@
 name       : python-wordcloud
 version    : 1.7.0
-release    : 2
+release    : 1
 source     :
     - https://github.com/amueller/word_cloud/archive/1.7.0.tar.gz : 7e0f6898d41dbf4b59464fc1ce4fa2df61ce66d3fe5615058439eae8ce72e38e
 homepage   : https://amueller.github.io/word_cloud

@@ -1,6 +1,6 @@
 name       : we10x-icon-theme
 version    : 2020.06.01
-release    : 2
+release    : 1
 source     :
     - git|https://github.com/yeyushengfan258/We10X-icon-theme : 94b9b85114e8c07e475c0fb5abcc542afe2d2592
 homepage   : https://github.com/yeyushengfan258/We10X-icon-theme

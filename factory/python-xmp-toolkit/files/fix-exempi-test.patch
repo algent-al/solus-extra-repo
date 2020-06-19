@@ -1,0 +1,34 @@
+From 2f94011ab789d1d2cabc41db7a708a19a62bb573 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Hubert=20Figui=C3=A8re?= <hub@figuiere.net>
+Date: Sun, 22 Jan 2017 00:56:01 -0500
+Subject: [PATCH] Fix test following a bugfix from Exempi 2.4.0
+
+Fixes issue #67
+---
+ test/test_exempi.py | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/test/test_exempi.py b/test/test_exempi.py
+index aafd59d..bfa9a7c 100644
+--- a/test/test_exempi.py
++++ b/test/test_exempi.py
+@@ -30,6 +30,7 @@
+ from libxmp.consts import XMP_NS_Photoshop as NS_PHOTOSHOP
+ from libxmp.consts import XMP_NS_TIFF as NS_TIFF
+ from libxmp.consts import XMP_NS_XMP as NS_XAP
++from libxmp.consts import XMP_NS_XML as NS_XML
+ from libxmp.consts import XMP_NS_CameraRaw as NS_CAMERA_RAW_SETTINGS
+ from libxmp.consts import XMP_ITERATOR_OPTIONS, XMP_SERIAL_OPTIONS
+ from libxmp.consts import XMP_SKIP_OPTIONS
+@@ -543,7 +544,10 @@ def test_single_namespace_single_path_leaf_names(self):
+         options = XMP_ITERATOR_OPTIONS['iter_justleafname']
+         schemas, paths, props = self.collect_iteration(NS_DC, "rights", options)
+ 
+-        self.assertEqual(schemas, [NS_DC, NS_DC, NS_DC])
++        # in Exempi 2.4.0 and later, the actual namespace is returned.
++        # This was fixed in the Adobe SDK CS6 (version 5.4.0)
++        # So we test for both values since we can't check the version at runtime.
++        self.assertTrue(schemas == [NS_DC, NS_DC, NS_DC] or schemas == [NS_DC, '', NS_XML])
+         self.assertEqual(paths,
+                          ['dc:rights',
+                           '[1]',

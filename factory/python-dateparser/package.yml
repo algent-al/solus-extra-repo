@@ -12,7 +12,7 @@ description: |
 builddeps  :
     - python-dateutil
     - python-mock
-    - python-parameterized
+    - python-parameterized # Not in repo
     - python-regex
     - python-tzlocal
 build      : |

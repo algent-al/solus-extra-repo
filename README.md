@@ -23,13 +23,15 @@ This repo is for open source or distributable packages.
 | python-capturer | ![](https://repology.org/badge/latest-versions/python:capturer.svg?header=) | 3.0 |
 | python-chai | ![](https://repology.org/badge/latest-versions/python:chai.svg?header=) | 1.1.2 |
 | python-coloredlogs | ![](https://repology.org/badge/latest-versions/python:coloredlogs.svg?header=) | 14.0 |
-| python-dataparser | ![](https://repology.org/badge/latest-versions/python:dataparser.svg?header=) | 0.7.6 |
+| python-dateparser | ![](https://repology.org/badge/latest-versions/python:dateparser.svg?header=) | 0.7.6 |
 | python-humanfriendly | ![](https://repology.org/badge/latest-versions/python:humanfriendly.svg?header=) | 8.2 |
 | python-injector | ![](https://repology.org/badge/latest-versions/python:injector.svg?header=) | 0.18.3 |
 | python-parameterized | ![](https://repology.org/badge/latest-versions/python:parameterized.svg?header=) | 0.7.4 |
 | python-rx | ![](https://repology.org/badge/latest-versions/python:rx.svg?header=) | 3.1.0 |
 | python-readme-renderer | ![](https://repology.org/badge/latest-versions/python:readme-renderer.svg?header=) | 26.0 |
 | python-wordcloud | ![](https://repology.org/badge/latest-versions/python:wordcloud.svg?header=) | 1.7.0 |
+| python-xattr | ![](https://repology.org/badge/latest-versions/python:xattr.svg?header=) | 0.9.7 |
+| python-xmp-toolkit | ![](https://repology.org/badge/latest-versions/python:xmp-toolkit.svg?header=) | 2.0.1 |
 | restview | ![](https://repology.org/badge/latest-versions/restview.svg?header=) | 2.9.2 |
 | qogir-gtk-theme | ![](https://repology.org/badge/latest-versions/qogir-theme.svg?header=) | 2020.02.26 |
 | slaze-grub-theme | ![](https://repology.org/badge/latest-versions/grub-theme-slaze.svg?header=) | 2019.08.24 |

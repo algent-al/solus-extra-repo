@@ -1,0 +1,22 @@
+name       : python-xmp-toolkit
+version    : 2.0.1
+release    : 1
+source     :
+    - https://github.com/python-xmp-toolkit/python-xmp-toolkit/archive/v2.0.1.tar.gz : 169929bc91cb1bcd918fbfd477f75e121a64f5a2412f757a474584345358c4d2
+homepage   : https://github.com/python-xmp-toolkit/python-xmp-toolkit
+license    : BSD-3-Clause
+component  : programming.python
+summary    : Python XMP Toolkit
+description: |
+    Python XMP Toolkit is a library for working with XMP metadata, as well as reading/writing XMP metadata stored in many different file formats.
+builddeps  :
+    - libexempi
+    - python-pytz
+setup      : |
+    %patch -p1 < $pkgfiles/fix-exempi-test.patch
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test

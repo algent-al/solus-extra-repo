@@ -1,0 +1,15 @@
+name       : pytest-timeout
+version    : 1.4.1
+release    : 1
+source     :
+    - https://github.com/pytest-dev/pytest-timeout/archive/1.4.1.tar.gz : e9b12e207af2d5a26ffa0ec8f8edb88733aef8a5c6a8657e4852fbcb00285107
+homepage   : https://github.com/pytest-dev/pytest-timeout
+license    : MIT
+component  : programming.python
+summary    : This is a plugin which will terminate tests after a certain timeout.
+description: |
+    This is a plugin which will terminate tests after a certain timeout. When doing so it will show a stack dump of all threads running at the time. This is useful when running tests under a continuous integration server or simply if you don't know why the test suite hangs.
+build      : |
+    %python3_setup
+install    : |
+    %python3_install

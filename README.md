@@ -8,9 +8,8 @@ This repo is for open source or distributable packages.
 | Package | Upstream Version | Repo Version |
 | --- | --- | --- |
 | bandwich | ![](https://repology.org/badge/latest-versions/bandwhich.svg?header=) | 0.15.0 |
-| bashtop | ![](https://repology.org/badge/latest-versions/bashtop.svg?header=) | 0.9.7 |
+| bashtop | ![](https://repology.org/badge/latest-versions/bashtop.svg?header=) | 0.9.13 |
 | bibata-cursors | ![](https://repology.org/badge/latest-versions/bibata-cursors.svg?header=) | 0.4.2 |
-| conky-manager2 | ![](https://repology.org/badge/latest-versions/conky-manager.svg?header=) | 2.7 |
 | eopkg-audit | ![](https://repology.org/badge/latest-versions/eopkg-audit.svg?header=) | 1.0.1 |
 | font-caskaydia-cove-nerd-ttf | ![](https://repology.org/badge/latest-versions/fonts:nerd-fonts.svg?header=) | 2.1.0 |
 | gst | ![](https://repology.org/badge/latest-versions/gst.svg?header=) | 0.7.3 |

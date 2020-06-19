@@ -1,0 +1,20 @@
+name       : python-parameterized
+version    : 0.7.4
+release    : 1
+source     :
+    - https://github.com/wolever/parameterized/archive/v0.7.4.tar.gz : 579e5329813bcdcdf7bc1f4570f0befe9179ed13c1a0b8bcc4f73093cdaf74b0
+homepage   : https://github.com/wolever/parameterized
+license    : BSD-2-Clause
+component  : programming.python
+summary    : Parameterized testing with any Python test framework 
+description: |
+    Parameterized testing with any Python test framework
+builddeps  :
+    - python-nose # Check
+    - python-mock # Check
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test nosetests

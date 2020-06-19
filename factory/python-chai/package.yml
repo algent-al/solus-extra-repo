@@ -1,0 +1,19 @@
+name       : python-chai
+version    : 1.1.2
+release    : 1
+source     :
+    - https://github.com/agoragames/chai/archive/1_1_2.tar.gz : d8a7bc0cee5e961a7a28c99da574e09a47fa9e83d9df87c21f292a691a11adee
+homepage   : https://github.com/agoragames/chai
+license    : BSD-3-Clause
+component  : programming.python
+summary    : Mocking framework for Python
+description: |
+    Chai provides a very easy to use api for mocking, stubbing and spying your python objects, patterned after the Mocha library for Ruby.
+builddeps  :
+    - python-nose
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test nosetests

@@ -1,8 +1,8 @@
 name       : we10x-icon-theme
-version    : 2020.06.01
+version    : 2020.08.07
 release    : 1
 source     :
-    - git|https://github.com/yeyushengfan258/We10X-icon-theme : 94b9b85114e8c07e475c0fb5abcc542afe2d2592
+    - git|https://github.com/yeyushengfan258/We10X-icon-theme : 31a0667ac4622fa8e47f22a5cd6f0e0786d689d1
 homepage   : https://github.com/yeyushengfan258/We10X-icon-theme
 license    : GPL-3.0-or-later
 component  : desktop.theme

@@ -9,6 +9,8 @@ component  : network.download
 summary    : Integrate uGet Download Manager with web browsers 
 description: |
     Native messaging host to integrate uGet Download Manager with web browsers Google Chrome, Chromium, Vivaldi, Opera and Firefox.
+setup      : |
+    sed -i 's|#!/usr/bin/env python3|#!/usr/bin/python3|g' bin/uget-integrator
 install    : |
     install -dm00755 $installdir/usr/bin
     install -Dm00755 bin/uget-integrator $installdir/usr/bin/uget-integrator

@@ -1,26 +1,28 @@
 name       : python-wordcloud
-version    : 1.7.0
+version    : 1.8.1
 release    : 1
 source     :
-    - https://github.com/amueller/word_cloud/archive/1.7.0.tar.gz : 7e0f6898d41dbf4b59464fc1ce4fa2df61ce66d3fe5615058439eae8ce72e38e
+    - https://github.com/amueller/word_cloud/archive/1.8.1.tar.gz : 55a2c20e9fe838e9b7f052d17f56b5825d7d1040f6b3af36d1817d1b611d0b42
 homepage   : https://amueller.github.io/word_cloud
 license    : MIT
 component  : programming.python
 summary    : A little word cloud generator in Python
 description: |
-    A little word cloud generator in Python
+    A little word cloud generator in Python.
 builddeps  :
     - pkgconfig(python3)
-    - matplotlib         # Check
-    - numpy              # Check
-    - python-pillow      # Check
-rundeps    :
-    - python-pillow
     - matplotlib
     - numpy
+    - python-mock
+    - python-pillow
+    - python-pytest-cov
+rundeps    :
+    - matplotlib
+    - numpy
+    - python-pillow
 build      : |
     %python3_setup
 install    : |
     %python3_install
 check      : |
-    %python3_test
+    %python3_test pytest3 -v -k 'not test_cli_as_executable'

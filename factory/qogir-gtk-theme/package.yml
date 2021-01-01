@@ -1,8 +1,8 @@
 name       : qogir-gtk-theme
-version    : 2020.02.26
+version    : 2020.11.16
 release    : 1
 source     :
-    - https://github.com/vinceliuice/Qogir-theme/archive/2020-02-26.tar.gz : 0cce185bf300ef2265ba435d3e9e255506ea9093a24d0f0ee57097a8b52320fa
+    - https://github.com/vinceliuice/Qogir-theme/archive/2020-11-16.tar.gz : 4245d1c25b25d297655dd8229e2c4725e672b14405edb7182410be939ca84014
 homepage   : https://github.com/vinceliuice/Qogir-theme
 license    : GPL-3.0-or-later
 component  :
@@ -23,7 +23,7 @@ patterns   :
     - ubuntu-win : /usr/share/themes/*ubuntu-win*
 rundeps    :
     - gtk-engines
-    - gkt2-engine-murrine
+    - gtk2-engine-murrine
     - win :
         - gtk-engines
         - gtk2-engine-murrine
@@ -42,4 +42,4 @@ rundeps    :
 install    : |
     install -dm00644 $installdir/usr/share/themes
     ./install.sh --dest $installdir/usr/share/themes
-    rm -rf $installdir/usr/share/themes/*/{cinnamon,unity,AUTHORS,COPYING}
+    rm -rf $installdir/usr/share/themes/*/{unity,AUTHORS,COPYING}

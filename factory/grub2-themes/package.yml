@@ -1,8 +1,8 @@
 name       : grub2-themes
-version    : 2019.08.24
+version    : 2021.01.26
 release    : 1
 source     :
-    - https://github.com/vinceliuice/grub2-themes/archive/2019_08_24.tar.gz : ebef6a87123e8f31a34e0c5be19dd6e5dadf87b5b53cf97a7fc53e7c51426f47
+    - https://github.com/vinceliuice/grub2-themes/archive/2021-01-26.tar.gz : b8f45431302f601e4565337db671b9ce192832478c318cd3ec585f8192261ed6
 homepage   : https://github.com/vinceliuice/grub2-themes
 license    : GPL-3.0-or-later
 component  :
@@ -12,12 +12,12 @@ component  :
     - ^vimix-grub-theme : system.utils
 summary    :
     - These are grub2 themes.
-    - ^slaze-grub-theme : Slaze grub theme
-    - ^stylish-grub-theme : Stylish grub theme
-    - ^tela-grub-theme : Tela grub theme
-    - ^vimix-grub-theme : Vimix grub theme
+    - ^slaze-grub-theme : Slaze grub2 theme
+    - ^stylish-grub-theme : Stylish grub2 theme
+    - ^tela-grub-theme : Tela grub2 theme
+    - ^vimix-grub-theme : Vimix grub2 theme
 description:
-    - Grub2 Themes. Use grub-customizer to use or change the theme. 
+    - Grub2 Themes. Use grub-customizer to use or change the theme.
     - ^slaze-grub-theme : This is Slaze grub2 theme. Use grub-customizer to use or change the theme.
     - ^stylish-grub-theme : This is Stylish grub2 theme. Use grub-customizer to use or change the theme.
     - ^tela-grub-theme : This is Tela grub2 theme. Use grub-customizer to use or change the theme.
@@ -37,28 +37,28 @@ install    : |
 
     # Installing Slaze theme
     install -dm00644 $installdir/boot/grub/themes/Slaze
-    cp -a backgrounds/background-slaze.jpg $installdir/boot/grub/themes/Slaze/background.jpg
+    cp -a backgrounds/1080p/background-slaze.jpg $installdir/boot/grub/themes/Slaze/background.jpg
     cp -a common/* $installdir/boot/grub/themes/Slaze
-    cp -a assets/assets-white/select $installdir/boot/grub/themes/Slaze
-    cp -a assets/assets-white/icons $installdir/boot/grub/themes/Slaze/icons
+    cp -a assets/assets-select/select-1080p $installdir/boot/grub/themes/Slaze
+    cp -a assets/assets-white/icons-1080p $installdir/boot/grub/themes/Slaze/icons
 
     # Installing Stylish theme
     install -dm00644 $installdir/boot/grub/themes/Stylish 
-    cp -a backgrounds/background-stylish.jpg $installdir/boot/grub/themes/Stylish/background.jpg
+    cp -a backgrounds/1080p/background-stylish.jpg $installdir/boot/grub/themes/Stylish/background.jpg
     cp -a common/* $installdir/boot/grub/themes/Stylish
-    cp -a assets/assets-white/select $installdir/boot/grub/themes/Stylish
-    cp -a assets/assets-white/icons $installdir/boot/grub/themes/Stylish/icons
+    cp -a assets/assets-select/select-1080p $installdir/boot/grub/themes/Stylish
+    cp -a assets/assets-white/icons-1080p $installdir/boot/grub/themes/Stylish/icons
 
     # Installing Tela theme
     install -dm00644 $installdir/boot/grub/themes/Tela
-    cp -a backgrounds/background-tela.jpg $installdir/boot/grub/themes/Tela/background.jpg
+    cp -a backgrounds/1080p/background-tela.jpg $installdir/boot/grub/themes/Tela/background.jpg
     cp -a common/* $installdir/boot/grub/themes/Tela
-    cp -a assets/assets-tela/select $installdir/boot/grub/themes/Tela
-    cp -a assets/assets-tela/icons $installdir/boot/grub/themes/Tela/icons
+    cp -a assets/assets-select/select-1080p $installdir/boot/grub/themes/Tela
+    cp -a assets/assets-white/icons-1080p $installdir/boot/grub/themes/Tela/icons
 
     # Installing Vimix theme
     install -dm00644 $installdir/boot/grub/themes/Vimix
-    cp -a backgrounds/background-vimix.jpg $installdir/boot/grub/themes/Vimix/background.jpg
+    cp -a backgrounds/1080p/background-vimix.jpg $installdir/boot/grub/themes/Vimix/background.jpg
     cp -a common/* $installdir/boot/grub/themes/Vimix
-    cp -a assets/assets-white/select $installdir/boot/grub/themes/Vimix
-    cp -a assets/assets-white/icons $installdir/boot/grub/themes/Vimix/icons
+    cp -a assets/assets-select/select-1080p $installdir/boot/grub/themes/Vimix
+    cp -a assets/assets-white/icons-1080p $installdir/boot/grub/themes/Vimix/icons

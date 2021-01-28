@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creator: CorelDRAW X6 -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -17,10 +15,10 @@
    viewBox="0 0 70865.874 70865.863"
    id="svg14"
    sodipodi:docname="logo.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   inkscape:export-filename="/home/algent/ODrive/public/images/logo.png"
-   inkscape:export-xdpi="1.6900001"
-   inkscape:export-ydpi="1.6900001"><metadata
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:export-filename="/home/algent/Repository/odrive/files/images/logo.png"
+   inkscape:export-xdpi="2.2500002"
+   inkscape:export-ydpi="2.2500002"><metadata
      id="metadata18"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
@@ -32,13 +30,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="912"
+     inkscape:window-width="1280"
+     inkscape:window-height="958"
      id="namedview16"
      showgrid="false"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="-300.19673"
-     inkscape:cy="439.21719"
+     inkscape:zoom="0.25"
+     inkscape:cx="620.28845"
+     inkscape:cy="692.19289"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -47,7 +45,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     units="px" /><defs
+     units="mm"
+     inkscape:document-rotation="0" /><defs
      id="defs4"><style
        type="text/css"
        id="style2"><![CDATA[
@@ -85,8 +84,8 @@
          offset="1"
          stop-color="#DFDBD2"
          id="stop4535-2" /></linearGradient></defs><path
-     style="color:#dfdfdf;fill:currentColor;stroke-width:4407.97412109"
+     style="color:#dfdfdf;fill:currentColor;stroke-width:3443.73"
      class="ColorScheme-Text"
-     d="m 23624.836,4742.8741 21652.5,39482.3929 H 70865.868 L 47241.03,4742.8741 Z M 21470.832,8907.0419 0,46967.101 11808.092,66159.932 33157.822,30207.661 Z m 49395.036,39705.1621 -44291.169,34.261 -10830.577,17513.467 h 43313.649 z"
+     d="m 26207.857,11418.817 16916.016,30845.62 H 63114.914 L 44658.009,11418.817 Z M 24525.042,14672.073 7750.9544,44406.495 16976.026,59400.894 33655.503,31313.182 Z m 38589.872,31019.658 -34602.476,26.767 -8461.389,13682.396 h 33838.789 z"
      id="path5"
      inkscape:connector-curvature="0" /></svg>

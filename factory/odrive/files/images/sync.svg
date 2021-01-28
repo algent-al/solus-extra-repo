@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creator: CorelDRAW X6 -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -10,20 +8,20 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xml:space="preserve"
-   width="410.70853"
-   height="410.70853"
+   width="1024"
+   height="1024"
    version="1.1"
    style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
-   viewBox="0 0 28423.065 28423.061"
+   viewBox="0 0 70865.874 70865.864"
    id="svg14"
    sodipodi:docname="sync.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   inkscape:export-filename="/home/caligaris/logo-sync.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"><metadata
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:export-filename="/home/algent/Repository/odrive/files/images/sync.png"
+   inkscape:export-xdpi="2.25"
+   inkscape:export-ydpi="2.25"><metadata
      id="metadata18"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
@@ -32,13 +30,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="912"
+     inkscape:window-width="1280"
+     inkscape:window-height="958"
      id="namedview16"
      showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="147.4722"
-     inkscape:cy="222.62337"
+     inkscape:zoom="0.50000001"
+     inkscape:cx="151.68313"
+     inkscape:cy="364.87535"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -47,7 +45,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     units="px" /><defs
+     units="px"
+     inkscape:document-rotation="0" /><defs
      id="defs4"><style
        type="text/css"
        id="style2"><![CDATA[
@@ -67,7 +66,7 @@
          id="stop4535"
          stop-color="#DFDBD2"
          offset="1" /></linearGradient></defs><g
-     transform="matrix(616.82673,0,0,616.82673,-632.71002,-579.5133)"
+     transform="matrix(1203.5643,0,0,1203.5643,7208.4478,7216.5719)"
      id="g7"
      inkscape:export-xdpi="4.2146339"
      inkscape:export-ydpi="4.2146339"><path

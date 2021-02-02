@@ -1,0 +1,17 @@
+name       : sup
+version    : 2021.01.14
+release    : 1
+source     :
+    - git|https://github.com/DataDrake/sup : 255a4c92d920eadf14e993e3a1b2cf8753c7ff72
+homepage   : https://github.com/DataDrake/sup
+license    : Apache-2.0
+component  : system.utils
+summary    : Go PS1 Status Updater
+description: |
+    Sup is a prompt with contextual information. It is inspired from powerline.
+builddeps  :
+    - golang
+build      : |
+    %make
+install    : |
+    %make_install

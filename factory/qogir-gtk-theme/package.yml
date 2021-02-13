@@ -1,8 +1,8 @@
 name       : qogir-gtk-theme
-version    : 2020.11.16
+version    : 2021.02.09
 release    : 1
 source     :
-    - https://github.com/vinceliuice/Qogir-theme/archive/2020-11-16.tar.gz : 4245d1c25b25d297655dd8229e2c4725e672b14405edb7182410be939ca84014
+    - https://github.com/vinceliuice/Qogir-theme/archive/2021-02-09.tar.gz : 19bddfa6ad8b539f972a3f8cdea6ad8bb33a60a624082e67124fc9585ea9eb01
 homepage   : https://github.com/vinceliuice/Qogir-theme
 license    : GPL-3.0-or-later
 component  :

@@ -2,7 +2,7 @@ name       : hardcode-tray
 version    : 4.3
 release    : 1
 source     :
-    - git|https://github.com/bilelmoussaoui/Hardcode-Tray : a3b389c56b5250c6d3e62fc4aafb9abd9767fc28
+    - git|https://github.com/bilelmoussaoui/Hardcode-Tray : 49d149f5418803756e6c32213dc651e41911beea
 homepage   : https://github.com/bilelmoussaoui/Hardcode-Tray
 license    : BSD-3-Clause
 component  : desktop.theme

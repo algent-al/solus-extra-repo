@@ -1,8 +1,9 @@
 name       : vdhcoapp
-version    : 1.6.0
+version    : 1.6.1
 release    : 1
 source     :
-    - https://github.com/mi-g/vdhcoapp/releases/download/v1.6.0/net.downloadhelper.coapp-1.6.0-1_amd64.tar.gz : a862814d80f1f0e5b48e4a1fd157362530a73fb7dccef7269b37ab10e441043a
+    - https://github.com/mi-g/vdhcoapp/releases/download/v1.6.1/net.downloadhelper.coapp-1.6.1-1_amd64.tar.gz : 5bb8c6094e49b8a6fe3cdb2951d4c6a8dfaace07cf62217e4662d7b5bc646ff9
+homepage   : https://github.com/mi-g/vdhcoapp
 license    : GPL-2.0-or-later
 component  : network.download
 summary    : Companion application for Video DownloadHelper browser add-on

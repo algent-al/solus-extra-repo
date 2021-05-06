@@ -1,0 +1,21 @@
+name       : python-rx
+version    : 3.1.1
+release    : 1
+source     :
+    - https://github.com/ReactiveX/RxPY/archive/v3.1.1.tar.gz : 3afd4dbd7c21467637adeb9d34d46b2f5c6f73f7a73711c24c376f8acce2bab3
+homepage   : https://rxpy.rtfd.io
+license    : MIT
+component  : programming.python
+summary    : Reactive extensions for Python
+description: |
+    A library for composing asynchronous and event-based programs using observable collections and query operator functions in Python
+builddeps  :
+    - python-pytest-asyncio
+    - pytest-runner
+    - python-coverage
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test

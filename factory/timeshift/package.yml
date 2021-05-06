@@ -1,0 +1,23 @@
+name       : timeshift
+version    : 20.11.1
+release    : 1
+source     :
+    - https://github.com/teejee2008/timeshift/archive/v20.11.1.tar.gz : c6dcca80b42f80a8c8d9d03e91eb17aa634be2f1031f667bba3f483410297abb
+homepage   : https://github.com/teejee2008/timeshift
+license    : LGPL-3.0-or-later
+component  : system.utils
+summary    : System restore tool for Linux.
+description: |
+    System restore tool for Linux. Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. Snapshots can be restored while system is running or from Live CD/USB.
+builddeps  :
+    - pkgconfig(gee-0.8)
+    - pkgconfig(json-glib-1.0)
+    - pkgconfig(vte-2.91)
+    - vala
+rundeps    :
+    - cronie
+    - rsync
+build      : |
+    %make
+install    : |
+    %make_install

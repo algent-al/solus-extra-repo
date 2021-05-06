@@ -1,0 +1,24 @@
+name       : libhandy
+version    : 1.0.3
+release    : 1
+source     :
+    - https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.0.3/libhandy-1.0.3.tar.gz : 80c7f015b8ed0888f0f6a5cb15015d120cdf0dfcacf9dddb06d4e93bd8ffef1f
+homepage   : https://gitlab.gnome.org/GNOME/libhandy
+license    : LGPL-2.1-or-later
+component  : desktop.library
+summary    : A library full of GTK+ widgets for mobile phones
+description: |
+    The aim of the Handy library is to help with developing UI for mobile devices using GTK/GNOME.
+builddeps  :
+    - pkgconfig(gnome-desktop-3.0)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libglade-2.0)
+    - pkgconfig(libxml-2.0)
+    - gtk-doc
+    - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

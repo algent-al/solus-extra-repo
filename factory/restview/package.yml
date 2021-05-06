@@ -1,0 +1,24 @@
+name       : restview
+version    : 2.9.2
+release    : 1
+source     :
+    - https://github.com/mgedmin/restview/archive/2.9.2.tar.gz : 155a5744111d3d1f9e7903f4445ff41c04b42c0be29705f57fb98b3d33b283bd
+homepage   : https://pypi.python.org/pypi/restview
+license    : GPL-3.0-or-later
+component  : multimedia.graphics
+summary    : ReStructuredText viewer
+description: |
+    A viewer for ReStructuredText documents that renders them on the fly.
+builddeps  :
+    - python-readme-renderer
+    - python-docutils
+    - python-mock
+rundeps    :
+    - python-readme-renderer
+    - python-docutils
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test

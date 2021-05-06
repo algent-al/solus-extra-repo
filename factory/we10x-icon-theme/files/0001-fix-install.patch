@@ -1,0 +1,25 @@
+From bb89c8777a60d30db8f37d2fe16e7f1d0809bdc2 Mon Sep 17 00:00:00 2001
+From: Algent Albrahimi <algent@protonmail.com>
+Date: Sun, 3 May 2020 18:53:01 +0200
+Subject: [PATCH] fix install
+
+---
+ install.sh | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/install.sh b/install.sh
+index 8ab0ebf..ba29270 100755
+--- a/install.sh
++++ b/install.sh
+@@ -96,8 +96,6 @@ install() {
+   ln -sr 32 32@2x
+   ln -sr scalable scalable@2x
+ 
+-  cd ${dest}
+-  gtk-update-icon-cache ${name}${theme}${color}
+ }
+ 
+ while [[ $# -gt 0 ]]; do
+-- 
+2.26.2
+

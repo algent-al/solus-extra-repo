@@ -1,0 +1,16 @@
+name       : python-capturer
+version    : '3.0'
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/9a/98/e2cac95d1cba553b10552511fdb55043b00a99bf8c1ed913ecbc654d6bfb/capturer-3.0.tar.gz : 4849032f6a670c02be434c484a0abf43c870a1efafafbfffd2e6f1c1f7ef5001
+homepage   : https://capturer.readthedocs.io/en/latest/
+license    : MIT
+component  : programming.python
+summary    : Easily capture stdout/stderr of the current process and subprocesses
+description: |
+    The capturer package makes it easy to capture the stdout and stderr streams of the current process and subprocesses. Output can be relayed to the terminal in real time but is also available to the Python program for additional processing.
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+

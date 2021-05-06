@@ -1,0 +1,14 @@
+name       : eopkg-audit
+version    : 1.0.1
+release    : 1
+source     :
+    - https://github.com/tomocafe/eopkg-audit/archive/v1.0.tar.gz : 0ae240df8041f9d7e3a13d54f35f81b7d4b868dc33df94b292eea161b5158a7e
+homepage   : https://github.com/tomocafe/eopkg-audit
+license    : MIT
+component  : programming.python
+summary    : Audits system files against the eopkg database
+description: |
+    eopkg-audit is a command-line utility which audits system files against the eopkg database to find discrepancies such as added or deleted files. The existing eopkg check utility can detected deleted or modified files, but does not search system directories to find files that were manually added outside of eopkg.
+install    : |
+    install -dm00755 $installdir/usr/bin
+    install eopkg-audit $installdir/usr/bin/eopkg-audit

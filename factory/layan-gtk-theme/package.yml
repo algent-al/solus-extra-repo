@@ -1,0 +1,18 @@
+name       : layan-gtk-theme
+version    : '20200811'
+release    : 1
+source     :
+    - git|https://github.com/vinceliuice/Layan-gtk-theme : 93d6771812d5d678c2db1ae396b27cb19a58da9c
+homepage   : https://github.com/vinceliuice/Layan-gtk-theme
+license    : GPL-2.0-or-later
+component  : desktop.theme
+summary    : Layan is a flat Material Design theme
+description: |
+    Layan is a flat Material Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie, etc.
+rundeps    :
+    - gtk-engines
+    - gtk2-engine-murrine
+install    : |
+    install -dm00644 $installdir/usr/share/themes
+    ./install.sh --dest $installdir/usr/share/themes
+    rm -rf $installdir/usr/share/themes/*/{AUTHORS,COPYING}

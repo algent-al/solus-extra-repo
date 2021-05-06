@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Open Drive
+Comment=Simple google drive client
+Exec=odrive %U
+Terminal=false
+Type=Application
+Icon=odrive
+Categories=Network;

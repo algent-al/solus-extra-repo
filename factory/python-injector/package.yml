@@ -1,0 +1,17 @@
+name       : python-injector
+version    : 0.18.3
+release    : 1
+source     :
+    - https://github.com/alecthomas/injector/archive/0.18.3.tar.gz : ccf6e7ebc55fc6594e1721a01e91ff6845ebc96f9b6c9d2857c83b50a7cde357
+homepage   : https://injector.readthedocs.org
+license    : BSD-3-Clause
+component  : programming.python
+summary    : Python dependency injection framework, inspired by Guice
+description: |
+    While dependency injection is easy to do in Python due to its support for keyword arguments, the ease with which objects can be mocked and its dynamic nature, a framework for assisting in this process can remove a lot of boiler-plate from larger applications. That's where Injector can help. It automatically and transitively provides dependencies for you.
+rundeps    :
+    - python-typing-extensions
+build      : |
+    %python3_setup
+install    : |
+    %python3_install

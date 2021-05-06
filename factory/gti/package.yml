@@ -1,0 +1,15 @@
+name       : gti
+version    : 1.7.0
+release    : 1
+source     :
+    - https://github.com/rwos/gti/archive/v1.7.0.tar.gz : cea8baf25ac5e6272f9031bd5e36a17a4b55038830b108f4f24e7f55690198f7
+homepage   : https://r-wos.org/hacks/gti
+license    : MIT
+component  : programming.tools
+summary    : Just a silly git launcher, basically
+description: |
+    Just a silly git launcher, basically. Inspired by sl.
+build      : |
+    %make
+install    : |
+    %make_install

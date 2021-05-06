@@ -1,0 +1,28 @@
+name       : vdhcoapp
+version    : 1.6.1
+release    : 1
+source     :
+    - https://github.com/mi-g/vdhcoapp/releases/download/v1.6.1/net.downloadhelper.coapp-1.6.1-1_amd64.tar.gz : 5bb8c6094e49b8a6fe3cdb2951d4c6a8dfaace07cf62217e4662d7b5bc646ff9
+homepage   : https://github.com/mi-g/vdhcoapp
+license    : GPL-2.0-or-later
+component  : network.download
+summary    : Companion application for Video DownloadHelper browser add-on
+description: |
+    Companion application for Video DownloadHelper browser add-on. This is a precompiled binary version.
+strip      : no # Don't strip. Otherwise it will not work
+builddeps  :
+    - pkgconfig(alsa)
+    - pkgconfig(sdl2)
+    - pkgconfig(x11)
+    - pkgconfig(xv)
+install    : |
+    install -dm00755 $installdir/usr/bin
+    install -dm00644 $installdir/usr/share/vdhcoapp
+    cp -rv * $installdir/usr/share/vdhcoapp
+    ln -sv /usr/share/vdhcoapp/bin/net.downloadhelper.coapp-linux-64 $installdir/usr/bin/vdhcoapp
+    rm -rf $installdir/usr/share/vdhcoapp/{LICENSE.txt,README.txt}
+
+    # Configure system-wide. If you break it run "sudo vdhcoapp install --user" to fix it locally.
+    install -Dm00644 $pkgfiles/mozilla.json  $installdir/usr/lib/mozilla/native-messaging-hosts/net.downloadhelper.coapp.json # Firefox
+    install -Dm00644 $pkgfiles/chromium.json $installdir/etc/chromium/native-messaging-hosts/net.downloadhelper.coapp.json
+    install -Dm00644 $pkgfiles/chromium.json $installdir/etc/opt/chrome/native-messaging-hosts/net.downloadhelper.coapp.json  # Brave

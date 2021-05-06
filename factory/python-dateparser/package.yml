@@ -1,0 +1,23 @@
+name       : python-dateparser
+version    : 0.7.6
+release    : 1
+source     :
+    - https://github.com/scrapinghub/dateparser/archive/v0.7.6.tar.gz : fff6bac60f6c714b16347ffcbf8d71fc39ff15f9f66b7a23f17e96e15fb14993
+homepage   : https://github.com/scrapinghub/dateparser
+license    : BSD-3-Clause
+component  : programming.python
+summary    : python parser for human readable dates
+description: |
+    dateparser provides modules to easily parse localized dates in almost any string formats commonly found on web pages.
+builddeps  :
+    - python-dateutil
+    - python-mock
+    - python-parameterized # Not in repo
+    - python-regex
+    - python-tzlocal
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test

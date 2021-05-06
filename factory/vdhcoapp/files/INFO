@@ -1,0 +1,13 @@
+If installed locally (--user), check these locations:
+```
+HOME$/.mozilla/native-messaging-hosts/net.downloadhelper.coapp.json
+HOME$/.config/google-chrome/NativeMessagingHosts/net.downloadhelper.coapp.json
+HOME$/.config/chromium/NativeMessagingHosts/net.downloadhelper.coapp.json
+```
+
+If installed system wide (--system), check these locations:
+```
+/usr/lib/mozilla/native-messaging-hosts/net.downloadhelper.coapp.json
+/etc/opt/chrome/native-messaging-hosts/net.downloadhelper.coapp.json
+/etc/chromium/native-messaging-hosts/net.downloadhelper.coapp.json
+```

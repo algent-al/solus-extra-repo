@@ -1,0 +1,22 @@
+name       : python-xattr
+version    : 0.9.7
+release    : 1
+source     :
+    - https://github.com/xattr/xattr/releases/download/v0.9.7/xattr-0.9.7.tar.gz : b0bbca828e04ef2d484a6522ae7b3a7ccad5e43fa1c6f54d78e24bb870f49d44
+homepage   : https://github.com/xattr/xattr
+license    : MIT
+component  : programming.python
+summary    : Python wrapper for extended filesystem attributes 
+description: |
+    xattr is a Python wrapper for extended filesystem attributes.
+builddeps  :
+    - pkgconfig(python3)
+    - python-cffi
+rundeps    :
+    - python-cffi
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test

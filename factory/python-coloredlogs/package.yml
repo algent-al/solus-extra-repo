@@ -1,0 +1,15 @@
+name       : python-coloredlogs
+version    : '14.0'
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/84/1b/1ecdd371fa68839cfbda15cc671d0f6c92d2c42688df995a9bf6e36f3511/coloredlogs-14.0.tar.gz : a1fab193d2053aa6c0a97608c4342d031f1f93a3d1218432c59322441d31a505
+homepage   : https://coloredlogs.readthedocs.io/en/latest/
+license    : MIT
+component  : programming.python
+summary    : Colored terminal output for Python’s logging module
+description: |
+    The coloredlogs package enables colored terminal output for Python’s logging module. The ColoredFormatter class inherits from logging.Formatter and uses ANSI escape sequences to render your logging messages in color. It uses only standard colors so it should work on any UNIX terminal.
+build      : |
+    %python3_setup
+install    : |
+    %python3_install

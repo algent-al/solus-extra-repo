@@ -1,0 +1,22 @@
+name       : budgie-systemmonitor-applet
+version    : 0.2.1
+release    : 1
+source     :
+    - https://github.com/prateekmedia/budgie-systemmonitor-applet/archive/v0.2.1.tar.gz : 64fbf694a70d828c531e35022aa81d1655255eb2875d723d81de3d0ff5fbc192
+homepage   : https://github.com/prateekmedia/budgie-systemmonitor-applet
+license    : GPL-3.0-or-later
+component  : desktop.budgie
+summary    : Applet to show cpu frequency, ram, swap, network and uptime
+description: |
+    System Monitor that can help you track your cpu, ram, swap, network and uptime.
+builddeps  :
+    - pkgconfig(budgie-1.0)
+    - pkgconfig(gee-0.8)
+    - pkgconfig(libgtop-2.0)
+    - vala
+setup      : |
+    %meson_configure
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install

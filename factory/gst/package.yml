@@ -1,8 +1,8 @@
 name       : gst
-version    : 0.7.4
-release    : 1
+version    : 0.7.5
+release    : 2
 source     :
-    - https://gitlab.com/leinardi/gst/-/archive/0.7.4/gst-0.7.4.tar.gz : 47f47ac4ea1d497975fe326f95f55b3d6c9e32aa00acbea0952561d1179b1562
+    - https://gitlab.com/leinardi/gst/-/archive/0.7.5/gst-0.7.5.tar.gz : 6d78f96a7f8663ca81be34cbea7295a75da41b4a49f5cb1c6cd1d0478d60a3f5
 homepage   : https://gitlab.com/leinardi/gst
 license    : GPL-3.0-or-later
 component  : system.utils

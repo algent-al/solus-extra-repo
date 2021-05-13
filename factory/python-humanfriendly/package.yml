@@ -1,8 +1,8 @@
 name       : python-humanfriendly
-version    : '8.2'
-release    : 1
+version    : '9.1'
+release    : 2
 source     :
-    - https://github.com/xolox/python-humanfriendly/archive/8.2.tar.gz : 0dd214b258ad4be58c8c8302e328c3149ee4af46a4db5dd91dbeaba2c006e0d3
+    - https://github.com/xolox/python-humanfriendly/archive/9.1.tar.gz : b603d8abeca579e7a69e969da68c9b818f04da0b2ec5cfb18a031da385f43f44
 homepage   : https://humanfriendly.readthedocs.org
 license    : MIT
 component  : programming.python

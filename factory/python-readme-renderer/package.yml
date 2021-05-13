@@ -1,8 +1,8 @@
 name       : python-readme-renderer
-version    : '28.0'
-release    : 1
+version    : '29.0'
+release    : 2
 source     :
-    - https://github.com/pypa/readme_renderer/archive/28.0.tar.gz : 197920fde3f2af2c660c09a3cec4d2dfbcfc0262f3afe6e507a8a9f34eaac7c9
+    - https://github.com/pypa/readme_renderer/archive/29.0.tar.gz : 5649d170522e3aa5fec4b19076a160279c57cccea63a2bba0e755f10750e658d
 homepage   : https://github.com/pypa/readme_renderer
 license    : Apache-2.0
 component  : programming.python

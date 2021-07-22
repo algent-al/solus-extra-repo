@@ -1,0 +1,25 @@
+name       : libfm-extra
+version    : 1.3.2
+release    : 1
+source     :
+    - https://downloads.sourceforge.net/pcmanfm/libfm-1.3.2.tar.xz : a5042630304cf8e5d8cff9d565c6bd546f228b48c960153ed366a34e87cad1e5
+homepage   : https://lxde.org/
+license    : GPL-2.0-or-later
+component  : desktop.lxde
+summary    : LXDE GLib/GIO based library (extra library)
+description: |
+    LXDE GLib/GIO based library (extra library).
+builddeps  :
+    - pkgconfig(gtk+-2.0)
+setup      : |
+    %configure \
+        --with-extra-only \
+        --with-gtk=no \
+        --disable-static
+build      : |
+    %make
+install    : |
+    %make_install
+
+    # Remove conflicting symlink with libfm.
+    rm $installdir/usr/include/libfm

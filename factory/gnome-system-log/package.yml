@@ -1,0 +1,22 @@
+name       : gnome-system-log
+version    : 3.9.90
+release    : 1
+source     :
+    - git|https://gitlab.gnome.org/Archive/gnome-system-log.git : 4b071909a0ca38a73a9cc5b287ffc2b0a744566b
+homepage   : https://gitlab.gnome.org/Archive/gnome-system-log
+license    : GPL-2.0-or-later
+component  : system.utils
+summary    : A system log viewer for GNOME
+description: |
+    Specifies the log file displayed at startup. The default is either /var/adm/messages or /var/log/messages, depending on your operating system.
+builddeps  :
+    - pkgconfig(gtk+-3.0)
+    - gnome-common
+    - itstool
+    - yelp-tools
+setup      : |
+    %autogen --disable-schemas-compile
+build      : |
+    %make
+install    : |
+    %make_install

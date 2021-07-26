@@ -1,0 +1,20 @@
+name       : wmctrl
+version    : 1.07
+release    : 1
+source     :
+    - http://tripie.sweb.cz/utils/wmctrl/dist/wmctrl-1.07.tar.gz : d78a1efdb62f18674298ad039c5cbdb1edb6e8e149bb3a8e3a01a4750aa3cca9
+homepage   : http://tripie.sweb.cz/utils/wmctrl/
+license    : GPL-2.0-or-later
+component  : system.utils
+summary    : wmctrl is a UNIX/Linux command line tool to interact with an EWMH/NetWM compatible X Window Manager
+description: |
+    The tool provides command line access to almost all the features defined in the EWMH specification. It can be used, for example, to get information about the window manager, to get a detailed list of desktops and managed windows, to switch and resize desktops, to make windows full-screen, always-above or sticky, and to activate, close, move, resize, maximize and minimize them.
+builddeps  :
+    - pkgconfig(xmu)
+setup      : |
+    %patch -p1 < $pkgfiles/wmctrl_1.07-6.diff
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install

@@ -1,6 +1,6 @@
 name       : ubuntu-budgie-extras
 version    : 1.2.0
-release    : 11
+release    : 12
 source     :
     - https://github.com/UbuntuBudgie/budgie-extras/releases/download/v1.2.0/budgie-extras-1.2.0.tar.xz : fa9af5a6665c44adcacd29187dbf4810c82078b0c3aa79b8dbc121b672765733
 homepage   : https://github.com/UbuntuBudgie/budgie-extras
@@ -17,7 +17,6 @@ component  :
     - ^budgie-quickchar : desktop.budgie
     - ^budgie-recentlyused-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
-    - ^budgie-visualspace-applet : desktop.budgie
     - ^budgie-wallstreet : desktop.budgie
     - ^budgie-window-mover-applet : desktop.budgie
     - ^budgie-workspace-overview-applet : desktop.budgie
@@ -36,7 +35,6 @@ summary    :
     - ^budgie-quickchar : GUI to find and choose locale characters
     - ^budgie-recentlyused-applet : Applet displays files recently accessed for the Budgie Desktop
     - ^budgie-showtime-applet : Applet displaying date and time on the Budgie Desktop
-    - ^budgie-visualspace-applet : Show and manage windows in workspaces for the Budgie Desktop
     - ^budgie-wallstreet : Change wallpaper from a folder on a schedule
     - ^budgie-window-mover-applet : Applet allows moving windows between workspaces for the Budgie Desktop
     - ^budgie-workspace-overview-applet : Applet providing quick access to workspaces for the Budgie Desktop
@@ -55,7 +53,6 @@ description:
     - ^budgie-quickchar : Quickly find and choose the equivalent locale character for an ascii character.
     - ^budgie-recentlyused-applet : The recentlyused applet displays the users files that have been opened or created within a configurable period of time.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Text color of both can be set separately from the applet's menu.
-    - ^budgie-visualspace-applet : The visualspace applet shows as a stylish compact workspace on the budgie panel. Choosing windows in the applet popup moves to the workspace where the window is located and gives it focus. The number of Workspace can also be changed though the applet popup.
     - ^budgie-wallstreet : Wallstreet allows for a directory of pictures to be shown on a schedule.
     - ^budgie-window-mover-applet : The Window Mover applet allows the user to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard) and the window will move to that workspace.
     - ^budgie-workspace-overview-applet : The workspace overview applet allows a user to quickly navigate workspaces using the applet's menu. Optionally, navigation to any window in any workspace is possible.
@@ -110,11 +107,6 @@ patterns   :
         - /usr/lib64/budgie-desktop/plugins/budgie-showtime
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-showtime.gschema.xml
         - /usr/share/pixmaps/showtimenew-symbolic.svg
-    - ^budgie-visualspace-applet :
-        - /usr/lib64/budgie-desktop/plugins/budgie-visualspace
-        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-visualspace.gschema.xml
-        - /usr/share/pixmaps/visualspace-symbolic.svg
-        - /usr/share/xdg/autostart/visualspace-autostart.desktop
     - ^budgie-wallstreet :
         - /usr/lib64/budgie-wallstreet/wallstreet*
         - /usr/share/applications/wallstreet-control.desktop
@@ -184,7 +176,6 @@ rundeps    :
         - wmctrl
     - ^budgie-recentlyused-applet : budgie-extras
     - ^budgie-showtime-applet : budgie-extras
-    - ^budgie-visualspace-applet : budgie-extras
     - ^budgie-wallstreet : budgie-extras-daemon
     - ^budgie-window-mover-applet :
         - budgie-extras
@@ -225,7 +216,6 @@ setup      : |
         -Dbuild-quickchar=true \
         -Dbuild-recentlyused=true \
         -Dbuild-showtime=true \
-        -Dbuild-visualspace=true \
         -Dbuild-wallstreet=true \
         -Dbuild-wmover=true \
         -Dbuild-workspacestopwatch=true \

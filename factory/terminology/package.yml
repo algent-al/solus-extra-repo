@@ -1,0 +1,19 @@
+name       : terminology
+version    : 1.9.0
+release    : 1
+source     :
+    - https://download.enlightenment.org/rel/apps/terminology/terminology-1.9.0.tar.xz : 3f3bc327da5cc239d468570afed29a17e2fda3b1fee02b28f02ee7ed5141e46c
+homepage   : https://www.enlightenment.org/about-terminology
+license    : BSD-2-Clause
+component  : system.utils
+summary    : Terminal emulator that uses EFL
+description: |
+    Terminology is a terminal emulator for Linux/BSD/UNIX systems that uses EFL. It has a whole bunch of bells and whistles. Use it as your regular vt100 terminal emulator with all the usual features, such as 256 color support. Terminology is designed to emulate Xterm as closely as possible in most respects.
+builddeps  :
+    - pkgconfig(efl)
+setup      : |
+    %meson_configure
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install

@@ -1,0 +1,19 @@
+name       : xbindkeys
+version    : 1.8.6
+release    : 1
+source     :
+    - https://www.nongnu.org/xbindkeys/xbindkeys-1.8.6.tar.gz : 6c0d18be19fc19ab9b4595edf3a23c0a6946c8a5eb5c1bc395471c8f9a710d18
+homepage   : https://www.nongnu.org/xbindkeys/
+license    : GPL-2.0-or-later
+component  : xorg.apps
+summary    : xbindkeys is a program that allows you to launch shell commands with your keyboard or your mouse under X Window.
+description: |
+    xbindkeys is a program that allows you to launch shell commands with your keyboard or your mouse under X Window. It links commands to keys or mouse buttons, using a configuration file. It's independant of the window manager and can capture all keyboard keys (ex: Power, Wake...).
+builddeps  :
+- pkgconfig(x11)
+setup      : |
+    %configure --disable-guile
+build      : |
+    %make
+install    : |
+    %make_install

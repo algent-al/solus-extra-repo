@@ -1,0 +1,19 @@
+name       : rage
+version    : 0.3.1
+release    : 1
+source     :
+    - https://download.enlightenment.org/rel/apps/rage/rage-0.3.1.tar.xz : e5c434ef415ec1dd268399c527f582baeef39a25dee52f828876bfb58698cd11
+homepage   : https://www.enlightenment.org/about-rage
+license    : BSD-2-Clause
+component  : multimedia.video
+summary    : Rage is a video and audio player written using EFL
+description: |
+    Rage is a simple video and audio player intended to be slick yet simplistic, much like Mplayer. Use the command line to play media files or just drag and drop them onto the Rage window to add them to a playlist.
+builddeps  :
+    - pkgconfig(efl)
+setup      : |
+    %meson_configure
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install

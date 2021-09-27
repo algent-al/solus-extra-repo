@@ -20,7 +20,7 @@ rundeps    :
     - python-peewee
     - python-psutil
     - python-requests
-    - python-rx             # Extra Repo
+    - python-rx            # Extra Repo
     - pyyaml
     - pyxdg
     - stress-ng

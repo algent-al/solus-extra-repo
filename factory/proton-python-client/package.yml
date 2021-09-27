@@ -1,0 +1,23 @@
+name       : python-proton-client
+version    : 0.6.1
+release    : 1
+source     :
+    - https://github.com/ProtonMail/proton-python-client/archive/refs/tags/0.6.1.tar.gz : 7230d434bf2eb330b9881e4b2b3a52ffb7d436ec685e3470df48b87aecb5d7db
+homepage   : https://github.com/ProtonMail/proton-python-client
+license    : GPL-3.0-or-later
+component  : programming.python
+summary    : Proton Technologies API wrapper
+description: |
+    Proton Technologies API wrapper
+builddeps  :
+    - python-bcrypt
+    - python-gnupg
+    - python-requests
+rundeps    :
+    - python-bcrypt
+    - python-gnupg
+    - python-requests
+build      : |
+    %python3_setup
+install    : |
+    %python3_install

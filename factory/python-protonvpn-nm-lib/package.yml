@@ -1,0 +1,29 @@
+name       : python-protonvpn-nm-lib
+version    : 3.4.1
+release    : 1
+source     :
+    - https://github.com/ProtonVPN/protonvpn-nm-lib/archive/refs/tags/3.4.1.tar.gz : 0d4de823c3a22ea8f555ab64823bc59701699934c445a729987afd0989585f8a
+homepage   : https://github.com/ProtonVPN/protonvpn-nm-lib
+license    : GPL-3.0-or-later
+component  : programmin.python
+summary    : ProtonVPN NetworkManager Linux library
+description: |
+    ProtonVPN NetworkManager Linux library
+builddeps  :
+    - pyxdg
+rundeps    :
+    - network-manager
+    - python-distro
+    - python-gobject
+    - python-jinja
+    - python-keyring
+    - python-proton-client # Extra Repo
+    - python-systemd       # Extra Repo
+    - python3-cairo
+    - python3-dbus
+    - pyxdg
+    - xdg-utils
+build      : |
+    %python3_setup
+install    : |
+    %python3_install

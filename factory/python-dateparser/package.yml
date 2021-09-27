@@ -12,12 +12,10 @@ description: |
 builddeps  :
     - python-dateutil
     - python-mock
-    - python-parameterized # Not in repo
+    - python-parameterized # Extra Repo
     - python-regex
     - python-tzlocal
 build      : |
     %python3_setup
 install    : |
     %python3_install
-#check      : |
-#    %python3_test # many modules missing.

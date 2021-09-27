@@ -11,7 +11,7 @@ description: |
     Core library of PCManFM file manager.
 builddeps  :
     - pkgconfig(libexif)
-    - pkgconfig(libmenu-cache)
+    - pkgconfig(libmenu-cache) # Extra Repo
     - pkgconfig(glib-2.0)
     - pkgconfig(gtk+-2.0)
 setup      : |

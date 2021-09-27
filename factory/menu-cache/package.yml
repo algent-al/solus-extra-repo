@@ -10,7 +10,7 @@ summary    : Caching mechanism for freedesktop.org compliant menus
 description: |
     Caching mechanism for freedesktop.org compliant menus.
 builddeps  :
-    - pkgconfig(libfm-extra)
+    - pkgconfig(libfm-extra) # Extra Repo
 setup      : |
     %patch -p1 < $pkgfiles/menu-cache-1.1.0-0001-Support-gcc10-compilation.patch
     sed -i 's,<libfm/fm-extra.h>,<libfm-1.0/fm-extra.h>,g' menu-cache-gen/*.[ch]

@@ -12,8 +12,8 @@ description: |
 builddeps  :
     - pkgconfig(x11)
     - pkgconfig(gtk+-2.0)
-    - pkgconfig(libfm)
-    - pkgconfig(libfm-extra)
+    - pkgconfig(libfm)       # Extra Repo
+    - pkgconfig(libfm-extra) # Extra Repo
 setup      : |
     %configure
 build      : |

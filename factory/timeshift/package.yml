@@ -15,7 +15,7 @@ builddeps  :
     - pkgconfig(vte-2.91)
     - vala
 rundeps    :
-    - cronie
+    - cronie # Extra Repo
     - rsync
 build      : |
     %make

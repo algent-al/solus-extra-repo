@@ -129,14 +129,14 @@ patterns   :
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-wswitcher.gschema.xml
         - /usr/share/pixmaps/budgie-wsw-symbolic.svg
 builddeps  :
-    - pkgconfig(appstream)
+    - pkgconfig(appstream)             # Extra Repo
     - pkgconfig(budgie-1.0)
     - pkgconfig(gnome-settings-daemon)
     - pkgconfig(granite)
     - pkgconfig(json-glib-1.0)
     - pkgconfig(keybinder-3.0)
     - pkgconfig(libgnome-menu-3.0)
-    - pkgconfig(libhandy-1)
+    - pkgconfig(libhandy-1)            # Extra Repo
     - pkgconfig(libnotify)
     - pkgconfig(libsoup-2.4)
     - pkgconfig(libwnck-3.0)
@@ -148,14 +148,14 @@ rundeps    :
     - ^budgie-applications-menu-applet : budgie-extras
     - ^budgie-clockworks-applet :
         - budgie-extras
-        - python-cairosvg
+        - python-cairosvg      # Extra Repo
         - python-pillow
-        - python-svgwrite
+        - python-svgwrite      # Extra Repo
     - ^budgie-dropby-applet :
         - budgie-extras
         - python-psutil
         - python3-pyudev
-        - wmctrl
+        - wmctrl               # Extra Repo
     - ^budgie-fuzzyclock-applet : budgie-extras
     - ^budgie-hotcorners-applet :
         - budgie-previews
@@ -173,7 +173,7 @@ rundeps    :
         - budgie-extras-daemon
         - python-pyperclip
         - python-xlib
-        - wmctrl
+        - wmctrl               # Extra Repo
     - ^budgie-recentlyused-applet : budgie-extras
     - ^budgie-showtime-applet : budgie-extras
     - ^budgie-wallstreet : budgie-extras-daemon
@@ -182,17 +182,17 @@ rundeps    :
         - python-psutil
         - xdotool
         - xprop
-        - wmctrl
+        - wmctrl               # Extra Repo
     - ^budgie-workspace-overview-applet :
         - budgie-extras
         - python-psutil
         - xprop
-        - wmctrl
+        - wmctrl               # Extra Repo
     - ^budgie-workspace-stopwatch-applet : budgie-extras
     - ^budgie-workspace-wallpaper-applet :
         - budgie-extras
         - python-psutil
-        - wmctrl
+        - wmctrl               # Extra Repo
 setup      : |
     sed -i -e "s|/usr/bin/pgrep|/bin/pgrep|g" \
         budgie-wmover/wmover_panelrunner \

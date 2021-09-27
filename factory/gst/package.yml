@@ -15,12 +15,12 @@ builddeps  :
 rundeps    :
     - dmidecode
     - lm_sensors
-    - python-humanfriendly
+    - python-humanfriendly # Extra Repo
     - python-injector
     - python-peewee
     - python-psutil
     - python-requests
-    - python-rx
+    - python-rx             # Extra Repo
     - pyyaml
     - pyxdg
     - stress-ng

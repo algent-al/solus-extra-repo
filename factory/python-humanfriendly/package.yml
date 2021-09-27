@@ -10,10 +10,10 @@ summary    : Human friendly input/output for text interfaces using Python
 description: |
     Human friendly input/output in Python. The functions and classes in the humanfriendly package can be used to make text interfaces more user friendly.
 builddeps  :
-    - python-capturer    # Check not yet in Repo
-    - python-coloredlogs # Check not yet in Repo
-    - python-docutils    # Check
-    - python-mock        # Check
+    - python-capturer    # Extra Repo
+    - python-coloredlogs # Extra Repo
+    - python-docutils
+    - python-mock
 rundeps    :
     - python-docutils
 build      : |

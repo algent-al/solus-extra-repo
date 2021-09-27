@@ -10,11 +10,11 @@ summary    : ReStructuredText viewer
 description: |
     A viewer for ReStructuredText documents that renders them on the fly.
 builddeps  :
-    - python-readme-renderer
+    - python-readme-renderer # Extra Repo
     - python-docutils
     - python-mock
 rundeps    :
-    - python-readme-renderer
+    - python-readme-renderer # Extra Repo
     - python-docutils
 build      : |
     %python3_setup

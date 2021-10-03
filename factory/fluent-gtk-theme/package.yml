@@ -1,0 +1,15 @@
+name       : fluent-gtk-theme
+version    : 2021.10.03
+release    : 1
+source     :
+    - https://github.com/vinceliuice/Fluent-gtk-theme/archive/refs/tags/2021-10-03.tar.gz : 7f19d16c35c22eca007b925925ee26f479030672f792619f793c2ecdf57bb98f
+homepage   : https://github.com/vinceliuice/Fluent-gtk-theme
+license    : GPL-3.0-or-later
+component  : desktop.theme
+summary    : Fluent design gtk theme for linux desktops
+description: |
+    Fluent is a Fluent design theme for GNOME/GTK based desktop environments.
+install    : |
+    install -dm00644 $installdir/usr/share/themes
+    ./install.sh --dest $installdir/usr/share/themes
+    rm -rf $installdir/usr/share/themes/*/{cinnamon,COPYING}

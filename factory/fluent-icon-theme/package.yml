@@ -1,0 +1,24 @@
+name       : fluent-icon-theme
+version    : 2021.10.07
+release    : 1
+source     :
+    - https://github.com/vinceliuice/Fluent-icon-theme/archive/refs/tags/2021-10-07.tar.gz : d119e57f1612582dfd50ebc73565254d741af7e9489dbe39f21c3ec9b40b62b7
+homepage   : https://github.com/vinceliuice/Fluent-icon-theme
+license    : GPL-3.0-or-later
+component  : desktop.theme
+summary    : Fluent icon theme for linux desktops
+description: |
+    Fluent icon theme for linux desktops.
+setup      : |
+    sed -e '/gtk-update-icon-cache/d' -i install.sh
+install    : |
+    install -dm00644 $installdir/usr/share/icons
+    ./install.sh --all --dest $installdir/usr/share/icons
+patterns   :
+    - green : /usr/share/icons/*green*
+    - grey : /usr/share/icons/*grey*
+    - orange : /usr/share/icons/*orange*
+    - pink : /usr/share/icons/*pink*
+    - purple : /usr/share/icons/*purple*
+    - red : /usr/share/icons/*red*
+    - yellow : /usr/share/icons/*yellow*

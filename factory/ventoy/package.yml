@@ -1,0 +1,46 @@
+name       : ventoy
+version    : 1.0.56
+release    : 1
+source     :
+    - https://github.com/ventoy/Ventoy/releases/download/v1.0.54/ventoy-1.0.54-linux.tar.gz : 8304e7833b53e94c3989c57fcf4de16feab3e92cf6947485c92ab5e5aad5aaba
+homepage   : https://www.ventoy.net
+license    : GPL-3.0-or-later
+component  : system.utils
+summary    : A new bootable USB solution
+description: |
+    Ventoy is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files.WWith ventoy, you don't need to format the disk over and over, you just need to copy the image files to the USB drive and boot it. You can copy many image files at a time and ventoy will give you a boot menu to select them. x86 Legacy BIOS, IA32 UEFI, x86_64 UEFI, ARM64 UEFI and MIPS64EL UEFI are supported in the same way. Both MBR and GPT partition style are supported in the same way.
+builddeps  :
+    - pkgconfig(Qt5Core)
+    - pkgconfig(gtk+-2.0)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libglade-2.0)
+setup      : |
+    cd tool/x86_64
+    for file in *.xz; do
+        xzcat $file > ${file%.xz}
+        chmod +x ${file%.xz}
+    done
+    rm *.xz
+
+    # Clean up unused binaries
+    rm -v xzcat hexdump
+install    : |
+    install -dm00644 $installdir/usr/share/ventoy/boot
+    install -Dm00644 boot/* -t $installdir/usr/share/ventoy/boot
+
+    install -dm00755 $$installdir/usr/share/ventoy/tool/x86_64
+    install -Dm00755 tool/*.{cer,glade,json,sh} -t $installdir/usr/share/ventoy/tool
+    install -Dm00755 tool/x86_64/* -t $installdir/usr/share/ventoy/tool/x86_64
+    install -Dm00755 VentoyGUI.x86_64 -vt $installdir/usr/share/ventoy
+    install -Dm00755 *.sh -vt $installdir/usr/share/ventoy
+    cp --no-preserve=o -avt plugin WebUI $installdir/usr/share/ventoy
+    install -Dm00644 ventoy/* -vt $installdir/usr/share/ventoy/ventoy
+
+    install -Dm00644 $pkgfiles/ventoy.desktop -t $installdir/usr/share/applications
+    install -Dm00644 WebUI/static/img/VentoyLogo.png $installdir/usr/share/pixmaps/ventoy.png
+    install -Dm00755 $pkgfiles/bin/* -vt $installdir/usr/bin/
+
+    # Link system binaries
+    for binary in xzcat hexdump; do
+        ln -svf /usr/bin/$binary $installdir/usr/share/ventoy/tool/x86_64/
+    done

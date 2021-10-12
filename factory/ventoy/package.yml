@@ -25,10 +25,8 @@ setup      : |
     # Clean up unused binaries
     rm -v xzcat hexdump
 install    : |
-    install -dm00644 $installdir/usr/share/ventoy/boot
     install -Dm00644 boot/* -t $installdir/usr/share/ventoy/boot
 
-    install -dm00755 $$installdir/usr/share/ventoy/tool/x86_64
     install -Dm00755 tool/*.{cer,glade,json,sh} -t $installdir/usr/share/ventoy/tool
     install -Dm00755 tool/x86_64/* -t $installdir/usr/share/ventoy/tool/x86_64
     install -Dm00755 VentoyGUI.x86_64 -vt $installdir/usr/share/ventoy

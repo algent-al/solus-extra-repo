@@ -16,6 +16,8 @@ builddeps  :
     - pkgconfig(libglade-2.0)
 setup      : |
     %patch -p1 < $pkgfiles/0001-save-logs-to-home-dir.patch
+    sed -i 's|log\.txt|~/.ventoy/log.txt|g' WebUI/static/js/languages.js
+
     cd tool/x86_64
     for file in *.xz; do
         xzcat $file > ${file%.xz}

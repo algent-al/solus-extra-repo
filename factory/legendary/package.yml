@@ -1,0 +1,18 @@
+name       : legendary
+version    : 0.20.18
+release    : 1
+source     :
+    - https://github.com/derrod/legendary/archive/refs/tags/0.20.18.tar.gz : bf7f216f32b22293522d25a225915a393f988a22143d35a2474e3b7f10b507ef
+homepage   : https://github.com/derrod/legendary
+license    : GPL-3.0-or-later
+component  : games
+summary    : A free and open-source Epic Games Launcher alternative
+description: |
+    Legendary is an open-source game launcher that can download and install games from the Epic Games platform. Its name as a tongue-in-cheek play on tiers of item rarity in many MMORPGs.
+rundeps    :
+    - python-requests
+    - python-wheel
+build      : |
+    %python3_setup
+install    : |
+    %python3_install

@@ -1,8 +1,8 @@
 name       : bauh
-version    : 0.9.16
-release    : 1
+version    : 0.9.21
+release    : 2
 source     :
-    - https://github.com/vinifmor/bauh/archive/refs/tags/0.9.16.tar.gz : 207281e64758b5514fe259398e4f8c953e0be4bfac909c480f653f3a4def2086
+    - https://github.com/vinifmor/bauh/archive/refs/tags/0.9.21.tar.gz : 78aff47be812ddb28ced0eec9b5a4d821198bb7dc9607af988a390a1f7eaa539
 homepage   : https://github.com/vinifmor/bauh
 license    : Zlib
 component  : desktop
@@ -10,18 +10,17 @@ summary    : Graphical interface for application management (AppImage, Flatpak, 
 description: |
     bauh (ba-oo), formerly known as fpakman, is a graphical interface for managing your Linux software (packages/applications). It currently supports the following formats: AppImage, Flatpak, Snap and Web applications.
 builddeps  :
-    - python-colorama
-    - python-dateutil
-    - python-packaging
-    - python-requests
-    - python3-qt5
+    - flatpak           # check
+    - python-colorama   # check
+    - python-dateutil   # check
+    - python-packaging  # check
+    - python-requests   # check
+    - python3-qt5       # check
 rundeps    :
     - aria2
     - flatpak
-    - python-beautifulsoup4
     - python-colorama
     - python-dateutil
-    - python-lxml
     - python-packaging
     - python-requests
     - python3-qt5

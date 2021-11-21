@@ -1,0 +1,23 @@
+name       : gedit-plugin-markdown
+version    : 2.0
+release    : 1
+source     :
+    - https://github.com/maoschanz/gedit-plugin-markdown_preview/archive/refs/tags/2.0.tar.gz : 2fa757bb87d8b63fc206e307f6b963c9a2013d487f33fe7f564c9f0f2bc53a07
+homepage   : https://github.com/maoschanz/gedit-plugin-markdown_preview
+license    : GPL-3.0-or-later
+component  : desktop.gnome
+summary    : A gedit plugin previewing markdown (.md) documents
+description: |
+    This is a plugin for the Gedit text editor, previewing .md files in the side pane (F9) or the bottom (Ctrl+F9) pane.
+rundeps    :
+    - python-markdown
+install    : |
+    install -dm00644 $installdir/usr/share/glib-2.0/schemas
+    install -dm00644 $installdir/usr/%libdir%/gedit/plugins
+
+    schemas_dir=$installdir/usr/share/glib-2.0/schemas
+    install_dir=$installdir/usr/%libdir%/gedit/plugins
+
+    cp org.gnome.gedit.plugins.markdown_preview.gschema.xml $schemas_dir
+    cp markdown_preview.plugin $install_dir/markdown_preview.plugin
+    cp -R markdown_preview $install_dir/

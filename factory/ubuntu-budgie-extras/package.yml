@@ -136,7 +136,7 @@ builddeps  :
     - pkgconfig(json-glib-1.0)
     - pkgconfig(keybinder-3.0)
     - pkgconfig(libgnome-menu-3.0)
-    - pkgconfig(libhandy-1)            # Extra Repo
+    - pkgconfig(libhandy-1)
     - pkgconfig(libnotify)
     - pkgconfig(libsoup-2.4)
     - pkgconfig(libwnck-3.0)

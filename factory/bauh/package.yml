@@ -1,8 +1,8 @@
 name       : bauh
-version    : 0.9.21
-release    : 2
+version    : 0.10.0
+release    : 3
 source     :
-    - https://github.com/vinifmor/bauh/archive/refs/tags/0.9.21.tar.gz : 78aff47be812ddb28ced0eec9b5a4d821198bb7dc9607af988a390a1f7eaa539
+    - https://github.com/vinifmor/bauh/archive/refs/tags/0.10.0.tar.gz : ffa578238522b1774db4359406c79f0e54ce19d3eb1ce8bc04163fc23d823aa5
 homepage   : https://github.com/vinifmor/bauh
 license    : Zlib
 component  : desktop

@@ -129,7 +129,7 @@ patterns   :
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-wswitcher.gschema.xml
         - /usr/share/pixmaps/budgie-wsw-symbolic.svg
 builddeps  :
-    - pkgconfig(appstream)             # Extra Repo
+    - pkgconfig(appstream)
     - pkgconfig(budgie-1.0)
     - pkgconfig(gnome-settings-daemon)
     - pkgconfig(granite)

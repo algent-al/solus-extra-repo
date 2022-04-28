@@ -1,0 +1,50 @@
+From 47e0aa4ac208c632dcf187c8ed06fc3ba83b8831 Mon Sep 17 00:00:00 2001
+From: ludvigng <50339757+ludvigng@users.noreply.github.com>
+Date: Wed, 25 Aug 2021 22:12:01 +0200
+Subject: [PATCH] Add systemd timer units
+
+These are based on snappers timer units, but should do the same job as the current cron-job, with the added benefit of also running on a missed event, such as a suspended computer. Install to /usr/lib/systemd/system and enable with systemctl enable timeshift.timer
+---
+ files/timeshift.service | 15 +++++++++++++++
+ files/timeshift.timer   | 10 ++++++++++
+ 2 files changed, 25 insertions(+)
+ create mode 100644 files/timeshift.service
+ create mode 100644 files/timeshift.timer
+
+diff --git a/files/timeshift.service b/files/timeshift.service
+new file mode 100644
+index 00000000..c9891243
+--- /dev/null
++++ b/files/timeshift.service
+@@ -0,0 +1,15 @@
++[Unit]
++Description=Timeshift Snapshots
++Documentation=man:timeshift(1)
++
++[Service]
++Type=simple
++ExecStart=/usr/bin/timeshift --check --scripted
++
++CapabilityBoundingSet=CAP_DAC_OVERRIDE CAP_FOWNER CAP_CHOWN CAP_FSETID CAP_SETFCAP CAP_SYS_ADMIN CAP_SYS_MODULE CAP_IPC_LOCK CAP_SYS_NICE
++LockPersonality=true
++NoNewPrivileges=false
++PrivateNetwork=true
++ProtectHostname=true
++RestrictAddressFamilies=AF_UNIX
++RestrictRealtime=true
+diff --git a/files/timeshift.timer b/files/timeshift.timer
+new file mode 100644
+index 00000000..a9b7125f
+--- /dev/null
++++ b/files/timeshift.timer
+@@ -0,0 +1,10 @@
++[Unit]
++Description=Hourly Timeshift check for snapshots
++Documentation=man:timeshift(1)
++
++[Timer]
++OnCalendar=hourly
++Persistent=true
++
++[Install]
++WantedBy=timers.target

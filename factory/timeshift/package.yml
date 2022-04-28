@@ -1,6 +1,6 @@
 name       : timeshift
 version    : 21.09.1
-release    : 1
+release    : 2
 source     :
     - https://github.com/teejee2008/timeshift/archive/refs/tags/v21.09.1.tar.gz : 70b21355439c284860264f746b980f11614c8e8307106d37f8fbee98377c455d
 homepage   : https://github.com/teejee2008/timeshift
@@ -15,9 +15,17 @@ builddeps  :
     - pkgconfig(vte-2.91)
     - vala
 rundeps    :
-    - cronie # Extra Repo
     - rsync
+setup      : |
+    %patch -p1 < $pkgfiles/Add-systemd-times-units.patch
+
+    # remove forced dependency on crontab/cronie
+    sed -i '/dependencies/s:"crontab",::' src/Core/Main.vala
+    sed -i 's:--thread:& Core/AppExcludeEntry.vala:' src/makefile
 build      : |
     %make
 install    : |
     %make_install
+
+    # install systemd timers
+    install -Dm00644 files/timeshift.{service,timer} -t $installdir/%libdir%/systemd/system

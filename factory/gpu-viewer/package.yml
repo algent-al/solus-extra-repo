@@ -1,0 +1,24 @@
+name       : gpu-viewer
+version    : 1.40
+release    : 1
+source     :
+    - https://github.com/arunsivaramanneo/GPU-Viewer/archive/refs/tags/v1.40.tar.gz : 2249b69b7d056d4fee7a87dc402b3f75ec57608a667ea3cdeed19b48b9c30103
+homepage   : https://github.com/arunsivaramanneo/GPU-Viewer
+license    : GPL-3.0-or-later
+component  : system.utils
+summary    : A front-end to glxinfo, vulkaninfo, clinfo and es2_info
+description: |
+    This project aims to capture all the important details of glxinfo, vulkaninfo and clinfo in a GUI. The project is being developed using python 3 pygobject with GTK3. All the important details are extracted using glxinfo/vulkaninfo/clinfo with the combination of grep, CAT , AWK commands and displayed in the front-end. There is no hard OpenGL Programming involved, until glxinfo, vulkaninfo and clinfo works the GPU-viewer will also work.
+rundeps    :
+    - clinfo
+    - mesa-demos
+    - python-click
+    - python-gobject
+    - vdpauinfo
+    - vulkan-tools
+setup      : |
+    %meson_configure
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install

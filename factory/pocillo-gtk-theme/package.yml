@@ -1,8 +1,8 @@
 name       : pocillo-gtk-theme
-version    : 0.8
-release    : 2
+version    : '0.9'
+release    : 3
 source     :
-    - https://github.com/UbuntuBudgie/pocillo-gtk-theme/archive/refs/tags/v0.8.tar.gz : 61358cd862e7356367bc5b9fcdcc0f153301f7c4c4887a7b8f3994506bf2ff00
+    - https://github.com/UbuntuBudgie/pocillo-gtk-theme/archive/refs/tags/v0.9.tar.gz : 7bbb7fb7d12107b4d6387368839cd337587b6293b74e119e2a4e26ce4b8d67d0
 homepage   : https://github.com/UbuntuBudgie/pocillo-gtk-theme
 license    : GPL-2.0-or-later
 component  : desktop.theme

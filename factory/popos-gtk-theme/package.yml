@@ -1,0 +1,21 @@
+name       : popos-gtk-theme
+version    : 5.4.5
+release    : 1
+source     :
+    - https://github.com/pop-os/gtk-theme/archive/refs/tags/v5.4.5.tar.gz : de94125b34d4e22c6de68bbe9ce9eaf74a9741171eadd97c4d7598983e026045
+homepage   : https://github.com/pop-os/gtk-theme
+license    :
+    - CC-BY-SA-4.0
+    - GPL-3.0-or-later
+component  : desktop.theme
+summary    : System76 Pop GTK+ Theme
+description: |
+    System76 Pop GTK+ Theme
+builddeps  :
+    - sassc
+setup      : |
+    %meson_configure
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install

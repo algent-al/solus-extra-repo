@@ -1,0 +1,19 @@
+name       : colloid-icon-theme
+version    : 2022.04.22
+release    : 1
+source     :
+    - https://github.com/vinceliuice/Colloid-icon-theme/archive/refs/tags/2022-04-22.tar.gz : 5fe804a0b1bdd17f42bee3aa1f621c9763a26a2fe7da24252b64eb483938797e
+homepage   : https://github.com/vinceliuice/Colloid-icon-theme
+license    : GPL-3.0-or-later
+component  : desktop.theme
+summary    : Colloid icon theme for linux desktops
+description: |
+    Colloid icon theme for linux desktops
+rundeps    :
+    - gtk-engines
+    - gtk2-engine-murrine
+setup      : |
+    sed -e '/gtk-update-icon-cache/d' -i install.sh
+install    : |
+    install -dm00644 $installdir/usr/share/icons
+    ./install.sh --dest $installdir/usr/share/icons

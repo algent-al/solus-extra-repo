@@ -1,0 +1,19 @@
+name       : pktriggercord
+version    : 0.85.00
+release    : 1
+source     :
+    - https://github.com/asalamon74/pktriggercord/archive/refs/tags/v0.85.00.tar.gz : dc358dc75e340d0404bdce6817776c1417872985c275451cd2a432a94afc25f7
+homepage   : http://pktriggercord.melda.info/
+license    : LGPL-3.0-or-later
+component  : system.utils
+summary    : Remote control for Pentax DSLR cameras
+description: |
+    Remote control (tethering) for Pentax DSLR cameras. After you connect the camera to your PC with the USB cable, you can control the camera from pkTriggerCord. You can read status information, you can change several settings, and you can take pictures. The pictures are stored in the camera's buffer and can be downloaded to the PC. Pictures are not written on the SD card of the camera.
+builddeps  :
+    - pkgconfig(gtk+-2.0)
+setup      : |
+    %apply_patches
+build      : |
+    %make CFLAGS+="-Isrc/external/js0n" PREFIX=/usr
+install    : |
+    %make_install PREFIX=/usr

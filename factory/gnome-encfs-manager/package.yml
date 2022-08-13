@@ -1,0 +1,27 @@
+name       : gnome-encfs-manager
+version    : 1.9
+release    : 1
+source     :
+    - https://launchpad.net/gencfsm/trunk/1.9/+download/gnome-encfs-manager_1.9.tar.xz : 45757083fc617c042fde95a9dd4ca53a130a0e1f590024ee28ce253eb9f5764f
+homepage   : https://moritzmolch.com/apps/gencfsm.html
+license    : GPL-2.0-or-later
+component  : system.utils
+summary    : An easy to use manager and mounter for Encfs stashes
+description: |
+    The Gnome Encfs Manager is an easy to use manager and mounter for encfs stashes featuring per-stash configuration, Gnome Keyring support, a tray menu inspired by Cryptkeeper but using the AppIndicator API and lots of unique features.
+builddeps  :
+    - pkgconfig(gee-0.8)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(ice)
+    - pkgconfig(libsecret-1)
+    - pkgconfig(sm)
+    - vala
+rundeps    :
+    - encfs
+setup      : |
+    ./autogen.sh
+    %configure --disable-appindicator
+build      : |
+    %make
+install    : |
+    %make_install

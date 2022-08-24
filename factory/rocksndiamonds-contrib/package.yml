@@ -1,0 +1,69 @@
+name       : rocksndiamonds-contrib
+version    : 20220526
+release    : 1
+source     :
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/BD2K3-1.0.0.zip : 5fc5130c859e69d6907bff87e01ff2296d59f7376202a8aacc03e55f359fb351
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/Boulder_Dash_Dream-1.0.0.zip : 6f9dc48023830fbdc318d8f18013b5a7e84ab3c815ba566a4a2c46faeb65c969
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/Contributions-1.2.0.zip : d533dc69cd136d2bb7d76d674ab087285799191e0a516320aba8ac2368ce6dd2
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/Emerald_Mine_Club-2.1.1.7z : a9d69fe3bfb46ff5525e713dadadfb04022b18ab76d0a0f6628e469468ca9841
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/RS_MIX_01-needs_rnd_jue.zip : 6beeaa42bf165acadf064852b8e15044182f4a2f665d6ed29cb473d0b75449aa
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/RS_MIX_01-standalone.zip : 6427181a7da117fd504338155d68b23084b8e3e4d03db10fe03795b7f54e6506
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/Snake_Bite-1.0.0.zip : 6f6b573d89588f56cb3b326f3a42fb57277307bd709713dbef329885ac4d006d
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/Sokoban-1.0.0.zip : 63f9d36789edca22c0f9454202f9fd21fcee89111642459b5882314f13ebdc0e
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/Supaplex-2.0.0.7z : 81a11007cfdd21dbef2e4081674dfbad7b4a4f26e4b24b39165fcea6a90b1213
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/Zelda-1.0.0.zip : 6c50778224d76a0c708eddcb2a505c5a38cc57092f05bee9c4d58e2bb519a5e1
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/ZeldaII-1.0.0.zip : bec04b0448f18f1b796972cccef736ad250b782d08fad35d1387e5b9a05d3e32
+    - https://www.artsoft.org/RELEASES/rocksndiamonds/levels/rnd-contrib-1.0.0.tar.gz : c24b56399ba202ebf60bb60316e81d7996ccd02ae281a7e54f2f555e088a1ce1
+    - https://artsoft.org/RELEASES/unix/rocksndiamonds/levels/rockslevels-sp-1.0.tar.gz : 770d75a5926bb924c6787a6f95ee9f7af743b629ea14005ab0375b57eb488f25
+    - https://artsoft.org/RELEASES/unix/rocksndiamonds/levels/rockslevels-dx-1.0.tar.gz : 23f1710710eef1dcd1c490670de16d2d58dc98f3fdd9a2df186bdca590e57579
+    - https://artsoft.org/RELEASES/unix/rocksndiamonds/levels/rockslevels-emc-1.0.tar.gz : a04e554fb8b6d010c73e21de090f116dad6054e43e00edc80c59c71a8a1eaa0c
+    #- https://artsoft.org/RELEASES/unix/rocksndiamonds/rnd_jue-3.3.0.0.tar.gz : 9594656bab084fea2ecf104e48c4dea3ccd8153f86a6ddbab04cdd0d5f6899a6
+homepage   : https://www.artsoft.org/rocksndiamonds/
+license    : GPL-2.0-or-later
+component  : games.arcade
+summary    : More levels for Rocks 'n' Diamonds game
+description: |
+    More levels for Rocks 'n' Diamonds game.
+builddeps  :
+    - p7zip
+    - unzip
+setup      : |
+    for data in BD2K3-1.0.0 Boulder_Dash_Dream-1.0.0 Contributions-1.2.0 RS_MIX_01-needs_rnd_jue RS_MIX_01-standalone Snake_Bite-1.0.0 Sokoban-1.0.0 Zelda-1.0.0 ZeldaII-1.0.0; do
+        unzip $sources/${data}.zip
+    done
+    7z x $sources/Emerald_Mine_Club-2.1.1.7z
+    7z x $sources/Supaplex-2.0.0.7z
+    tar xf $sources/rnd-contrib-1.0.0.tar.gz
+    tar xf $sources/rockslevels-sp-1.0.tar.gz
+    tar xf $sources/rockslevels-dx-1.0.tar.gz
+    tar xf $sources/rockslevels-emc-1.0.tar.gz
+    # tar xf $sources/rnd_jue-3.3.0.0.tar.gz
+install    : |
+    install -dm00644 $installdir/usr/share/rocksndiamonds
+    cp -R {graphics,levels,sounds,music} $installdir/usr/share/rocksndiamonds
+
+    cp -R Sokoban $installdir/usr/share/rocksndiamonds/levels
+    cp -R Supaplex $installdir/usr/share/rocksndiamonds/levels
+    cp -R Contributions $installdir/usr/share/rocksndiamonds/levels
+    cp -R Contributions_1995-2000 $installdir/usr/share/rocksndiamonds/levels
+    cp -R Contributions_2001 $installdir/usr/share/rocksndiamonds/levels
+    cp -R Contributions_2002 $installdir/usr/share/rocksndiamonds/levels
+    cp -R Contributions_2003 $installdir/usr/share/rocksndiamonds/levels
+    cp -R RS_MIX_01-needs_rnd_jue $installdir/usr/share/rocksndiamonds/levels
+    cp -R RS_MIX_01-standalone $installdir/usr/share/rocksndiamonds/levels
+
+    #cp -R rnd_jue $installdir/usr/share/rocksndiamonds/levels
+
+    #cp -R rnd_jue-3.3.0.0/graphics/jue0 $installdir/usr/share/rocksndiamonds/graphics/
+    #cp -R rnd_jue-3.3.0.0/levels/Contributions $installdir/usr/share/rocksndiamonds/levels/rnd-jue-Contributions
+    #cp -R rnd_jue-3.3.0.0/levels/rnd_jue $installdir/usr/share/rocksndiamonds/levels/rnd-jue
+    #cp -R rnd_jue-3.3.0.0/levels/Sokoban $installdir/usr/share/rocksndiamonds/levels/rnd-jue-Sokoban
+    #cp -R rnd_jue-3.3.0.0/sounds/jue0 $installdir/usr/share/rocksndiamonds/sounds/
+    #cp -R rnd_jue-3.3.0.0/music/jue0 $installdir/usr/share/rocksndiamonds/music/
+
+    cp -R BD2K3 $installdir/usr/share/rocksndiamonds/levels
+    cp -R Boulder_Dash_Dream $installdir/usr/share/rocksndiamonds/levels
+    cp -R Emerald_Mine_Club $installdir/usr/share/rocksndiamonds/levels
+    cp -R Snake_Bite $installdir/usr/share/rocksndiamonds/levels
+    cp -R zelda $installdir/usr/share/rocksndiamonds/levels
+    cp -R zelda2 $installdir/usr/share/rocksndiamonds/levels

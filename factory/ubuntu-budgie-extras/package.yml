@@ -1,8 +1,8 @@
 name       : ubuntu-budgie-extras
-version    : 1.4.0
-release    : 15
+version    : 1.5.0
+release    : 16
 source     :
-    - https://github.com/UbuntuBudgie/budgie-extras/releases/download/v1.4.0/budgie-extras-1.4.0.tar.xz : 9bfe20f427faa7c96b69496ae9bac65425598bb6245637aa19cc4f9f5ac5ac8e
+    - https://github.com/UbuntuBudgie/budgie-extras/releases/download/v1.5.0/budgie-extras-1.5.0.tar.xz : 10d14a1f6c90d5fa8106077094f83030a5ac26cf81e9820e9c34566b182a844a
 homepage   : https://github.com/UbuntuBudgie/budgie-extras
 license    : GPL-3.0-or-later
 component  :
@@ -15,9 +15,8 @@ component  :
     - ^budgie-quickchar : desktop.budgie
     - ^budgie-recentlyused-applet : desktop.budgie
     - ^budgie-showtime-applet : desktop.budgie
+    - ^budgie-visualspace-applet : desktop.budgie
     - ^budgie-wallstreet : desktop.budgie
-    - ^budgie-window-mover-applet : desktop.budgie
-    - ^budgie-workspace-overview-applet : desktop.budgie
     - ^budgie-workspace-stopwatch-applet : desktop.budgie
     - ^budgie-workspace-wallpaper-applet : desktop.budgie
 summary    :
@@ -31,9 +30,8 @@ summary    :
     - ^budgie-quickchar : GUI to find and choose locale characters
     - ^budgie-recentlyused-applet : Applet displays files recently accessed for the Budgie Desktop
     - ^budgie-showtime-applet : Applet displaying date and time on the Budgie Desktop
+    - ^budgie-visualspace-applet : Show and manage windows in workspaces for the Budgie Desktop
     - ^budgie-wallstreet : Change wallpaper from a folder on a schedule
-    - ^budgie-window-mover-applet : Applet allows moving windows between workspaces for the Budgie Desktop
-    - ^budgie-workspace-overview-applet : Applet providing quick access to workspaces for the Budgie Desktop
     - ^budgie-workspace-stopwatch-applet : Workspace usage tracker for the budgie desktop
     - ^budgie-workspace-wallpaper-applet : Applet providing per workspace wallpaper
 description:
@@ -47,9 +45,8 @@ description:
     - ^budgie-quickchar : Quickly find and choose the equivalent locale character for an ascii character.
     - ^budgie-recentlyused-applet : The recentlyused applet displays the users files that have been opened or created within a configurable period of time.
     - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Text color of both can be set separately from the applet's menu.
+    - ^budgie-visualspace-applet : The visualspace applet shows as a stylish compact workspace on the budgie panel. Choosing windows in the applet popup moves to the workspace where the window is located and gives it focus. The number of Workspace can also be changed though the applet popup.
     - ^budgie-wallstreet : Wallstreet allows for a directory of pictures to be shown on a schedule.
-    - ^budgie-window-mover-applet : The Window Mover applet allows the user to quickly move windows to any of the other workspaces. Just drag a window to the bottom of the screen and a bar will popup, representing the workspaces. Click on any of the numbers (or press the corresponding number on the keyboard) and the window will move to that workspace.
-    - ^budgie-workspace-overview-applet : The workspace overview applet allows a user to quickly navigate workspaces using the applet's menu. Optionally, navigation to any window in any workspace is possible.
     - ^budgie-workspace-stopwatch-applet : Workspace Stopwatch Applet keeps track of usage per workspace, i.e. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are remembered.
     - ^budgie-workspace-wallpaper-applet : The workspace wallpaper applet shows a different wallpaper on each of the workspaces. Usage is simple; add the applet to the panel and set wallpapers on each of the workspaces in the way you are used to. The applet will remember what wallpaper was set on each of the workspaces.
 patterns   :
@@ -76,10 +73,12 @@ patterns   :
     - ^budgie-quickchar :
         - /usr/bin/quickchar
         - /usr/lib64/quickchar
-        - /usr/share/applications/quickchar.desktop
+        - /usr/share/applications/org.ubuntubudgie.quickchar.desktop
         - /usr/share/budgie-extras-daemon/quickchar.bde
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.quickchar.gschema.xml
+        - /usr/share/icons/hicolor/scalable/apps/org.ubuntubudgie.quickchar.svg
         - /usr/share/man/man1/quickchar.1
+        - /usr/share/metainfo/org.ubuntubudgie.quickchar.metainfo.xml
         - /usr/share/quickchar/chardata
         - /usr/share/xdg/autostart/quickchar-autostart.desktop
     - ^budgie-recentlyused-applet :
@@ -89,20 +88,18 @@ patterns   :
         - /usr/lib64/budgie-desktop/plugins/budgie-showtime
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-showtime.gschema.xml
         - /usr/share/pixmaps/showtimenew-symbolic.svg
+    - ^budgie-visualspace-applet :
+        - /usr/lib64/budgie-desktop/plugins/budgie-visualspace
+        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-visualspace.gschema.xml
+        - /usr/share/pixmaps/visualspace-symbolic.svg
+        - /usr/share/xdg/autostart/visualspace-autostart.desktop
     - ^budgie-wallstreet :
         - /usr/lib64/budgie-wallstreet/wallstreet*
-        - /usr/share/applications/wallstreet-control.desktop
+        - /usr/share/applications/org.ubuntubudgie.wallstreetcontrol.desktop
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.budgie-wallstreet.gschema.xml
-        - /usr/share/pixmaps/wallstreet-control.svg
+        - /usr/share/icons/hicolor/scalable/apps/org.ubuntubudgie.wallstreet-control.svg
+        - /usr/share/metainfo/org.ubuntubudgie.wallstreetcontrol.metainfo.xml
         - /usr/share/xdg/autostart/wallstreet-autostart.desktop
-    - ^budgie-window-mover-applet :
-        - /usr/lib64/budgie-desktop/plugins/budgie-wmover
-        - /usr/share/pixmaps/budgie-wmover-symbolic.svg
-    - ^budgie-workspace-overview-applet :
-        - /usr/lib64/budgie-desktop/plugins/budgie-wsoverview
-        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-wsoverview.gschema.xml
-        - /usr/share/pixmaps/budgie-wsoverview-symbolic.svg
-        - /usr/share/pixmaps/ws*
     - ^budgie-workspace-stopwatch-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-workspace-stopwatch
         - /usr/share/pixmaps/budgie-wstopwatch-symbolic.svg
@@ -113,17 +110,12 @@ patterns   :
 builddeps  :
     - pkgconfig(appstream)
     - pkgconfig(budgie-1.0)
-    - pkgconfig(gnome-settings-daemon)
     - pkgconfig(granite)
     - pkgconfig(json-glib-1.0)
-    - pkgconfig(keybinder-3.0)
-    - pkgconfig(libgnome-menu-3.0)
     - pkgconfig(libhandy-1)
-    - pkgconfig(libnotify)
     - pkgconfig(libsoup-2.4)
     - pkgconfig(libwnck-3.0)
     - pkgconfig(plank)
-    - pkgconfig(zeitgeist-2.0)
     - vala
 rundeps    :
     - ^budgie-app-launcher-applet : budgie-extras
@@ -151,32 +143,17 @@ rundeps    :
         - wmctrl               # Extra Repo
     - ^budgie-recentlyused-applet : budgie-extras
     - ^budgie-showtime-applet : budgie-extras
+    - ^budgie-visualspace-applet : budgie-extras
     - ^budgie-wallstreet : budgie-extras-daemon
-    - ^budgie-window-mover-applet :
-        - budgie-extras
-        - python-psutil
-        - xdotool
-        - xprop
-        - wmctrl               # Extra Repo
-    - ^budgie-workspace-overview-applet :
-        - budgie-extras
-        - python-psutil
-        - xprop
-        - wmctrl               # Extra Repo
     - ^budgie-workspace-stopwatch-applet : budgie-extras
     - ^budgie-workspace-wallpaper-applet :
         - budgie-extras
         - python-psutil
         - wmctrl               # Extra Repo
 setup      : |
-    sed -i -e "s|/usr/bin/pgrep|/bin/pgrep|g" \
-        budgie-wmover/wmover_panelrunner \
-        budgie-wmover/budgie-wmover.py \
-        budgie-dropby/dropover \
-        budgie-dropby/budgie_dropby.py
+    sed -i -e "s|/usr/bin/pgrep|/bin/pgrep|g" budgie-dropby/dropover budgie-dropby/budgie_dropby.py
     sed -i "s|/usr/bin/pkill|/bin/pkill|g" budgie-dropby/dropover
-    sed -i -e 's|Config.PACKAGE_BINDIR + "/pgrep|"/bin/pgrep|g' \
-        budgie-wallstreet/src/wallstreet_control/wallstreet_control.vala
+    sed -i -e 's|Config.PACKAGE_BINDIR + "/pgrep|"/bin/pgrep|g' budgie-wallstreet/src/wallstreet_control/wallstreet_control.vala
     %meson_configure --bindir=/usr/bin \
         -Dbuild-all=false \
         -Dbuild-app-launcher=true \
@@ -188,10 +165,9 @@ setup      : |
         -Dbuild-quickchar=true \
         -Dbuild-recentlyused=true \
         -Dbuild-showtime=true \
+        -Dbuild-visualspace=true \
         -Dbuild-wallstreet=true \
-        -Dbuild-wmover=true \
         -Dbuild-workspacestopwatch=true \
-        -Dbuild-wsoverview=true \
         -Dbuild-wswitcher=true \
         -Dxdg-appdir=/usr/share/xdg/autostart
 build      : |

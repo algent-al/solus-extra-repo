@@ -1,11 +1,20 @@
 name       : fluent-icon-theme
 version    : 2022.09.20
-release    : 2
+release    : 3
 source     :
     - https://github.com/vinceliuice/Fluent-icon-theme/archive/refs/tags/2022-09-20.tar.gz : af7df03aa7a035d488ee4ca71f02f9177e4eefdc8a6fc3ef3ab2de6158a5a558
 homepage   : https://github.com/vinceliuice/Fluent-icon-theme
 license    : GPL-3.0-or-later
-component  : desktop.theme
+component  :
+    - desktop.theme
+    - green : desktop.theme
+    - grey : desktop.theme
+    - orange : desktop.theme
+    - pink : desktop.theme
+    - purple : desktop.theme
+    - red : desktop.theme
+    - teal : desktop.theme
+    - yellow : desktop.theme
 summary    : Fluent icon theme for linux desktops
 description: |
     Fluent icon theme for linux desktops.
@@ -21,4 +30,5 @@ patterns   :
     - pink : /usr/share/icons/*pink*
     - purple : /usr/share/icons/*purple*
     - red : /usr/share/icons/*red*
+    - teal : /usr/share/icons/*teal*
     - yellow : /usr/share/icons/*yellow*

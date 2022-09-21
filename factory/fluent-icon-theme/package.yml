@@ -1,8 +1,8 @@
 name       : fluent-icon-theme
-version    : 2021.10.07
-release    : 1
+version    : 2022.09.20
+release    : 2
 source     :
-    - https://github.com/vinceliuice/Fluent-icon-theme/archive/refs/tags/2021-10-07.tar.gz : d119e57f1612582dfd50ebc73565254d741af7e9489dbe39f21c3ec9b40b62b7
+    - https://github.com/vinceliuice/Fluent-icon-theme/archive/refs/tags/2022-09-20.tar.gz : af7df03aa7a035d488ee4ca71f02f9177e4eefdc8a6fc3ef3ab2de6158a5a558
 homepage   : https://github.com/vinceliuice/Fluent-icon-theme
 license    : GPL-3.0-or-later
 component  : desktop.theme

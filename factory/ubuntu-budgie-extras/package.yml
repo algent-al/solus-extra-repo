@@ -1,6 +1,6 @@
 name       : ubuntu-budgie-extras
 version    : 1.5.0
-release    : 16
+release    : 18
 source     :
     - https://github.com/UbuntuBudgie/budgie-extras/releases/download/v1.5.0/budgie-extras-1.5.0.tar.xz : 10d14a1f6c90d5fa8106077094f83030a5ac26cf81e9820e9c34566b182a844a
 homepage   : https://github.com/UbuntuBudgie/budgie-extras
@@ -14,7 +14,6 @@ component  :
     - ^budgie-keyboard-autoswitch-applet : desktop.budgie
     - ^budgie-quickchar : desktop.budgie
     - ^budgie-recentlyused-applet : desktop.budgie
-    - ^budgie-showtime-applet : desktop.budgie
     - ^budgie-visualspace-applet : desktop.budgie
     - ^budgie-wallstreet : desktop.budgie
     - ^budgie-workspace-stopwatch-applet : desktop.budgie
@@ -29,7 +28,6 @@ summary    :
     - ^budgie-keyboard-autoswitch-applet : Applet adding the ability to set a different keyboard layout per application
     - ^budgie-quickchar : GUI to find and choose locale characters
     - ^budgie-recentlyused-applet : Applet displays files recently accessed for the Budgie Desktop
-    - ^budgie-showtime-applet : Applet displaying date and time on the Budgie Desktop
     - ^budgie-visualspace-applet : Show and manage windows in workspaces for the Budgie Desktop
     - ^budgie-wallstreet : Change wallpaper from a folder on a schedule
     - ^budgie-workspace-stopwatch-applet : Workspace usage tracker for the budgie desktop
@@ -44,7 +42,6 @@ description:
     - ^budgie-keyboard-autoswitch-applet : The Keyboard Auto Switcher applet provides the user the ability to set a different keyboard layout per application. Exceptions to the default layout can be set by simply choosing a different layout using the Keyboard Layout applet.
     - ^budgie-quickchar : Quickly find and choose the equivalent locale character for an ascii character.
     - ^budgie-recentlyused-applet : The recentlyused applet displays the users files that have been opened or created within a configurable period of time.
-    - ^budgie-showtime-applet : Budgie Showtime is a digital desktop clock, showing time, and optionally, date. Text color of both can be set separately from the applet's menu.
     - ^budgie-visualspace-applet : The visualspace applet shows as a stylish compact workspace on the budgie panel. Choosing windows in the applet popup moves to the workspace where the window is located and gives it focus. The number of Workspace can also be changed though the applet popup.
     - ^budgie-wallstreet : Wallstreet allows for a directory of pictures to be shown on a schedule.
     - ^budgie-workspace-stopwatch-applet : Workspace Stopwatch Applet keeps track of usage per workspace, i.e. to find out how much minutes/hours were actually spent on a job. Workspaces can be freely named, custom names and all data are remembered.
@@ -84,10 +81,6 @@ patterns   :
     - ^budgie-recentlyused-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-recentlyused
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-recentlyused.gschema.xml
-    - ^budgie-showtime-applet :
-        - /usr/lib64/budgie-desktop/plugins/budgie-showtime
-        - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-showtime.gschema.xml
-        - /usr/share/pixmaps/showtimenew-symbolic.svg
     - ^budgie-visualspace-applet :
         - /usr/lib64/budgie-desktop/plugins/budgie-visualspace
         - /usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-visualspace.gschema.xml
@@ -142,7 +135,6 @@ rundeps    :
         - python-xlib
         - wmctrl               # Extra Repo
     - ^budgie-recentlyused-applet : budgie-extras
-    - ^budgie-showtime-applet : budgie-extras
     - ^budgie-visualspace-applet : budgie-extras
     - ^budgie-wallstreet : budgie-extras-daemon
     - ^budgie-workspace-stopwatch-applet : budgie-extras
@@ -164,7 +156,6 @@ setup      : |
         -Dbuild-keyboard-autoswitch=true \
         -Dbuild-quickchar=true \
         -Dbuild-recentlyused=true \
-        -Dbuild-showtime=true \
         -Dbuild-visualspace=true \
         -Dbuild-wallstreet=true \
         -Dbuild-workspacestopwatch=true \

@@ -1,8 +1,8 @@
 name       : bauh
-version    : 0.10.4
-release    : 4
+version    : 0.10.5
+release    : 14
 source     :
-    - https://github.com/vinifmor/bauh/archive/refs/tags/0.10.4.tar.gz : ef0bee7e6bf9b7119804ebfa368645b4cbbda65eeacd58c19dd23863c7ec6f75
+    - https://github.com/vinifmor/bauh/archive/refs/tags/0.10.5.tar.gz : 78ff905a6a4bf6cc9f2c450c35c443611b499baa9a10c66bbadf15090adff1f7
 homepage   : https://github.com/vinifmor/bauh
 license    : Zlib
 component  : desktop
@@ -13,7 +13,6 @@ builddeps  :
     - flatpak           # check
     - python-colorama   # check
     - python-dateutil   # check
-    - python-packaging  # check
     - python-requests   # check
     - python3-qt5       # check
 rundeps    :
@@ -21,10 +20,10 @@ rundeps    :
     - flatpak
     - python-colorama
     - python-dateutil
-    - python-packaging
     - python-requests
     - python3-qt5
     - snapd
+    #- timeshift          # Optional
     - wget
 build      : |
     %python3_setup

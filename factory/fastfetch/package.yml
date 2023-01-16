@@ -1,0 +1,33 @@
+name       : fastfetch
+version    : 1.8.2
+release    : 1
+source     :
+    - https://github.com/LinusDierheimer/fastfetch/archive/refs/tags/1.8.2.tar.gz : 552f4239a83d31e2fb14bdf7fc5d74cc6cc819f8b6ddd2346ba0dcfac13ac62a
+homepage   : https://github.com/LinusDierheimer/fastfetch
+license    : MIT
+component  : system.utils
+summary    : Like neofetch, but much faster because written in C
+description: |
+    Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written in pure c, with performance and customizability in mind.
+builddeps  :
+    - pkgconfig(ImageMagick)
+    - pkgconfig(OpenCL)
+    - pkgconfig(dconf)
+    - pkgconfig(gio-2.0)
+    - pkgconfig(libpci)
+    - pkgconfig(osmesa)
+    - pkgconfig(sqlite3)
+    - pkgconfig(vulkan)
+    - pkgconfig(libxfconf-0)
+    - pkgconfig(xrandr)
+    - vulkan-headers
+setup      : |
+    %cmake_ninja \
+        -DENABLE_IMAGEMAGICK6='OFF' \
+        -DENABLE_LIBCJSON='OFF' \
+        -DENABLE_RPM='OFF' \
+        -Wno-dev
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install

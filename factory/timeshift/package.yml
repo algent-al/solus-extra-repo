@@ -1,9 +1,9 @@
 name       : timeshift
-version    : 22.06.1
-release    : 3
+version    : 22.11.2
+release    : 4
 source     :
-    - https://github.com/teejee2008/timeshift/archive/refs/tags/v22.06.1.tar.gz : aef3980c19dfde9084b47b4e04e5106489ee7ddf44e6228415d2521405a091ec
-homepage   : https://github.com/teejee2008/timeshift
+    - https://github.com/linuxmint/timeshift/archive/refs/tags/22.11.2.tar.gz : 36fd19865d1d30dc5f6eca468ceaa3dad01cd95d9090d050d67f5c2cd98fe37d
+homepage   : https://github.com/linuxmint/timeshift
 license    : LGPL-3.0-or-later
 component  : system.utils
 summary    : System restore tool for Linux.

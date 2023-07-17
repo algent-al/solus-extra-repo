@@ -1,8 +1,8 @@
 name       : colloid-icon-theme
-version    : 2023.03.28
-release    : 1
+version    : 2023.07.01
+release    : 2
 source     :
-    - https://github.com/vinceliuice/Colloid-icon-theme/archive/refs/tags/2023-03-28.tar.gz : edaffdbfbcd5729ff5c3b1c1b3c68da04b12dde8026e2eceada32f8f46e50962
+    - https://github.com/vinceliuice/Colloid-icon-theme/archive/refs/tags/2023-07-01.tar.gz : e97d525b843e504cf652d21738d699b1e69833a915dabd30ae897f42f6de3e47
 homepage   : https://github.com/vinceliuice/Colloid-icon-theme
 license    : GPL-3.0-or-later
 component  : desktop.theme

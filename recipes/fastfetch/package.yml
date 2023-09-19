@@ -1,8 +1,8 @@
 name       : fastfetch
-version    : 1.8.2
-release    : 1
+version    : 2.0.5
+release    : 2
 source     :
-    - https://github.com/LinusDierheimer/fastfetch/archive/refs/tags/1.8.2.tar.gz : 552f4239a83d31e2fb14bdf7fc5d74cc6cc819f8b6ddd2346ba0dcfac13ac62a
+    - https://github.com/fastfetch-cli/fastfetch/archive/refs/tags/2.0.5.tar.gz : 8046eb856fd95d9896220238c966125fb05e451e65d8cfc7eb25483767612235
 homepage   : https://github.com/LinusDierheimer/fastfetch
 license    : MIT
 component  : system.utils

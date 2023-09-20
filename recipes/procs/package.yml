@@ -1,8 +1,8 @@
 name       : procs
-version    : 0.13.0
-release    : 7
+version    : 0.14.0
+release    : 8
 source     :
-    - https://github.com/dalance/procs/archive/refs/tags/v0.13.0.tar.gz : 77642878d503f876db05d99a620c8c91834354a074bf71ab65474aa433f75fc5
+    - https://github.com/dalance/procs/archive/refs/tags/v0.14.0.tar.gz : fa5af0951dc8aa63c0590f8c5c1136594866057704cfb1cdfc22ac3cc49437c6
 homepage   : https://github.com/dalance/procs
 license    : MIT
 component  : system.utils
@@ -14,9 +14,9 @@ builddeps  :
     - cargo
 build      : |
     cargo build --release
-    target/release/procs --completion bash
-    target/release/procs --completion fish
-    target/release/procs --completion zsh
+    target/release/procs --gen-completion bash
+    target/release/procs --gen-completion fish
+    target/release/procs --gen-completion zsh
 install    : |
     install -Dm00755 target/release/procs -t $installdir/usr/bin/
     install -Dm00644 _procs -t $installdir/usr/share/zsh/site-functions

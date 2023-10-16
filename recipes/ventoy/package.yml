@@ -1,8 +1,8 @@
 name       : ventoy
-version    : 1.0.91
-release    : 8
+version    : 1.0.96
+release    : 9
 source     :
-    - https://github.com/ventoy/Ventoy/releases/download/v1.0.91/ventoy-1.0.91-linux.tar.gz : f6fb0574ec6c5b50acd3a8153ef42eb23bb6fb0a783e90706c7654ba0c1bddca
+    - https://github.com/ventoy/Ventoy/releases/download/v1.0.96/ventoy-1.0.96-linux.tar.gz : 794a717c9434bb76e90174d408a94c3bf562c0a701239f5814a277c46cd275c8
 homepage   : https://www.ventoy.net
 license    : GPL-3.0-or-later
 component  : system.utils

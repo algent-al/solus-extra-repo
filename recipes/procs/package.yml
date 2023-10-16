@@ -1,8 +1,8 @@
 name       : procs
-version    : 0.14.0
-release    : 8
+version    : 0.14.1
+release    : 9
 source     :
-    - https://github.com/dalance/procs/archive/refs/tags/v0.14.0.tar.gz : fa5af0951dc8aa63c0590f8c5c1136594866057704cfb1cdfc22ac3cc49437c6
+    - https://github.com/dalance/procs/archive/refs/tags/v0.14.1.tar.gz : bb4f9d696081807ca105593092f8acd04ca339ae43fff29e0e820c6fc5e3f9ea
 homepage   : https://github.com/dalance/procs
 license    : MIT
 component  : system.utils

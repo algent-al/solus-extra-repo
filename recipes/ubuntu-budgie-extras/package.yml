@@ -107,7 +107,7 @@ rundeps    :
     - ^budgie-applications-menu-applet : budgie-extras
     - ^budgie-clockworks-applet :
         - budgie-extras
-        - python-cairosvg      # Extra Repo
+        - python-cairosvg
         - python-pillow
         - python-svgwrite      # Extra Repo
     - ^budgie-dropby-applet :

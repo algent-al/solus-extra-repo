@@ -11,16 +11,16 @@ description: |
     CairoSVG is a SVG converter based on Cairo. It can export SVG files to PDF, PostScript and PNG files.
 builddeps  :
     - pytest-runner
-    - python-cairocffi     # Extra Repo
-    - python-cssselect2    # Extra Repo
+    - python-cairocffi
+    - python-cssselect2
     - python-defusedxml
     - python-pillow
     - python-pytest-cov
     - python-pytest-flake8
     - python-pytest-isort
 rundeps    :
-    - python-cairocffi    # Extra Repo
-    - python-cssselect2   # Extra Repo
+    - python-cairocffi
+    - python-cssselect2
     - python-defusedxml
     - python-pillow
 setup      : |

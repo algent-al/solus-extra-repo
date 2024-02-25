@@ -1,8 +1,8 @@
 name       : gti
-version    : 1.7.0
-release    : 1
+version    : 1.9.1
+release    : 2
 source     :
-    - https://github.com/rwos/gti/archive/v1.7.0.tar.gz : cea8baf25ac5e6272f9031bd5e36a17a4b55038830b108f4f24e7f55690198f7
+    - https://github.com/rwos/gti/archive/refs/tags/v1.9.1.tar.gz : f8a3afdd3967fe7d88bd1b0b9f5cb62ae04dc9ba458238da91efc213f61a9cf9
 homepage   : https://r-wos.org/hacks/gti
 license    : MIT
 component  : programming.tools

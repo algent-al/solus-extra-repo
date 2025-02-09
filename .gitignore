@@ -5,4 +5,3 @@ Makefile
 Makefile.common
 Makefile.iso
 Taskfile.yml
-common
